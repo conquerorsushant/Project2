@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Sansation', sans-serif;
+}
+
+.bgFirst {
+    background-image: url("../src/assets/images/home-banner.png");
+    background-size: contain; /* Scales the image to be as large as possible while maintaining aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center; /* Centers the image in the middle */
+    
+ 
+    height: 130vh;
+    
+    /* Optional: Add padding to avoid the image touching the edges */
+    
+}
+.bgContact {
+    background-image: url("../src/assets/images/subfooter-bg.png");
+    background-size: cover; /* Scales the image to be as large as possible while maintaining aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center; /* Centers the image in the middle */
+    
+ 
+    height: 40vh;
+    
+    /* Optional: Add padding to avoid the image touching the edges */
+    
+}
+.bgFourth{
+    background-image: url("../src/assets/images/test-bgs.png");
+    background-size: cover; /* Scales the image to be as large as possible while maintaining aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center; /* Centers the image in the middle */
+}
+.bgFooter{
+    background-image: url("../src/assets/images/footer.png");
+    background-size: cover; /* Scales the image to be as large as possible while maintaining aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center; 
+
+    
+    height: 40vh;
+}
+
