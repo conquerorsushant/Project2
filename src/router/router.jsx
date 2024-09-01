@@ -2,6 +2,7 @@ import * as React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Home from "../pages/Home";
+import ExpertData from "../pages/ExpertData";
 
 // Define routes
 const router = createBrowserRouter([
@@ -12,6 +13,9 @@ const router = createBrowserRouter([
       {
         path: '/', 
         element: <Home />
+      },{
+        path: '/data',
+        element: <ExpertData/>
       }
       // Add more routes here if needed
     ]
