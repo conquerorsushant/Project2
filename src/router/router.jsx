@@ -14,7 +14,7 @@ const router = createBrowserRouter([
         path: '/', 
         element: <Home />
       },{
-        path: '/data',
+        path: '/talent-acquisition',
         element: <ExpertData/>
       }
       // Add more routes here if needed
