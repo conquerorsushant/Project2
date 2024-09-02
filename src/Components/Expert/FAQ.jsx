@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import img1 from '../../assets/images/Asset30.png';
+import img1 from '../../assets/images/Artboard4.png';
 import contact from '../../assets/images/contact.png';
 
 const FAQ = () => {
@@ -28,7 +28,7 @@ const FAQ = () => {
             className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
             onClick={() => handleToggle(0)}
           >
-            <span className="flex-1 text-sm lg:text-base">
+            <span className="flex-1 text-sm lg:text-xl">
               What are the benefits of using Data Engineering Services?
             </span>
             <div className="flex items-center ml-4 border-l border-gray-500 pl-4">
@@ -38,9 +38,12 @@ const FAQ = () => {
             </div>
           </button>
           {activeIndex === 0 && (
-            <div className="p-4 text-sm lg:text-base">
-              <p><strong>Improved Data Accessibility:</strong> By establishing a structured data infrastructure, data becomes readily accessible for analysis and reporting.</p>
-              <p><strong>Enhanced Data Quality:</strong> Data pipelines ensure data accuracy and consistency, leading to reliable insights.</p>
+            <div className="p-4 text-sm lg:text-xl">
+              <p><strong>Improved Data Accessibility:</strong> 
+              <p> By establishing a structured data infrastructure, data becomes readily accessible for analysis and reporting.</p></p>
+             
+              <p><strong>Enhanced Data Quality:
+                </strong> <p> Data pipelines ensure data accuracy and consistency, leading to reliable insights.</p></p>
               <p><strong>Streamlined Data-Driven Decision Making:</strong> Easy access to clean and organized data empowers faster and more informed business decisions.</p>
               <p><strong>Scalability and Agility:</strong> A well-designed data engineering solution can seamlessly scale to accommodate future growth and evolving business needs.</p>
             </div>
@@ -52,7 +55,7 @@ const FAQ = () => {
             className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
             onClick={() => handleToggle(1)}
           >
-            <span className="flex-1 text-sm lg:text-base">
+            <span className="flex-1 text-sm lg:text-xl">
               Do you offer any training on data engineering tools and technologies?
             </span>
             <div className="flex items-center ml-4 border-l border-gray-500 pl-4">
@@ -62,7 +65,7 @@ const FAQ = () => {
             </div>
           </button>
           {activeIndex === 1 && (
-            <div className="p-4 text-sm lg:text-base">
+            <div className="p-4 text-sm lg:text-lg">
               <p>While we don't currently offer public training programs, we leverage our in-house training expertise to stay updated on the latest advancements. This ensures we incorporate the most effective tools and technologies into our client solutions.</p>
             </div>
           )}
@@ -73,17 +76,17 @@ const FAQ = () => {
             className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
             onClick={() => handleToggle(2)}
           >
-            <span className="flex-1 text-sm lg:text-base">
+            <span className="flex-1 text-sm lg:text-xl">
               What is your approach to data security?
             </span>
             <div className="flex items-center ml-4 border-l border-gray-500 pl-4">
-              <span className="text-lg">
+              <span className="text-lg  ">
                 {activeIndex === 2 ? <FaChevronUp /> : <FaChevronDown />}
               </span>
             </div>
           </button>
           {activeIndex === 2 && (
-            <div className="p-4 text-sm lg:text-base">
+            <div className="p-4 text-sm lg:text-lg">
               <p>Data security is paramount. We prioritize implementing robust security measures throughout the data engineering process, including access controls, data encryption, and regular security audits.</p>
             </div>
           )}
@@ -93,8 +96,8 @@ const FAQ = () => {
       {/* Contact Section */}
       <div className="relative h-72 md:h-96">
         <img src={img1} alt="Contact" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4 sm:p-8 bg-black bg-opacity-50">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">
+        <div className="absolute inset-0 flex flex-col items-center lg:px-80 justify-center text-center p-4 sm:p-8 bg-black bg-opacity-50">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:px-32   font-semibold mb-4 ">
             Ready to Unleash the Power of Your Data?
           </h2>
           <p className="text-sm sm:text-base mb-4">

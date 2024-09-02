@@ -10,12 +10,13 @@ import a8 from "../../assets/images/Asset15.png";
 import a9 from "../../assets/images/Asset12.png";
 import a10 from "../../assets/images/Asset14.png";
 import lines from "../../assets/images/lines.png";
-import bg3 from "../../assets/images/Asset18.png";
+import bg3 from "../../assets/images/Artboard4.png";
 import bg2 from "../../assets/images/bg2.png";
 import contact from "../../assets/images/contact.png";
-import left1 from '../../assets/images/Asset10.png';
-import left2 from "../../assets/images/Asset16.png";
+import left1 from '../../assets/images/Artboard9.png';
+import left2 from "../../assets/images/Artboard8.png";
 import color from '../../assets/images/Asset17.png';
+import arrow from '../../assets/images/button-style.png'
 
 const Section2 = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -31,13 +32,13 @@ const Section2 = () => {
     <div className="bg-primary relative text-white">
       {/* First Section */}
       <div className="relative">
-        <div className="flex lg:flex-row flex-col lg:gap-12 flex-wrap lg:pt-20 lg:px-60 p-2">
+        <div className="flex lg:flex-row flex-col lg:gap-20 flex-wrap lg:pt-20 lg:px-44 p-2">
           <div className="flex-1 pt-2  ">
             <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
               <img src={a1} alt="Data Lakes Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">Data Lakes</h2>
+                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Data Lakes</h2>
                 <p className="text-sm sm:text-base">
                   We design and implement scalable data lakes using technologies
                   like Apache Hadoop, Amazon S3, or Azure Data Lake Storage.
@@ -51,7 +52,7 @@ const Section2 = () => {
               {/* Shift text */}
               <img src={a2} alt="Enterprise Data Warehouses Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div className=" ">
-                <h2 className="text-base sm:text-xl font-semibold">
+                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
                   Enterprise Data Warehouses (EDW):
                 </h2>
                 <p className="text-sm sm:text-base">
@@ -68,7 +69,7 @@ const Section2 = () => {
               {/* Shift text */}
               <img src={a3} alt="Cloud Migration Services Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">
+                <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">
                   Cloud Migration Services:
                 </h2>
                 <p className="text-sm sm:text-base">
@@ -87,7 +88,7 @@ const Section2 = () => {
               {/* Shift text */}
               <img src={a4} alt="Data Pipelines Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">Data Pipelines:</h2>
+                <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">Data Pipelines:</h2>
                 <p className="text-sm sm:text-base">
                   We leverage robust frameworks like Apache Airflow, Apache
                   Spark, or Luigi to construct efficient data pipelines. These
@@ -101,7 +102,7 @@ const Section2 = () => {
               {/* Shift text */}
               <img src={a5} alt="Productionizing ML Algorithms Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">
+                <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">
                   Productionizing Machine Learning (ML) Algorithms:
                 </h2>
                 <p className="text-sm sm:text-base">
@@ -141,7 +142,7 @@ const Section2 = () => {
     style={{ height: '50vh' }} // Adjust this value to fit the image height on small screens
   />
   <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-    <h2 className="text-lg sm:text-4xl font-bold mx-auto max-w-screen-sm sm:max-w-[80%]">
+    <h2 className="text-lg sm:text-3xl font-bold mx-auto max-w-screen-sm sm:max-w-[80%]">
       Why Choose
       <br />
       BrainsTerra Intelligence
@@ -154,7 +155,7 @@ const Section2 = () => {
           isClicked ? "scale-110" : ""
         } hover:scale-125`}
       >
-        <img src={contact} alt="Contact Us" className="w-4 h-4 sm:w-6 sm:h-6 bg-blue-500 text-white py-1 px-1 lg:py-2 lg:px-4 rounded" /> 
+        <img src={contact} alt="Contact Us" className="w-4 h-4 sm:w-4 sm:h-4   " /> 
        Contact Us
       </button>
     </div>
@@ -167,13 +168,26 @@ const Section2 = () => {
 
       {/* Third Section */}
       <div className="relative">
-        <div className="flex lg:flex-row flex-col  lg:gap-12 flex-wrap lg:pt-8 lg:px-60 p-2">
+      <div className="text-center lg:py-12  py-6 flex lg:flex-col   flex-row items-center
+       justify-center">
+            <p className="font-semibold text-2xl  lg:px-[430px] px-[]">
+            We differentiate ourselves through several
+            key aspects:
+            </p>
+           <div className="lg:py-4 ">
+           <img src={arrow} className=""/>
+           </div>
+           
+
+          </div>
+        <div className="flex lg:flex-row flex-col  lg:gap-12 flex-wrap  lg:px-36 p-2">
+         
           <div className="flex-1  lg:flex-col flex-row pt-2">
             <div className="flex  items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
               <img src={a6} alt="Customized Solutions Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">Customized Solutions:</h2>
+                <h2 className="text-base sm:text-3xl font-semibold">Customized Solutions:</h2>
                 <p className="text-sm sm:text-base">
                   We understand that one-size-fits-all solutions rarely work in
                   data engineering. We take a collaborative approach,
@@ -188,7 +202,7 @@ const Section2 = () => {
               {/* Shift text */}
               <img src={a7} alt="Focus on Scalability Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">Focus on Scalability:</h2>
+                <h2 className="text-base sm:text-3xl font-semibold">Focus on Scalability:</h2>
                 <p className="text-sm sm:text-base">
                   We design and build data infrastructure with scalability in
                   mind. As your data volume and complexity grow, your data
@@ -202,7 +216,7 @@ const Section2 = () => {
               {/* Shift text */}
               <img src={a8} alt="Cost-Effectiveness Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">Cost-Effectiveness:</h2>
+                <h2 className="text-base sm:text-3xl font-semibold">Cost-Effectiveness:</h2>
                 <p className="text-sm sm:text-base">
                   We leverage our in-house training programs to optimize our
                   processes, translating into cost savings that we pass on to
@@ -218,7 +232,7 @@ const Section2 = () => {
               {/* Shift text */}
               <img src={a9} alt="Technology Expert Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">Technology Expert:</h2>
+                <h2 className="text-base sm:text-3xl font-semibold">Technology Expert:</h2>
                 <p className="text-sm sm:text-base">
                   Our team is well-versed in a comprehensive suite of data
                   engineering tools and technologies. This flexibility allows us
@@ -232,7 +246,7 @@ const Section2 = () => {
               {/* Shift text */}
               <img src={a10} alt="In-House Training Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
               <div>
-                <h2 className="text-base sm:text-xl font-semibold">In-House Training:</h2>
+                <h2 className="text-base sm:text-3xl font-semibold">In-House Training:</h2>
                 <p className="text-sm sm:text-base">
                   Our team continuously undergoes rigorous training to stay at
                   the forefront of the ever-evolving data engineering landscape.
@@ -245,7 +259,8 @@ const Section2 = () => {
         </div>
 
         {/* Left2 Image Positioned on Right Side */}
-        <div className="absolute right-0 top-40 bottom-0 hidden lg:flex items-center justify-end z-10">
+        <div className="absolute right-0 top-52
+         bottom-0 hidden lg:flex items-center justify-end z-10">
           <img
             src={left2}
             alt="Left1"
@@ -254,17 +269,15 @@ const Section2 = () => {
           />
         </div>
 
-        {/* Overlap Color Image on bg3 */}
-        <div className="absolute inset-0 lg:flex items-center justify-center z-10 lg:top-[770px] hidden  pointer-events-none">
-          <img src={color} alt="Color Overlay" className="w-full h-[300px] max-w-full object-cover" />
-        </div>
+      
+        
 
-        <div className="relative mt-11">
-          <img src={bg3} alt="Background" className="w-full bottom-6 left-0 h-[300px] relative z-10" />
+        <div className="relative mt-11 ">
+          <img src={bg3} alt="Background" className="w-full  bottom-6 left-0 h-[300px] relative z-10" />
           
           {/* Text on bg3 Image */}
           <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-center">
-            <h2 className="text-xl sm:text-3xl font-bold  p-4 rounded-lg shadow-lg">
+            <h2 className="text-xl sm:text-3xl font-bold ">
               A Seamless Onboarding Experience
             </h2>
             <p className="text-sm sm:text-xl font-semibold lg:mt-4 max-w-2xl mx-auto rounded-lg shadow-lg">
