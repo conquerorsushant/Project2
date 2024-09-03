@@ -16,6 +16,19 @@ const FAQ = () => {
     // Additional logic for the button can go here
   };
 
+  const getIconColor = (index) => {
+    switch (index) {
+      case 0:
+        return "text-blue-500";
+      case 1:
+        return "text-red-500";
+      case 2:
+        return "text-yellow-500";
+      default:
+        return "";
+    }
+  };
+
   return (
     <div className="bg-primary text-white pt-8">
       <div className="px-4 sm:px-8 md:px-12 lg:px-24 pb-20">
@@ -31,7 +44,7 @@ const FAQ = () => {
             <span className="flex-1 text-sm lg:text-xl">
               What are the benefits of using Data Engineering Services?
             </span>
-            <div className="flex items-center ml-4 border-l border-gray-500 pl-4">
+            <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(0)}`}>
               <span className="text-lg">
                 {activeIndex === 0 ? <FaChevronUp /> : <FaChevronDown />}
               </span>
@@ -42,8 +55,7 @@ const FAQ = () => {
               <p><strong>Improved Data Accessibility:</strong> 
               <p> By establishing a structured data infrastructure, data becomes readily accessible for analysis and reporting.</p></p>
              
-              <p><strong>Enhanced Data Quality:
-                </strong> <p> Data pipelines ensure data accuracy and consistency, leading to reliable insights.</p></p>
+              <p><strong>Enhanced Data Quality:</strong> <p> Data pipelines ensure data accuracy and consistency, leading to reliable insights.</p></p>
               <p><strong>Streamlined Data-Driven Decision Making:</strong> Easy access to clean and organized data empowers faster and more informed business decisions.</p>
               <p><strong>Scalability and Agility:</strong> A well-designed data engineering solution can seamlessly scale to accommodate future growth and evolving business needs.</p>
             </div>
@@ -58,7 +70,7 @@ const FAQ = () => {
             <span className="flex-1 text-sm lg:text-xl">
               Do you offer any training on data engineering tools and technologies?
             </span>
-            <div className="flex items-center ml-4 border-l border-gray-500 pl-4">
+            <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(1)}`}>
               <span className="text-lg">
                 {activeIndex === 1 ? <FaChevronUp /> : <FaChevronDown />}
               </span>
@@ -79,8 +91,8 @@ const FAQ = () => {
             <span className="flex-1 text-sm lg:text-xl">
               What is your approach to data security?
             </span>
-            <div className="flex items-center ml-4 border-l border-gray-500 pl-4">
-              <span className="text-lg  ">
+            <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(2)}`}>
+              <span className="text-lg">
                 {activeIndex === 2 ? <FaChevronUp /> : <FaChevronDown />}
               </span>
             </div>
@@ -100,7 +112,7 @@ const FAQ = () => {
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:px-32   font-semibold mb-4 ">
             Ready to Unleash the Power of Your Data?
           </h2>
-          <p className="text-sm sm:text-base mb-4">
+          <p className="text-sm sm:text-lg mb-4">
             At BrainsTerra Intelligence, we are passionate about empowering businesses with the transformative power of data. Contact us today to discuss your specific data engineering needs and embark on your journey towards data-driven success.
           </p>
           <button

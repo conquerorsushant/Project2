@@ -32,11 +32,11 @@ const Section2 = () => {
     <div className="bg-primary relative text-white">
       {/* First Section */}
       <div className="relative">
-        <div className="flex lg:flex-row flex-col lg:gap-20 flex-wrap lg:pt-20 lg:px-44 p-2">
+        <div className="flex lg:flex-row flex-col lg:gap-10 flex-wrap lg:pt-20 lg:px-44 p-2">
           <div className="flex-1 pt-2  ">
             <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
-              <img src={a1} alt="Data Lakes Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a1} alt="Data Lakes Icon" className="w-10 h-10 sm:w-auto sm:h-auto  mt-2 " />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Data Lakes</h2>
                 <p className="text-sm sm:text-base">
@@ -48,9 +48,9 @@ const Section2 = () => {
               </div>
             </div>
 
-            <div className=" pt-2  flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+            <div className=" pt-2  flex items-start justify-center gap-4 lg:p-4 lg:pt-10 mx-2 sm:mx-8">
               {/* Shift text */}
-              <img src={a2} alt="Enterprise Data Warehouses Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a2} alt="Enterprise Data Warehouses Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
               <div className=" ">
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
                   Enterprise Data Warehouses (EDW):
@@ -67,7 +67,7 @@ const Section2 = () => {
 
             <div className=" pt-2  flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
-              <img src={a3} alt="Cloud Migration Services Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a3} alt="Cloud Migration Services Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">
                   Cloud Migration Services:
@@ -86,7 +86,7 @@ const Section2 = () => {
           <div className="flex-1 pt-2 ">
             <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
-              <img src={a4} alt="Data Pipelines Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a4} alt="Data Pipelines Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">Data Pipelines:</h2>
                 <p className="text-sm sm:text-base">
@@ -100,7 +100,7 @@ const Section2 = () => {
             </div>
             <div className="pt-2  flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
-              <img src={a5} alt="Productionizing ML Algorithms Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a5} alt="Productionizing ML Algorithms Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">
                   Productionizing Machine Learning (ML) Algorithms:
@@ -185,7 +185,7 @@ const Section2 = () => {
           <div className="flex-1  lg:flex-col flex-row pt-2">
             <div className="flex  items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
-              <img src={a6} alt="Customized Solutions Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a6} alt="Customized Solutions Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
                 <h2 className="text-base sm:text-3xl font-semibold">Customized Solutions:</h2>
                 <p className="text-sm sm:text-base">
@@ -200,7 +200,7 @@ const Section2 = () => {
 
             <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
-              <img src={a7} alt="Focus on Scalability Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a7} alt="Focus on Scalability Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
                 <h2 className="text-base sm:text-3xl font-semibold">Focus on Scalability:</h2>
                 <p className="text-sm sm:text-base">
@@ -214,7 +214,7 @@ const Section2 = () => {
 
             <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
-              <img src={a8} alt="Cost-Effectiveness Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a8} alt="Cost-Effectiveness Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
                 <h2 className="text-base sm:text-3xl font-semibold">Cost-Effectiveness:</h2>
                 <p className="text-sm sm:text-base">
@@ -230,7 +230,7 @@ const Section2 = () => {
           <div className="flex-1">
             <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
-              <img src={a9} alt="Technology Expert Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a9} alt="Technology Expert Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
               <div>
                 <h2 className="text-base sm:text-3xl font-semibold">Technology Expert:</h2>
                 <p className="text-sm sm:text-base">
@@ -244,7 +244,7 @@ const Section2 = () => {
             </div>
             <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
-              <img src={a10} alt="In-House Training Icon" className="lg:w-12 lg:h-12 w-4 h-4 mt-2 sm:w-auto sm:h-auto" />
+              <img src={a10} alt="In-House Training Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
               <div>
                 <h2 className="text-base sm:text-3xl font-semibold">In-House Training:</h2>
                 <p className="text-sm sm:text-base">

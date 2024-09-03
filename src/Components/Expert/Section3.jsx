@@ -27,16 +27,16 @@ const Section3 = () => {
           <img src={img1} alt="Discovery Workshop" className="w-full sm:w-2/3 lg:w-1/2" />
           <div className="flex flex-col lg:flex-row items-start px-2 lg:px-44">
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4 lg:px-10">
-              <h3 className="text-sm lg:text-3xl font-semibold">Discovery Workshop:</h3>
-              <p className="pt-2 lg:pt-6 text-xs lg:text-base">
+              <h3 className="text-base lg:text-3xl font-semibold">Discovery Workshop:</h3>
+              <p className="pt-2 lg:pt-6 text-base lg:text-base">
                 We initiate the collaboration with a comprehensive discovery
                 workshop to understand your business goals, data landscape, and
                 specific challenges.
               </p>
             </div>
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4  z-10 lg:ml-24">
-              <h3 className="text-sm  lg:text-3xl font-semibold">Solution Design:</h3>
-              <p className="pt-4 lg:pt-6 text-xs lg:text-base">
+              <h3 className="text-base  lg:text-3xl font-semibold">Solution Design:</h3>
+              <p className="pt-4 lg:pt-6 text-base lg:text-base">
                 Based on our findings, we design a customized data engineering
                 solution, outlining the technologies, tools, and processes
                 tailored to your needs.
@@ -55,15 +55,15 @@ const Section3 = () => {
           <img src={img2} alt="Implementation & Deployment" className="w-full sm:w-2/3 lg:w-1/2" />
           <div className="flex flex-col lg:flex-row items-start px-4 lg:px-24 lg:pl-54   ">
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:pl-28 ">
-              <h3 className="text-sm lg:text-3xl font-semibold">Implementation & Deployment:</h3>
-              <p className="pt-4 lg:pt-6 text-xs lg:text-base">
+              <h3 className="text-base lg:text-3xl font-semibold">Implementation & Deployment:</h3>
+              <p className="pt-4 lg:pt-6 text-base lg:text-base">
                 Our team implements the agreed-upon solution, ensuring seamless
                 integration with your existing infrastructure.
               </p>
             </div>
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4 lg:px-16 lg:ml-40">
-              <h3 className="text-sm lg:text-3xl font-semibold">Proof of Concept (POC):</h3>
-              <p className="pt-4 lg:pt-6 text-xs lg:text-base ">
+              <h3 className="text-base lg:text-3xl font-semibold">Proof of Concept (POC):</h3>
+              <p className="pt-4 lg:pt-6 text-base lg:text-base ">
                 To mitigate risk and ensure alignment, we can develop a focused
                 POC to demonstrate the effectiveness of our proposed solution.
               </p>
@@ -75,8 +75,8 @@ const Section3 = () => {
         <div className="flex flex-col lg:flex-row items-center justify-center pt-8 px-4 sm:px-8">
           <img src={img3} alt="Ongoing Support" className="w-[80px] lg:w-[150px]" />
           <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start p-4">
-            <h3 className="text-sm lg:text-3xl font-semibold">Ongoing Support</h3>
-            <p className="pt-4 lg:pt-6 text-xs lg:text-base">
+            <h3 className="text-base lg:text-3xl font-semibold">Ongoing Support</h3>
+            <p className="pt-4 lg:pt-6 text-base lg:text-base">
               We provide ongoing support to maintain your data engineering
               infrastructure, address any emerging challenges, and optimize
               performance.
@@ -114,8 +114,8 @@ const Section3 = () => {
     <div className="flex items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8">
       <img src={img6} alt="In-House Training Icon" className="w-8 h-8 sm:w-16 sm:h-16 lg:lg:-mt-7" /> {/* Adjusted margin */}
       <div className="text-lg">
-        <h2 className="text-sm lg:text-3xl font-semibold">MSMEs:</h2>
-        <p className="mt-2 text-xs lg:text-base">
+        <h2 className="text-base lg:text-3xl font-semibold">MSMEs:</h2>
+        <p className="mt-2 text-base lg:text-base">
           Our team continuously undergoes rigorous training to stay at
           the forefront of the ever-evolving data engineering landscape.
           This ensures we leverage the latest advancements and best
@@ -126,8 +126,8 @@ const Section3 = () => {
     <div className="flex items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8 mt-4">
       <img src={img7} alt="In-House Training Icon" className="w-8 h-8 sm:w-16 sm:h-16 lg:-mt-7" /> {/* Adjusted margin */}
       <div className="text-lg">
-        <h2 className="text-sm lg:text-3xl font-semibold">Enterprises:</h2>
-        <p className="mt-2 text-xs lg:text-base">
+        <h2 className="text-base lg:text-3xl font-semibold">Enterprises:</h2>
+        <p className="mt-2 text-base lg:text-base">
           Our team continuously undergoes rigorous training to stay at
           the forefront of the ever-evolving data engineering landscape.
           This ensures we leverage the latest advancements and best
@@ -141,8 +141,8 @@ const Section3 = () => {
     <div className="flex items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8 mt-4">
       <img src={img8} alt="In-House Training Icon" className="w-8 h-8 sm:w-16 sm:h-16 lg:-mt-7" /> {/* Adjusted margin */}
       <div className="text-lg">
-        <h2 className="text-sm lg:text-3xl font-semibold">Startups:</h2>
-        <p className="mt-2 text-xs lg:text-base">
+        <h2 className="text-base lg:text-3xl font-semibold">Startups:</h2>
+        <p className="mt-2 text-base lg:text-base">
           Our team continuously undergoes rigorous training to stay at
           the forefront of the ever-evolving data engineering landscape.
           This ensures we leverage the latest advancements and best
