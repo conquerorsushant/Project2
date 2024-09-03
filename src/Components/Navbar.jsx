@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FaBarsStaggered, FaXmark } from "react-icons/fa6";
 import logo from '../assets/images/logo.png'; 
-import '../App.css'; 
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +18,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='font-sans fixed left-0 right-0 top-0 bg-gray-900 z-50'>
+    <div className='font-sansation fixed left-0 right-0 top-0 bg-gray-900 z-50'>
       <header className='bg-secondary max-w-screen-2xl container mx-auto xl:px-36 px-4'>
         <nav className='flex justify-between items-center py-4'>
           <Link to="/" className='flex items-center gap-2 text-2xl '>
