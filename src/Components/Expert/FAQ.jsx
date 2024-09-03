@@ -41,7 +41,7 @@ const FAQ = () => {
             className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
             onClick={() => handleToggle(0)}
           >
-            <span className="flex-1 text-base lg:text-xl lg:px-16">
+            <span className="flex-1 text-base lg:text-xl lg:px-8">
               What are the benefits of using Data Engineering Services?
             </span>
             <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(0)}`}>
@@ -51,13 +51,13 @@ const FAQ = () => {
             </div>
           </button>
           {activeIndex === 0 && (
-            <div className="p-4 text-base lg:text-xl lg:px-16">
+            <div className="p-4 text-sm lg:text-xl lg:px-16">
               <p><strong>Improved Data Accessibility:</strong> 
-              <p> By establishing a structured data infrastructure, data becomes readily accessible for analysis and reporting.</p></p>
+              <p className="lg:text-base"> By establishing a structured data infrastructure, data becomes readily accessible for analysis and reporting.</p></p>
              
-              <p><strong>Enhanced Data Quality:</strong> <p> Data pipelines ensure data accuracy and consistency, leading to reliable insights.</p></p>
-              <p><strong>Streamlined Data-Driven Decision Making:</strong> Easy access to clean and organized data empowers faster and more informed business decisions.</p>
-              <p><strong>Scalability and Agility:</strong> A well-designed data engineering solution can seamlessly scale to accommodate future growth and evolving business needs.</p>
+              <p><strong>Enhanced Data Quality:</strong> <p  className="lg:text-base"> Data pipelines ensure data accuracy and consistency, leading to reliable insights.</p></p>
+              <p><strong>Streamlined Data-Driven Decision Making:</strong> <p className="lg:text-base">Easy access to clean and organized data empowers faster and more informed business decisions. </p></p>
+              <p><strong>Scalability and Agility:</strong><p className="lg:text-base"> A well-designed data engineering solution can seamlessly scale to accommodate future growth and evolving business needs.</p></p>
             </div>
           )}
         </div>
@@ -67,7 +67,7 @@ const FAQ = () => {
             className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
             onClick={() => handleToggle(1)}
           >
-            <span className="flex-1 text-sm lg:text-xl lg:px-16">
+            <span className="flex-1 text-base lg:text-xl lg:px-8">
               Do you offer any training on data engineering tools and technologies?
             </span>
             <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(1)}`}>
@@ -77,7 +77,7 @@ const FAQ = () => {
             </div>
           </button>
           {activeIndex === 1 && (
-            <div className="p-4 text-base lg:text-lg lg:px-16">
+            <div className="p-4 text-sm lg:text-lg lg:px-16">
               <p>While we don't currently offer public training programs, we leverage our in-house training expertise to stay updated on the latest advancements. This ensures we incorporate the most effective tools and technologies into our client solutions.</p>
             </div>
           )}
