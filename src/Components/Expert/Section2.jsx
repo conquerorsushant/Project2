@@ -66,7 +66,7 @@ const Section2 = () => {
     </div>
 
     <div className="flex-1 pt-2">
-      <div className=" pl-4 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+      <div className=" pl-2 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
         <img src={a4} alt="Data Pipelines Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
         <div>
           <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Data Pipelines:</h2>
@@ -76,7 +76,7 @@ const Section2 = () => {
         </div>
       </div>
 
-      <div className="pt-6 pl-3 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+      <div className="pt-6 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
         <img src={a5} alt="Productionizing ML Algorithms Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
         <div>
           <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Productionizing Machine Learning (ML) Algorithms:</h2>

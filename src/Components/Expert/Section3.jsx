@@ -61,7 +61,7 @@ const Section3 = () => {
                 integration with your existing infrastructure.
               </p>
             </div>
-            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4 lg:px-16 lg:ml-40">
+            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start  lg:px-16 lg:ml-40">
               <h3 className="text-base lg:text-3xl font-semibold">Proof of Concept (POC):</h3>
               <p className="pt-4 lg:pt-6 text-base lg:text-base ">
                 To mitigate risk and ensure alignment, we can develop a focused
