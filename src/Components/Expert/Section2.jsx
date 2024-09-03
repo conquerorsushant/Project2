@@ -16,7 +16,7 @@ import contact from "../../assets/images/contact.png";
 import left1 from '../../assets/images/Artboard9.png';
 import left2 from "../../assets/images/Artboard8.png";
 import color from '../../assets/images/Asset17.png';
-import arrow from '../../assets/images/button-style.png'
+import arrow from '../../assets/images/Arrow111.png'
 
 const Section2 = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -31,106 +31,79 @@ const Section2 = () => {
   return (
     <div className="bg-primary relative text-white">
       {/* First Section */}
-      <div className="relative">
-        <div className="flex lg:flex-row flex-col lg:gap-10 flex-wrap lg:pt-20 lg:px-44 p-2">
-          <div className="flex-1 pt-2  ">
-            <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
-              {/* Shift text */}
-              <img src={a1} alt="Data Lakes Icon" className="w-10 h-10 sm:w-auto sm:h-auto  mt-2 " />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Data Lakes</h2>
-                <p className="text-sm sm:text-base">
-                  We design and implement scalable data lakes using technologies
-                  like Apache Hadoop, Amazon S3, or Azure Data Lake Storage.
-                  These repositories serve as the central hub for ingesting and
-                  storing all your raw, structured, and semi-structured data.
-                </p>
-              </div>
-            </div>
-
-            <div className=" pt-2  flex items-start justify-center gap-4 lg:p-4 lg:pt-10 mx-2 sm:mx-8">
-              {/* Shift text */}
-              <img src={a2} alt="Enterprise Data Warehouses Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
-              <div className=" ">
-                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-                  Enterprise Data Warehouses (EDW):
-                </h2>
-                <p className="text-sm sm:text-base">
-                  We help you implement and manage high-performance EDWs using
-                  technologies like Snowflake, Amazon Redshift, or Google
-                  BigQuery. EDWs provide a centralized repository for
-                  structured, business-critical data, optimized for efficient
-                  querying and analysis.
-                </p>
-              </div>
-            </div>
-
-            <div className=" pt-2  flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
-              {/* Shift text */}
-              <img src={a3} alt="Cloud Migration Services Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">
-                  Cloud Migration Services:
-                </h2>
-                <p className="text-sm sm:text-base">
-                  We provide seamless cloud migration for your data
-                  infrastructure, leveraging platforms like AWS, Azure, or GCP.
-                  Our expertise extends to data lake, data warehouse, and data
-                  pipeline migration, ensuring a smooth and efficient
-                  transition.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex-1 pt-2 ">
-            <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
-              {/* Shift text */}
-              <img src={a4} alt="Data Pipelines Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">Data Pipelines:</h2>
-                <p className="text-sm sm:text-base">
-                  We leverage robust frameworks like Apache Airflow, Apache
-                  Spark, or Luigi to construct efficient data pipelines. These
-                  automated workflows seamlessly extract, transform, and load
-                  (ETL) data from disparate sources into your data lake or data
-                  warehouse, ensuring consistent and reliable data flow.
-                </p>
-              </div>
-            </div>
-            <div className="pt-2  flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
-              {/* Shift text */}
-              <img src={a5} alt="Productionizing ML Algorithms Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl  font-semibold">
-                  Productionizing Machine Learning (ML) Algorithms:
-                </h2>
-                <p className="text-sm sm:text-base">
-                  We bridge the gap between development and deployment by
-                  operationalizing your ML models. We containerize models using
-                  Docker and orchestrate deployments using Kubernetes, ensuring
-                  seamless integration into your production environment.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Left1 Image Positioned on Right Side */}
-        <div className="absolute right-0 top-48 bottom-0 hidden lg:flex items-center justify-end z-10">
-          <img
-            src={left1}
-            alt="Left1"
-            className="lg:w-[270px] max-w-none h-auto object-contain"
-            style={{ right: '0', marginRight: '0px' }} // Ensure image is flush with the right side
-          />
-        </div>
-
-        {/* Line Image */}
-        <div className="relative mt-0">
-          <img src={lines} alt="Lines" className="w-full bottom-48 left-0 h-auto" />
+   <div className="relative">
+  <div className="flex lg:flex-row flex-col lg:gap-10 gap-6 flex-wrap lg:pt-20 lg:px-44 p-2">
+    <div className="flex-1 pt-2">
+      <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+        <img src={a1} alt="Data Lakes Icon" className="w-10 h-10 sm:w-auto sm:h-auto mt-2" />
+        <div>
+          <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Data Lakes</h2>
+          <p className="text-sm sm:text-base">
+            We design and implement scalable data lakes using technologies like Apache Hadoop, Amazon S3, or Azure Data Lake Storage. These repositories serve as the central hub for ingesting and storing all your raw, structured, and semi-structured data.
+          </p>
         </div>
       </div>
+
+      <div className="pt-6 lg:pt-9 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+        <img src={a2} alt="Enterprise Data Warehouses Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
+        <div>
+          <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Enterprise Data Warehouses (EDW):</h2>
+          <p className="text-sm sm:text-base">
+            We help you implement and manage high-performance EDWs using technologies like Snowflake, Amazon Redshift, or Google BigQuery. EDWs provide a centralized repository for structured, business-critical data, optimized for efficient querying and analysis.
+          </p>
+        </div>
+      </div>
+
+      <div className="pt-6 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+        <img src={a3} alt="Cloud Migration Services Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
+        <div>
+          <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Cloud Migration Services:</h2>
+          <p className="text-sm sm:text-base">
+            We provide seamless cloud migration for your data infrastructure, leveraging platforms like AWS, Azure, or GCP. Our expertise extends to data lake, data warehouse, and data pipeline migration, ensuring a smooth and efficient transition.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div className="flex-1 pt-2">
+      <div className=" pl-4 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+        <img src={a4} alt="Data Pipelines Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
+        <div>
+          <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Data Pipelines:</h2>
+          <p className="text-sm sm:text-base">
+            We leverage robust frameworks like Apache Airflow, Apache Spark, or Luigi to construct efficient data pipelines. These automated workflows seamlessly extract, transform, and load (ETL) data from disparate sources into your data lake or data warehouse, ensuring consistent and reliable data flow.
+          </p>
+        </div>
+      </div>
+
+      <div className="pt-6 pl-3 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+        <img src={a5} alt="Productionizing ML Algorithms Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
+        <div>
+          <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Productionizing Machine Learning (ML) Algorithms:</h2>
+          <p className="text-sm sm:text-base">
+            We bridge the gap between development and deployment by operationalizing your ML models. We containerize models using Docker and orchestrate deployments using Kubernetes, ensuring seamless integration into your production environment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Left1 Image Positioned on Right Side */}
+  <div className="absolute right-0 top-48 bottom-0 hidden lg:flex items-center justify-end z-10">
+    <img
+      src={left1}
+      alt="Left1"
+      className="lg:w-[270px] max-w-none h-auto object-contain"
+      style={{ right: '0', marginRight: '0px' }} // Ensure image is flush with the right side
+    />
+  </div>
+
+  {/* Line Image */}
+  <div className="relative mt-0">
+    <img src={lines} alt="Lines" className="w-full bottom-48 left-0 h-auto" />
+  </div>
+</div>
+
 
       {/* Section with bg2 Image */}
       <div className="relative">
@@ -168,7 +141,7 @@ const Section2 = () => {
 
       {/* Third Section */}
       <div className="relative">
-      <div className="text-center lg:py-12  py-6 flex lg:flex-col   flex-row items-center
+      <div className="text-center lg:py-12   py-8 flex lg:flex-col   flex-col items-center
        justify-center">
             <p className="font-semibold text-2xl  lg:px-[430px] px-[]">
             We differentiate ourselves through several
@@ -183,7 +156,7 @@ const Section2 = () => {
         <div className="flex lg:flex-row flex-col  lg:gap-12 flex-wrap  lg:px-36 p-2">
          
           <div className="flex-1  lg:flex-col flex-row pt-2">
-            <div className="flex  items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+            <div className="flex  pl-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
               <img src={a6} alt="Customized Solutions Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
@@ -228,7 +201,7 @@ const Section2 = () => {
           </div>
 
           <div className="flex-1">
-            <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
+            <div className="flex pl-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
               <img src={a9} alt="Technology Expert Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
               <div>
@@ -242,7 +215,7 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
+            <div className="flex pl-1 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
               <img src={a10} alt="In-House Training Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
               <div>
