@@ -156,7 +156,7 @@ const Section2 = () => {
         <div className="flex lg:flex-row flex-col  lg:gap-12 flex-wrap  lg:px-36 p-2">
          
           <div className="flex-1  lg:flex-col flex-row pt-2">
-            <div className="flex  pl-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
+            <div className="flex pt-2 pl-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
               <img src={a6} alt="Customized Solutions Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
@@ -171,7 +171,7 @@ const Section2 = () => {
               </div>
             </div>
 
-            <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
+            <div className="flex pt-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
               <img src={a7} alt="Focus on Scalability Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
@@ -185,7 +185,7 @@ const Section2 = () => {
               </div>
             </div>
 
-            <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
+            <div className="flex pt-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
               <img src={a8} alt="Cost-Effectiveness Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
               <div>
@@ -201,7 +201,7 @@ const Section2 = () => {
           </div>
 
           <div className="flex-1">
-            <div className="flex pl-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
+            <div className="flex pt-2 pl-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
               <img src={a9} alt="Technology Expert Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
               <div>
@@ -215,7 +215,7 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
-            <div className="flex pl-1 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
+            <div className="flex pt-2 pl-1 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
               <img src={a10} alt="In-House Training Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
               <div>
