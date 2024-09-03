@@ -12,7 +12,7 @@ export default {
        
       },
       fontFamily: {
-        sans: ['Sansation', 'sans-serif'],
+        sansation: ['Sansation', 'sans-serif'],
       },
     },
    

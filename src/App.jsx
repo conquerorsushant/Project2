@@ -2,20 +2,18 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import './index.css';
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar /> {/* Fixed Navbar at the top */}
-
-      <div className="flex-grow">
-        {/* Add padding to ensure content doesn't overlap with the Navbar */}
-        <main className="pt-16"> {/* Adjust `pt-16` if your Navbar is taller or shorter */}
-          <Outlet /> {/* Content rendered by routes */}
+    <div className="flex flex-col min-h-screen font-sansation">
+      <Navbar /> 
+      <div className="flex-grow font-sansation">
+        <main className="pt-16"> 
+          <Outlet />
         </main>
       </div>
-
-      <Footer /> {/* Footer at the bottom */}
+      {/* <Footer />  */}
     </div>
   );
 };

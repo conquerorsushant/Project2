@@ -3,7 +3,7 @@ import lines from "../../assets/images/lines.png"; // Adjust the path to the act
 
 const First = () => {
   return (
-    <div className="bgFirst bg-primary text-white min-h-screen p-4 sm:p-6 md:p-8 lg:px-20 lg:pt-28 lg:pb-96 relative">
+    <div className="bgFirst  bg-primary text-white min-h-screen p-4 sm:p-6 md:p-8 lg:px-20 lg:pt-28 lg:pb-96 relative">
       <div className="flex flex-col lg:h-1/2 justify-between flex-grow">
         {/* Top Left Content */}
         <div className="font-semibold text-sm sm:text-xl lg:text-xl lg:w-2/3">
