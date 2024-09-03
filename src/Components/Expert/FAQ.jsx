@@ -41,7 +41,7 @@ const FAQ = () => {
             className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
             onClick={() => handleToggle(0)}
           >
-            <span className="flex-1 text-sm lg:text-xl">
+            <span className="flex-1 text-sm lg:text-xl lg:px-16">
               What are the benefits of using Data Engineering Services?
             </span>
             <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(0)}`}>
@@ -51,7 +51,7 @@ const FAQ = () => {
             </div>
           </button>
           {activeIndex === 0 && (
-            <div className="p-4 text-sm lg:text-xl">
+            <div className="p-4 text-sm lg:text-xl lg:px-16">
               <p><strong>Improved Data Accessibility:</strong> 
               <p> By establishing a structured data infrastructure, data becomes readily accessible for analysis and reporting.</p></p>
              
@@ -67,7 +67,7 @@ const FAQ = () => {
             className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
             onClick={() => handleToggle(1)}
           >
-            <span className="flex-1 text-sm lg:text-xl">
+            <span className="flex-1 text-sm lg:text-xl lg:px-16">
               Do you offer any training on data engineering tools and technologies?
             </span>
             <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(1)}`}>
@@ -77,7 +77,7 @@ const FAQ = () => {
             </div>
           </button>
           {activeIndex === 1 && (
-            <div className="p-4 text-sm lg:text-lg">
+            <div className="p-4 text-sm lg:text-lg lg:px-16">
               <p>While we don't currently offer public training programs, we leverage our in-house training expertise to stay updated on the latest advancements. This ensures we incorporate the most effective tools and technologies into our client solutions.</p>
             </div>
           )}
@@ -88,7 +88,7 @@ const FAQ = () => {
             className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
             onClick={() => handleToggle(2)}
           >
-            <span className="flex-1 text-sm lg:text-xl">
+            <span className="flex-1 text-sm lg:text-xl lg:px-8">
               What is your approach to data security?
             </span>
             <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(2)}`}>
@@ -98,7 +98,7 @@ const FAQ = () => {
             </div>
           </button>
           {activeIndex === 2 && (
-            <div className="p-4 text-sm lg:text-lg">
+            <div className="p-4 text-sm lg:text-lg lg:px-16">
               <p>Data security is paramount. We prioritize implementing robust security measures throughout the data engineering process, including access controls, data encryption, and regular security audits.</p>
             </div>
           )}

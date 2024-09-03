@@ -72,7 +72,7 @@ const Section3 = () => {
         </div>
 
         {/* Image 3 and its text */}
-        <div className="flex flex-col lg:flex-row items-center justify-center pt-8 px-4 sm:px-8">
+        <div className="flex flex-col lg:flex-row lg:items-center items-start  justify-center pt-8 px-4 sm:px-8">
           <img src={img3} alt="Ongoing Support" className="w-[80px] lg:w-[150px]" />
           <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start p-4">
             <h3 className="text-base lg:text-3xl font-semibold">Ongoing Support</h3>
@@ -138,7 +138,7 @@ const Section3 = () => {
   </div>
 
   <div className="flex-1 px-4">
-    <div className="flex items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8 mt-4">
+    <div className="flex pl-2 items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8 mt-4">
       <img src={img8} alt="In-House Training Icon" className="w-8 h-8 sm:w-16 sm:h-16 lg:-mt-7" /> {/* Adjusted margin */}
       <div className="text-lg">
         <h2 className="text-base lg:text-3xl font-semibold">Startups:</h2>
