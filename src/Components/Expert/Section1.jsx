@@ -26,10 +26,14 @@ const Section1 = () => {
         
 
         {/* Lines Image positioned absolutely and spanning full width */}
-        
-        <div className="absolute lg:top-[120px] top-20 lg:left-[70%] left-[60%] transform -translate-x-1/2 translate-y-8 lg:translate-y-12 z-20 lg:w-full w-[60%] lg:max-w-[500px] ">
-            <img src={p14} alt="Overlay" className="w-full h-auto" /> {/* Adjust size here */}
-          </div>
+        <div className="absolute lg:top-[120px] top-20 lg:left-[70%] left-[60%] transform -translate-x-1/2 translate-y-8 lg:translate-y-12 z-20 lg:w-full w-[60%] lg:max-w-[500px]">
+  <img 
+    src={p14} 
+    alt="Overlay" 
+    className="w-full h-auto transform scale-110" 
+  /> {/* Adjust size here */}
+</div>
+
 
         {/* Text content */}
         <div className="absolute left-8 lg:left-72 pt-2  z-40 text-white text-center lg:text-left lg:w-1/3">
@@ -45,16 +49,16 @@ const Section1 = () => {
 
       {/* Section 2 */}
       <div className="flex flex-col sm:flex-row lg:flex-row items-center justify-center gap-4 lg:gap-11 sm:gap-2 p-4 sm:p-2 lg:p-10">
-  <div className="flex-1 flex justify-center lg:justify-end sm:justify-center lg:py-16 lg:pl-56  px-4 lg:pt-24 pt-14 ">
-    <div className="bg-opacity-30 text-sm lg:text-base bg-[#283B5E] p-2 lg:py-6 lg:px-8 lg:pr-10  pr-2 text-center sm:text-start text-white rounded-xl">
+    <div className="flex-1 flex justify-center lg:justify-end sm:justify-center lg:py-16 lg:pl-56  px-4 lg:pt-8 pt-14 ">
+    <div className="bg-opacity-30 text-sm lg:text-lg bg-[#283B5E] p-2 lg:py-6 lg:px-6   pr-2 text-center sm:text-start text-white rounded-xl">
       <p>At BrainsTerra Intelligence.</p>
       <p>We empower businesses of all sizes:</p>
-      <p className="text-lg font-semibold">MSMEs, startups, and enterprises</p>
+      <p className="text-lg lg:text-2xl font-semibold">MSMEs, startups, and enterprises</p>
       <p>to leverage the transformative power of data. Our world-class Data Engineering Services are crafted to build robust infrastructure tailored to your specific needs, driving your business towards data-driven decision-making and growth.</p>
     </div>
   </div>
-  <div className="lg:flex-1 flex justify-center items-center lg:pt-16">
-    <img src={sec} alt="Section Image" className="w-1/2 lg:w-2/3 h-auto" /> {/* Reduce image size */}
+  <div className="lg:flex-1 flex justify-center items-center ">
+    <img src={sec} alt="Section Image" className="w-1/2 lg:w-96 h-auto" /> {/* Reduce image size */}
   </div>
 </div>
 

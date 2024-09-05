@@ -32,7 +32,7 @@ const FAQ = () => {
   return (
     <div className="bg-primary text-white pt-8">
       <div className="px-4 sm:px-8 md:px-12 lg:px-24 pb-20">
-        <h2 className="py-10 text-xl sm:text-2xl md:text-3xl font-semibold text-center">
+        <h2 className="py-10 text-xl sm:text-2xl md:text-3xl font-semibold text-start">
           Frequently Asked Questions (FAQS)
         </h2>
 
@@ -106,13 +106,13 @@ const FAQ = () => {
       </div>
 
       {/* Contact Section */}
-      <div className="relative h-72 md:h-96">
+      <div className="relative h-96 md:h-96 ">
         <img src={img1} alt="Contact" className="w-full h-full object-cover" />
         <div className="absolute inset-0 flex flex-col items-center lg:px-80 justify-center text-center p-4 sm:p-8 bg-black bg-opacity-50">
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:px-32   font-semibold mb-4 ">
             Ready to Unleash the Power of Your Data?
           </h2>
-          <p className="text-sm sm:text-lg mb-4">
+          <p className="text-sm sm:text-lg mb-2">
             At BrainsTerra Intelligence, we are passionate about empowering businesses with the transformative power of data. Contact us today to discuss your specific data engineering needs and embark on your journey towards data-driven success.
           </p>
           <button
