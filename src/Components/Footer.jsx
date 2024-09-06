@@ -9,7 +9,7 @@ import logo from '../assets/images/logo.png';
 
 const Footer = () => {
   return (
-    <div className="bg-primary lg:pt-4  lg:pb-1">
+    <div className="bg-primary   lg:pb-1">
       <div className="relative h-[500px] lg:h-80"> {/* Reduced height */}
         <img
           src={r4}

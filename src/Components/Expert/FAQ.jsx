@@ -42,7 +42,7 @@ const FAQ = () => {
       </div>
 
       {/* Background Image Container */}
-      <div className={`relative ${faqExpanded ? 'h-[500px] sm:h-[600px] md:h-[700px]' : 'h-[300px]'} transition-height duration-300`}>
+      <div className={`relative ${faqExpanded ? 'h-[500px] sm:h-[600px] md:h-[700px]' : 'h-[400px]'} transition-height duration-300`}>
         <img 
           src={bg}
           alt="FAQ Background"
