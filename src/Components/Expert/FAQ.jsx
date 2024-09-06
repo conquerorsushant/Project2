@@ -138,7 +138,7 @@ const FAQ = () => {
       </div>
 
       {/* Contact Us Section */}
-      <div className="relative h-[400px] mt-8">
+      <div className="relative h-[400px] ">
         <img src={img1} alt="Contact" className="w-full h-full object-cover" />
         <div className="absolute inset-0 flex flex-col items-center lg:px-80 justify-center text-center p-4 sm:p-8 bg-black bg-opacity-50">
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:px-32 font-semibold mb-4">
