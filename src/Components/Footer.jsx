@@ -65,8 +65,8 @@ const Footer = () => {
         </div>
       </div>
       {/* copyright */}
-      <div className="flex flex-col lg:flex-row lg:px-16 items-center justify-center lg:text-xs lg:py-1 gap-4 lg:gap-16 text-white mt-4"> {/* Adjusted for small screens */}
-        <h3 className="text-center lg:text-left">
+      <div className="flex flex-col lg:flex-row lg:px-16 items-center justify-center lg:text-xs text-xs lg:py-1 gap-4 lg:gap-16 text-white mt-4"> {/* Adjusted for small screens */}
+        <h3 className="text-center  lg:text-left">
           2024 © BrainsTerra Intelligence. All rights reserved.
         </h3>
         <h3 className="text-center lg:text-left">
