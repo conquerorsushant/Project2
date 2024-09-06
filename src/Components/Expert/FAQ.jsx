@@ -50,7 +50,7 @@ const FAQ = () => {
         />
 
         {/* FAQ Content Container */}
-        <div className={`relative z-30 p-8 transition-transform duration-300 ${faqExpanded ? 'translate-y-[-220px]' : ''}`}>
+        <div className={`relative z-30 p-8  lg:pt-20 pt-10 transition-transform duration-300 ${faqExpanded ? 'translate-y-[-220px]' : ''}`}>
           <div className="space-y-4">
             {/* FAQ 1 */}
             <div className="relative mb-8 border-b bg-[#283B5E] rounded-lg border-gray-700">
