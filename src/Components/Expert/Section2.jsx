@@ -100,7 +100,7 @@ const Section2 = () => {
   </div>
 
   {/* Line Image */}
-  <div className="relative mt-0 lg:mb-20">
+  <div className="relative mt-0 lg:mb-20 mb-10">
     <img src={lines} alt="Lines" className="w-full bottom-11 left-0 h-auto" />
   </div>
 </div>
@@ -112,8 +112,8 @@ const Section2 = () => {
   <img
   src={bg2}
   alt="Background"
-  className="w-full object-cover lg:h-[80vh]" // Combine all classes into one
-  style={{ height: '20vh' }} // 50vh for small screens via inline style
+  className="w-full object-cover lg:h-[80vh] h-50vh " // Combine all classes into one
+   // 50vh for small screens via inline style
 />
 
 
@@ -267,7 +267,7 @@ const Section2 = () => {
           <img src={bg3} alt="Background" className="w-full  bottom-6 left-0 h-[300px] relative z-10" />
           
           {/* Text on bg3 Image */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-center">
+          <div className="absolute inset-0 flex flex-col items-center justify-center z-10 lg:mb-10 mb-10 text-center">
             <h2 className="text-xl sm:text-3xl font-bold ">
               A Seamless Onboarding Experience
             </h2>

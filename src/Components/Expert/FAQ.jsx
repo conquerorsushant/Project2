@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import img1 from '../../assets/images/Artboard4.png';
 import contact from '../../assets/images/contact.png';
+import bg from '../../assets/images/p12.png';
 
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [isClicked, setIsClicked] = useState(false);
+  const [faqExpanded, setFaqExpanded] = useState(false);
 
   const handleToggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -13,7 +15,6 @@ const FAQ = () => {
 
   const handleClick = () => {
     setIsClicked(!isClicked);
-    // Additional logic for the button can go here
   };
 
   const getIconColor = (index) => {
@@ -29,87 +30,118 @@ const FAQ = () => {
     }
   };
 
+  useEffect(() => {
+    setFaqExpanded(activeIndex !== null);
+  }, [activeIndex]);
+
   return (
-    <div className="bg-primary text-white pt-8">
-      <div className="px-4 sm:px-8 md:px-12 lg:px-24 pb-20">
-        <h2 className="py-10 text-xl sm:text-2xl md:text-3xl font-semibold text-start">
-          Frequently Asked Questions (FAQS)
-        </h2>
+    <div className="relative text-white bg-primary lg:pt-36">
+      {/* FAQ Section Title */}
+      <div className={`relative z-20 p-8 ${faqExpanded ? 'translate-y-[-200px] lg:pt-28 pt-64' : ''}`}>
+        <h2 className="lg:text-4xl text-xl font-bold mb-4">Frequently Asked Questions (FAQs)</h2>
+      </div>
 
-        <div className="mb-8 border-b bg-[#283B5E] rounded-lg border-gray-700">
-          <button
-            className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
-            onClick={() => handleToggle(0)}
-          >
-            <span className="flex-1 text-base lg:text-xl lg:px-8">
-              What are the benefits of using Data Engineering Services?
-            </span>
-            <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(0)}`}>
-              <span className="text-lg">
-                {activeIndex === 0 ? <FaChevronUp /> : <FaChevronDown />}
-              </span>
-            </div>
-          </button>
-          {activeIndex === 0 && (
-            <div className="p-4 text-sm lg:text-xl lg:px-16">
-              <p><strong>Improved Data Accessibility:</strong> 
-              <p className="lg:text-base"> By establishing a structured data infrastructure, data becomes readily accessible for analysis and reporting.</p></p>
-             
-              <p><strong>Enhanced Data Quality:</strong> <p  className="lg:text-base"> Data pipelines ensure data accuracy and consistency, leading to reliable insights.</p></p>
-              <p><strong>Streamlined Data-Driven Decision Making:</strong> <p className="lg:text-base">Easy access to clean and organized data empowers faster and more informed business decisions. </p></p>
-              <p><strong>Scalability and Agility:</strong><p className="lg:text-base"> A well-designed data engineering solution can seamlessly scale to accommodate future growth and evolving business needs.</p></p>
-            </div>
-          )}
-        </div>
+      {/* Background Image Container */}
+      <div className={`relative ${faqExpanded ? 'h-[500px] sm:h-[600px] md:h-[700px]' : 'h-[300px]'} transition-height duration-300`}>
+        <img 
+          src={bg}
+          alt="FAQ Background"
+          className="absolute inset-0 lg:w-full lg:h-full w-full h-full object-cover opacity-20"
+        />
 
-        <div className="mb-8 border-b bg-[#283B5E] rounded-lg border-gray-700">
-          <button
-            className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
-            onClick={() => handleToggle(1)}
-          >
-            <span className="flex-1 text-base lg:text-xl lg:px-8">
-              Do you offer any training on data engineering tools and technologies?
-            </span>
-            <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(1)}`}>
-              <span className="text-lg">
-                {activeIndex === 1 ? <FaChevronUp /> : <FaChevronDown />}
-              </span>
+        {/* FAQ Content Container */}
+        <div className={`relative z-30 p-8 transition-transform duration-300 ${faqExpanded ? 'translate-y-[-220px]' : ''}`}>
+          <div className="space-y-4">
+            {/* FAQ 1 */}
+            <div className="relative mb-8 border-b bg-[#283B5E] rounded-lg border-gray-700">
+              <button
+                className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
+                onClick={() => handleToggle(0)}
+              >
+                <span className="flex-1 text-base lg:text-xl lg:px-8">
+                  What are the benefits of using Data Engineering Services?
+                </span>
+                <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(0)}`}>
+                  <span className="text-lg">
+                    {activeIndex === 0 ? <FaChevronUp /> : <FaChevronDown />}
+                  </span>
+                </div>
+              </button>
+              <div 
+                className={`transition-all duration-300 ease-in-out ${activeIndex === 0 ? "max-h-[500px] mt-4" : "max-h-0 overflow-hidden"}`}
+              >
+                <div className="text-sm lg:text-xl lg:px-16 px-2">
+                  <p><strong>Improved Data Accessibility:</strong></p>
+                  <p className="lg:text-base">By establishing a structured data infrastructure, data becomes readily accessible for analysis and reporting.</p>
+                  
+                  <p><strong>Enhanced Data Quality:</strong></p>
+                  <p className="lg:text-base">Data pipelines ensure data accuracy and consistency, leading to reliable insights.</p>
+                  
+                  <p><strong>Streamlined Data-Driven Decision Making:</strong></p>
+                  <p className="lg:text-base">Easy access to clean and organized data empowers faster and more informed business decisions.</p>
+                  
+                  <p><strong>Scalability and Agility:</strong></p>
+                  <p className="lg:text-base">A well-designed data engineering solution can seamlessly scale to accommodate future growth and evolving business needs.</p>
+                </div>
+              </div>
             </div>
-          </button>
-          {activeIndex === 1 && (
-            <div className="p-4 text-sm lg:text-lg lg:px-16">
-              <p>While we don't currently offer public training programs, we leverage our in-house training expertise to stay updated on the latest advancements. This ensures we incorporate the most effective tools and technologies into our client solutions.</p>
-            </div>
-          )}
-        </div>
 
-        <div className="bg-[#283B5E] border-gray-700 border-b rounded-lg">
-          <button
-            className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
-            onClick={() => handleToggle(2)}
-          >
-            <span className="flex-1 text-base lg:text-xl lg:px-8">
-              What is your approach to data security?
-            </span>
-            <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(2)}`}>
-              <span className="text-lg">
-                {activeIndex === 2 ? <FaChevronUp /> : <FaChevronDown />}
-              </span>
+            {/* FAQ 2 */}
+            <div className="relative mb-8 border-b bg-[#283B5E] rounded-lg border-gray-700">
+              <button
+                className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
+                onClick={() => handleToggle(1)}
+              >
+                <span className="flex-1 text-base lg:text-xl lg:px-8">
+                  Do you offer any training on data engineering tools and technologies?
+                </span>
+                <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(1)}`}>
+                  <span className="text-lg">
+                    {activeIndex === 1 ? <FaChevronUp /> : <FaChevronDown />}
+                  </span>
+                </div>
+              </button>
+              <div 
+                className={`transition-all duration-300 ease-in-out ${activeIndex === 1 ? "max-h-[500px] mt-4" : "max-h-0 overflow-hidden"}`}
+              >
+                <div className="text-sm lg:text-lg lg:px-16 px-2">
+                  <p>While we don't currently offer public training programs, we leverage our in-house training expertise to stay updated on the latest advancements. This ensures we incorporate the most effective tools and technologies into our client solutions.</p>
+                </div>
+              </div>
             </div>
-          </button>
-          {activeIndex === 2 && (
-            <div className="p-4 text-base lg:text-lg lg:px-16">
-              <p>Data security is paramount. We prioritize implementing robust security measures throughout the data engineering process, including access controls, data encryption, and regular security audits.</p>
+
+            {/* FAQ 3 */}
+            <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
+              <button
+                className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
+                onClick={() => handleToggle(2)}
+              >
+                <span className="flex-1 text-base lg:text-xl lg:px-8">
+                  What is your approach to data security?
+                </span>
+                <div className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(2)}`}>
+                  <span className="text-lg">
+                    {activeIndex === 2 ? <FaChevronUp /> : <FaChevronDown />}
+                  </span>
+                </div>
+              </button>
+              <div 
+                className={`transition-all duration-300 ease-in-out ${activeIndex === 2 ? "max-h-[500px] mt-4" : "max-h-0 overflow-hidden"}`}
+              >
+                <div className="text-base lg:text-lg lg:px-16 px-2">
+                  <p>Data security is paramount. We prioritize implementing robust security measures throughout the data engineering process, including access controls, data encryption, and regular security audits.</p>
+                </div>
+              </div>
             </div>
-          )}
+          </div>
         </div>
       </div>
 
-      {/* Contact Section */}
-      <div className="relative h-96 md:h-96 ">
+      {/* Contact Us Section */}
+      <div className="relative h-[400px] mt-8">
         <img src={img1} alt="Contact" className="w-full h-full object-cover" />
         <div className="absolute inset-0 flex flex-col items-center lg:px-80 justify-center text-center p-4 sm:p-8 bg-black bg-opacity-50">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:px-32   font-semibold mb-4 ">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:px-32 font-semibold mb-4">
             Ready to Unleash the Power of Your Data?
           </h2>
           <p className="text-sm sm:text-lg mb-2">

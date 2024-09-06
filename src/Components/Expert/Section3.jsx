@@ -7,7 +7,7 @@ import img4 from "../../assets/images/Artboard3.png";
 import img6 from "../../assets/images/Asset21.png";
 import img7 from "../../assets/images/Asset25.png";
 import img8 from "../../assets/images/Asset26.png";
-import img9 from "../../assets/images/Asset28.png";
+import img9 from "../../assets/images/Artboard6.png";
 import img10 from "../../assets/images/Artboard14.png";
 import img11 from "../../assets/images/Artboard11.png";
 import lines from "../../assets/images/lines.png";
@@ -18,7 +18,7 @@ const Section3 = () => {
       {/* Section 1 */}
       <div className="relative">
         {/* Left Image */}
-        <div className="absolute left-0 top-56 w-1/4 h-full  items-center justify-center hidden lg:block">
+        <div className="absolute left-0 top-56 w-1/4 h-full items-center justify-center hidden lg:block">
           <img src={img10} alt="Left Side Image" className="w-full h-auto" />
         </div>
 
@@ -29,8 +29,8 @@ const Section3 = () => {
             alt="Discovery Workshop"
             className="w-full sm:w-2/3 lg:w-1/2"
           />
-          <div className="flex flex-col lg:flex-row items-start px-2 lg:px-32 ">
-            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:px-16 ">
+          <div className="flex flex-col lg:flex-row items-start px-2 lg:px-32">
+            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:px-16">
               <h3 className="text-base lg:text-3xl font-semibold">
                 Discovery Workshop:
               </h3>
@@ -40,8 +40,8 @@ const Section3 = () => {
                 specific challenges.
               </p>
             </div>
-            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4  z-10 ">
-              <h3 className="text-base  lg:text-3xl font-semibold">
+            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4 z-10">
+              <h3 className="text-base lg:text-3xl font-semibold">
                 Solution Design:
               </h3>
               <p className="pt-4 lg:pt-6 text-base lg:text-xl">
@@ -54,19 +54,19 @@ const Section3 = () => {
         </div>
 
         {/* Right Image */}
-        <div className="absolute right-0 top-56 w-1/4 h-full  items-center justify-center hidden lg:block">
+        <div className="absolute right-0 top-56 w-1/4 h-full items-center justify-center hidden lg:block">
           <img src={img11} alt="Right Side Image" className="w-full h-auto" />
         </div>
 
         {/* Image Container 2 */}
-        <div className="flex flex-col  items-center justify-center pt-8 px-4 sm:px-8">
+        <div className="flex flex-col items-center justify-center pt-8 px-4 sm:px-8">
           <img
             src={img2}
             alt="Implementation & Deployment"
             className="w-full sm:w-2/3 lg:w-1/2"
           />
-          <div className="flex flex-col lg:flex-row items-start px-4 lg:px-24 lg:pl-54   ">
-            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:pl-28 ">
+          <div className="flex flex-col lg:flex-row items-start px-4 lg:px-24 lg:pl-54">
+            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:pl-28">
               <h3 className="text-base lg:text-3xl font-semibold">
                 Implementation & Deployment:
               </h3>
@@ -75,11 +75,11 @@ const Section3 = () => {
                 integration with your existing infrastructure.
               </p>
             </div>
-            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start  lg:px-16 lg:ml-20">
+            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start lg:px-16 lg:ml-20">
               <h3 className="text-base lg:text-3xl font-semibold">
                 Proof of Concept (POC):
               </h3>
-              <p className="pt-4 lg:pt-6 text-base lg:text-xl ">
+              <p className="pt-4 lg:pt-6 text-base lg:text-xl">
                 To mitigate risk and ensure alignment, we can develop a focused
                 POC to demonstrate the effectiveness of our proposed solution.
               </p>
@@ -88,7 +88,7 @@ const Section3 = () => {
         </div>
 
         {/* Image 3 and its text */}
-        <div className="flex flex-col lg:flex-row lg:items-center items-start  justify-center pt-8 px-4 sm:px-8">
+        <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center pt-8 px-4 sm:px-8">
           <img
             src={img3}
             alt="Ongoing Support"
@@ -110,18 +110,15 @@ const Section3 = () => {
       {/* Section 2 with overlapping image */}
       <div className="relative mt-12 sm:mt-24 lg:mt-28">
         {/* Background Image */}
-        {/* Background Image */}
         <img
           src={img4}
           alt="Background"
           className="w-full h-[300px] object-cover relative z-10"
         />
 
-        {/* Overlay Image */}
-
         {/* Text on background image */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-30 text-center px-4 sm:px-2">
-          <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold p-2 lg:px-96 sm:p-4 ">
+          <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold p-2 lg:px-96 sm:p-4">
             How We Can Help You: Solutions for Every Business Size
           </h2>
           <p className="text-base sm:text-xl lg:text-2xl font-semibold mt-2 sm:mt-4 max-w-full sm:max-w-2xl mx-auto">
@@ -138,9 +135,8 @@ const Section3 = () => {
             <img
               src={img6}
               alt="In-House Training Icon"
-              className="w-8 h-8 sm:w-16 sm:h-16 lg:lg:-mt-7"
-            />{" "}
-            {/* Adjusted margin */}
+              className="w-8 h-8 sm:w-auto sm:h-auto"
+            />
             <div className="text-lg">
               <h2 className="text-base lg:text-3xl font-semibold">MSMEs:</h2>
               <p className="mt-2 text-base lg:text-xl">
@@ -155,17 +151,16 @@ const Section3 = () => {
             <img
               src={img7}
               alt="In-House Training Icon"
-              className="w-8 h-8 sm:w-16 sm:h-16 lg:-mt-7"
-            />{" "}
-            {/* Adjusted margin */}
+              className="w-8 h-8 sm:w-auto sm:h-auto"
+            />
             <div className="text-lg">
               <h2 className="text-base lg:text-3xl font-semibold">
                 Enterprises:
               </h2>
               <p className="mt-2 text-base lg:text-xl">
                 We provide comprehensive data engineering solutions to manage
-                your complex dataecosystem. Our expertise spans data lakehouse
-                architecture for housing both structured.
+                your complex data ecosystem. Our expertise spans data lakehouse
+                architecture for housing both structured and unstructured data.
               </p>
             </div>
           </div>
@@ -176,9 +171,8 @@ const Section3 = () => {
             <img
               src={img8}
               alt="In-House Training Icon"
-              className="w-8 h-8 sm:w-16== sm:h-16 lg:-mt-7"
-            />{" "}
-            {/* Adjusted margin */}
+              className="w-8 h-8 sm:w-auto sm:h-auto"
+            />
             <div className="text-lg">
               <h2 className="text-base lg:text-3xl font-semibold">Startups:</h2>
               <p className="mt-2 text-base lg:text-xl">
@@ -190,18 +184,17 @@ const Section3 = () => {
             </div>
           </div>
           <div className="flex items-center justify-start pt-6 lg:pl-12 lg:pt-4 gap-4">
-  <img
-    src={img9}
-    alt="In-House Training Icon"
-    className="w-[300px] h-[200px] lg:w-[400px] lg:h-[300px]"
-  />
-</div>
-
+            <img
+              src={img9}
+              alt="In-House Training Icon"
+              className="w-[300px] h-[200px] lg:w-[400px] lg:h-[300px]"
+            />
+          </div>
         </div>
       </div>
 
       {/* Line Image */}
-      <div className="relative mt-6 sm:mt-12">
+      <div className="relative mt-6 sm:mt-12 sm:pb-7">
         <img src={lines} alt="Lines" className="w-full h-auto" />
       </div>
     </div>
