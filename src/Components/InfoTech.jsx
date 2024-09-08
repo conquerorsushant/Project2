@@ -142,7 +142,7 @@ const InfoTech = () => {
         </div>
   
         {/* Intelligence Section */}
-        <div className="intelligence  border info_tech">
+        <div className="intelligence   info_tech">
           <div className="container">
             <br />
             <h1 className="heading text-center mb-5 pb-sm-5">

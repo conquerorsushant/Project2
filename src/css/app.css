@@ -10284,8 +10284,8 @@ header .navbar-nav li a {
 
 @media (max-width: 767.98px) {
   .intelligence__row-single:before {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     left: 32px;
     top: 25px;
     
@@ -10367,21 +10367,23 @@ header .navbar-nav li a {
 
 .intelligence__row .content {
   position: relative;
-  z-index: 2
+  z-index: 2;
   
 }
 
 .intelligence__row .content span {
   font-size: 9px;
   line-height: 13px;
-  display: block
+  display: block;
+ 
 }
 
 .intelligence__row .content h3 {
-  
+  padding-top: 25px;
   font-size: 13px;
   margin: 0;
-  padding:  0 0 0 4px
+  padding-left: 3px;
+  
 }
 @media (max-width: 767.98px){
   .intelligence__row .content span{
