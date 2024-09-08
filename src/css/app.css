@@ -10378,13 +10378,16 @@ header .navbar-nav li a {
  
 }
 
+
 .intelligence__row .content h3 {
-  padding-top: 25px;
+  padding-top: 36px;
   font-size: 13px;
   margin: 0;
   padding-left: 3px;
   
 }
+
+
 @media (max-width: 767.98px){
   .intelligence__row .content span{
     font-size: 12px;
