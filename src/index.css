@@ -77,3 +77,10 @@ body {
 	font-weight: 700;
 	font-style: italic;
 }
+.recruitment{
+	background-image: url("../src/assets/images/recruitment.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+ }
