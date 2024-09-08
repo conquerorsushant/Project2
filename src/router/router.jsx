@@ -17,10 +17,10 @@ const router = createBrowserRouter([
         path: '/', 
         element: <Home />
       },
-      //,{
-      //   path: '/talent-acquisition',
-      //   element: <ExpertData/>
-      // },
+      ,{
+        path: '/expert-data',
+        element: <ExpertData/>
+      },
 
       {
         path: '/contact-us',
@@ -34,6 +34,7 @@ const router = createBrowserRouter([
         path: '/info-tech',
         element: <InfoTech/>
       },
+      
       
       // Add more routes here if needed
     ]

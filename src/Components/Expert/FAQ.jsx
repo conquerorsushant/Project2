@@ -35,9 +35,9 @@ const FAQ = () => {
   }, [activeIndex]);
 
   return (
-    <div className="relative text-white bg-primary lg:pt-36">
+    <div className={`relative text-white bg-primary ${faqExpanded? 'lg:pt-44 pt-60':'lg:pt-0'}`}>
       {/* FAQ Section Title */}
-      <div className={`relative z-20 p-8 ${faqExpanded ? 'translate-y-[-200px] lg:pt-28 pt-64' : ''}`}>
+      <div className={`relative z-20 p-8 ${faqExpanded ? 'lg:translate-y-[-200px] translate-y-[-280px] lg:pt-8 lg:py-4 py-14 ' : ''}`}>
         <h2 className="lg:text-4xl text-xl font-bold mb-4">Frequently Asked Questions (FAQs)</h2>
       </div>
 
@@ -50,7 +50,7 @@ const FAQ = () => {
         />
 
         {/* FAQ Content Container */}
-        <div className={`relative z-30 p-8  lg:pt-20 pt-14 transition-transform duration-300 ${faqExpanded ? 'translate-y-[-220px]' : ''}`}>
+        <div className={`relative z-30 px-8 pt-3  lg:pt-20  transition-transform duration-300 ${faqExpanded ? 'lg:translate-y-[-220px] translate-y-[-350px]  ' : ''}`}>
           <div className="space-y-4">
             {/* FAQ 1 */}
             <div className="relative mb-4 border-b bg-[#283B5E] rounded-lg border-gray-700">
@@ -87,7 +87,7 @@ const FAQ = () => {
             </div>
 
             {/* FAQ 2 */}
-            <div className="relative mb-8 border-b bg-[#283B5E] rounded-lg border-gray-700">
+            <div className={`relative border-b bg-[#283B5E] rounded-lg border-gray-700 ${faqExpanded?'pb-0':'lg:pt-0'}`}>
               <button
                 className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
                 onClick={() => handleToggle(1)}

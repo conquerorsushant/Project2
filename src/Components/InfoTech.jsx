@@ -142,60 +142,61 @@ const InfoTech = () => {
         </div>
   
         {/* Intelligence Section */}
-        <div className="intelligence  info_tech">
+        <div className="intelligence  border info_tech">
           <div className="container">
             <br />
             <h1 className="heading text-center mb-5 pb-sm-5">
               Level 2.0 Expertise
               <img className="ml-4" src="images/button-style.png" alt="" />
             </h1>
-            <div className="intelligence__row ">
-              <div className="intelligence__row-single four">
-                <div className="content lg:pl-4 pl-0 ">
+            <div className="intelligence__row   !gap-4   h-auto">
+            <a href='/expert-data'>
+              <div className="intelligence__row-single four h-fit   ">
+                <div className="content  ">
                   <h3 className='text-base '>Web designing</h3>
                   <span>and development</span>
                 </div>
-              </div>
-              <div className="intelligence__row-single two">
-                <div className="content lg:pl-4 pl-0">
+              </div></a>
+              <div className="intelligence__row-single two h-fit">
+                <div className="content ">
                   <h3 className='text-base '>Web Application</h3>
                   <span>Design & Development</span>
                 </div>
               </div>
-              <div className="intelligence__row-single three">
-                <div className="content lg:pl-4 pl-0">
+              <div className="intelligence__row-single three h-fit">
+                <div className="content ">
                   <h3 className='text-base '>Pre Developed Website</h3>
                   <span>or Application maintenance</span>
                 </div>
               </div>
-              <div className="intelligence__row-single one">
-                <div className="content lg:pl-4 pl-0 ">
+              <div className="intelligence__row-single one h-fit">
+                <div className="content  ">
                   <h3 className='text-base '>Software Development</h3>
                   <span>& testing</span>
                 </div>
               </div>
             </div>
-            <div className="intelligence__row">
-              <div className="intelligence__row-single four">
-                <div className="content lg:pl-4 pl-0">
+            <div className="intelligence__row  h-auto !gap-4  !mt-10 ">
+              <div className="intelligence__row-single four h-fit ">
+                <div className="content ">
                   <h3 className='text-base '>Bug Fixing Services</h3>
                   <span>for Application</span>
                 </div>
               </div>
-              <div className="intelligence__row-single two">
-                <div className="content lg:pl-4 pl-0">
+              <div className="intelligence__row-single two h-fit">
+                <div className="content ">
                   <h3 className='text-base '>Mobile Application</h3>
                   <span>Development</span>
                 </div>
               </div>
-              <div className="intelligence__row-single three">
-                <div className="content lg:pl-4 pl-0">
+              <div className="intelligence__row-single three mt-10">
+                <div className="content ">
                   <h3 className='text-base  '>Custom Application</h3>
                   <span>Development</span>
                 </div>
               </div>
-              <div className="intelligence__row-single one">
-                <div className="content lg:pl-4 pl-0">
+              <div className="intelligence__row-single one h-fit mt-7">
+                <div className="content">
                   <h3 className='text-base '>Application</h3>
                   <span>Modemization</span>
                 </div>
