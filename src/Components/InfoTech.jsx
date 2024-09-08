@@ -149,22 +149,22 @@ const InfoTech = () => {
               Level 2.0 Expertise
               <img className="ml-4" src="images/button-style.png" alt="" />
             </h1>
-            <div className="intelligence__row   !gap-4   h-auto">
+            <div className="intelligence__row   !gap-7   h-auto">
             <a href='/expert-data'>
               <div className="intelligence__row-single four h-fit   ">
-                <div className="content  ">
+                <div className="content pl-4 ">
                   <h3 className='text-base '>Web designing</h3>
                   <span>and development</span>
                 </div>
               </div></a>
               <div className="intelligence__row-single two h-fit">
-                <div className="content ">
+                <div className="content pl-3 ">
                   <h3 className='text-base '>Web Application</h3>
                   <span>Design & Development</span>
                 </div>
               </div>
               <div className="intelligence__row-single three h-fit">
-                <div className="content ">
+                <div className="content pl-2">
                   <h3 className='text-base '>Pre Developed Website</h3>
                   <span>or Application maintenance</span>
                 </div>
@@ -176,7 +176,7 @@ const InfoTech = () => {
                 </div>
               </div>
             </div>
-            <div className="intelligence__row  h-auto !gap-4  !mt-10 ">
+            <div className="intelligence__row  h-auto !gap-7  !mt-10 ">
               <div className="intelligence__row-single four h-fit ">
                 <div className="content ">
                   <h3 className='text-base '>Bug Fixing Services</h3>
@@ -184,13 +184,13 @@ const InfoTech = () => {
                 </div>
               </div>
               <div className="intelligence__row-single two h-fit">
-                <div className="content ">
+                <div className="content pl-2">
                   <h3 className='text-base '>Mobile Application</h3>
                   <span>Development</span>
                 </div>
               </div>
               <div className="intelligence__row-single three mt-10">
-                <div className="content ">
+                <div className="content pl-2 ">
                   <h3 className='text-base  '>Custom Application</h3>
                   <span>Development</span>
                 </div>

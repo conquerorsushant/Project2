@@ -10271,7 +10271,7 @@ header .navbar-nav li a {
   position: absolute;
   left: 0;
   top: 0;
-  width: 130px;
+  width: 150px;
   height: 130px;
   /* transform: rotate(45deg); */
   background-position: center;
@@ -10298,7 +10298,7 @@ header .navbar-nav li a {
   left: 0;
   transition: 0.1s;
   top: 0;
-  width: 130px;
+  width: 150px;
   height: 130px;
   /* transform: rotate(45deg); */
   opacity: 0.77
@@ -10375,7 +10375,7 @@ header .navbar-nav li a {
   font-size: 9px;
   line-height: 13px;
   display: block;
- 
+  padding-left: 10px;
 }
 
 
@@ -10383,7 +10383,7 @@ header .navbar-nav li a {
   padding-top: 36px;
   font-size: 13px;
   margin: 0;
-  padding-left: 3px;
+  padding-left: 10px;
   
 }
 

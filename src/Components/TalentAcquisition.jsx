@@ -192,7 +192,7 @@ const TalentAcquisition = () => {
             Our Recruitment Expertise
             <img className="ml-4" src={buttonStyleImage} alt="Button Style" />
           </h1>
-          <div className="intelligence__row  !gap-4   h-auto" style={{ marginTop: "-50px" }}>
+          <div className="intelligence__row  !gap-7   h-auto" style={{ marginTop: "-50px" }}>
             <div
               className="intelligence__row-single one"
               data-toggle="modal"
@@ -234,7 +234,7 @@ const TalentAcquisition = () => {
               </div>
             </div>
           </div>
-          <div className="intelligence__row !gap-4   h-auto !mt-10">
+          <div className="intelligence__row !gap-7   h-auto !mt-10">
             <div
               className="intelligence__row-single one"
               data-toggle="modal"
