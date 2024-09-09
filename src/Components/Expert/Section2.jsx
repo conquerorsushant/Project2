@@ -33,8 +33,8 @@ const Section2 = () => {
     <div className="bg-primary relative text-white">
       {/* First Section */}
    <div className="relative">
-  <div className="flex lg:flex-row flex-col lg:gap-10 gap-6 flex-wrap lg:pt-20 lg:px-28 p-2">
-    <div className="flex-1 pt-2">
+  <div className="flex lg:flex-row flex-col lg:gap-10 gap-6 flex-wrap lg:pt-20 lg:px-24 p-2">
+    <div className="flex-1 pt-2 lg:px-20">
       <div className="flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
         <img src={a1} alt="Data Lakes Icon" className="w-10 h-10 sm:w-auto sm:h-auto mt-2" />
         <div>
@@ -66,7 +66,7 @@ const Section2 = () => {
       </div>
     </div>
 
-    <div className="flex-1 pt-2">
+    <div className="flex-1 pt-2 lg:px-20">
       <div className=" pl-2 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
         <img src={a4} alt="Data Pipelines Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
         <div>
@@ -90,7 +90,7 @@ const Section2 = () => {
   </div>
 
   {/* Left1 Image Positioned on Right Side */}
-  <div className="absolute right-0 top-56 bottom-0 hidden lg:flex items-center justify-end z-10">
+  <div className="absolute right-0 top-64 bottom-0 hidden lg:flex items-center justify-end z-10">
     <img
       src={left1}
       alt="Left1"
@@ -173,7 +173,7 @@ const Section2 = () => {
           </div>
         <div className="flex lg:flex-row flex-col  lg:gap-12 flex-wrap  lg:px-36 p-2">
          
-          <div className="flex-1  lg:flex-col flex-row pt-2">
+          <div className="flex-1 lg:px-20  lg:flex-col flex-row pt-2">
             <div className="flex pt-2 pl-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
               {/* Shift text */}
               <img src={a6} alt="Customized Solutions Icon" className="w-10 h-10  mt-2 sm:w-auto sm:h-auto" />
@@ -218,7 +218,7 @@ const Section2 = () => {
             </div>
           </div>
 
-          <div className="flex-1">
+          <div className="flex-1 lg:px-20">
             <div className="flex pt-2 pl-2 items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8 mt-2">
               {/* Shift text */}
               <img src={a9} alt="Technology Expert Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
@@ -250,7 +250,7 @@ const Section2 = () => {
         </div>
 
         {/* Left2 Image Positioned on Right Side */}
-        <div className="absolute right-0 top-52
+        <div className="absolute right-0 top-72
          bottom-0 hidden lg:flex items-center justify-end z-10">
           <img
             src={left2}

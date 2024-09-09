@@ -7,6 +7,7 @@ import linesImage from '../assets/images/lines.png'
 import d1 from '../assets/images/d3.png'
 import d2 from '../assets/images/it2.png'
 import d3 from '../assets/images/it3.png'
+import { Link } from 'react-router-dom'
 
 const InfoTech = () => {
   

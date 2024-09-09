@@ -18,7 +18,7 @@ const Section3 = () => {
       {/* Section 1 */}
       <div className="relative">
         {/* Left Image */}
-        <div className="absolute left-0 top-56 w-1/4 h-full items-center justify-center hidden lg:block">
+        <div className="absolute left-0 top-72 w-1/4 h-full items-center justify-center hidden lg:block">
           <img src={img10} alt="Left Side Image" className="w-full h-auto" />
         </div>
 
@@ -29,7 +29,7 @@ const Section3 = () => {
             alt="Discovery Workshop"
             className="w-full sm:w-2/3 lg:w-1/2"
           />
-          <div className="flex flex-col lg:flex-row items-start px-2 lg:px-32">
+          <div className="flex flex-col lg:flex-row items-start px-2 lg:mx-44">
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:px-16">
               <h3 className="text-base lg:text-3xl font-semibold">
                 Discovery Workshop:
@@ -54,19 +54,19 @@ const Section3 = () => {
         </div>
 
         {/* Right Image */}
-        <div className="absolute right-0 top-56 w-1/4 h-full items-center justify-center hidden lg:block">
+        <div className="absolute right-0 top-72 w-1/4 h-full items-center justify-center hidden lg:block">
           <img src={img11} alt="Right Side Image" className="w-full h-auto" />
         </div>
 
         {/* Image Container 2 */}
-        <div className="flex flex-col items-center justify-center pt-8 px-4 sm:px-8">
+        <div className="flex flex-col items-center justify-center pt-8 px-4   lg:ml-16">
           <img
             src={img2}
             alt="Implementation & Deployment"
             className="w-full sm:w-2/3 lg:w-1/2"
           />
-          <div className="flex flex-col lg:flex-row items-start px-4 lg:px-24 lg:pl-54">
-            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:pl-28">
+          <div className="flex flex-col lg:flex-row items-start px-4 lg:mx-44 ">
+            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-2 lg:px-24  ">
               <h3 className="text-base lg:text-3xl font-semibold">
                 Implementation & Deployment:
               </h3>
@@ -129,7 +129,7 @@ const Section3 = () => {
       </div>
 
       {/* Section 3 with additional images */}
-      <div className="flex flex-col lg:flex-row px-2 sm:px-8 lg:px-12 pt-8 sm:pt-12">
+      <div className="flex flex-col lg:flex-row px-2 sm:px-8 lg:mx-24 pt-8 sm:pt-12">
         <div className="flex-1 px-4">
           <div className="flex items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8">
             <img

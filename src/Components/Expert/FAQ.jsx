@@ -35,9 +35,9 @@ const FAQ = () => {
   }, [activeIndex]);
 
   return (
-    <div className={`relative text-white bg-primary ${faqExpanded? 'lg:pt-44 pt-60':'lg:pt-0'}`}>
+    <div className={`relative text-white bg-primary  ${faqExpanded? 'lg:pt-44 pt-60':'lg:pt-0'}`}>
       {/* FAQ Section Title */}
-      <div className={`relative z-20 p-8 ${faqExpanded ? 'lg:translate-y-[-200px] translate-y-[-280px] lg:pt-8 lg:py-4 py-14 ' : ''}`}>
+      <div className={`relative z-20 lg:mx-20 p-8 ${faqExpanded ? 'lg:translate-y-[-200px] translate-y-[-280px] lg:pt-8 lg:py-4 py-14 ' : ''}`}>
         <h2 className="lg:text-4xl text-xl font-bold mb-4">Frequently Asked Questions (FAQs)</h2>
       </div>
 
@@ -50,8 +50,8 @@ const FAQ = () => {
         />
 
         {/* FAQ Content Container */}
-        <div className={`relative z-30 px-8 pt-3  lg:pt-20  transition-transform duration-300 ${faqExpanded ? 'lg:translate-y-[-220px] translate-y-[-350px]  ' : ''}`}>
-          <div className="space-y-4">
+        <div className={`relative z-30 px-8 pt-3 lg:mx-20 lg:pt-20  transition-transform duration-300 ${faqExpanded ? 'lg:translate-y-[-220px] translate-y-[-350px]  ' : ''}`}>
+          <div className="space-y-4 lg:pt-12">
             {/* FAQ 1 */}
             <div className="relative mb-4 border-b bg-[#283B5E] rounded-lg border-gray-700">
               <button
@@ -140,11 +140,11 @@ const FAQ = () => {
       {/* Contact Us Section */}
       <div className="relative h-[400px] ">
         <img src={img1} alt="Contact" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 flex flex-col items-center lg:px-80 justify-center text-center p-4 sm:p-8 bg-black bg-opacity-50">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:px-32 font-semibold mb-4">
+        <div className="absolute inset-0 flex flex-col items-center lg:px-80 justify-center text-center p-4 sm:p-8 ">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:mx-[400px] font-semibold mb-4">
             Ready to Unleash the Power of Your Data?
           </h2>
-          <p className="text-sm sm:text-lg mb-2">
+          <p className="text-sm sm:text-lg lg:mx-52 mb-2">
             At BrainsTerra Intelligence, we are passionate about empowering businesses with the transformative power of data. Contact us today to discuss your specific data engineering needs and embark on your journey towards data-driven success.
           </p>
           <button
