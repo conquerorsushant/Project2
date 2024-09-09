@@ -151,13 +151,13 @@ const InfoTech = () => {
               <img className="ml-4" src="images/button-style.png" alt="" />
             </h1>
             <div className="intelligence__row   !gap-7   h-auto">
-            <a href='/expert-data'>
+            <Link to='/expert-data'>
               <div className="intelligence__row-single four h-fit   ">
                 <div className="content pl-4 ">
                   <h3 className='text-base '>Web designing</h3>
                   <span>and development</span>
                 </div>
-              </div></a>
+              </div></Link>
               <div className="intelligence__row-single two h-fit">
                 <div className="content pl-3 ">
                   <h3 className='text-base '>Web Application</h3>
