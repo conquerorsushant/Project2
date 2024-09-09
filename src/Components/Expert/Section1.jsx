@@ -16,7 +16,7 @@ const Section1 = () => {
         </div>
 
         {/* Overlay image (p14) positioned absolutely and overlapping lines image */}
-        <div className="absolute lg:left-0 top-32 w-full lg:top-40 z-20">
+        <div className="absolute lg:left-0 top-36 w-full lg:top-52 z-20">
           <img src={lines} alt="Lines" className="w-full h-auto" />
         </div>
 
@@ -61,7 +61,7 @@ const Section1 = () => {
             </p>
           </div>
         </div>
-        <div className="lg:flex-1 flex justify-center items-center ">
+        <div className="lg:flex-1 my-4 flex justify-center items-center ">
           <img src={sec} alt="Section Image" className="w-1/2 lg:w-96 h-auto" />{" "}
           {/* Reduce image size */}
         </div>
