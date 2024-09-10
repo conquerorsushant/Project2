@@ -26,7 +26,7 @@ const Section2 = () => {
     setIsClicked(true);
     setTimeout(() => {
       setIsClicked(false);
-    }, 200); // Reset the click effect after 200ms
+    }, 200); 
   };
 
   return (
@@ -102,7 +102,7 @@ const Section2 = () => {
       src={left1}
       alt="Left1"
       className="lg:w-[270px] max-w-none h-auto object-contain"
-      style={{ right: '0', marginRight: '0px' }} // Ensure image is flush with the right side
+      style={{ right: '0', marginRight: '0px' }} 
     />
   </div>
 
@@ -115,12 +115,11 @@ const Section2 = () => {
 
       {/* Section with bg2 Image */}
       <div className="relative overflow-hidden">
-  {/* Adjust image size for small screens */}
+
   <img
   src={bg2}
   alt="Background"
-  className="w-full object-cover lg:h-[80vh] h-50vh " // Combine all classes into one
-   // 50vh for small screens via inline style
+  className="w-full object-cover lg:h-[80vh] h-50vh " 
 />
 
 

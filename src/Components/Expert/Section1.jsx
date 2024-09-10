@@ -1,9 +1,9 @@
 import React from "react";
 import p1 from "../../assets/images/Artboard13.png";
-import p14 from "../../assets/images/Artboard12.png"; // Import the p14 image
-import lines from "../../assets/images/lines.png"; // Import the lines image
-import sec from "../../assets/images/Artboard10.png"; // Import the sec image
-import bg from "../../assets/images/Artboard7.png"; // Import the bg image
+import p14 from "../../assets/images/Artboard12.png"; 
+import lines from "../../assets/images/lines.png"; 
+import sec from "../../assets/images/Artboard10.png"; 
+import bg from "../../assets/images/Artboard7.png"; 
 
 const Section1 = () => {
   return (
@@ -15,12 +15,12 @@ const Section1 = () => {
           <img src={p1} alt="Data Engineering" className="w-full h-auto" />
         </div>
 
-        {/* Overlay image (p14) positioned absolutely and overlapping lines image */}
+        {/* Overlay image (p14) */}
         <div className="absolute lg:left-0 top-36 w-full lg:top-52 z-20">
           <img src={lines} alt="Lines" className="w-full h-auto" />
         </div>
 
-        {/* Lines Image positioned absolutely and spanning full width */}
+        {/* Lines Image  */}
         <div className="absolute lg:top-[150px] top-20 lg:left-[70%] left-[60%] transform -translate-x-1/2 translate-y-8 lg:translate-y-12 z-20 lg:w-full w-[60%] lg:max-w-[600px]">
           <img
             src={p14}
@@ -30,7 +30,6 @@ const Section1 = () => {
           {/* Adjust size here */}
         </div>
 
-        {/* Text content */}
         <div className="absolute left-8 lg:left-72 pt-2  z-40 text-white text-start !lg:text-left lg:w-1/2">
           <h1 className="text-xl lg:text-4xl font-bold">
             BrainsTerra Intelligence:
