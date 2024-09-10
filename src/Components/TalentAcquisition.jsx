@@ -5,9 +5,9 @@ import teamIcon from "../assets/images/team.png";
 import quotsImage from "../assets/images/quots.png"; // Update the path to your assets
 import buttonStyleImage from "../assets/images/button-style.png"; // Update the path to your assets
 import linesImage from "../assets/images/lines.png";
-import rec1 from '../assets/images/rec1.png'
-import rec2 from '../assets/images/rec2.png'
-import rec3 from '../assets/images/rec3.png'
+import rec1 from "../assets/images/rec1.png";
+import rec2 from "../assets/images/rec2.png";
+import rec3 from "../assets/images/rec3.png";
 
 const TalentAcquisition = () => {
   const [showModal, setShowModal] = useState(false);
@@ -24,7 +24,6 @@ const TalentAcquisition = () => {
   const [showModal12, setShowModal12] = useState(false);
   const [showModal13, setShowModal13] = useState(false);
   const [showModal14, setShowModal14] = useState(false);
-
 
   const toggleModal1 = () => setShowModal(!showModal);
   const toggleModal2 = () => setShowModal2(!showModal2);
@@ -43,89 +42,85 @@ const TalentAcquisition = () => {
 
   return (
     <>
-      <div className=" font-sansation  recruitment" style={{ marginTop: "-5px" }}>
+      <div
+        className=" font-sansation  recruitment"
+        style={{ marginTop: "-5px" }}
+      >
         {/* <img src={linesImage} className=""/> */}
-        
-      <div className=" relative">
-      
-  <div className="banner__content lg:pl-24 px-2">
-    
-    <h1
-      className="banner__content-title banner_font banner-font-change mt-12"
-    >
-      We create a world of like-minded and coherent people for our clients.
-    </h1>
-    <h1
-      className="banner__content-title banner_font banner-font-change animate-second mt-5"
-    >
-      Our expert teams have in-depth knowledge of technologies <br />
-      and help companies build their HIGH-END engineering/technology <br />
-      Teams from scratch.
-    </h1>
-  </div>
-  
-  <div className="absolute inset-x-0 top-1/4 lg:top-48 z-20">
-      <img src={linesImage} alt="Lines" className="w-full h-auto" />
-    </div>
-  {/* "Why Choose Us" Section */}
-  <div className="whatwedo relative px-5 mt-20">
-    
-    <h1
-      className="heading text-center mb-5 recruit-head-change relative z-10"
-      style={{ marginTop: "135px" }}
-    >
-      Why Choose Us
-    </h1>
 
-    {/* Background lines image */}
-    
+        <div className=" relative">
+          <div className="banner__content lg:pl-24 px-2">
+            <h1 className="banner__content-title banner_font banner-font-change mt-12">
+              We create a world of like-minded and coherent people for our
+              clients.
+            </h1>
+            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-5">
+              Our expert teams have in-depth knowledge of technologies <br />
+              and help companies build their HIGH-END engineering/technology{" "}
+              <br />
+              Teams from scratch.
+            </h1>
+          </div>
 
-    <div className="row px-5 text-center mt-5 relative z-10">
-      <div className="col-md-4 mt-4 mt-md-0">
-        <div
-          className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
-          onClick={toggleModal1}
-        >
-          <img
-            className="icon"
-            src={rocktIcon}
-            alt="Exceptional Client-Promotion Skills"
-          />
-          <h3>Exceptional Client-Promotion Skills</h3>
+          <div className="absolute inset-x-0 top-1/4 lg:top-48 z-20">
+            <img src={linesImage} alt="Lines" className="w-full h-auto" />
+          </div>
+          {/* "Why Choose Us" Section */}
+          <div className="whatwedo relative px-5 mt-20">
+            <h1
+              className="heading text-center mb-5 recruit-head-change relative z-10"
+              style={{ marginTop: "135px" }}
+            >
+              Why Choose Us
+            </h1>
+
+            {/* Background lines image */}
+
+            <div className="row px-5 text-center mt-5 relative z-10">
+              <div className="col-md-4 mt-4 mt-md-0">
+                <div
+                  className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
+                  onClick={toggleModal1}
+                >
+                  <img
+                    className="icon"
+                    src={rocktIcon}
+                    alt="Exceptional Client-Promotion Skills"
+                  />
+                  <h3>Exceptional Client-Promotion Skills</h3>
+                </div>
+              </div>
+
+              <div className="col-md-4 mt-4 mt-md-0">
+                <div
+                  className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
+                  onClick={toggleModal2}
+                >
+                  <img
+                    className="icon"
+                    src={hiringIcon}
+                    alt="Off-Beat Hiring Approach"
+                  />
+                  <h3>Off-Beat Hiring Approach</h3>
+                </div>
+              </div>
+
+              <div className="col-md-4 mt-4 mt-md-0">
+                <div
+                  className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
+                  onClick={toggleModal3}
+                >
+                  <img
+                    className="icon"
+                    src={teamIcon}
+                    alt="Involvement of Multiple Teams"
+                  />
+                  <h3>Involvement of Multiple Teams</h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className="col-md-4 mt-4 mt-md-0">
-        <div
-          className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
-          onClick={toggleModal2}
-        >
-          <img
-            className="icon"
-            src={hiringIcon}
-            alt="Off-Beat Hiring Approach"
-          />
-          <h3>Off-Beat Hiring Approach</h3>
-        </div>
-      </div>
-
-      <div className="col-md-4 mt-4 mt-md-0">
-        <div
-          className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
-          onClick={toggleModal3}
-        >
-          <img
-            className="icon"
-            src={teamIcon}
-            alt="Involvement of Multiple Teams"
-          />
-          <h3>Involvement of Multiple Teams</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
       </div>
       <div className="synergy pt-0" style={{ marginTop: "1px" }}>
         <div className="container">
@@ -201,93 +196,96 @@ const TalentAcquisition = () => {
             <img className="ml-4" src={buttonStyleImage} alt="Button Style" />
           </h1>
           <div className="mr-6">
-          <div className="intelligence__row  !gap-7   h-auto" style={{ marginTop: "-50px" }}>
             <div
-              className="intelligence__row-single one  "
-              data-toggle="modal"
-              data-target="#test23"
-              onClick={toggleModal4}
+              className="intelligence__row  !gap-7   h-auto"
+              style={{ marginTop: "-50px" }}
             >
-              <div className="content">
-                <h3 className="">Executive Search</h3>
+              <div
+                className="intelligence__row-single one  "
+                data-toggle="modal"
+                data-target="#test23"
+                onClick={toggleModal4}
+              >
+                <div className="content">
+                  <h3 className="">Executive Search</h3>
+                </div>
+              </div>
+              <div
+                className="intelligence__row-single two"
+                data-toggle="modal"
+                data-target="#test1"
+                onClick={toggleModal5}
+              >
+                <div className="content">
+                  <h3 className="text-xs">Software</h3>
+                </div>
+              </div>
+              <div
+                className="intelligence__row-single five"
+                data-toggle="modal"
+                data-target="#test2"
+                onClick={toggleModal6}
+              >
+                <div className="content">
+                  <h3 className="text-xs">Mobile</h3>
+                </div>
+              </div>
+              <div
+                className="intelligence__row-single two"
+                data-toggle="modal"
+                data-target="#test6"
+                onClick={toggleModal7}
+              >
+                <div className="content">
+                  <h3 className="text-xs">Data</h3>
+                </div>
               </div>
             </div>
-            <div
-              className="intelligence__row-single two"
-              data-toggle="modal"
-              data-target="#test1"
-              onClick={toggleModal5}
-            >
-              <div className="content">
-                <h3  className="text-xs">Software</h3>
+            <div className="intelligence__row !gap-7   h-auto !mt-10">
+              <div
+                className="intelligence__row-single one"
+                data-toggle="modal"
+                data-target="#test16"
+                onClick={toggleModal8}
+              >
+                <div className="content">
+                  <h3 className="text-xs">Tech Infrastructure</h3>
+                </div>
+              </div>
+              <div
+                className="intelligence__row-single five"
+                data-toggle="modal"
+                data-target="#test7"
+                onClick={toggleModal9}
+              >
+                <div className="content">
+                  <h3 className="text-xs">Cybersecurity</h3>
+                </div>
+              </div>
+              <div
+                className="intelligence__row-single three"
+                data-toggle="modal"
+                data-target="#test8"
+                onClick={toggleModal10}
+              >
+                <div className="content">
+                  <h3 className="text-xs">Product & UX</h3>
+                </div>
+              </div>
+              <div
+                className="intelligence__row-single two"
+                data-toggle="modal"
+                data-target="#test9"
+                onClick={toggleModal11}
+              >
+                <div className="content">
+                  <h3 className="text-xs">Functional</h3>
+                </div>
               </div>
             </div>
-            <div
-              className="intelligence__row-single five"
-              data-toggle="modal"
-              data-target="#test2"
-              onClick={toggleModal6}
-            >
-              <div className="content">
-                <h3  className="text-xs">Mobile</h3>
-              </div>
-            </div>
-            <div
-              className="intelligence__row-single two"
-              data-toggle="modal"
-              data-target="#test6"
-              onClick={toggleModal7}
-            >
-              <div className="content">
-                <h3  className="text-xs">Data</h3>
-              </div>
-            </div>
-          </div>
-          <div className="intelligence__row !gap-7   h-auto !mt-10">
-            <div
-              className="intelligence__row-single one"
-              data-toggle="modal"
-              data-target="#test16"
-              onClick={toggleModal8}
-            >
-              <div className="content">
-                <h3  className="text-xs">Tech Infrastructure</h3>
-              </div>
-            </div>
-            <div
-              className="intelligence__row-single five"
-              data-toggle="modal"
-              data-target="#test7"
-              onClick={toggleModal9}
-            >
-              <div className="content">
-                <h3  className="text-xs">Cybersecurity</h3>
-              </div>
-            </div>
-            <div
-              className="intelligence__row-single three"
-              data-toggle="modal"
-              data-target="#test8"
-              onClick={toggleModal10}
-            >
-              <div className="content">
-                <h3  className="text-xs">Product & UX</h3>
-              </div>
-            </div>
-            <div
-              className="intelligence__row-single two"
-              data-toggle="modal"
-              data-target="#test9"
-              onClick={toggleModal11}
-            >
-              <div className="content">
-                <h3  className="text-xs">Functional</h3>
-              </div>
-            </div>
-          </div>
           </div>
         </div>
-        <img src={linesImage} className="w-100" alt="Lines" />
+        <img src={linesImage} className="w-100 mt-4 " alt="Lines" />
         <div className="number container" id="counter">
           <div className="bg-black mw-100 text-center">
             <div className="row">
@@ -296,7 +294,7 @@ const TalentAcquisition = () => {
                   <span className="count percent" data-count="500000">
                     0
                   </span>
-                  <h4  className="text-xs">Active Job Seekers</h4>
+                  <h4 className="text-xs">Active Job Seekers</h4>
                 </div>
               </div>
               <div className="col-md-3 mb-3 mb-md-0">
@@ -312,7 +310,7 @@ const TalentAcquisition = () => {
                   <span className="count percent" data-count="35">
                     0
                   </span>
-                  <h4  className="text-xs">Talent Acquisition Officers</h4>
+                  <h4 className="text-xs">Talent Acquisition Officers</h4>
                 </div>
               </div>
               <div className="col-md-3">
@@ -320,7 +318,7 @@ const TalentAcquisition = () => {
                   <span className="count percent" data-count="150">
                     0
                   </span>
-                  <h4  className="text-xs">Happy Clients</h4>
+                  <h4 className="text-xs">Happy Clients</h4>
                 </div>
               </div>
             </div>
@@ -651,44 +649,65 @@ const TalentAcquisition = () => {
           </div>
         </div>
       )}
-      
-		<h1 className="heading text-center">Our Cool Features <img className="ml-4" src="images/button-style.png" alt=""/></h1>
-		<div className="subfooter features">
-			<div className="container">
-				<div className="whatwedo row mt-0 text-center ">
-					<div className="col-md-4 mt-4 mt-md-0 px-md-5">
-						<div className="whatwedo_single flex flex-col items-center justify-center " data-toggle="modal" data-target="#rs1" onClick={toggleModal12}>
-							<img className="icon mb-5" src={rec1} alt=""/>
-							<h3 className="mt-4">We Build Solutions</h3>
-													</div>
-					</div>
-					<div className="col-md-4 mt-4 mt-md-0 px-md-5">
-						<div className="whatwedo_single flex flex-col items-center justify-center" data-toggle="modal" data-target="#rs2" onClick={toggleModal13}>
-							<img className="icon mb-5" src={rec2} alt=""/>
-							<h3 className="mt-4">Extensive Research </h3>
-							
-						</div>
-					</div>
-					<div className="col-md-4 mt-4 mt-md-0 px-md-5">
-						<div className="whatwedo_single flex flex-col items-center justify-center" data-toggle="modal" data-target="#rs3" onClick={toggleModal14}>
-							<img className="icon mb-5" src={rec3} alt=""/>
-							<h3 className="mt-4">Rich Data Bank</h3>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br/>
-		<div className="pt-5 text-center">
-			
-			<h1 className="heading mb-2" style={{fontSize: '18px'}}>We are driven by the highest standards of quality, integrity, trust, and commitment while providing quality professional services. </h1><h1 className="heading mb-2" style={{fontSize: '18px'}}>We aim to lay a foundation towards building a great relationship between the employer and employee.</h1>
-      <br/>
-      <br/>
-		</div>
 
-		
-    {showModal12 && (
+      <h1 className="heading text-center">
+        Our Cool Features{" "}
+        <img className="ml-4" src="images/button-style.png" alt="" />
+      </h1>
+      <div className="subfooter features">
+        <div className="container">
+          <div className="whatwedo row mt-0 text-center ">
+            <div className="col-md-4 mt-4 mt-md-0 px-md-5">
+              <div
+                className="whatwedo_single flex flex-col items-center justify-center "
+                data-toggle="modal"
+                data-target="#rs1"
+                onClick={toggleModal12}
+              >
+                <img className="icon mb-5" src={rec1} alt="" />
+                <h3 className="mt-4">We Build Solutions</h3>
+              </div>
+            </div>
+            <div className="col-md-4 mt-4 mt-md-0 px-md-5">
+              <div
+                className="whatwedo_single flex flex-col items-center justify-center"
+                data-toggle="modal"
+                data-target="#rs2"
+                onClick={toggleModal13}
+              >
+                <img className="icon mb-5" src={rec2} alt="" />
+                <h3 className="mt-4">Extensive Research </h3>
+              </div>
+            </div>
+            <div className="col-md-4 mt-4 mt-md-0 px-md-5">
+              <div
+                className="whatwedo_single flex flex-col items-center justify-center"
+                data-toggle="modal"
+                data-target="#rs3"
+                onClick={toggleModal14}
+              >
+                <img className="icon mb-5" src={rec3} alt="" />
+                <h3 className="mt-4">Rich Data Bank</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="pt-5 text-center">
+        <h1 className="heading mb-2 mx-4 lg:mx-2 " style={{ fontSize: "18px" }}>
+          We are driven by the highest standards of quality, integrity, trust,
+          and commitment while providing quality professional services.{" "}
+        </h1>
+        <h1 className="heading mb-2 mx-4 lg:mx-2" style={{ fontSize: "18px" }}>
+          We aim to lay a foundation towards building a great relationship
+          between the employer and employee.
+        </h1>
+        <br />
+        <br />
+      </div>
+
+      {showModal12 && (
         <div
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
@@ -705,20 +724,31 @@ const TalentAcquisition = () => {
                 </button>
               </div>
               <div className="modal-body p-0 flex items-center justify-center">
-		      	<img className="icon" src={rec1} alt=""/>
-		      </div>
-		      <div className="modal-header p-0 border-0 text-center">
-		        <h5 className="modal-title w-100 font-weight-bold">We Build Solutions</h5>
-		      </div>
-		      <div className="modal-body">
-		      	<p>We continuously invest in knowledge growth to ensure that we stay updated to provide our clients and talent with the information needed to excel in their businesses and roles, respectively. We ensure that our clients save money and time by providing them with end-to-end RPO services. With our innovative, ground-breaking ideas, detailed approach, and quality-oriented delivery of outsourced solutions, we assist our clients to fulfil their tasks quickly and efficiently.</p>
-		      </div>
+                <img className="icon" src={rec1} alt="" />
+              </div>
+              <div className="modal-header p-0 border-0 text-center">
+                <h5 className="modal-title w-100 font-weight-bold">
+                  We Build Solutions
+                </h5>
+              </div>
+              <div className="modal-body">
+                <p>
+                  We continuously invest in knowledge growth to ensure that we
+                  stay updated to provide our clients and talent with the
+                  information needed to excel in their businesses and roles,
+                  respectively. We ensure that our clients save money and time
+                  by providing them with end-to-end RPO services. With our
+                  innovative, ground-breaking ideas, detailed approach, and
+                  quality-oriented delivery of outsourced solutions, we assist
+                  our clients to fulfil their tasks quickly and efficiently.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       )}
 
-{showModal13 && (
+      {showModal13 && (
         <div
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
@@ -734,24 +764,38 @@ const TalentAcquisition = () => {
                   &times;
                 </button>
               </div>
-              
-          <div className="modal-body p-0 flex items-center justify-center">
-		      	<img className="icon" src={rec2} alt=""/>
-		      </div>
-		      <div className="modal-header p-0 border-0 text-center">
-		        <h5 className="modal-title w-100 font-weight-bold">Extensive Research to maintain Quality of Services</h5>
-		      </div>
-		      <div className="modal-body">
-		      	<p> Our persistent endeavour and commitment are to bring forth the market’s best talent to fulfil our esteemed clients’ hiring needs. For talent search assignments, we carry out extensive research of the target markets and companies to engage with the appropriate profiles, qualified professionals and help them through the end to end hiring process. We collect profiles from existing data and target a list of appropriate companies with intersecting domains by utilising our massive network. Our profile submission frequency is high. We do not accept, not even the slightest compromise over the profile quality as we follow a thoroughly vetted hiring process designed according to our clients’ expectations. 
 
-</p>
-		      </div>
+              <div className="modal-body p-0 flex items-center justify-center">
+                <img className="icon" src={rec2} alt="" />
+              </div>
+              <div className="modal-header p-0 border-0 text-center">
+                <h5 className="modal-title w-100 font-weight-bold">
+                  Extensive Research to maintain Quality of Services
+                </h5>
+              </div>
+              <div className="modal-body">
+                <p>
+                  {" "}
+                  Our persistent endeavour and commitment are to bring forth the
+                  market’s best talent to fulfil our esteemed clients’ hiring
+                  needs. For talent search assignments, we carry out extensive
+                  research of the target markets and companies to engage with
+                  the appropriate profiles, qualified professionals and help
+                  them through the end to end hiring process. We collect
+                  profiles from existing data and target a list of appropriate
+                  companies with intersecting domains by utilising our massive
+                  network. Our profile submission frequency is high. We do not
+                  accept, not even the slightest compromise over the profile
+                  quality as we follow a thoroughly vetted hiring process
+                  designed according to our clients’ expectations.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       )}
 
-{showModal14&& (
+      {showModal14 && (
         <div
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
@@ -768,20 +812,29 @@ const TalentAcquisition = () => {
                 </button>
               </div>
               <div className="modal-body p-0 flex items-center justify-center">
-		      	<img className="icon" src={rec3} alt=""/>
-		      </div>
-		      <div className="modal-header p-0 border-0 text-center">
-		        <h5 className="modal-title w-100 font-weight-bold">Rich Data Bank</h5>
-		      </div>
-				<div className="modal-body">
-					<p>We have a rich data bank consisting of professionals with excellent education backgrounds (IIT’S, NIT’S, IIIT’S, BITS & REC’S, and other top global institutes, etc.) and work experience who are specialised in their respective fields. Our selection process is based on a well-structured and systematic approach, which is proactive, detailed and target-oriented.</p>
-				</div>
+                <img className="icon" src={rec3} alt="" />
+              </div>
+              <div className="modal-header p-0 border-0 text-center">
+                <h5 className="modal-title w-100 font-weight-bold">
+                  Rich Data Bank
+                </h5>
+              </div>
+              <div className="modal-body">
+                <p>
+                  We have a rich data bank consisting of professionals with
+                  excellent education backgrounds (IIT’S, NIT’S, IIIT’S, BITS &
+                  REC’S, and other top global institutes, etc.) and work
+                  experience who are specialised in their respective fields. Our
+                  selection process is based on a well-structured and systematic
+                  approach, which is proactive, detailed and target-oriented.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       )}
-       {/* Modal for Exceptional Client-Promotion Skills */}
-       {showModal && (
+      {/* Modal for Exceptional Client-Promotion Skills */}
+      {showModal && (
         <div
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
@@ -799,115 +852,124 @@ const TalentAcquisition = () => {
               </div>
 
               <div className="modal-body p-0 flex items-center justify-center">
-		      	<img className="icon" src={rocktIcon} alt="" style={{height: '102px'}}/>
-		      </div>
-		      <div className="modal-header p-0 border-0 text-center">
-		        <h5 className="modal-title w-100 font-weight-bold">Exceptional Client-Promotion Skills</h5>
-		      </div>
-		      <div className="modal-body">
-		      	<p>If a talent is not well informed about the company’s business idea, teams, plans, culture, growth path, etc., then the chances are high that the offered talent will not join the company. To convey the correct information of the client in the proper manners, a talent acquisition team is required to have strong client promotion skills, and our teams have an exceptional command on it. </p>
-		      </div>
+                <img
+                  className="icon"
+                  src={rocktIcon}
+                  alt=""
+                  style={{ height: "102px" }}
+                />
+              </div>
+              <div className="modal-header p-0 border-0 text-center">
+                <h5 className="modal-title w-100 font-weight-bold">
+                  Exceptional Client-Promotion Skills
+                </h5>
+              </div>
+              <div className="modal-body">
+                <p>
+                  If a talent is not well informed about the company’s business
+                  idea, teams, plans, culture, growth path, etc., then the
+                  chances are high that the offered talent will not join the
+                  company. To convey the correct information of the client in
+                  the proper manners, a talent acquisition team is required to
+                  have strong client promotion skills, and our teams have an
+                  exceptional command on it.{" "}
+                </p>
+              </div>
             </div>
           </div>
         </div>
       )}
 
-          {/* Modal for Off-Beat Hiring Approach */}
-          {showModal2 && (
-            <div
-              className="modal fade show text-center "
-              style={{ display: "block", zIndex: 1050 }}
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="modal-header">
-                    <button
-                      type="button"
-                      className="btn-close"
-                      onClick={toggleModal2}
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div className="modal-body text-center flex flex-col items-center justify-center">
-                    <img
-                      className="icon"
-                      src={teamIcon}
-                      alt=""
-                      style={{ height: "102px" }}
-                    />
-                    <h5 className="modal-title">Off-Beat Hiring Approach</h5>
-                    <p>
-                      When it comes to hiring top talent in the market, most
-                      companies face many challenges like low rate of talent
-                      joining at the company, low rate of interview footfalls,
-                      and irrelevant profiles submission by the talent
-                      acquisition teams of recruitment vendors. And, most of the
-                      companies have settled to the idea that talent joining
-                      rates can’t be controlled, but in our case, this is not
-                      true. We follow some unique, systematic, and highly
-                      customised hiring approaches according to our clients’
-                      needs. These approaches enable us to deliver the talents
-                      to our clients on time without fail, saving time and our
-                      clients’ efforts.{" "}
-                    </p>
-                  </div>
-                </div>
+      {/* Modal for Off-Beat Hiring Approach */}
+      {showModal2 && (
+        <div
+          className="modal fade show text-center "
+          style={{ display: "block", zIndex: 1050 }}
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  onClick={toggleModal2}
+                >
+                  &times;
+                </button>
+              </div>
+              <div className="modal-body text-center flex flex-col items-center justify-center">
+                <img
+                  className="icon"
+                  src={teamIcon}
+                  alt=""
+                  style={{ height: "102px" }}
+                />
+                <h5 className="modal-title">Off-Beat Hiring Approach</h5>
+                <p>
+                  When it comes to hiring top talent in the market, most
+                  companies face many challenges like low rate of talent joining
+                  at the company, low rate of interview footfalls, and
+                  irrelevant profiles submission by the talent acquisition teams
+                  of recruitment vendors. And, most of the companies have
+                  settled to the idea that talent joining rates can’t be
+                  controlled, but in our case, this is not true. We follow some
+                  unique, systematic, and highly customised hiring approaches
+                  according to our clients’ needs. These approaches enable us to
+                  deliver the talents to our clients on time without fail,
+                  saving time and our clients’ efforts.{" "}
+                </p>
               </div>
             </div>
-          )}
+          </div>
+        </div>
+      )}
 
-          {/* Modal for Involvement of Multiple Teams */}
-          {showModal3 && (
-            <div
-              className="modal fade show text-center "
-              style={{ display: "block", zIndex: 1050 }}
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="modal-header">
-                    <button
-                      type="button"
-                      className="btn-close "
-                      onClick={toggleModal3}
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div className="modal-body text-center flex flex-col items-center justify-center">
-                    <img
-                      className="icon"
-                      src={hiringIcon}
-                      alt=""
-                      style={{ height: "102px" }}
-                    />
-                    <h5 className="modal-title">
-                      Involvement of Multiple Teams
-                    </h5>
-                    <p>
-                      Imagine that you are getting 15 profiles for a vacant
-                      position daily; out of 15 profiles, 13 profiles are highly
-                      irrelevant, but you are still screening them and writing
-                      feedback to the vendor on each profile. Doing this all,
-                      you waste a lot of time daily. You can save this time if
-                      the profile filtration part can be done strictly
-                      beforehand by the talent acquisition team of your vendor.
-                      To sort this challenge, subsequently, an efficient and
-                      systematic hiring model is, thus, required to enable a
-                      client to do the hiring at a fast pace, and that's where
-                      we play a significant role to save our client’s time by
-                      deploying three different teams of BrainsTerra
-                      Intelligence to do strict filtrations of each profile on
-                      parameters like skills, education, past work, culture
-                      fitment, and stability, etc.
-                    </p>
-                  </div>
-                </div>
+      {/* Modal for Involvement of Multiple Teams */}
+      {showModal3 && (
+        <div
+          className="modal fade show text-center "
+          style={{ display: "block", zIndex: 1050 }}
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close "
+                  onClick={toggleModal3}
+                >
+                  &times;
+                </button>
+              </div>
+              <div className="modal-body text-center flex flex-col items-center justify-center">
+                <img
+                  className="icon"
+                  src={hiringIcon}
+                  alt=""
+                  style={{ height: "102px" }}
+                />
+                <h5 className="modal-title">Involvement of Multiple Teams</h5>
+                <p>
+                  Imagine that you are getting 15 profiles for a vacant position
+                  daily; out of 15 profiles, 13 profiles are highly irrelevant,
+                  but you are still screening them and writing feedback to the
+                  vendor on each profile. Doing this all, you waste a lot of
+                  time daily. You can save this time if the profile filtration
+                  part can be done strictly beforehand by the talent acquisition
+                  team of your vendor. To sort this challenge, subsequently, an
+                  efficient and systematic hiring model is, thus, required to
+                  enable a client to do the hiring at a fast pace, and that's
+                  where we play a significant role to save our client’s time by
+                  deploying three different teams of BrainsTerra Intelligence to
+                  do strict filtrations of each profile on parameters like
+                  skills, education, past work, culture fitment, and stability,
+                  etc.
+                </p>
               </div>
             </div>
-          )}
-
-
+          </div>
+        </div>
+      )}
     </>
   );
 };
