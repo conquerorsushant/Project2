@@ -146,7 +146,7 @@ const InfoTech = () => {
         </div>
   
         {/* Intelligence Section */}
-        <div className="intelligence   info_tech">
+        <div className="intelligence mr-3 lg:mr-0  info_tech">
           <div className="container">
             <br />
             <h1 className="heading text-center mb-5 pb-sm-5">
@@ -181,7 +181,7 @@ const InfoTech = () => {
               </div>
             </div>
             <div className="intelligence__row  h-auto !gap-7  !mt-10 ">
-              <div className="intelligence__row-single four h-fit ">
+              <div className="intelligence__row-single five h-fit ">
                 <div className="content ">
                   <h3 className='text-base '>Bug Fixing Services</h3>
                   <span>for Application</span>
@@ -208,7 +208,7 @@ const InfoTech = () => {
             </div>
 
           </div>
-          <img src={linesImage} className="w-100" alt="Lines" />
+          <img src={linesImage} className="w-100 mt-5 lg:mt-0" alt="Lines" />
         </div>
   
         {/* Subfooter Section */}

@@ -10307,8 +10307,8 @@ header .navbar-nav li a {
 
 @media (max-width: 767.98px) {
   .intelligence__row-single:after {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 120px;
     left: 32px;
     top: 25px;
 
@@ -10317,7 +10317,7 @@ header .navbar-nav li a {
 
 .intelligence__row-single.one:before {
   background-image: url("../assets/images/rr1.png");
-  min-width: 100%;
+  min-width: 124%;
   
 }
 
@@ -10330,7 +10330,7 @@ header .navbar-nav li a {
 
 .intelligence__row-single.two:before {
   background-image: url("../assets/images/rr2.png");
-  min-width: 100%;
+  min-width: 124%;
 }
 
 .intelligence__row-single.two:after {
@@ -10341,7 +10341,7 @@ header .navbar-nav li a {
 
 .intelligence__row-single.three:before {
   background-image: url("../assets/images/rr3.png");
-  min-width: 100%;
+  min-width: 124%;
 }
 
 .intelligence__row-single.three:after {
@@ -10352,7 +10352,11 @@ header .navbar-nav li a {
 
 .intelligence__row-single.four:before {
   background-image: url("../assets/images/rr4.png");
-  min-width: 100%;
+  min-width: 148%;
+}
+.intelligence__row-single.five:before {
+  background-image: url("../assets/images/rr4.png");
+  min-width: 124%;
 }
 
 .intelligence__row-single.four:after {
@@ -10360,6 +10364,11 @@ header .navbar-nav li a {
   min-width: 100%;
   min-height: 81%;
 }
+.intelligence__row-single.five:after {
+  background-color: #FCC710;
+  min-width: 100%;
+  min-height: 81%;
+} 
 
 .intelligence__row-single.remove__bg:after {
   display: none

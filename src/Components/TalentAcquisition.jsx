@@ -43,7 +43,7 @@ const TalentAcquisition = () => {
 
   return (
     <>
-      <div className=" font-sansation banner recruitment" style={{ marginTop: "-5px" }}>
+      <div className=" font-sansation  recruitment" style={{ marginTop: "-5px" }}>
         {/* <img src={linesImage} className=""/> */}
         
       <div className=" relative">
@@ -200,9 +200,10 @@ const TalentAcquisition = () => {
             Our Recruitment Expertise
             <img className="ml-4" src={buttonStyleImage} alt="Button Style" />
           </h1>
+          <div className="mr-6">
           <div className="intelligence__row  !gap-7   h-auto" style={{ marginTop: "-50px" }}>
             <div
-              className="intelligence__row-single one"
+              className="intelligence__row-single one  "
               data-toggle="modal"
               data-target="#test23"
               onClick={toggleModal4}
@@ -222,7 +223,7 @@ const TalentAcquisition = () => {
               </div>
             </div>
             <div
-              className="intelligence__row-single four"
+              className="intelligence__row-single five"
               data-toggle="modal"
               data-target="#test2"
               onClick={toggleModal6}
@@ -254,7 +255,7 @@ const TalentAcquisition = () => {
               </div>
             </div>
             <div
-              className="intelligence__row-single four"
+              className="intelligence__row-single five"
               data-toggle="modal"
               data-target="#test7"
               onClick={toggleModal9}
@@ -283,6 +284,7 @@ const TalentAcquisition = () => {
                 <h3  className="text-xs">Functional</h3>
               </div>
             </div>
+          </div>
           </div>
         </div>
         <img src={linesImage} className="w-100" alt="Lines" />
