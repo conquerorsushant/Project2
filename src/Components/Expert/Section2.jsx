@@ -56,14 +56,21 @@ const Section2 = () => {
       </div>
 
       <div className="pt-6 flex items-start justify-center gap-4 lg:p-4 mx-2 sm:mx-8">
-        <img src={a3} alt="Cloud Migration Services Icon" className="w-10 h-10 mt-2 sm:w-auto sm:h-auto" />
-        <div>
-          <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">Cloud Migration Services:</h2>
-          <p className="text-sm sm:text-base">
-            We provide seamless cloud migration for your data infrastructure, leveraging platforms like AWS, Azure, or GCP. Our expertise extends to data lake, data warehouse, and data pipeline migration, ensuring a smooth and efficient transition.
-          </p>
-        </div>
-      </div>
+  <img 
+    src={a3} 
+    alt="Cloud Migration Services Icon" 
+    className="w-10 h-10 mt-2 sm:w-auto sm:h-auto opacity-50" 
+  />
+  <div>
+    <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
+      Cloud Migration Services:
+    </h2>
+    <p className="text-sm sm:text-base">
+      We provide seamless cloud migration for your data infrastructure, leveraging platforms like AWS, Azure, or GCP. Our expertise extends to data lake, data warehouse, and data pipeline migration, ensuring a smooth and efficient transition.
+    </p>
+  </div>
+</div>
+
     </div>
 
     <div className="flex-1 pt-2 lg:px-20">

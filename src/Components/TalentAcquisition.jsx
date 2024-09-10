@@ -44,80 +44,88 @@ const TalentAcquisition = () => {
   return (
     <>
       <div className=" font-sansation banner recruitment" style={{ marginTop: "-5px" }}>
-        <div className="container">
-          <div className="banner__content">
-            <h1
-              className="banner__content-title banner_font banner-font-change"
-              style={{ marginTop: "50px" }}
-            >
-              We create a world of like-minded and coherent people for our
-              clients.
-            </h1>
-            <h1
-              className="banner__content-title banner_font banner-font-change animate-second"
-              style={{ marginTop: "20px" }}
-            >
-              Our expert teams have in-depth knowledge of technologies <br />
-              and help companies build their HIGH-END engineering/technology{" "}
-              <br />
-              Teams from scratch.
-            </h1>
-          </div>
+        {/* <img src={linesImage} className=""/> */}
+        
+      <div className=" relative">
+      
+  <div className="banner__content lg:pl-24 px-2">
+    
+    <h1
+      className="banner__content-title banner_font banner-font-change mt-12"
+    >
+      We create a world of like-minded and coherent people for our clients.
+    </h1>
+    <h1
+      className="banner__content-title banner_font banner-font-change animate-second mt-5"
+    >
+      Our expert teams have in-depth knowledge of technologies <br />
+      and help companies build their HIGH-END engineering/technology <br />
+      Teams from scratch.
+    </h1>
+  </div>
+  
+  <div className="absolute inset-x-0 top-1/4 lg:top-48 z-20">
+      <img src={linesImage} alt="Lines" className="w-full h-auto" />
+    </div>
+  {/* "Why Choose Us" Section */}
+  <div className="whatwedo relative px-5 mt-20">
+    
+    <h1
+      className="heading text-center mb-5 recruit-head-change relative z-10"
+      style={{ marginTop: "135px" }}
+    >
+      Why Choose Us
+    </h1>
 
-          <div className="whatwedo px-5">
-            <h1
-              className="heading text-center mb-5 recruit-head-change"
-              style={{ marginTop: "135px" }}
-            >
-              Why Choose Us
-            </h1>
-            <div className="row px-5 text-center mt-5">
-              <div className="col-md-4 mt-4 mt-md-0">
-                <div
-                  className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
-                  onClick={toggleModal1}
-                >
-                  <img
-                    className="icon"
-                    src={rocktIcon}
-                    alt="Exceptional Client-Promotion Skills"
-                  />
-                  <h3>Exceptional Client-Promotion Skills</h3>
-                </div>
-              </div>
+    {/* Background lines image */}
+    
 
-              <div className="col-md-4 mt-4 mt-md-0">
-                <div
-                  className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
-                  onClick={toggleModal2}
-                >
-                  <img
-                    className="icon"
-                    src={hiringIcon}
-                    alt="Off-Beat Hiring Approach"
-                  />
-                  <h3>Off-Beat Hiring Approach</h3>
-                </div>
-              </div>
-
-              <div className="col-md-4 mt-4 mt-md-0">
-                <div
-                  className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
-                  onClick={toggleModal3}
-                >
-                  <img
-                    className="icon"
-                    src={teamIcon}
-                    alt="Involvement of Multiple Teams"
-                  />
-                  <h3>Involvement of Multiple Teams</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-
-         
+    <div className="row px-5 text-center mt-5 relative z-10">
+      <div className="col-md-4 mt-4 mt-md-0">
+        <div
+          className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
+          onClick={toggleModal1}
+        >
+          <img
+            className="icon"
+            src={rocktIcon}
+            alt="Exceptional Client-Promotion Skills"
+          />
+          <h3>Exceptional Client-Promotion Skills</h3>
         </div>
+      </div>
+
+      <div className="col-md-4 mt-4 mt-md-0">
+        <div
+          className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
+          onClick={toggleModal2}
+        >
+          <img
+            className="icon"
+            src={hiringIcon}
+            alt="Off-Beat Hiring Approach"
+          />
+          <h3>Off-Beat Hiring Approach</h3>
+        </div>
+      </div>
+
+      <div className="col-md-4 mt-4 mt-md-0">
+        <div
+          className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
+          onClick={toggleModal3}
+        >
+          <img
+            className="icon"
+            src={teamIcon}
+            alt="Involvement of Multiple Teams"
+          />
+          <h3>Involvement of Multiple Teams</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
       <div className="synergy pt-0" style={{ marginTop: "1px" }}>
         <div className="container">

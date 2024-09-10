@@ -195,63 +195,70 @@ const Home = () => {
             <img alt="" className="image-length float-image" src={t7} />
           </div>
         </div>
-        <p className="text-left p-2 para-font"></p>
+        <p className="text-left  para-font"></p>
       </div>
-      <div className="intelligence corevalue">
+      <div className="intelligence1 corevalue1">
         <div className="container">
           <h1 className="heading text-center mb-4 pb-sm-5 flex items-center justify-center">
             Our Core Values
             <img alt="" className="ml-4" src={t9} />
           </h1>
-          <div className="intelligence__row">
-            <div className="intelligence__row-single two">
-              <span className="line"></span>
+          <div className="intelligence1__row1">
+            <div className="intelligence1__row1-single1 two1">
+              
               <div className="content">
                 <h3>WISDOM</h3>
               </div>
             </div>
-            <div className="intelligence__row-single one">
-              <span className="line"></span>
+            <div className="intelligence1__row1-single1 one1">
+              
               <div className="content">
                 <h3>CREATIVITY</h3>
               </div>
             </div>
-            <div className="intelligence__row-single three">
-              <span className="line"></span>
+            <div className="intelligence1__row1-single1 three1">
+            
               <div className="content">
                 <h3>INTEGRITY</h3>
               </div>
             </div>
-            <div className="intelligence__row-single four">
-              <span className="line"></span>
+            <div className="intelligence1__row1-single1 four1">
+             
               <div className="content">
                 <h3>COURAGE</h3>
               </div>
             </div>
           </div>
         </div>
-        <div className="container mt-4 pt-5 text-center"></div>
+       
       </div>
-      <div className="intelligence corevalue grid_view">
-        <div className="intelligence__row">
-          <div className="intelligence__row-single two">
-            <img alt="" src={n1} />
-            <div className="content"></div>
-          </div>
-          <div className="intelligence__row-single one">
-            <img alt="" src={n2} />
-            <div className="content"></div>
-          </div>
-          <div className="intelligence__row-single three">
-            <img alt="" src={n3} />
-            <div className="content"></div>
-          </div>
-          <div className="intelligence__row-single four">
-            <img alt="" src={n4} />
-            <div className="content"></div>
-          </div>
+      <div className="flex  px-40 my-12">
+        <div className="w-1/4 lg:h-[2px] h-0 bg-red-500"></div>
+        <div className="w-1/4 lg:h-[2px] h-0 bg-blue-500"></div>
+        <div className="w-1/4 lg:h-[2px] h-0 bg-green-500"></div>
+        <div className="w-1/4 lg:h-[2px] h-0 bg-yellow-500"></div>
+      </div>
+      
+      <div className=" ">
+      <div className="grid grid-cols-2 lg:grid-cols-4">
+        <div className="relative">
+          <img src={n1} alt="Image 1" className="w-full h-60 object-cover" />
+          <div className="absolute inset-0 bg-blue-500  opacity-50"></div>
+        </div>
+        <div className="relative">
+          <img src={n2} alt="Image 2" className="w-full h-60 object-cover" />
+          <div className="absolute inset-0 bg-red-500 opacity-50"></div>
+        </div>
+        <div className="relative">
+          <img src={n3} alt="Image 3" className="w-full h-60 object-cover" />
+          <div className="absolute inset-0 bg-green-500 opacity-50"></div>
+        </div>
+        <div className="relative">
+          <img src={n4} alt="Image 4" className="w-full h-60 object-cover" />
+          <div className="absolute inset-0 bg-yellow-500 opacity-50"></div>
         </div>
       </div>
+    </div>
       <div className="container core-content">
         <h2 className="text-center mb-5 mt-4 font-reduce">
           We act with integrity, respect, trust, and great collaborative

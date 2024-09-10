@@ -15,8 +15,8 @@ const InfoTech = () => {
   
       <div>
         {/* Banner Section */}
-        <div className="banner it">
-          <div className="container">
+        <div className="">
+          <div className="relative lg:px-24 px-2">
             <div className="banner__content">
               <h1 className="banner__content-title banner-font-change mb-0">
                 We develop best-in-class<br />
@@ -26,6 +26,9 @@ const InfoTech = () => {
             </div>
             <br /><br /><br /><br />
             <div className="whatwedo px-5">
+            <div className="absolute inset-x-0 top-1/3 lg:top-28 z-20">
+      <img src={linesImage} alt="Lines" className="w-full h-auto" />
+    </div>
               <h1 className="heading text-center mb-5">Level 1.0 Expertise</h1>
               <div className="row px-5 text-center mt-5">
                 <div className="col-md-4 mt-4 mt-md-0">
