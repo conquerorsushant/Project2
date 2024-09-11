@@ -57,7 +57,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-			<img   src="images/lines.png"  className=" lines_graph w-100 mt-3"/>
+			<img   src={lines}  className=" lines_graph w-100 mt-3"/>
 		</div>
 
     <div  className="subfooter">

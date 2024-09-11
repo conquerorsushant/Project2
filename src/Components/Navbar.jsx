@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { FaBarsStaggered, FaXmark } from "react-icons/fa6";
+
+import { IoMenu } from "react-icons/io5";
 import logo from '../assets/images/logo.png'; 
 
 const Navbar = () => {
@@ -28,10 +29,10 @@ const Navbar = () => {
           {/* Desktop Nav Items */}
           <ul className='hidden md:flex items-center justify-center gap-12'>
             {navItems.map(({ path, title }) => (
-              <li key={path} className='text-sm font-bold hover:text-green-700'>
+              <li key={path} className='text-xs font-bold hover:text-green-700 pt-3'>
                 <NavLink 
                   to={path} 
-                  className={({ isActive }) => isActive ? "text-white" : "text-white"}
+                  className='hover:text-green-800 active:text-green-800 '
                 >
                   {title}
                 </NavLink>
@@ -42,7 +43,7 @@ const Navbar = () => {
           {/* Mobile Menu Toggle */}
           <div className='md:hidden block'>
             <button onClick={handleMenuToggler}>
-              {isMenuOpen ? <FaXmark className='w-5 h-5 text-white' /> : <FaBarsStaggered className='w-5 h-5 text-white' />}
+              {isMenuOpen ? <IoMenu className='w-5 h-5 text-white' /> : <IoMenu className='w-5 h-5 text-white' />}
             </button>
           </div>
         </nav>
@@ -56,12 +57,12 @@ const Navbar = () => {
             {/* Modal Content */}
             <div className="fixed inset-x-4 top-16 bg-primary border border-gray-700 px-2 pt-2 rounded-lg shadow-lg text-white w-[357px] mx-auto max-w-md z-50">
               {/* Mobile Nav Items */}
-              <ul className="space-y-3">
+              <ul className="space-y-3 py-2 px-3">
                 {navItems.map(({ path, title }) => (
-                  <li key={path} className="text-sm font-bold">
+                  <li key={path} className="text-xs font-bold hover:text-green-800 ">
                     <NavLink 
                       to={path} 
-                      className={({ isActive }) => isActive ? "text-white font-bold" : "text-white"}
+                      className='active:text-green-800 '
                       onClick={handleMenuToggler}  // Close menu on link click
                     >
                       {title}

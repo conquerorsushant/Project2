@@ -23,10 +23,14 @@ import f1 from "../assets/images/f1.png";
 import f2 from "../assets/images/f2.png";
 import f3 from "../assets/images/f3.png";
 const Home = () => {
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed1, setIsCollapsed1] = useState(false);
+  const [isCollapsed2, setIsCollapsed2] = useState(false);
 
-  const toggleCollapse = () => {
-    setIsCollapsed(!isCollapsed);
+  const toggleCollapse1 = () => {
+    setIsCollapsed1(!isCollapsed1);
+  };
+  const toggleCollapse2 = () => {
+    setIsCollapsed2(!isCollapsed2);
   };
 
   return (
@@ -38,7 +42,7 @@ const Home = () => {
 					</div>
     
     {/* Container for the image */}
-    <div className="absolute inset-x-0 top-1/3 lg:top-36 z-20">
+    <div className="absolute inset-x-0 top-[380px] lg:top-36 z-20">
       <img src={lines} alt="Lines" className="w-full h-auto" />
     </div>
   </div>
@@ -73,7 +77,7 @@ const Home = () => {
 
       <div className="container mt-0 mt-md-5" id="about-us">
       <p
-        className="font-weight-bold left-bold"
+        className="font-weight-bold left-bold px-3"
         style={{ textAlign: "center", fontSize: "18px" }}
       >
         BrainsTerra Intelligence has two separate and independent business
@@ -90,7 +94,7 @@ const Home = () => {
         <div className="col-md-6">
           <div className="d-inline">
             <br />
-            <h1 className="font-app">
+            <h1 className="font-app flex">
               <img alt="" className="arrimg" src={t2} />
               Tech Product Development Wing
             </h1>
@@ -107,7 +111,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="row">
+          <div className=" row ">
             {/* Column 1 with image */}
             <div className="col-md-4 col-4">
               <img alt="" className="col-smallimg" src={t3} />
@@ -121,14 +125,14 @@ const Home = () => {
             {/* Column 3 with "Read More" text and image */}
             <div
               className="col-md-4 col-4 cursor-pointer flex items-center justify-center"
-              onClick={toggleCollapse}
+              onClick={toggleCollapse1}
             >
-              <span className="cursor">READ MORE</span>
+              <span className="cursor flex">READ MORE</span>
               <img alt="" className="pl-1" src={t6} />
             </div>
 
             {/* Collapsible section */}
-            {isCollapsed && (
+            {isCollapsed1 && (
               <div className="col-12 mt-3 style-read">
                 <div className="readmore-boxx">
                   We are obsessed with perfection in our work, and we never
@@ -156,7 +160,7 @@ const Home = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="font-app">
+            <h1 className="font-app flex">
               <img alt="" className="arrimg" src={t2} />
               Start-up Talent Acquisition Wing
             </h1>
@@ -174,13 +178,13 @@ const Home = () => {
                 <img alt="" className="col-smallimg" src={t8} />
               </div>
               <div
-                className="col-md-4 col-4 cursor-pointer flex items-center justify-center"
-                onClick={toggleCollapse}
+                className="col-md-4 col-6 cursor-pointer flex items-center justify-center"
+                onClick={toggleCollapse2}
               >
                 <span className="cursor">READ MORE</span>
                 <img alt="" className="pl-1" src={t6} />
               </div>
-              {isCollapsed && (
+              {isCollapsed2 && (
                 <div className="col-12 mt-3 style-read">
                   <div className="readmore-boxx">
                     We have successfully helped 150+ top product-based start-up
@@ -197,7 +201,7 @@ const Home = () => {
         </div>
         <p className="text-left  para-font"></p>
       </div>
-      <div className="intelligence1 corevalue1">
+      <div className="intelligence1 corevalue1 mt-5">
         <div className="container">
           <h1 className="heading text-center mb-4 pb-sm-5 flex items-center justify-center">
             Our Core Values
@@ -243,19 +247,19 @@ const Home = () => {
       <div className="grid grid-cols-2 lg:grid-cols-4">
         <div className="relative">
           <img src={n1} alt="Image 1" className="w-full h-60 object-cover" />
-          <div className="absolute inset-0 bg-blue-500  opacity-50"></div>
+          <div className="absolute inset-0 bg-blue-400  opacity-65"></div>
         </div>
         <div className="relative">
           <img src={n2} alt="Image 2" className="w-full h-60 object-cover" />
-          <div className="absolute inset-0 bg-red-500 opacity-50"></div>
+          <div className="absolute inset-0 bg-red-400 opacity-65"></div>
         </div>
         <div className="relative">
           <img src={n3} alt="Image 3" className="w-full h-60 object-cover" />
-          <div className="absolute inset-0 bg-green-500 opacity-50"></div>
+          <div className="absolute inset-0 bg-green-400 opacity-65"></div>
         </div>
         <div className="relative">
           <img src={n4} alt="Image 4" className="w-full h-60 object-cover" />
-          <div className="absolute inset-0 bg-yellow-500 opacity-50"></div>
+          <div className="absolute inset-0 bg-yellow-400 opacity-65"></div>
         </div>
       </div>
     </div>
@@ -362,7 +366,7 @@ const Home = () => {
           </h1>
         </div>
       </div>
-      <div className="subfooter">
+      <div className="subfooter pb-4">
         <div className="container">
           <div className="whatwedo row mt-0 text-center">
             <div className="col-md-4 mt-4 mt-md-0 px-lg-5 flex flex-col items-center justify-center">

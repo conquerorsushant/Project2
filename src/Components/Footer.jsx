@@ -33,17 +33,17 @@ const Footer = () => {
                 <h3 className="text-xl">Quick Links</h3>
                 <ul>
                   <li>
-                    <Link to="index.html">
+                    <Link to="/">
                       <span><img alt="Home" src={ic1} /></span> Home
                     </Link>
                   </li>
                   <li>
-                    <Link to="index.html">
-                      <span><img alt="About Us" src={ic2} /></span> About Us
+                    <Link to="/">
+                      <span><img alt="About Us" src={ic2}  className="pl-1"/></span> About Us
                     </Link>
                   </li>
                   <li>
-                    <Link to="contact.html">
+                    <Link to="/contact-us">
                       <span><img alt="Contact Us" src={ic3} /></span> Contact Us
                     </Link>
                   </li>

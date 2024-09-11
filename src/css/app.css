@@ -185,7 +185,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  /* color: #007bff; */
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects
@@ -596,8 +596,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto
 }
@@ -640,7 +640,36 @@ pre code {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px
+  margin-left: -15px;
+   /* padding-left: 15px;
+  padding-right: 15px; */
+
+
+}
+.row1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-left: 155px;
+  padding-right: 155px;
+
+  padding-bottom: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .row1{
+    padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 0px;}
+}
+@media (max-width: 767.98px) {
+  .row{
+    padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;}
 }
 
 .no-gutters {
@@ -9617,7 +9646,8 @@ html {
 
 
 .heading {
-  font-size: 20px
+  font-size: 20px;
+  
 }
 
 .green_heading {
@@ -9768,18 +9798,18 @@ header .navbar-nav li a {
   position: relative
 }
 
-.banner:after {
+/* .banner:after {
   content: "";
   position: absolute;
   top: 70px;
   left: 0;
-  background: url(../images/lines.png);
+  background: url(../assets/images/lines.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left 38%;
   width: 100%;
   height: 100%
-}
+} */
 
 @media (max-width: 1199.98px) {
   .banner:after {
@@ -9795,9 +9825,16 @@ header .navbar-nav li a {
 }
 
 .banner__content {
-  margin-left: 70px;
+  margin-left: 130px;
   display: inline-block
 }
+@media (max-width: 767.98px) {
+  .banner__content {
+    margin-left: 70px;
+    
+  }
+}
+
 
 .banner__content-title {
   font-size: 22px;
@@ -9807,12 +9844,16 @@ header .navbar-nav li a {
 
 @media (max-width: 767.98px) {
   .banner__content-title {
-    font-size: 20px
+    font-size: 20px;
+    
   }
 }
 
+
 .whatwedo {
-  margin-top: 3rem
+  margin-top: 4rem;
+  
+  
 }
 
 @media (max-width: 1199.98px) {
@@ -9906,8 +9947,8 @@ header .navbar-nav li a {
 }
 
 .synergy {
-  margin-top: -115px;
-  text-align: center
+  margin-top: -135px;
+  text-align: center;
 }
 
 .bg-img {
@@ -10217,14 +10258,14 @@ header .navbar-nav li a {
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: -10px
+  margin-top: 40px
 }
 
 @media (max-width: 767.98px) {
   .intelligence__row {
     width: 100%;
     text-align: center;
-    margin: -20px -30px;
+    margin:14px -53px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap
   }
@@ -10254,10 +10295,11 @@ header .navbar-nav li a {
 @media (max-width: 767.98px) {
   .intelligence__row-single {
     min-height: 100px;
-    margin: 0 10px;
+    margin: 0 25px 0 15px;
     min-width: 100px;
     height: 147px;
-    max-width: 50%;
+    max-width: 30%;
+    margin-bottom: -40px;
     
   }
 }
@@ -10288,6 +10330,7 @@ header .navbar-nav li a {
     height: 120px;
     left: 32px;
     top: 25px;
+   
     
   }
 }
@@ -10307,10 +10350,11 @@ header .navbar-nav li a {
 
 @media (max-width: 767.98px) {
   .intelligence__row-single:after {
-    width: 150px;
+    width: 175px;
     height: 120px;
     left: 32px;
     top: 25px;
+    
 
   }
 }
@@ -10320,6 +10364,14 @@ header .navbar-nav li a {
   min-width: 124%;
   
 }
+@media (max-width: 767.98px){
+  .intelligence__row-single.one:before {
+    background-image: url("../assets/images/rr1.png");
+    width: 175px;
+    
+  }
+}
+
 
 
 .intelligence__row-single.one:after {
@@ -10333,6 +10385,13 @@ header .navbar-nav li a {
   min-width: 124%;
 }
 
+@media (max-width: 767.98px){
+  .intelligence__row-single.two:before {
+    background-image: url("../assets/images/rr2.png");
+    width: 175px;
+  }
+}
+
 .intelligence__row-single.two:after {
   background-color: #4380FF;
   min-width: 100%;
@@ -10344,6 +10403,12 @@ header .navbar-nav li a {
   min-width: 124%;
 }
 
+@media (max-width: 767.98px){
+  .intelligence__row-single.three:before {
+    background-image: url("../assets/images/rr3.png");
+    width: 175px;
+  }
+}
 .intelligence__row-single.three:after {
   background-color: #29B480;
   min-width: 100%;
@@ -10352,18 +10417,34 @@ header .navbar-nav li a {
 
 .intelligence__row-single.four:before {
   background-image: url("../assets/images/rr4.png");
-  min-width: 148%;
+  min-width: 100%;
 }
-.intelligence__row-single.five:before {
+@media (max-width: 767.98px) {
+.intelligence__row-single.four:before {
   background-image: url("../assets/images/rr4.png");
-  min-width: 124%;
+  width: 175px;
 }
+}
+
 
 .intelligence__row-single.four:after {
   background-color: #FCC710;
   min-width: 100%;
   min-height: 81%;
 }
+
+.intelligence__row-single.five:before {
+  background-image: url("../assets/images/rr4.png");
+  min-width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .intelligence__row-single.five:before {
+    background-image: url("../assets/images/rr4.png");
+    min-width: 147%;
+  }
+}
+
 .intelligence__row-single.five:after {
   background-color: #FCC710;
   min-width: 100%;
@@ -10388,7 +10469,7 @@ header .navbar-nav li a {
   font-size: 9px;
   line-height: 13px;
   display: block;
-  padding-left: 10px;
+  padding-left: 23px;
 }
 
 
@@ -10396,7 +10477,7 @@ header .navbar-nav li a {
   padding-top: 36px;
   font-size: 13px;
   margin: 0;
-  padding-left: 20px;
+  padding-left: 24px;
   
 }
 
@@ -10404,14 +10485,15 @@ header .navbar-nav li a {
 @media (max-width: 767.98px){
   .intelligence__row .content span{
     font-size: 12px;
-    padding-left: 70px;
+    padding-left: 120px;
+    padding-bottom: 10px;
   }
 }
 
 @media (max-width: 767.98px) {
   .intelligence__row .content h3 {
     font-size: 15px;
-    padding-left: 70px;
+    padding-left: 120px;
   }
 }
 
@@ -10795,7 +10877,8 @@ header .navbar-nav li a {
 
 @media (max-width: 767.98px) {
   .black-text {
-    font-size: 16px
+    font-size: 16px;
+    
   }
 }
 
@@ -11168,12 +11251,12 @@ header {
 }
 
 h1.banner__content-title.banner-font-change {
-  font-size: 20px !important;
-  font-weight: 500 !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
 }
 
 .synergy.pt-0.digital-margin-top {
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 h1.banner__content-title.banner_font {

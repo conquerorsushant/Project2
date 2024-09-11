@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import rocktIcon from "../assets/images/rockt.png"; // Update the path to your assets
 import hiringIcon from "../assets/images/hiring.png"; // Update the path to your assets
 import teamIcon from "../assets/images/team.png";
@@ -40,6 +40,46 @@ const TalentAcquisition = () => {
   const toggleModal13 = () => setShowModal13(!showModal13);
   const toggleModal14 = () => setShowModal14(!showModal14);
 
+
+  const [counters, setCounters] = useState({
+    activeJobSeekers: 0,
+    profilesProcessed: 0,
+    talentAcquisitionOfficers: 0,
+    happyClients: 0
+  });
+
+  // Function to animate counters
+  const animateCounter = (endValue, key) => {
+    let startValue = 0;
+    const duration = 2000; // Duration in milliseconds
+    const stepTime = 10;
+    const steps = duration / stepTime;
+    const stepValue = endValue / steps;
+
+    const interval = setInterval(() => {
+      startValue += stepValue;
+      if (startValue >= endValue) {
+        clearInterval(interval);
+        setCounters(prevCounters => ({
+          ...prevCounters,
+          [key]: endValue
+        }));
+      } else {
+        setCounters(prevCounters => ({
+          ...prevCounters,
+          [key]: Math.floor(startValue)
+        }));
+      }
+    }, stepTime);
+  };
+
+  useEffect(() => {
+    animateCounter(500000, 'activeJobSeekers');
+    animateCounter(500, 'profilesProcessed');
+    animateCounter(35, 'talentAcquisitionOfficers');
+    animateCounter(150, 'happyClients');
+  }, []);
+
   return (
     <>
       <div
@@ -62,13 +102,13 @@ const TalentAcquisition = () => {
             </h1>
           </div>
 
-          <div className="absolute inset-x-0 top-1/4 lg:top-48 z-20">
+          <div className="absolute inset-x-0 top-[330px] lg:top-48 z-0">
             <img src={linesImage} alt="Lines" className="w-full h-auto" />
           </div>
           {/* "Why Choose Us" Section */}
           <div className="whatwedo relative px-5 mt-20">
             <h1
-              className="heading text-center mb-5 recruit-head-change relative z-10"
+              className="heading text-center  recruit-head-change relative z-10"
               style={{ marginTop: "135px" }}
             >
               Why Choose Us
@@ -127,7 +167,7 @@ const TalentAcquisition = () => {
           <br />
           <br />
           <div className="synergy__content">
-            <div style={{ maxWidth: "fit-content" }}>
+            <div style={{ maxWidth: "fit-content" }} className="px-2">
               <p style={{ textAlign: "justify" }}>
                 We are a team of proficient and well-qualified professionals who
                 have in-depth knowledge of technology. Our focus is on
@@ -195,10 +235,10 @@ const TalentAcquisition = () => {
             Our Recruitment Expertise
             <img className="ml-4" src={buttonStyleImage} alt="Button Style" />
           </h1>
-          <div className="mr-6">
+          <div className="flex flex-col">
             <div
               className="intelligence__row  !gap-7   h-auto"
-              style={{ marginTop: "-50px" }}
+             
             >
               <div
                 className="intelligence__row-single one  "
@@ -241,7 +281,7 @@ const TalentAcquisition = () => {
                 </div>
               </div>
             </div>
-            <div className="intelligence__row !gap-7   h-auto !mt-10">
+            <div className="intelligence__row !gap-7   h-auto ">
               <div
                 className="intelligence__row-single one"
                 data-toggle="modal"
@@ -287,43 +327,43 @@ const TalentAcquisition = () => {
         </div>
         <img src={linesImage} className="w-100 mt-4 " alt="Lines" />
         <div className="number container" id="counter">
-          <div className="bg-black mw-100 text-center">
-            <div className="row">
-              <div className="col-md-3 mb-3 mb-md-0">
-                <div className="number__single two">
-                  <span className="count percent" data-count="500000">
-                    0
-                  </span>
-                  <h4 className="text-xs">Active Job Seekers</h4>
-                </div>
-              </div>
-              <div className="col-md-3 mb-3 mb-md-0">
-                <div className="number__single one">
-                  <span className="count percent" data-count="500">
-                    0
-                  </span>
-                  <h4>Profiles processed per day</h4>
-                </div>
-              </div>
-              <div className="col-md-3 mb-3 mb-md-0">
-                <div className="number__single three">
-                  <span className="count percent" data-count="35">
-                    0
-                  </span>
-                  <h4 className="text-xs">Talent Acquisition Officers</h4>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="number__single four">
-                  <span className="count percent" data-count="150">
-                    0
-                  </span>
-                  <h4 className="text-xs">Happy Clients</h4>
-                </div>
-              </div>
+      <div className="bg-black mw-100 text-center">
+        <div className="row">
+          <div className="col-md-3 mb-3 mb-md-0">
+            <div className="number__single two">
+              <span className="count percent">
+                {counters.activeJobSeekers.toLocaleString()}
+              </span>
+              <h4 className="text-xs">Active Job Seekers</h4>
+            </div>
+          </div>
+          <div className="col-md-3 mb-3 mb-md-0">
+            <div className="number__single one">
+              <span className="count percent">
+                {counters.profilesProcessed.toLocaleString()}
+              </span>
+              <h4>Profiles processed per day</h4>
+            </div>
+          </div>
+          <div className="col-md-3 mb-3 mb-md-0">
+            <div className="number__single three">
+              <span className="count percent">
+                {counters.talentAcquisitionOfficers.toLocaleString()}
+              </span>
+              <h4 className="text-xs">Talent Acquisition Officers</h4>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="number__single four">
+              <span className="count percent">
+                {counters.happyClients.toLocaleString()}
+              </span>
+              <h4 className="text-xs">Happy Clients</h4>
             </div>
           </div>
         </div>
+      </div>
+    </div>
       </div>
       {showModal4 && (
         <div
@@ -650,44 +690,44 @@ const TalentAcquisition = () => {
         </div>
       )}
 
-      <h1 className="heading text-center">
+      <h1 className="heading text-center flex items-center justify-center">
         Our Cool Features{" "}
-        <img className="ml-4" src="images/button-style.png" alt="" />
+        <img className="ml-4" src={buttonStyleImage} alt="" />
       </h1>
-      <div className="subfooter features">
+      <div className="subfooter features pt-2">
         <div className="container">
           <div className="whatwedo row mt-0 text-center ">
             <div className="col-md-4 mt-4 mt-md-0 px-md-5">
               <div
-                className="whatwedo_single flex flex-col items-center justify-center "
+                className="!pb-16 whatwedo_single flex flex-col items-center justify-center "
                 data-toggle="modal"
                 data-target="#rs1"
                 onClick={toggleModal12}
               >
-                <img className="icon mb-5" src={rec1} alt="" />
-                <h3 className="mt-4">We Build Solutions</h3>
+                <img className="icon " src={rec1} alt="" />
+                <h3 className="">We Build Solutions</h3>
               </div>
             </div>
             <div className="col-md-4 mt-4 mt-md-0 px-md-5">
               <div
-                className="whatwedo_single flex flex-col items-center justify-center"
+                className="!pb-20 whatwedo_single flex flex-col items-center justify-center"
                 data-toggle="modal"
                 data-target="#rs2"
                 onClick={toggleModal13}
               >
-                <img className="icon mb-5" src={rec2} alt="" />
-                <h3 className="mt-4">Extensive Research </h3>
+                <img className="icon " src={rec2} alt="" />
+                <h3 className="">Extensive Research </h3>
               </div>
             </div>
             <div className="col-md-4 mt-4 mt-md-0 px-md-5">
               <div
-                className="whatwedo_single flex flex-col items-center justify-center"
+                className="!pb-20 whatwedo_single flex flex-col items-center justify-center"
                 data-toggle="modal"
                 data-target="#rs3"
                 onClick={toggleModal14}
               >
-                <img className="icon mb-5" src={rec3} alt="" />
-                <h3 className="mt-4">Rich Data Bank</h3>
+                <img className="icon " src={rec3} alt="" />
+                <h3 className="">Rich Data Bank</h3>
               </div>
             </div>
           </div>
