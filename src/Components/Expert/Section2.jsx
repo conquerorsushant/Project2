@@ -257,31 +257,34 @@ const Section2 = () => {
 
         {/* Left2 Image Positioned on Right Side */}
         <div className="absolute right-0 top-72
-         bottom-0 hidden lg:flex items-center justify-end z-10">
-          <img
-            src={left2}
-            alt="Left1"
-            className="lg:w-[270px] max-w-none h-auto object-contain"
-            style={{ right: '0', marginRight: '0px' }} // Ensure image is flush with the right side
-          />
-        </div>
+     bottom-0 hidden lg:flex items-center justify-end z-10">
+  <img
+    src={left2}
+    alt="Left1"
+    className="lg:w-[270px] max-w-none h-auto object-contain"
+    style={{ right: '0', marginRight: '0px' }} // Ensure image is flush with the right side
+  />
+</div>
 
-      
-        
+<div className="relative mt-11">
+  <img 
+    src={bg3} 
+    alt="Background" 
+    className="w-full bottom-6 left-0 h-[300px] relative z-10 opacity-70" 
+    // Add the opacity here to make the background image partially transparent
+  />
+  
+  {/* Text on bg3 Image */}
+  <div className="absolute inset-0 flex flex-col items-center justify-center z-10 lg:mb-10 mb-10 text-center">
+    <h2 className="text-xl sm:text-3xl font-bold">
+      A Seamless Onboarding Experience
+    </h2>
+    <p className="text-sm sm:text-xl font-semibold lg:mt-4 max-w-2xl mx-auto rounded-lg shadow-lg">
+      We prioritize ensuring a smooth and efficient onboarding experience for every client. Our process typically involves the following steps:
+    </p>
+  </div>
+</div>
 
-        <div className="relative mt-11 ">
-          <img src={bg3} alt="Background" className="w-full  bottom-6 left-0 h-[300px] relative z-10" />
-          
-          {/* Text on bg3 Image */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center z-10 lg:mb-10 mb-10 text-center">
-            <h2 className="text-xl sm:text-3xl font-bold ">
-              A Seamless Onboarding Experience
-            </h2>
-            <p className="text-sm sm:text-xl font-semibold lg:mt-4 max-w-2xl mx-auto rounded-lg shadow-lg">
-              We prioritize ensuring a smooth and efficient onboarding experience for every client. Our process typically involves the following steps:
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
