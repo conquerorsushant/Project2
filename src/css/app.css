@@ -10478,6 +10478,7 @@ header .navbar-nav li a {
   font-size: 13px;
   margin: 0;
   padding-left: 24px;
+  line-height: 13px;
   
 }
 
@@ -10494,6 +10495,7 @@ header .navbar-nav li a {
   .intelligence__row .content h3 {
     font-size: 15px;
     padding-left: 120px;
+    line-height: 20px;
   }
 }
 

@@ -231,7 +231,7 @@ const TalentAcquisition = () => {
       <div className="intelligence ">
         <div className="container">
           <br />
-          <h1 className="heading text-center mb-5 pb-8 flex items-center justify-center">
+          <h1 className="heading text-center mb-5  flex items-center justify-center">
             Our Recruitment Expertise
             <img className="ml-4" src={buttonStyleImage} alt="Button Style" />
           </h1>
