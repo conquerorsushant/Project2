@@ -50,9 +50,9 @@ const Home = () => {
   <div className="container banner-top-content">
     <div className="row">
       <div className="col-md-6"></div>
-      <div className="col-md-6">
-        <div className="black-bg-text">
-          <p className="text-left brain-text p-3">
+      <div className="col-md-6 ">
+        <div className="black-bg-text ">
+          <p className="text-left brain-text p-3 ">
             BrainsTerra Intelligence enables technical and non-technical CEOs/Founders to start, and excel in their businesses by helping them in building their high-quality engineering teams, and developing technology products for them. Companies can outsource all IT and tech development work from us until they have their own tech teams.
           </p>
         </div>
