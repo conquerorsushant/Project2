@@ -153,7 +153,7 @@ const FAQ = () => {
               isClicked ? "scale-110" : ""
             } hover:scale-125`}
           >
-            <img src={contact} alt="Contact Us" className="w-5 h-5 sm:w-6 sm:h-6" />
+            <img src={contact} alt="Contact Us" className="w-auto h-auto sm:w-auto sm:h-auto" />
             <span>Contact Us</span>
           </button>
         </div>
