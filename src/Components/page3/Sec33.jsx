@@ -11,8 +11,12 @@ import img9 from "../../assets/images/Artboard6.png";
 import img10 from "../../assets/images/Artboard14.png";
 import img11 from "../../assets/images/Artboard11.png";
 import lines from "../../assets/images/lines.png";
+import page1Content from '../../content/Page1cont'; 
 
-const Section3 = () => {
+
+const Sec33 = () => {
+    const content = page1Content.sec3;
+
   return (
     <div className="bg-primary relative text-white">
       {/* Section 1 */}
@@ -32,22 +36,18 @@ const Section3 = () => {
           <div className="flex flex-col lg:flex-row items-start px-2 lg:mx-44">
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:px-16">
               <h3 className="text-base lg:text-3xl font-semibold">
-                Discovery Workshop:
+               {content.d1}
               </h3>
               <p className="pt-2 lg:pt-6 text-base lg:text-xl">
-                We initiate the collaboration with a comprehensive discovery
-                workshop to understand your business goals, data landscape, and
-                specific challenges.
+               {content.d11}
               </p>
             </div>
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4 z-10">
               <h3 className="text-base lg:text-3xl font-semibold">
-                Solution Design:
+              {content.d2}
               </h3>
               <p className="pt-4 lg:pt-6 text-base lg:text-xl">
-                Based on our findings, we design a customized data engineering
-                solution, outlining the technologies, tools, and processes
-                tailored to your needs.
+              {content.d22}
               </p>
             </div>
           </div>
@@ -68,20 +68,18 @@ const Section3 = () => {
           <div className="flex flex-col lg:flex-row items-start px-4 lg:mx-44 ">
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-2 lg:px-24  ">
               <h3 className="text-base lg:text-3xl font-semibold">
-                Implementation & Deployment:
+              {content.d3}
               </h3>
               <p className="pt-4 lg:pt-6 text-base lg:text-xl">
-                Our team implements the agreed-upon solution, ensuring seamless
-                integration with your existing infrastructure.
+              {content.d33}
               </p>
             </div>
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start lg:px-16 lg:ml-20">
               <h3 className="text-base lg:text-3xl font-semibold">
-                Proof of Concept (POC):
+              {content.d4}
               </h3>
               <p className="pt-4 lg:pt-6 text-base lg:text-xl">
-                To mitigate risk and ensure alignment, we can develop a focused
-                POC to demonstrate the effectiveness of our proposed solution.
+              {content.d44}
               </p>
             </div>
           </div>
@@ -96,12 +94,10 @@ const Section3 = () => {
           />
           <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start p-4">
             <h3 className="text-base lg:text-3xl font-semibold">
-              Ongoing Support
+            {content.d5}
             </h3>
             <p className="pt-4 lg:pt-6 text-base lg:text-xl">
-              We provide ongoing support to maintain your data engineering
-              infrastructure, address any emerging challenges, and optimize
-              performance.
+            {content.d55}
             </p>
           </div>
         </div>
@@ -119,11 +115,10 @@ const Section3 = () => {
         {/* Text on background image */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-30 text-center px-4 sm:px-2">
           <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold p-2 lg:px-96 sm:p-4">
-            How We Can Help You: Solutions for Every Business Size
+          {content.e1}
           </h2>
           <p className="text-base sm:text-xl lg:text-2xl font-semibold mt-2 sm:mt-4 max-w-full sm:max-w-2xl mx-auto">
-            Our data engineering expertise caters to the specific needs of
-            businesses at every stage of their growth journey:
+          {content.e11}
           </p>
         </div>
       </div>
@@ -139,11 +134,15 @@ const Section3 = () => {
             />
             <div className="text-lg">
               <h2 className="text-base lg:text-3xl font-semibold">MSMEs:</h2>
-              <p className="mt-2 text-base lg:text-xl">
-                We help you establish a solid data foundation using
-                cost-effective solutions on cloud platforms. This empowers you
-                to unlock valuable insights from your data and make data-driven
-                decisions for early-stage growth.
+              <h2 className="text-sm lg:text-xl font-semibold">{content.f1}</h2>
+              <p className="mt-2 text-base lg:text-sm">
+              {content.f11}
+              </p>
+              <h2 className="text-sm lg:text-xl font-semibold">
+              {content.f2}
+              </h2>
+              <p className="mt-2 text-base lg:text-sm">
+              {content.f22}
               </p>
             </div>
           </div>
@@ -154,32 +153,52 @@ const Section3 = () => {
               className="w-8 h-8 sm:w-auto sm:h-auto"
             />
             <div className="text-lg">
-              <h2 className="text-base lg:text-3xl font-semibold">
-                Enterprises:
+              <h2 className="text-base lg:text-3xl font-semibold">Startups:</h2>
+              <h2 className="text-sm lg:text-xl font-semibold">
+              {content.f3}
               </h2>
-              <p className="mt-2 text-base lg:text-xl">
-                We provide comprehensive data engineering solutions to manage
-                your complex data ecosystem. Our expertise spans data lakehouse
-                architecture for housing both structured and unstructured data.
+              <p className="mt-2 text-base lg:text-sm">
+              {content.f33}
+              </p>
+              <h2 className="text-sm lg:text-xl font-semibold">
+              {content.f4}
+              </h2>
+              <p className="mt-2 text-base lg:text-sm">
+              {content.f44}
               </p>
             </div>
           </div>
         </div>
 
         <div className="flex-1 px-4">
-          <div className="flex pl-2 items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8 mt-4">
+          <div className="flex pl-2 items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8 ">
             <img
               src={img8}
               alt="In-House Training Icon"
               className="w-8 h-8 sm:w-auto sm:h-auto"
             />
             <div className="text-lg">
-              <h2 className="text-base lg:text-3xl font-semibold">Startups:</h2>
-              <p className="mt-2 text-base lg:text-xl">
-                We assist you in scaling your data infrastructure efficiently as
-                you experience rapid data growth. We ensure your data pipelines
-                are robust and can handle increasing data volumes while
-                maintaining data quality.
+              <h2 className="text-base lg:text-3xl font-semibold">
+                Enterprises:
+              </h2>
+
+              <h2 className="text-sm lg:text-xl font-semibold">
+              {content.f5}
+              </h2>
+              <p className="mt-2 text-base lg:text-sm">
+              {content.f55}
+              </p>
+              <h2 className="text-sm lg:text-xl font-semibold">
+              {content.f6}
+              </h2>
+              <p className="mt-2 text-base lg:text-sm">
+              {content.f66}
+              </p>
+              <h2 className="text-sm lg:text-xl font-semibold">
+              {content.f7}
+              </h2>
+              <p className="mt-2 text-base lg:text-sm">
+              {content.f77}
               </p>
             </div>
           </div>
@@ -201,4 +220,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default Sec33;

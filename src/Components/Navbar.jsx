@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { FaBarsStaggered, FaXmark } from "react-icons/fa6";
+
+import { IoMenu } from "react-icons/io5";
 import logo from '../assets/images/logo.png'; 
 
 const Navbar = () => {
@@ -11,58 +12,67 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { path: "/about", title: "ABOUT US" },
+    { path: "/", title: "ABOUT US" },
     { path: "/talent-acquisition", title: "TALENT ACQUISITION WING" },
     { path: "/info-tech", title: "INFORMATION TECHNOLOGY WING" },
-    { path: "/contact", title: "CONTACT US" }
+    { path: "/contact-us", title: "CONTACT US" }
   ];
 
   return (
-    <div className='font-sansation fixed left-0 right-0 top-0 bg-gray-900 z-50'>
+    <div className='font-sansation fixed left-0 right-0 top-0 bg-secondary z-50'>
       <header className='bg-secondary max-w-screen-2xl container mx-auto xl:px-36 px-4'>
-        <nav className='flex justify-between items-center py-4'>
-          <Link to="/" className='flex items-center gap-2 text-2xl '>
+        <nav className='flex justify-between items-center py-3'>
+          <Link to="/" className='flex items-center gap-2 text-2xl'>
             <img src={logo} className='h-14' alt="logo" />
           </Link>
 
-          <ul className='hidden md:flex gap-12'>
+          {/* Desktop Nav Items */}
+          <ul className='hidden md:flex items-center justify-center gap-12'>
             {navItems.map(({ path, title }) => (
-              <li key={path} className='text-sm text-white'>
-                <NavLink to={path} className={({ isActive }) => isActive ? "text-white font-bold" : "text-white"}>
+              <li key={path} className='text-xs font-bold hover:text-green-700 pt-3'>
+                <NavLink 
+                  to={path} 
+                  className='hover:text-green-800 active:text-green-800 '
+                >
                   {title}
                 </NavLink>
               </li>
             ))}
           </ul>
 
+          {/* Mobile Menu Toggle */}
           <div className='md:hidden block'>
             <button onClick={handleMenuToggler}>
-              {isMenuOpen ? <FaXmark className='w-5 h-5 text-white' /> : <FaBarsStaggered className='w-5 h-5 text-white' />}
+              {isMenuOpen ? <IoMenu className='w-5 h-5 text-white' /> : <IoMenu className='w-5 h-5 text-white' />}
             </button>
           </div>
         </nav>
 
-        {/* Overlay for mobile menu */}
-        <div className={`fixed inset-0 bg-black bg-opacity-50 z-40 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} onClick={handleMenuToggler}></div>
-        <div className={`fixed top-0 left-0 w-64 h-full bg-gray-800 shadow-md z-50 transform transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-          <div className="flex items-center justify-between px-4 py-3 border-b border-gray-700">
-            <Link to="/" className='flex items-center gap-2 text-2xl text-white'>
-              <img src={logo} className='h-6' alt="logo" />
-            </Link>
-            <button onClick={handleMenuToggler}>
-              <FaXmark className='w-5 h-5 text-white' />
-            </button>
-          </div>
-          <ul className='mt-4'>
-            {navItems.map(({ path, title }) => (
-              <li key={path} className='text-base text-white py-1 px-4'>
-                <NavLink to={path} className={({ isActive }) => isActive ? "text-white font-bold" : "text-white"} onClick={handleMenuToggler}>
-                  {title}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {/* Mobile Menu Modal */}
+        {isMenuOpen && (
+          <>
+            {/* Background Overlay */}
+            <div className="fixed inset-0 bg-black bg-opacity-50 z-40" onClick={handleMenuToggler}></div>
+
+            {/* Modal Content */}
+            <div className="fixed inset-x-4 top-16 bg-primary border border-gray-700 px-2 pt-2 rounded-lg shadow-lg text-white w-[357px] mx-auto max-w-md z-50">
+              {/* Mobile Nav Items */}
+              <ul className="space-y-3 py-2 px-3">
+                {navItems.map(({ path, title }) => (
+                  <li key={path} className="text-xs font-bold hover:text-green-800 ">
+                    <NavLink 
+                      to={path} 
+                      className='active:text-green-800 '
+                      onClick={handleMenuToggler}  // Close menu on link click
+                    >
+                      {title}
+                    </NavLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </>
+        )}
       </header>
     </div>
   );
