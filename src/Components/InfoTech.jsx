@@ -167,12 +167,14 @@ const InfoTech = () => {
                   <span>and development</span>
                 </div>
               </div></Link>
+              <Link to='/page2'>
               <div className="intelligence__row-single two h-fit">
                 <div className="content ">
                   <h3 className='text-base '>Web Application</h3>
                   <span>Design & Development</span>
                 </div>
               </div>
+              </Link>
               <div className="intelligence__row-single three h-fit">
                 <div className="content ">
                   <h3 className='text-base '>Pre Developed Website</h3>
