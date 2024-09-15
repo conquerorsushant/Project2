@@ -167,7 +167,7 @@ const InfoTech = () => {
                   <span>and development</span>
                 </div>
               </div></Link>
-              <Link to='/page2'>
+              <Link to='/page1'>
               <div className="intelligence__row-single two h-fit">
                 <div className="content ">
                   <h3 className='text-base '>Web Application</h3>
@@ -175,44 +175,57 @@ const InfoTech = () => {
                 </div>
               </div>
               </Link>
+              <Link to='/page2'>
               <div className="intelligence__row-single three h-fit">
                 <div className="content ">
                   <h3 className='text-base '>Pre Developed Website</h3>
                   <span>or Application maintenance</span>
                 </div>
               </div>
+              </Link >
+              <Link to='/page3'>
               <div className="intelligence__row-single one h-fit">
                 <div className="content  ">
                   <h3 className='text-base '>Software Development</h3>
                   <span>& testing</span>
                 </div>
               </div>
+              </Link>
             </div>
+            
             <div className="intelligence__row  h-auto !gap-7   ">
+              <Link to='/page4'>
               <div className="intelligence__row-single five h-fit ">
                 <div className="content ">
                   <h3 className='text-base '>Bug Fixing Services</h3>
                   <span>for Application</span>
                 </div>
               </div>
+              </Link>
+              <Link to='/page5'>
               <div className="intelligence__row-single two h-fit">
                 <div className="content ">
                   <h3 className='text-base '>Mobile Application</h3>
                   <span>Development</span>
                 </div>
               </div>
+              </Link>
+              <Link to='/page6'>
               <div className="intelligence__row-single three mt-10">
                 <div className="content ">
                   <h3 className='text-base  '>Custom Application</h3>
                   <span>Development</span>
                 </div>
               </div>
+              </Link>
+              <Link to='/page7'>
               <div className="intelligence__row-single one h-fit mt-7">
                 <div className="content">
                   <h3 className='text-base '>Application</h3>
                   <span>Modemization</span>
                 </div>
               </div>
+              </Link>
             </div>
             </div>
           </div>

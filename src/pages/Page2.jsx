@@ -1,18 +1,19 @@
-import React from 'react'
-import Sec1 from '../Components/Page2/Sec1'
-import Sec2 from '../Components/Page2/Sec2'
-import Sec3 from '../Components/Page2/Sec3'
-import Faq2 from '../Components/Page2/Faq2'
+// src/pages/Page.jsx
+import React from 'react';
+import Sec31 from '../Components/page3/Sec31';
+import Sec32 from '../Components/page3/Sec32';
+import Sec33 from '../Components/page3/Sec33';
+import Faq3 from '../Components/page3/Faq3';
 
-const Page2 = () => {
+const Page2 = ({ content }) => {
   return (
     <div>
-      <Sec1/>
-      <Sec2/>
-      <Sec3/>
-      <Faq2/>
+      <Sec31 content={content.sec1} />
+      <Sec32 content={content.sec2} />
+      <Sec33 content={content.sec3} />
+      <Faq3 content={content.faq} />
     </div>
-  )
-}
+  );
+};
 
-export default Page2
+export default Page2;
