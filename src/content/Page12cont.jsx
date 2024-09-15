@@ -1,146 +1,161 @@
 const page12Content = {
     sec1: {
       title: <p>BrainsTerra Intelligence:</p>,
-      t1: <h1 className="text-xl lg:text-4xl font-bold">Power Up Productivity with</h1>,
-      t2: <h1 className="text-3xl lg:text-8xl font-bold">Custom Desktopp</h1>,
-      t3: <h1 className="text-3xl lg:text-8xl font-bold">Application</h1>,
-      t4: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
+      t1: <h1 className="text-xl lg:text-4xl font-bold">Empowering Your Content with</h1>,
+      t2: <h1 className="text-3xl lg:text-8xl font-bold">Powerful</h1>,
+      t3: <h1 className="text-3xl lg:text-8xl font-bold">CMS</h1>,
+      t4: <h1 className="text-3xl lg:text-8xl font-bold">Solutions</h1>,
       t5: (
         <p>
-         At BrainsTerra Intelligence, we empower businesses of all sizes – MSMEs, startups, and enterprises – to
-  streamline workflows, enhance efficiency, and achieve operational excellence through our custom
-  desktop application development services. Our team of skilled developers, designers, and project
-  managers works collaboratively with you to understand your unique business processes and challenges.
-  We then translate those insights into powerful desktop applications that automate repetitive tasks,
-  improve data security, and ultimately propel your business forward.
+        In today&#39;s digital age, creating and managing engaging online content is crucial for businesses of all
+sizes. At BrainsTerra Intelligence, we are your trusted partner for crafting exceptional Content
+Management System (CMS) solutions that empower you to take control of your website content,
+streamline workflows, and achieve your digital marketing goals. Our skilled team of developers,
+designers, and content strategists collaborates closely with you to understand your unique needs and
+build a user-friendly CMS environment that fosters efficient content creation, editing, and publishing.
         </p>
       ),
       t6: (
         <h3 className="text-xl lg:text-3xl font-bold mb-4 text-center">
-        Building Robust Desktop Applications:
+       Building Flexible and Scalable CMS Solutions:
         </h3>
       ),
       t7: (
         <p className="text-xl lg:text-3xl font-bold mb-4 text-center">
           {" "}
-          Tailored Technology Solutions
+          A Technology-Driven Approach
         </p>
       ),
       t8: (
         <p className="text-lg lg:text-xl lg:text-center text-center">
-         We leverage a comprehensive suite of technologies and frameworks to deliver custom desktop
-         applications that perfectly align with your specific needs:
+         We leverage a powerful combination of technologies and frameworks to deliver robust and adaptable
+         CMS solutions:
         </p>
       ),
     },
     sec2: {
-      p1: <p>Programming Languages:</p>,
-      p2: <p>User Interface (UI) Frameworks:</p>,
-      p3: <p>Database Integration:</p>,
-      p4: <p>Security &amp; Performance Optimization:</p>,
-      p5: <p>API Integration::</p>,
+      p1: <p>Popular CMS Platforms:</p>,
+      p2: <p>Front-End Development: </p>,
+      p3: <p>Back-End Development:</p>,
+      p4: <p>API Integrations:</p>,
+      p5: <p>Custom Content Types &amp; Taxonomies:</p>,
+      p6: <p>Responsive Design &amp; Mobile Optimization:</p>,
       
   
       p11: (
         <p>
-         Our developers are proficient in various programming languages
-  suitable for desktop application development, including C++, C#, Java, Python (with frameworks
-  like PyQt or Kivy), and .NET. We select the most appropriate language based on the application&#39;s
-  complexity and desired functionalities.
+        We are proficient in leading open-source CMS platforms like
+WordPress, Drupal, and Joomla, as well as cloud-based solutions like Adobe Experience
+Manager (AEM) or Contentful. Our expertise allows us to recommend the most suitable platform
+based on your project requirements, scalability needs, and budget.
         </p>
       ),
       p22: (
         <p>
-         We utilize UI frameworks like Qt, WPF, or Windows Forms to
-         design intuitive and user-friendly interfaces that cater to your specific workflows and user needs.
+        We utilize modern front-end frameworks like React, Angular, or Vue.js
+to create visually appealing and user-friendly interfaces for your CMS, ensuring a seamless
+content editing experience for authorized users.
         </p>
       ),
       p33: (
         <p>
-          We ensure seamless integration with your existing databases (MySQL,
-  SQL Server, Oracle, etc.) to enable efficient data storage, retrieval, and manipulation within your
-  desktop application.
+        Our developers leverage secure and scalable back-end technologies
+like Python (Django), Node.js (Express), or PHP (Laravel) to ensure smooth content management
+functionalities, user access controls, and seamless integration with your existing website
+infrastructure.
         </p>
       ),
       p44: (
         <p>
-         Security is paramount. We adhere to best practices for
-  secure coding and data encryption to safeguard your sensitive information. Additionally, we
-  prioritize performance optimization to ensure your application runs smoothly and efficiently.
+         We excel at integrating third-party APIs and services to extend functionalities
+within your CMS. This may include CRM integrations for managing customer interactions,
+marketing automation tools for streamlined content promotion, or analytics platforms for
+measuring content performance.
         </p>
       ),
       p55: (
         <p>
-         Our team excels in integrating your desktop application with third-party APIs
-         and services to extend functionalities and connect with other business-critical systems.
+        We can develop custom content types and taxonomies
+within your CMS to cater to your specific content needs. This allows for organized content
+management for various content formats, such as blog posts, product descriptions, landing
+pages, or case studies.
+        </p>
+      ),
+     
+      p66: (
+        <p>
+        We prioritize responsive design principles to
+ensure your CMS and the content it manages are accessible and display optimally across various
+devices, from desktops to tablets and smartphones.
         </p>
       ),
      
       q2: <p>Why Choose</p>,
       q3: <p> BrainsTerra Intelligence</p>,
-      q1: <p>for Your Desktop Application Development Needs??</p>,
-      s1: <p>Understanding Your Needs:</p>,
+      q1: <p>for Your CMS Needs?</p>,
+      s1: <p>Strategic Content Planning:</p>,
       s11: (
         <p>
-         We prioritize understanding your business processes, pain points,
-  and desired outcomes through a comprehensive needs assessment. This ensures the desktop
-  application is tailored to address your specific challenges and optimize your workflows.
+        We collaborate with you to develop a comprehensive content
+        strategy that aligns with your overall business goals and target audience.
         </p>
       ),
-      s2: <p>Focus on User Experience:</p>,
+      s2: <p>User-Centric Design:</p>,
       s22: (
         <p>
-        We believe in creating applications that are not only powerful but
-  also intuitive and user-friendly. Our UI/UX designers prioritize a user-centric approach, ensuring a
-  smooth learning curve and high user adoption rates.
+        We design user-friendly CMS interfaces that prioritize ease of use and
+        intuitive navigation for authorized users, ensuring efficient content creation and management.
         </p>
       ),
       s33: (
         <p>
-         Depending on your needs, we can develop desktop
-  applications that run on various operating systems (Windows, macOS, Linux) or focus on a
-  specific platform for optimal performance.
+         We integrate SEO best practices within your CMS to improve your content&#39;s
+         discoverability in search engines and drive organic traffic to your website.
         </p>
       ),
-      s3: <p>Cross-Platform Compatibility (Optional):</p>,
-      s4: <p>Robust Project Management:</p>,
+      s3: <p>SEO Optimization:</p>,
+      s4: <p>Security &amp; Scalability:</p>,
       s44: (
         <p>
-         Our experienced project managers ensure clear communication,
-         efficient development lifecycles, and on-time project delivery within your budget.
+        We prioritize robust security measures to protect your CMS and website
+content. Our solutions are built with scalability in mind, ensuring they can accommodate your
+growing content needs.
         </p>
       ),
-      s5: <p>Proven Track Record:</p>,
+      s5: <p>Ongoing Support &amp; Maintenance: We:</p>,
       s55: (
         <p>
-         We boast a successful portfolio of desktop applications that have
-  delivered significant productivity gains and improved operational efficiency for our clients.
-  ○ Increased operational efficiency by 35% for a leading logistics company through a
-  custom desktop application for route optimization and delivery management.
-  ○ Streamlined data entry and reporting for a retail chain with a desktop application that
-  reduced processing time by 40%.
-  ○ Developed a feature-rich desktop application for a financial services company that
-  resulted in a 20% increase in customer onboarding efficiency.
+        We offer ongoing support and maintenance services to keep
+your CMS secure, up-to-date, and functioning optimally. We can also assist with content creation
+and management tasks as needed.
         </p>
       ),
-      s6: <p>Cost-Effective Solutions: </p>,
+      s6: <p>Proven Track Record: </p>,
       s66: (
         <p>
-        We leverage our in-house training programs and efficient processes
-  to deliver cost-effective desktop application development solutions without compromising on
-  quality. We offer customized plans that fit your budget and project scope.
+       Record: We boast a successful portfolio of CMS development projects that have
+helped businesses streamline content management processes, improve content quality, and
+achieve their digital marketing goals.
+○ Successfully developed a content management system (CMS) for a leading e-commerce
+platform in the fashion industry, resulting in a 30% increase in content creation efficiency
+and a 25% reduction in time spent on content updates.
+
+○ Built a custom CMS for a major non-profit organization, enabling them to streamline
+volunteer management and improve communication with their donor base by 40%.
+○ Developed a scalable CMS solution for a news and media company, facilitating a 50%
+increase in content publishings while simplifying website maintenance processes.
         </p>
       ),
      
       smooth: (
         <p>
-         A Streamlined Onboarding Experience: Your Desktop Application Journey Starts Here
+        A Smooth Onboarding Experience: Your CMS Journey Starts Here
         </p>
       ),
       smoothp: (
         <p>
-          We prioritize a clear and efficient onboarding process to ensure a positive experience throughout your
-          desktop application development journey:
+         We prioritize a clear and efficient onboarding process to ensure a positive experience throughout your
+         CMS development journey with BrainsTerra Intelligence:
         </p>
       ),
     },
@@ -148,128 +163,168 @@ const page12Content = {
       d1: <p>Discovery &amp; Requirements Gathering:</p>,
       d11: (
         <p>
-        We begin with an in-depth discovery workshop to delve
-  deep into your business processes, identify areas for improvement, and define the functionalities
-  your desktop application requires.
+       We begin with an in-depth discovery workshop to
+understand your content management needs, website functionalities, and desired user
+experience within the CMS.
         </p>
       ),
-      d2: <p>System Design &amp; User Interface (UI) Prototyping:</p>,
+      d2: <p>CMS Platform Selection:</p>,
       d22: (
         <p>
-        Our team works collaboratively with you to
-  design the application&#39;s architecture, user workflows, and create a high-fidelity UI prototype that
-  allows you to visualize the application&#39;s look and feel.
+        Based on your requirements and project scope, we recommend the
+most suitable CMS platform that aligns with your technical expertise, budget, and future
+scalability needs.
         </p>
       ),
-      d3: <p>Development &amp; Testing::</p>,
+      d3: <p>Customization &amp; Development:</p>,
       d33: (
         <p>
-         Our skilled developers translate the design into a functional desktop
-  application, adhering to best practices and conducting rigorous testing throughout the
-  development process.
+        Our developers tailor the chosen CMS platform to your specific
+needs. This may involve building custom content types, integrating APIs, or developing user-
+specific access controls.
         </p>
       ),
-      d4: <p>Deployment &amp; Training:</p>,
+      d4: <p>Content Strategy &amp; Training:</p>,
       d44: (
         <p>
-        We facilitate a smooth deployment process, ensuring the application is
-  installed and configured on your desired systems. We also provide comprehensive user training
-  to empower your team to leverage the application effectively.
+       We collaborate with you to develop a content strategy and provide
+training for authorized users on effectively creating, managing, and publishing content within the
+CMS.
         </p>
       ),
-      d5: <p>Ongoing Support &amp; Maintenance:</p>,
+      d5: <p>Website Integration &amp; Launch:</p>,
       d55: (
         <p>
-         We offer ongoing support and maintenance services to
-  address any emerging issues, provide bug fixes and updates, and ensure your application
-  remains secure and optimized as your business evolves.
+        We seamlessly integrate your CMS with your existing website,
+        ensuring a smooth content publishing workflow.
+        </p>
+      ),
+      d6: <p>Ongoing Support &amp; Maintenance:</p>,
+      d66: (
+        <p>
+       We offer ongoing support to address any technical issues,
+       provide security updates, and ensure your CMS remains optimized for performance.
         </p>
       ),
      
       e1: (
         <p>
-        How We Can Help You: Desktop Application Development Solutions for Every Business Size
+        How We Can Help You: CMS Solutions for Every Business Size
         </p>
       ),
       e11: (
         <p>
-         Our desktop application development expertise caters to the specific needs of businesses at various
-         stages of growth:
+        Our CMS development expertise caters to the specific needs of businesses at various stages of growth:
         </p>
       ),
-      
+      f1: <p>Cost-Effective Solutions:</p>,
       f11: (
         <p>
-       We help you automate repetitive tasks, improve data management, and streamline
-       internal processes with custom desktop applications that cater to your specific business needs.
+        We leverage our in-house training programs and efficient processes
+to deliver cost-effective CMS solutions that fit your budget. We can recommend open-source
+platforms/tools where applicable to streamline development and minimize costs.
         </p>
       ),
-   
-     
+      f2: <p>Easy-to-Use CMS &amp; Content Management: </p>,
+      f22: (
+        <p>
+        We prioritize user-friendly CMS interfaces to
+empower even non-technical users to manage your website content effectively, reducing reliance
+on developers for basic content updates.
+        </p>
+      ),
+      f3: <p>Scalable &amp; Flexible CMS::</p>,
       f33: (
         <p>
-        We provide comprehensive desktop application development solutions for complex
-  enterprise needs, including custom software for data analysis, resource management, legacy
-  system integration, and bespoke applications for specific departments or functionalities.
+        We design and develop CMS solutions that can adapt and grow with
+your startup. This ensures you have a content management platform that can handle increasing
+content volume and evolving marketing strategies.
         </p>
       ),
-      
-      f5: <p>Complex Enterprise Mobile Apps:</p>,
+      f4: <p>Omnichannel Content Management:</p>,
+      f44: (
+        <p>
+         We can integrate your CMS with marketing automation
+tools or social media platforms, allowing you to manage and publish content across various
+channels from a centralized location.
+        </p>
+      ),
+      f5: <p>Advanced Security &amp; User Access Controls:</p>,
       f55: (
         <p>
-            We assist you in developing innovative desktop applications that validate your market
-            fit, enhance user experience for your target audience, and support rapid growth.
+         We prioritize robust security measures and
+granular user access controls within your CMS to safeguard sensitive business information and
+ensure content management permissions are aligned with user roles.
+        </p>
+      ),
+      f6: <p>Integration with Existing Systems:</p>,
+      f66: (
+        <p>
+        We can integrate your CMS with your existing enterprise
+systems (CRM, ERP) to streamline content workflows and ensure consistency across marketing,
+sales, and other departments.
         </p>
       ),
     
     },
     
     faq: {
-      que1: <p>What are the benefits of developing a custom desktop application?</p>,
+      que1: <p>What is a Content Management System (CMS)?</p>,
       ans1: (
         <p>
-         Custom desktop applications offer several benefits, including:
-  * **Increased Efficiency:** Automation of repetitive tasks and streamlined workflows can significantly
-  improve team productivity.
-  * **Enhanced Data Security:** Desktop applications provide greater control over data security compared
-  to cloud-based solutions.
-  * **Offline Functionality:** Desktop applications can function without an internet connection, ensuring
-  uninterrupted operation even in areas with limited connectivity.
-  * **Customization:** Custom development allows for features and functionalities that perfectly align with
-  your unique business processes and needs.
+        A Content Management System (CMS) is a software application that allows you to create, edit, manage,
+and publish website content without needing extensive programming knowledge. A user-friendly interface
+empowers authorized users to control various aspects of your website&#39;s content.
         </p>
       ),
-      que2: <p>How much does desktop application development cost?</p>,
+      que2: <p>What are the benefits of using a CMS?</p>,
       ans2: (
         <p>
-          The cost of desktop application development can vary depending on the complexity of the application,
-  chosen technologies, features, and development duration. During the discovery phase, we provide a
-  transparent cost estimate tailored to your specific requirements.
+         Benefits of using a CMS include:
+Simplified Content Management: Easily create, edit, and publish website content without relying on
+developers for basic updates.
+Improved Collaboration: Facilitate content creation and management by multiple users with designated
+access controls.
+SEO Optimization: Many CMS platforms offer built-in SEO features or allow for integration with SEO
+plugins to improve your website&#39;s search engine ranking.
+Cost-Effective Content Management: Reduce dependence on developers for content updates,
+potentially leading to cost savings.
+Scalability &amp; Flexibility: A CMS allows your website&#39;s content management to adapt and grow along
+side your business.
         </p>
       ),
-      que3: <p>How long does it take to develop a desktop application?</p>,
+      que3: <p>Do you offer custom CMS development?</p>,
       ans3: (
         <p>
-         The development timeline can vary depending on the application&#39;s complexity and features. Our agile
-  approach allows for flexibility and iterative development, ensuring the application meets your
-  requirements within a reasonable timeframe.
+         Yes, we offer custom CMS development services tailored to your specific needs. We can extend
+functionalities beyond what a pre-built platform offers, such as developing custom content types, user
+roles, or integrating with unique third-party applications.
         </p>
       ),
-      que4: <p>Do you offer any post-deployment support services?</p>,
+      que4: <p>How much does it cost to develop a CMS?</p>,
       ans4: (
         <p>
-        Absolutely! We understand that desktop applications require ongoing maintenance to ensure security,
-  functionality, and optimal performance. We offer flexible support plans to address any emerging issues,
-  provide bug fixes and updates, and keep your application running smoothly.
+        The cost of CMS development can vary depending on the complexity of your project, chosen platform,
+desired features, and ongoing maintenance needs. During the discovery phase, we provide a transparent
+cost estimate tailored to your specific requirements.
+        </p>
+      ),
+      que5: <p>How long does it take to develop a CMS?</p>,
+      ans5: (
+        <p>
+      The development timeline can vary depending on the project&#39;s scope. We can implement a basic CMS
+solution with core functionalities relatively quickly. More complex projects with extensive customization or
+integrations may require a longer development timeframe.
         </p>
       ),
      
-      ready: <p>Ready to Streamline Your Operations with a Custom Desktop Application?</p>,
+      ready: <p>Ready to Empower Your Content Creation?</p>,
       ready1: (
         <p>
-    At BrainsTerra Intelligence, we are passionate about empowering businesses to achieve greater
-  efficiency and productivity through innovative desktop application development solutions. Contact us
-  today to discuss your project and embark on the journey towards optimizing your business workflows!
+   At BrainsTerra Intelligence, we are passionate about empowering businesses to harness the power of
+content management systems. Our CMS development expertise can help you streamline content creation
+workflows, improve content quality, and achieve your digital marketing goals. Contact us today to discuss
+your project and embark on the journey towards content management success!
         </p>
       ),
     },

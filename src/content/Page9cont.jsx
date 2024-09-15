@@ -1,146 +1,159 @@
 const page9Content = {
     sec1: {
       title: <p>BrainsTerra Intelligence:</p>,
-      t1: <h1 className="text-xl lg:text-4xl font-bold">Power Up Productivity with</h1>,
-      t2: <h1 className="text-3xl lg:text-8xl font-bold">Custom Desktopp</h1>,
-      t3: <h1 className="text-3xl lg:text-8xl font-bold">Application</h1>,
-      t4: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
+      t1: <h1 className="text-xl lg:text-4xl font-bold">Bridging the Physical and Digital</h1>,
+      t2: <h1 className="text-3xl lg:text-8xl font-bold">IoT</h1>,
+      t3: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
+      t4: <h1 className="text-3xl lg:text-8xl font-bold">Services</h1>,
       t5: (
         <p>
-         At BrainsTerra Intelligence, we empower businesses of all sizes – MSMEs, startups, and enterprises – to
-  streamline workflows, enhance efficiency, and achieve operational excellence through our custom
-  desktop application development services. Our team of skilled developers, designers, and project
-  managers works collaboratively with you to understand your unique business processes and challenges.
-  We then translate those insights into powerful desktop applications that automate repetitive tasks,
-  improve data security, and ultimately propel your business forward.
+      At BrainsTerra Intelligence, we transform everyday objects into intelligent assets. Our team of skilled
+engineers and developers helps you harness the power of the Internet of Things (IoT) to revolutionize
+your business operations, enhance data collection, and unlock new possibilities for innovation. We
+leverage cutting-edge technologies and agile methodologies to design, develop, and implement robust
+IoT solutions that seamlessly integrate with your existing infrastructure and empower you to make data-
+driven decisions.
         </p>
       ),
       t6: (
         <h3 className="text-xl lg:text-3xl font-bold mb-4 text-center">
-        Building Robust Desktop Applications:
+       Building Powerful IoT Solutions:
         </h3>
       ),
       t7: (
         <p className="text-xl lg:text-3xl font-bold mb-4 text-center">
           {" "}
-          Tailored Technology Solutions
+          A Technology-Driven Approach
         </p>
       ),
       t8: (
         <p className="text-lg lg:text-xl lg:text-center text-center">
-         We leverage a comprehensive suite of technologies and frameworks to deliver custom desktop
-         applications that perfectly align with your specific needs:
+        We are proficient in a comprehensive suite of technologies and frameworks to bring your IoT vision to life:
         </p>
       ),
     },
     sec2: {
-      p1: <p>Programming Languages:</p>,
-      p2: <p>User Interface (UI) Frameworks:</p>,
-      p3: <p>Database Integration:</p>,
-      p4: <p>Security &amp; Performance Optimization:</p>,
-      p5: <p>API Integration::</p>,
-      
+      p1: <p>Microcontrollers &amp; Single-Board Computers (SBCs):</p>,
+      p2: <p>Connectivity Protocols::</p>,
+      p3: <p>Cloud Platforms &amp; APIs:</p>,
+      p4: <p>Data Analytics &amp; Visualization:</p>,
+      p5: <p>Security &amp; Device Management:</p>,
+      p6:<p>Machine Learning Integration:</p>,
   
       p11: (
         <p>
-         Our developers are proficient in various programming languages
-  suitable for desktop application development, including C++, C#, Java, Python (with frameworks
-  like PyQt or Kivy), and .NET. We select the most appropriate language based on the application&#39;s
-  complexity and desired functionalities.
+        We utilize popular platforms like
+Arduino, Raspberry Pi, and ESP series microcontrollers to collect sensor data and control
+connected devices.
         </p>
       ),
       p22: (
         <p>
-         We utilize UI frameworks like Qt, WPF, or Windows Forms to
-         design intuitive and user-friendly interfaces that cater to your specific workflows and user needs.
+       We ensure seamless communication between your IoT devices and the
+cloud using various protocols like Wi-Fi, Bluetooth, Cellular (LTE-M, NB-IoT), and even low-power
+wide-area networks (LPWAN) like LoRaWAN.
         </p>
       ),
       p33: (
         <p>
-          We ensure seamless integration with your existing databases (MySQL,
-  SQL Server, Oracle, etc.) to enable efficient data storage, retrieval, and manipulation within your
-  desktop application.
+         We integrate your IoT solution with leading cloud platforms like AWS
+IoT, Microsoft Azure IoT, or Google Cloud IoT Core. This enables secure data storage, scalability,
+and remote device management.
         </p>
       ),
       p44: (
         <p>
-         Security is paramount. We adhere to best practices for
-  secure coding and data encryption to safeguard your sensitive information. Additionally, we
-  prioritize performance optimization to ensure your application runs smoothly and efficiently.
+         We leverage data analytics tools and visualization platforms to
+transform collected sensor data into actionable insights that inform decision-making and optimize
+operations.
         </p>
       ),
       p55: (
         <p>
-         Our team excels in integrating your desktop application with third-party APIs
-         and services to extend functionalities and connect with other business-critical systems.
+        We prioritize robust security measures throughout the
+development lifecycle to safeguard your devices, data privacy, and network integrity. We also
+implement secure device management protocols for remote provisioning, updates, and
+maintenance.
         </p>
+      
       ),
+      p66:<p>For advanced applications, we can integrate machine learning
+      algorithms to enable features like predictive maintenance, anomaly detection, or real-time
+      process optimization based on sensor data analysis.</p>,
      
       q2: <p>Why Choose</p>,
       q3: <p> BrainsTerra Intelligence</p>,
-      q1: <p>for Your Desktop Application Development Needs??</p>,
-      s1: <p>Understanding Your Needs:</p>,
+      q1: <p>for Your IoT Development Needs?</p>,
+      s1: <p>End-to-End Expertise:</p>,
       s11: (
         <p>
-         We prioritize understanding your business processes, pain points,
-  and desired outcomes through a comprehensive needs assessment. This ensures the desktop
-  application is tailored to address your specific challenges and optimize your workflows.
+        We offer a comprehensive suite of services, from initial concept
+development and prototyping to hardware selection, software development, cloud integration, and
+ongoing support.
         </p>
       ),
-      s2: <p>Focus on User Experience:</p>,
+      s2: <p>Focus on Business Value:</p>,
       s22: (
         <p>
-        We believe in creating applications that are not only powerful but
-  also intuitive and user-friendly. Our UI/UX designers prioritize a user-centric approach, ensuring a
-  smooth learning curve and high user adoption rates.
+      We don&#39;t just build connected devices; we focus on creating IoT
+solutions that deliver tangible business value, improve efficiency, and generate a positive return
+on investment (ROI).
         </p>
       ),
       s33: (
         <p>
-         Depending on your needs, we can develop desktop
-  applications that run on various operating systems (Windows, macOS, Linux) or focus on a
-  specific platform for optimal performance.
+        Security is paramount in IoT development. We prioritize robust
+        security measures at every stage to protect your devices, data, and network infrastructure.
         </p>
       ),
-      s3: <p>Cross-Platform Compatibility (Optional):</p>,
-      s4: <p>Robust Project Management:</p>,
+      s3: <p>Security-Centric Approach:</p>,
+      s4: <p>Scalable &amp; Future-Proof Solutions:</p>,
       s44: (
         <p>
-         Our experienced project managers ensure clear communication,
-         efficient development lifecycles, and on-time project delivery within your budget.
+        We design and develop IoT solutions with scalability in
+        mind, ensuring they can adapt and grow alongside your evolving business needs.
         </p>
       ),
       s5: <p>Proven Track Record:</p>,
       s55: (
         <p>
-         We boast a successful portfolio of desktop applications that have
-  delivered significant productivity gains and improved operational efficiency for our clients.
-  ○ Increased operational efficiency by 35% for a leading logistics company through a
-  custom desktop application for route optimization and delivery management.
-  ○ Streamlined data entry and reporting for a retail chain with a desktop application that
-  reduced processing time by 40%.
-  ○ Developed a feature-rich desktop application for a financial services company that
-  resulted in a 20% increase in customer onboarding efficiency.
+        We boast a successful portfolio of IoT development projects, helping
+businesses across industries leverage the power of connected devices.
+○ Smart Homes &amp; Automation: Successfully developed a custom IoT solution for a
+leading home automation company, resulting in a 25% increase in operational efficiency
+and a 10% reduction in energy consumption for their smart home devices.
+○ Industrial IoT &amp; Predictive Maintenance: Built an IoT platform for a manufacturing
+company that monitors industrial equipment in real-time, enabling predictive maintenance
+and preventing costly downtime. The solution reduced unplanned machine failures by
+30%.
+○ Connected Logistics &amp; Supply Chain Management: Developed a cloud-based IoT
+application for a logistics company to track and monitor inventory throughout the supply
+chain in real-time. This improved delivery accuracy by 15% and reduced shipment
+delays.
         </p>
       ),
-      s6: <p>Cost-Effective Solutions: </p>,
+      s6: <p>Smart Agriculture &amp; Precision Farming: </p>,
       s66: (
         <p>
-        We leverage our in-house training programs and efficient processes
-  to deliver cost-effective desktop application development solutions without compromising on
-  quality. We offer customized plans that fit your budget and project scope.
+       Farming: Implemented an IoT system for a large
+agricultural enterprise to optimize irrigation, fertilization, and overall farm management.
+The solution led to a 12% increase in crop yield and a 7% reduction in water usage.
         </p>
       ),
+      s7:<p>Retail &amp; Asset Tracking:</p>,
+      s77:<p>Created an IoT-based asset tracking solution for a retail chain
+      to track inventory location and manage stock levels in real-time. This resulted in a 5%
+      decrease in inventory shrinkage and improved product availability for customers.</p>,
      
       smooth: (
         <p>
-         A Streamlined Onboarding Experience: Your Desktop Application Journey Starts Here
+        A Smooth Onboarding Experience: Your IoT Development Journey Starts Here
         </p>
       ),
       smoothp: (
         <p>
-          We prioritize a clear and efficient onboarding process to ensure a positive experience throughout your
-          desktop application development journey:
+         We prioritize a clear and efficient onboarding process to ensure a positive experience throughout your IoT
+         development journey with BrainsTerra Intelligence:
         </p>
       ),
     },
@@ -148,128 +161,145 @@ const page9Content = {
       d1: <p>Discovery &amp; Requirements Gathering:</p>,
       d11: (
         <p>
-        We begin with an in-depth discovery workshop to delve
-  deep into your business processes, identify areas for improvement, and define the functionalities
-  your desktop application requires.
+       We begin with an in-depth workshop to understand your
+       business goals, target use case, and desired functionalities for your IoT solution.
         </p>
       ),
-      d2: <p>System Design &amp; User Interface (UI) Prototyping:</p>,
+      d2: <p>Proof of Concept (POC) Development:</p>,
       d22: (
         <p>
-        Our team works collaboratively with you to
-  design the application&#39;s architecture, user workflows, and create a high-fidelity UI prototype that
-  allows you to visualize the application&#39;s look and feel.
+       We may develop a low-fidelity prototype to validate your
+       concept, test hardware compatibility, and refine your vision before full-scale development begins.
         </p>
       ),
-      d3: <p>Development &amp; Testing::</p>,
+      d3: <p>Hardware Selection &amp; System Design:</p>,
       d33: (
         <p>
-         Our skilled developers translate the design into a functional desktop
-  application, adhering to best practices and conducting rigorous testing throughout the
-  development process.
+        Our engineers select appropriate sensors,
+        microcontrollers, and communication modules based on your application&#39;s requirements.
         </p>
       ),
-      d4: <p>Deployment &amp; Training:</p>,
+      d4: <p>Software Development &amp; Cloud Integration:</p>,
       d44: (
         <p>
-        We facilitate a smooth deployment process, ensuring the application is
-  installed and configured on your desired systems. We also provide comprehensive user training
-  to empower your team to leverage the application effectively.
+       We develop the software logic for your devices,
+       ensuring secure data collection, communication, and integration with your chosen cloud platform.
         </p>
       ),
-      d5: <p>Ongoing Support &amp; Maintenance:</p>,
+      d5: <p>Security Implementation &amp; Testing:</p>,
       d55: (
         <p>
-         We offer ongoing support and maintenance services to
-  address any emerging issues, provide bug fixes and updates, and ensure your application
-  remains secure and optimized as your business evolves.
+        We implement robust security measures throughout the
+        development process and conduct rigorous testing to identify and address any vulnerabilities.
         </p>
       ),
+      d6:<p>Deployment &amp; Ongoing Support:</p>,
+      d66:<p>We assist with deployment, provide ongoing maintenance
+and support, and help you refine your solution as your needs evolve.</p>,
      
       e1: (
         <p>
-        How We Can Help You: Desktop Application Development Solutions for Every Business Size
+       How We Can Help You: IoT Development Solutions for Every Company Size
         </p>
       ),
       e11: (
         <p>
-         Our desktop application development expertise caters to the specific needs of businesses at various
-         stages of growth:
+        Our IoT development expertise caters to the specific needs of businesses at various stages:
         </p>
       ),
       
+      f1: <p>Cost-Effective  Solutions:</p>,
       f11: (
         <p>
-       We help you automate repetitive tasks, improve data management, and streamline
-       internal processes with custom desktop applications that cater to your specific business needs.
+          We leverage our in-house training programs, and efficient
+          development processes to create budget-friendly IoT solutions for MSMEs.
         </p>
       ),
-   
-     
+      f2: <p>Sensor-Based Data Collection &amp; Monitoring:</p>,
+      f22: (
+        <p>
+         We can help you collect real-time sensor data
+from your environment (temperature, humidity, energy consumption) to gain insights and optimize
+operations.
+        </p>
+      ),
+      f3: <p>Rapid Prototyping &amp; MVP Development:</p>,
       f33: (
         <p>
-        We provide comprehensive desktop application development solutions for complex
-  enterprise needs, including custom software for data analysis, resource management, legacy
-  system integration, and bespoke applications for specific departments or functionalities.
+         We can assist startups with rapid prototyping and
+         Minimum Viable Product (MVP) development to validate their IoT concepts for product market fit.
         </p>
       ),
-      
-      f5: <p>Complex Enterprise Mobile Apps:</p>,
+      f4: <p>Machine Learning Integrations:</p>,
+      f44: (
+        <p>
+         We can also help integrate machine learning algorithms to
+enable features like predictive maintenance or anomaly detection in your IoT solution, enhancing
+its capabilities.
+        </p>
+      ),
+      f5: <p>Complex Industrial IoT (IIoT) Solutions:</p>,
       f55: (
         <p>
-            We assist you in developing innovative desktop applications that validate your market
-            fit, enhance user experience for your target audience, and support rapid growth.
+          We possess the expertise to develop and implement
+complex Industrial IoT (IIoT) solutions for large-scale applications, such as predictive
+maintenance in manufacturing
         </p>
       ),
-    
+      f6: <p>Data Integration &amp; Business Intelligence:</p>,
+      f66: (
+        <p>
+          We can help integrate your IoT data with existing
+enterprise systems and leverage business intelligence tools to transform data into actionable
+insights for strategic decision-making.
+        </p>
+      ),
     },
     
     faq: {
-      que1: <p>What are the benefits of developing a custom desktop application?</p>,
+      que1: <p>What type of IoT development services do you offer?</p>,
       ans1: (
         <p>
-         Custom desktop applications offer several benefits, including:
-  * **Increased Efficiency:** Automation of repetitive tasks and streamlined workflows can significantly
-  improve team productivity.
-  * **Enhanced Data Security:** Desktop applications provide greater control over data security compared
-  to cloud-based solutions.
-  * **Offline Functionality:** Desktop applications can function without an internet connection, ensuring
-  uninterrupted operation even in areas with limited connectivity.
-  * **Customization:** Custom development allows for features and functionalities that perfectly align with
-  your unique business processes and needs.
+        We offer a comprehensive range of IoT development services, including concept development,
+prototyping, hardware selection, software development, cloud integration, security implementation,
+deployment, and ongoing support.
         </p>
       ),
-      que2: <p>How much does desktop application development cost?</p>,
+      que2: <p>What industries can benefit from IoT solutions?</p>,
       ans2: (
         <p>
-          The cost of desktop application development can vary depending on the complexity of the application,
-  chosen technologies, features, and development duration. During the discovery phase, we provide a
-  transparent cost estimate tailored to your specific requirements.
+        IoT can benefit nearly every industry. Common applications include manufacturing, logistics, healthcare,
+        agriculture, retail, energy, and smart cities.
         </p>
       ),
-      que3: <p>How long does it take to develop a desktop application?</p>,
+      que3: <p>How much does it cost to develop an IoT solution?</p>,
       ans3: (
         <p>
-         The development timeline can vary depending on the application&#39;s complexity and features. Our agile
-  approach allows for flexibility and iterative development, ensuring the application meets your
-  requirements within a reasonable timeframe.
+         The cost of IoT development can vary depending on the complexity of your project, the number of devices
+involved, hardware requirements, and cloud platform integration. During the discovery phase, we provide
+a transparent cost estimate tailored to your specific needs.
         </p>
       ),
-      que4: <p>Do you offer any post-deployment support services?</p>,
+      que4: <p>How long does it take to develop an IoT solution?</p>,
       ans4: (
         <p>
-        Absolutely! We understand that desktop applications require ongoing maintenance to ensure security,
-  functionality, and optimal performance. We offer flexible support plans to address any emerging issues,
-  provide bug fixes and updates, and keep your application running smoothly.
+        The development timeline can vary depending on the project&#39;s scope. Simpler sensor-based solutions
+        may take a few months to develop, while complex enterprise IIoT projects can take up to a year or longer.
         </p>
       ),
+      que5: <p>Do you offer custom IoT development services?</p>,
+      ans5: (
+        <p>
+       Yes, we offer custom IoT development services. We believe in a collaborative approach and tailor our
+       solutions to your specific business goals and technical requirements.</p>),
      
-      ready: <p>Ready to Streamline Your Operations with a Custom Desktop Application?</p>,
+      ready: <p>Ready to Harness the Power of IoT?</p>,
       ready1: (
         <p>
-    At BrainsTerra Intelligence, we are passionate about empowering businesses to achieve greater
-  efficiency and productivity through innovative desktop application development solutions. Contact us
-  today to discuss your project and embark on the journey towards optimizing your business workflows!
+   At BrainsTerra Intelligence, we are passionate about enabling businesses to leverage the transformative
+potential of the Internet of Things. Our expertise and commitment to innovation empower you to unlock
+new possibilities, optimize operations, and gain a competitive edge in the data-driven era. Contact us
+today to discuss your IoT development needs and embark on your journey towards a connected future!
         </p>
       ),
     },
