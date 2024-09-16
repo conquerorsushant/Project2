@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import a1 from "../../assets/images/Asset1.png";
-import a2 from "../../assets/images/Asset5.png";
-import a3 from "../../assets/images/Asset9.png";
-import a4 from "../../assets/images/Asset4.png";
-import a5 from "../../assets/images/Asset6.png";
-import a6 from "../../assets/images/Asset11.png";
-import a7 from "../../assets/images/Asset13.png";
-import a8 from "../../assets/images/Asset15.png";
-import a9 from "../../assets/images/Asset12.png";
-import a10 from "../../assets/images/Asset14.png";
+
 import lines from "../../assets/images/lines.png";
 import bg3 from "../../assets/images/Artboard1.png";
 import bg2 from "../../assets/images/bg2.png";
@@ -37,7 +28,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36 ">
             <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
-                src={a1}
+                src={content.a1}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -52,7 +43,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex lg:w-1/2   items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={a2}
+                src={content.a2}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -69,7 +60,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36">
             <div className="flex  lg:w-1/2  items-start justify-center gap-4 lg:p-4 mx-2">
               <img
-                src={a3}
+                src={content.a3}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -84,7 +75,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 pl-2 mx-2 ">
               <img
-                src={a4}
+                src={content.a4}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -101,7 +92,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36 ">
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={a5}
+                src={content.a5}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -116,7 +107,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={a5}
+                src={content.a5}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -133,7 +124,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:px-36 ">
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={a5}
+                src={content.a5}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -229,7 +220,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36 ">
             <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
-                src={a1}
+                src={content.a1}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -244,7 +235,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex lg:w-1/2   items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={a2}
+                src={content.a2}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -261,7 +252,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36">
             <div className="flex  lg:w-1/2  items-start justify-center gap-4 lg:p-4 mx-2">
               <img
-                src={a3}
+                src={content.a3}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -276,7 +267,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 pl-2 mx-2 ">
               <img
-                src={a4}
+                src={content.a4}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -294,21 +285,7 @@ const Sec32 = ({content}) => {
            
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={a5}
-                alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
-              />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-               {content.s6}
-                </h2>
-                <p className="text-sm sm:text-base">
-               {content.s66}</p>
-              </div>
-            </div>
-            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
-              <img
-                src={a5}
+                src={content.a5}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -318,6 +295,20 @@ const Sec32 = ({content}) => {
                 </h2>
                 <p className="text-sm sm:text-base">
                {content.s55}</p>
+              </div>
+            </div>
+            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
+              <img
+                src={content.a6}
+                alt="Data Lakes Icon"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+              />
+              <div>
+                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
+               {content.s6}
+                </h2>
+                <p className="text-sm sm:text-base">
+               {content.s66}</p>
               </div>
             </div>
            
