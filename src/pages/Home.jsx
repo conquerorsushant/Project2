@@ -4,7 +4,7 @@ import lines from "../assets/images/lines.png";
 import t1 from "../assets/images/trangle.png";
 import t2 from "../assets/images/blurarrow.png";
 import t3 from "../assets/images/comppng.png";
-import t4 from "../assets/images/datapng.png";
+import t4 from "../assets/images/powerarrow.png";
 import t6 from "../assets/images/allarrow.png";
 import t7 from "../assets/images/triangleone.png";
 import t8 from "../assets/images/150plus.png";
@@ -42,7 +42,7 @@ const Home = () => {
 					</div>
     
     {/* Container for the image */}
-    <div className="absolute inset-x-0 top-[380px] lg:top-36 z-20">
+    <div className="absolute inset-x-0 top-[350px] lg:top-40 z-20">
       <img src={lines} alt="Lines" className="w-full h-auto" />
     </div>
   </div>
@@ -65,7 +65,7 @@ const Home = () => {
       <div className="col-md-6">
         <div className="top-style">
           <img alt="" className="first-imgss" />
-          <p className="font-weight-bold left-bold">
+          <p className="font-weight-bold left-bold px-8">
             Whether it is the starting or expansion of your business, we can help you take it to the next level.
           </p>
           &nbsp;
@@ -101,7 +101,7 @@ const Home = () => {
           </div>
 
           <div className="black-bg-text">
-            <p className="text-left black-text p-3">
+            <p className="text-left  black-text p-3">
               We provide Digital Transformation and Custom Product Engineering
               services to start-ups and large enterprises across the globe.
               Our engineering teams are experts in the latest machine learning
@@ -124,11 +124,11 @@ const Home = () => {
 
             {/* Column 3 with "Read More" text and image */}
             <div
-              className="col-md-4 col-4 cursor-pointer flex items-center justify-center"
+              className="col-md-4 col-4 cursor-pointer flex items-start "
               onClick={toggleCollapse1}
             >
               <span className="cursor flex">READ MORE</span>
-              <img alt="" className="pl-1" src={t6} />
+              <img alt="" className="pl-1 pt-1" src={t6} />
             </div>
 
             {/* Collapsible section */}
@@ -174,7 +174,7 @@ const Home = () => {
               technology teams from scratch.
             </p>
             <div className="row">
-              <div className="col-md-6 col-6">
+              <div className="col-md-6 col-6 px-3">
                 <img alt="" className="col-smallimg" src={t8} />
               </div>
               <div
@@ -236,11 +236,11 @@ const Home = () => {
         </div>
        
       </div>
-      <div className="flex  px-40 my-12">
-        <div className="w-1/4 lg:h-[2px] h-0 bg-red-500"></div>
-        <div className="w-1/4 lg:h-[2px] h-0 bg-blue-500"></div>
-        <div className="w-1/4 lg:h-[2px] h-0 bg-green-500"></div>
-        <div className="w-1/4 lg:h-[2px] h-0 bg-yellow-500"></div>
+      <div className="flex  px-28 my-12">
+        <div className="w-1/3 lg:h-[2px] h-0 bg-red-500"></div>
+        <div className="w-1/3 lg:h-[2px] h-0 bg-blue-500"></div>
+        <div className="w-1/3 lg:h-[2px] h-0 bg-green-500"></div>
+        <div className="w-1/3 lg:h-[2px] h-0 bg-yellow-500"></div>
       </div>
       
       <div className=" ">

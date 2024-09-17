@@ -10873,7 +10873,7 @@ header .navbar-nav li a {
 }
 
 .black-text {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   background-color: black
 }
@@ -11840,4 +11840,68 @@ label {
   top: 0;
   width: 100%;
   height: 100%
+}
+.service-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+  gap: 1.5rem; /* Add gap between each box */
+  width: 70%;
+  padding: 0 1rem;
+  padding-bottom: 10px;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.service-box img {
+  width: 2.5rem; /* Icon size */
+  height: 2.5rem;
+}
+
+.service-box h3 {
+  font-size: 10px;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    gap: 1rem;
+  }
+
+  .service-box img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  h3 {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column for mobile screens */
+    gap: 1rem;
+  }
+
+  .service-box img {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  h3 {
+    font-size: 0.6rem;
+  }
 }

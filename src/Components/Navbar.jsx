@@ -29,10 +29,10 @@ const Navbar = () => {
           {/* Desktop Nav Items */}
           <ul className='hidden md:flex items-center justify-center gap-12'>
             {navItems.map(({ path, title }) => (
-              <li key={path} className='text-xs font-bold hover:text-green-700 pt-3'>
+              <li key={path} className='text-sm font-bold hover:text-green-700 pt-3'>
                 <NavLink 
                   to={path} 
-                  className='hover:text-green-800 active:text-green-800 '
+                  className='hover:text-green-700 active:text-green-800 '
                 >
                   {title}
                 </NavLink>
@@ -59,7 +59,7 @@ const Navbar = () => {
               {/* Mobile Nav Items */}
               <ul className="space-y-3 py-2 px-3">
                 {navItems.map(({ path, title }) => (
-                  <li key={path} className="text-xs font-bold hover:text-green-800 ">
+                  <li key={path} className="text-sm font-bold hover:text-green-700 ">
                     <NavLink 
                       to={path} 
                       className='active:text-green-800 '
