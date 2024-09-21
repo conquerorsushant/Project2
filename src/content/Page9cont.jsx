@@ -12,9 +12,9 @@ import imga10 from "../assets/images/Asset14.png";const page9Content = {
     sec1: {
       title: <p>BrainsTerra Intelligence:</p>,
       t1: <h1 className="text-xl lg:text-4xl font-bold">Bridging the Physical and Digital</h1>,
-      t2: <h1 className="text-3xl lg:text-8xl font-bold">IoT</h1>,
-      t3: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
-      t4: <h1 className="text-3xl lg:text-8xl font-bold">Services</h1>,
+      t2: <h1 className="text-3xl lg:text-6xl font-bold">IoT</h1>,
+      t3: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
+      t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
       t5: (
         <p>
       At BrainsTerra Intelligence, we transform everyday objects into intelligent assets. Our team of skilled

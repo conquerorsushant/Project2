@@ -16,9 +16,9 @@ import imga10 from "../assets/images/Asset14.png";const page2Content = {
         Crafting Exceptional Web Experiences
       </h1>
     ),
-    t2: <h1 className="text-3xl lg:text-8xl font-bold">Web</h1>,
-    t3: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
-    t4: <h1 className="text-3xl lg:text-8xl font-bold">Services</h1>,
+    t2: <h1 className="text-3xl lg:text-6xl font-bold">Web</h1>,
+    t3: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
+    t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
       <p>
         In today&#39;s digital landscape, your website is often the first

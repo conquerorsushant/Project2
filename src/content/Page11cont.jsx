@@ -12,9 +12,9 @@ import imga10 from "../assets/images/Asset14.png";const page11Content = {
     sec1: {
       title: <p>BrainsTerra Intelligence:</p>,
       t1: <h1 className="text-xl lg:text-4xl font-bold">Building Scalable and</h1>,
-      t2: <h1 className="text-3xl lg:text-8xl font-bold">Secure E-Commerce</h1>,
-      t3: <h1 className="text-3xl lg:text-8xl font-bold">Solutions</h1>,
-      t4: <h1 className="text-3xl lg:text-8xl font-bold">for Growth</h1>,
+      t2: <h1 className="text-3xl lg:text-6xl font-bold">Secure E-Commerce</h1>,
+      t3: <h1 className="text-3xl lg:text-6xl font-bold">Solutions</h1>,
+      t4: <h1 className="text-3xl lg:text-6xl font-bold">for Growth</h1>,
       t5: (
         <p>
       In today&#39;s dynamic e-commerce landscape, a robust and scalable online store is essential for businesses

@@ -12,9 +12,9 @@ import imga10 from "../assets/images/Asset14.png";const page15Content = {
     sec1: {
       title: <p>BrainsTerra Intelligence:</p>,
       t1: <h1 className="text-xl lg:text-4xl font-bold">Crafting Bespoke Software</h1>,
-      t2: <h1 className="text-3xl lg:text-8xl font-bold">Solutions</h1>,
-      t3: <h1 className="text-3xl lg:text-8xl font-bold">for your</h1>,
-      t4: <h1 className="text-3xl lg:text-8xl font-bold">Success</h1>,
+      t2: <h1 className="text-3xl lg:text-6xl font-bold">Solutions</h1>,
+      t3: <h1 className="text-3xl lg:text-6xl font-bold">for your</h1>,
+      t4: <h1 className="text-3xl lg:text-6xl font-bold">Success</h1>,
       t5: (
         <p>
       At BrainsTerra Intelligence, we empower businesses of all sizes – MSMEs, startups, and enterprises – to

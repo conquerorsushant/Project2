@@ -12,9 +12,9 @@
     sec1: {
       title: <p>BrainsTerra Intelligence:</p>,
       t1: <h1 className="text-xl lg:text-4xl font-bold">Powering Informed Decisions -</h1>,
-      t2: <h1 className="text-3xl lg:text-8xl font-bold">Forex Trading</h1>,
-      t3: <h1 className="text-3xl lg:text-8xl font-bold">Automation</h1>,
-      t4: <h1 className="text-3xl lg:text-8xl font-bold">Solutions</h1>,
+      t2: <h1 className="text-3xl lg:text-6xl font-bold">Forex Trading</h1>,
+      t3: <h1 className="text-3xl lg:text-6xl font-bold">Automation</h1>,
+      t4: <h1 className="text-3xl lg:text-6xl font-bold">Solutions</h1>,
       t5: (
         <p>
         At BrainsTerra Intelligence, we understand the dynamic and data-driven nature of the forex trading

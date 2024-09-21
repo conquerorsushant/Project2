@@ -16,9 +16,9 @@ import imga10 from "../assets/images/Asset14.png";const page3Content = {
        with BrainsTerra Intelligence&#39;s
       </h1>
     ),
-    t2: <h1 className="text-3xl lg:text-8xl font-bold">UI/UX</h1>,
-    t3: <h1 className="text-3xl lg:text-8xl font-bold">Design</h1>,
-    t4: <h1 className="text-3xl lg:text-8xl font-bold">Services</h1>,
+    t2: <h1 className="text-3xl lg:text-6xl font-bold">UI/UX</h1>,
+    t3: <h1 className="text-3xl lg:text-6xl font-bold">Design</h1>,
+    t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
       <p>
         At BrainsTerra Intelligence, we understand the power of exceptional UI/UX design in driving user

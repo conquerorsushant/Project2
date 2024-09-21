@@ -13,9 +13,9 @@
   sec1: {
     title: <p>BrainsTerra Intelligence:</p>,
     t1: <h1 className="text-xl lg:text-4xl font-bold">Shaping the Future</h1>,
-    t2: <h1 className="text-3xl lg:text-8xl font-bold">Mobile App</h1>,
-    t3: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
-    t4: <h1 className="text-3xl lg:text-8xl font-bold">Services</h1>,
+    t2: <h1 className="text-3xl lg:text-6xl font-bold">Mobile App</h1>,
+    t3: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
+    t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
       <p>
         In today&#39;s mobile-first world, a well-crafted mobile app can be a

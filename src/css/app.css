@@ -9826,8 +9826,13 @@ header .navbar-nav li a {
 }
 
 .banner__content {
-  margin-left: 130px;
+  margin-left: 180px;
+  
   display: inline-block
+}
+.talentcontainer{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 @media (max-width: 767.98px) {
   .banner__content {
@@ -9932,6 +9937,10 @@ header .navbar-nav li a {
   font-size: 18px;
   font-weight: 400;
   margin: 20px 0 0
+}
+.whatwedo h1{
+  font-size: 20px;
+  padding-top:10px;
 }
 
 .whatwedo span {
@@ -11844,12 +11853,14 @@ label {
 .service-container {
   display: flex;
   justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
-  gap: 1.5rem; /* Add gap between each box */
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns for large screens */
+  gap: 1.5rem;
   width: 70%;
   padding: 0 1rem;
   padding-bottom: 10px;
@@ -11861,22 +11872,22 @@ label {
   align-items: center;
   justify-content: center;
   text-align: center;
-  
 }
 
 .service-box img {
-  width: 2.5rem; /* Icon size */
+  width: 2.5rem;
   height: 2.5rem;
 }
 
 .service-box h3 {
-  font-size: 10px;
+  font-size: 15px;
   margin-top: 0.5rem;
 }
 
+/* For medium screens, show 2 items per row */
 @media (max-width: 1024px) {
   .grid-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
     gap: 1rem;
   }
 
@@ -11885,14 +11896,15 @@ label {
     height: 1.5rem;
   }
 
-  h3 {
+  .service-box h3 {
     font-size: 0.65rem;
   }
 }
 
-@media (max-width: 640px) {
+/* For small screens (mobile), show 1 item per row */
+@media (max-width: 768px) {
   .grid-container {
-    grid-template-columns: 1fr; /* Single column for mobile screens */
+    grid-template-columns:repeat(2, 1fr); /* Single column per row */
     gap: 1rem;
   }
 
@@ -11901,7 +11913,7 @@ label {
     height: 1.2rem;
   }
 
-  h3 {
-    font-size: 0.6rem;
+  .service-box h3 {
+    font-size: 0.8rem;
   }
 }

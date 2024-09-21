@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import rocktIcon from "../assets/images/rockt.png"; // Update the path to your assets
 import hiringIcon from "../assets/images/hiring.png"; // Update the path to your assets
 import teamIcon from "../assets/images/team.png";
@@ -40,12 +40,11 @@ const TalentAcquisition = () => {
   const toggleModal13 = () => setShowModal13(!showModal13);
   const toggleModal14 = () => setShowModal14(!showModal14);
 
-
   const [counters, setCounters] = useState({
     activeJobSeekers: 0,
     profilesProcessed: 0,
     talentAcquisitionOfficers: 0,
-    happyClients: 0
+    happyClients: 0,
   });
 
   // Function to animate counters
@@ -60,24 +59,24 @@ const TalentAcquisition = () => {
       startValue += stepValue;
       if (startValue >= endValue) {
         clearInterval(interval);
-        setCounters(prevCounters => ({
+        setCounters((prevCounters) => ({
           ...prevCounters,
-          [key]: endValue
+          [key]: endValue,
         }));
       } else {
-        setCounters(prevCounters => ({
+        setCounters((prevCounters) => ({
           ...prevCounters,
-          [key]: Math.floor(startValue)
+          [key]: Math.floor(startValue),
         }));
       }
     }, stepTime);
   };
 
   useEffect(() => {
-    animateCounter(500000, 'activeJobSeekers');
-    animateCounter(500, 'profilesProcessed');
-    animateCounter(35, 'talentAcquisitionOfficers');
-    animateCounter(150, 'happyClients');
+    animateCounter(500000, "activeJobSeekers");
+    animateCounter(500, "profilesProcessed");
+    animateCounter(35, "talentAcquisitionOfficers");
+    animateCounter(150, "happyClients");
   }, []);
 
   return (
@@ -88,8 +87,8 @@ const TalentAcquisition = () => {
       >
         {/* <img src={linesImage} className=""/> */}
 
-        <div className=" relative">
-          <div className="banner__content lg:pl-24 px-2">
+        <div className="talentcontainer relative">
+          <div className="banner__content  ">
             <h1 className="banner__content-title banner_font banner-font-change mt-12">
               We create a world of like-minded and coherent people for our
               clients.
@@ -108,8 +107,8 @@ const TalentAcquisition = () => {
           {/* "Why Choose Us" Section */}
           <div className="whatwedo relative px-5 mt-20">
             <h1
-              className="heading text-center  recruit-head-change relative z-10"
-              style={{ marginTop: "135px" }}
+              className="heading text-center   recruit-head-change relative z-10"
+              style={{ marginTop: "155px" }}
             >
               Why Choose Us
             </h1>
@@ -236,10 +235,7 @@ const TalentAcquisition = () => {
             <img className="ml-4" src={buttonStyleImage} alt="Button Style" />
           </h1>
           <div className="flex flex-col">
-            <div
-              className="intelligence__row  !gap-7   h-auto"
-             
-            >
+            <div className="intelligence__row  !gap-7   h-auto">
               <div
                 className="intelligence__row-single one  "
                 data-toggle="modal"
@@ -327,43 +323,43 @@ const TalentAcquisition = () => {
         </div>
         <img src={linesImage} className="w-100 mt-4 " alt="Lines" />
         <div className="number container" id="counter">
-      <div className="bg-black mw-100 text-center">
-        <div className="row">
-          <div className="col-md-3 mb-3 mb-md-0">
-            <div className="number__single two">
-              <span className="count percent">
-                {counters.activeJobSeekers.toLocaleString()}
-              </span>
-              <h4 className="text-xs">Active Job Seekers</h4>
-            </div>
-          </div>
-          <div className="col-md-3 mb-3 mb-md-0">
-            <div className="number__single one">
-              <span className="count percent">
-                {counters.profilesProcessed.toLocaleString()}
-              </span>
-              <h4>Profiles processed per day</h4>
-            </div>
-          </div>
-          <div className="col-md-3 mb-3 mb-md-0">
-            <div className="number__single three">
-              <span className="count percent">
-                {counters.talentAcquisitionOfficers.toLocaleString()}
-              </span>
-              <h4 className="text-xs">Talent Acquisition Officers</h4>
-            </div>
-          </div>
-          <div className="col-md-3">
-            <div className="number__single four">
-              <span className="count percent">
-                {counters.happyClients.toLocaleString()}
-              </span>
-              <h4 className="text-xs">Happy Clients</h4>
+          <div className="bg-black mw-100 text-center">
+            <div className="row">
+              <div className="col-md-3 mb-3 mb-md-0">
+                <div className="number__single two">
+                  <span className="count percent">
+                    {counters.activeJobSeekers.toLocaleString()}
+                  </span>
+                  <h4 className="text-xs">Active Job Seekers</h4>
+                </div>
+              </div>
+              <div className="col-md-3 mb-3 mb-md-0">
+                <div className="number__single one">
+                  <span className="count percent">
+                    {counters.profilesProcessed.toLocaleString()}
+                  </span>
+                  <h4>Profiles processed per day</h4>
+                </div>
+              </div>
+              <div className="col-md-3 mb-3 mb-md-0">
+                <div className="number__single three">
+                  <span className="count percent">
+                    {counters.talentAcquisitionOfficers.toLocaleString()}
+                  </span>
+                  <h4 className="text-xs">Talent Acquisition Officers</h4>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="number__single four">
+                  <span className="count percent">
+                    {counters.happyClients.toLocaleString()}
+                  </span>
+                  <h4 className="text-xs">Happy Clients</h4>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
       </div>
       {showModal4 && (
         <div
@@ -375,8 +371,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal4}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -387,7 +389,13 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul style={{ textAlign: "left" }}>
+                <ul
+                  style={{
+                    textAlign: "left",
+                    listStyleType: "disc",
+                    paddingLeft: "20px",
+                  }}
+                >
                   <li>Chief Information Officer (CIO).</li>
                   <li>Chief Technology Officer (CTO) | Chief Architect.</li>
                   <li>Chief Information Security Officer (CISO).</li>
@@ -400,7 +408,7 @@ const TalentAcquisition = () => {
                   <li>Head-Infrastructure and Operations.</li>
                   <li>Head-IT Security.</li>
                   <li>Chief Data Scientist.</li>
-                  <li>Chief Data Officer (CDO)</li>
+                  <li>Chief Data Officer (CDO).</li>
                   <li>Head- Business Intelligence and Data Analytics.</li>
                   <li>QA Manager and more.</li>
                 </ul>
@@ -419,8 +427,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal5}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -432,18 +446,23 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul style={{ textAlign: "left" }}>
-                  {" "}
+                <ul
+                  style={{
+                    textAlign: "left",
+                    listStyleType: "disc",
+                    paddingLeft: "20px",
+                  }}
+                >
                   <li>
-                    Backend-Java, Python, Go/Golang, C++, Ruby, PHP, Node,
-                    Scala, Elixir, Rust, Erlang, Clojure, and more.{" "}
+                    Backend: Java, Python, Go/Golang, C++, Ruby, PHP, Node,
+                    Scala, Elixir, Rust, Erlang, Clojure, and more.
                   </li>
                   <li>
-                    Frontend- Angular, React, Vue.js, TypeScript, JavaScript,
+                    Frontend: Angular, React, Vue.js, TypeScript, JavaScript,
                     HTML, CSS, and more.
                   </li>
-                  <li> Full Stack- UI, Middle Tier, Back End, and more.</li>
-                  <li> Embedded: C/C++</li>
+                  <li>Full Stack: UI, Middle Tier, Back End, and more.</li>
+                  <li>Embedded: C/C++</li>
                   <li>
                     QA: SDET, Automation, Manual, Verification & Validation, and
                     more.
@@ -465,8 +484,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal6}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -479,28 +504,25 @@ const TalentAcquisition = () => {
               </div>
 
               <div className="modal-body">
-                <ul style={{ textAlign: "left" }}>
-                  <li> Data Science- Python, R, SQL, and more.</li>
-                  <li>
-                    {" "}
-                    Data Engineering- Spark, Hadoop, MapReduce, Hive, Pig,
-                    Kafka, and more.
-                  </li>
-                  <li>
-                    Machine Learning/AI/ComputerVision- TensorFlow, Caffe,
-                    Keras, Theano, PyTorch, Scikit-learn, OpenCV, MATLAB, CUDA,
-                    PCL, Dlib, and more.
-                  </li>
-                  <li>
-                    {" "}
-                    Data Analytics- Business Intelligence, Data Visualization,
-                    ETL, Data Warehousing, Data Pipeline, and more.
-                  </li>
-                  <li>
-                    Database- NoSQL, MySQL, PostgreSQL, SQL, Oracle, and more.{" "}
-                  </li>
-                </ul>
-              </div>
+  <ul style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
+    <li>Data Science: Python, R, SQL, and more.</li>
+    <li>
+      Data Engineering: Spark, Hadoop, MapReduce, Hive, Pig, Kafka, and more.
+    </li>
+    <li>
+      Machine Learning/AI/Computer Vision: TensorFlow, Caffe, Keras, Theano,
+      PyTorch, Scikit-learn, OpenCV, MATLAB, CUDA, PCL, Dlib, and more.
+    </li>
+    <li>
+      Data Analytics: Business Intelligence, Data Visualization, ETL, Data
+      Warehousing, Data Pipeline, and more.
+    </li>
+    <li>
+      Database: NoSQL, MySQL, PostgreSQL, SQL, Oracle, and more.
+    </li>
+  </ul>
+</div>
+
             </div>
           </div>
         </div>
@@ -515,8 +537,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal7}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -524,20 +552,27 @@ const TalentAcquisition = () => {
 
               <div className="modal-header p-0 border-0 text-center">
                 <h5 className="modal-title w-100 font-weight-bold text-capitalize">
-                  Tech Infrastructure
+                  Data
                 </h5>
               </div>
               <div className="modal-body">
-                <ul style={{ textAlign: "left" }}>
+                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
+                  <li>Data Science- Python, R, SQL, and more.</li>
                   <li>
-                    DevOps/SRE- CI/CD, Orchestration, Containerization,
-                    Configuration Management, Build & Release, and more.
+                    Data Engineering- Spark, Hadoop, MapReduce, Hive, Pig,
+                    Kafka, and more.
                   </li>
-                  <li>Network Engineering- Cisco, Juniper, VPN, and more.</li>
-                  <li>Cloud- AWS, GCP, Azure, and more. </li>
                   <li>
-                    Systems Administration- Linux, Windows, Virtualization, and
-                    more.
+                    Machine Learning/AI/ComputerVision- TensorFlow, Caffe,
+                    Keras, Theano, PyTorch, Scikit-learn, OpenCV, MATLAB, CUDA,
+                    PCL, Dlib, and more.{" "}
+                  </li>
+                  <li>
+                    Data Analytics- Business Intelligence, Data Visualization,
+                    ETL, Data Warehousing, Data Pipeline, and more.
+                  </li>
+                  <li>
+                    Database- NoSQL, MySQL, PostgreSQL, SQL, Oracle, and more.
                   </li>
                 </ul>
               </div>
@@ -555,8 +590,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal8}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -567,7 +608,7 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul style={{ textAlign: "left" }}>
+                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
                   <li>
                     DevOps/SRE- CI/CD, Orchestration, Containerization,
                     Configuration Management, Build & Release, and more.
@@ -595,8 +636,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal9}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -607,7 +654,7 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul style={{ textAlign: "left" }}>
+                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
                   <li>
                     Cloud Security, Application Security, Network Security,
                     Infrastructure Security, DevSecOps, Enterprise Governance,
@@ -629,8 +676,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal10}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -642,7 +695,7 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul style={{ textAlign: "left" }}>
+                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
                   <li>
                     UI/UX, Visual Design, Interaction Design, User Research,
                     Creative/Art-Director, Product Management, and more.
@@ -663,8 +716,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal11}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -676,7 +735,7 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul style={{ textAlign: "left" }}>
+                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
                   <li>
                     Product Manager, Project Manager, Program Manager, Business
                     Analyst, Scrum Master, Technical Writer, Business
@@ -691,8 +750,7 @@ const TalentAcquisition = () => {
       )}
 
       <h1 className="heading text-center flex items-center justify-center">
-        Our Cool Features{" "}
-        <img className="ml-4" src={buttonStyleImage} alt="" />
+        Our Cool Features <img className="ml-4" src={buttonStyleImage} alt="" />
       </h1>
       <div className="subfooter features pt-2">
         <div className="container">
@@ -703,6 +761,12 @@ const TalentAcquisition = () => {
                 data-toggle="modal"
                 data-target="#rs1"
                 onClick={toggleModal12}
+                style={{
+                  float: "right",
+                  fontSize: "2.0rem",
+                  border: "none",
+                  background: "none",
+                }}
               >
                 <img className="icon " src={rec1} alt="" />
                 <h3 className="">We Build Solutions</h3>
@@ -714,6 +778,12 @@ const TalentAcquisition = () => {
                 data-toggle="modal"
                 data-target="#rs2"
                 onClick={toggleModal13}
+                style={{
+                  float: "right",
+                  fontSize: "2.0rem",
+                  border: "none",
+                  background: "none",
+                }}
               >
                 <img className="icon " src={rec2} alt="" />
                 <h3 className="">Extensive Research </h3>
@@ -725,6 +795,12 @@ const TalentAcquisition = () => {
                 data-toggle="modal"
                 data-target="#rs3"
                 onClick={toggleModal14}
+                style={{
+                  float: "right",
+                  fontSize: "2.0rem",
+                  border: "none",
+                  background: "none",
+                }}
               >
                 <img className="icon " src={rec3} alt="" />
                 <h3 className="">Rich Data Bank</h3>
@@ -757,8 +833,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal12}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -798,8 +880,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal13}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -845,8 +933,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal14}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -884,8 +978,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal1}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -931,8 +1031,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close ml-auto "
                   onClick={toggleModal2}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>
@@ -975,8 +1081,14 @@ const TalentAcquisition = () => {
               <div className="modal-header">
                 <button
                   type="button"
-                  className="btn-close "
+                  className="btn-close ml-auto "
                   onClick={toggleModal3}
+                  style={{
+                    float: "right",
+                    fontSize: "2.0rem",
+                    border: "none",
+                    background: "none",
+                  }}
                 >
                   &times;
                 </button>

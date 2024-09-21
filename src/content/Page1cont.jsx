@@ -17,9 +17,9 @@ const page1Content = {
         Building Stronger Customer Relationship
       </h1>
     ),
-    t2: <h1 className="text-3xl lg:text-8xl font-bold">CRM</h1>,
-    t3: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
-    t4: <h1 className="text-3xl lg:text-8xl font-bold">Services</h1>,
+    t2: <h1 className="text-3xl lg:text-6xl font-bold">CRM</h1>,
+    t3: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
+    t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
       <p>
         At BrainsTerra Intelligence, we understand the importance of fostering

@@ -12,9 +12,9 @@ import imga10 from "../assets/images/Asset14.png";const page6Content = {
   sec1: {
     title: <p>BrainsTerra Intelligence:</p>,
     t1: <h1 className="text-xl lg:text-4xl font-bold">Power Up Productivity with</h1>,
-    t2: <h1 className="text-3xl lg:text-8xl font-bold">Custom Desktopp</h1>,
-    t3: <h1 className="text-3xl lg:text-8xl font-bold">Application</h1>,
-    t4: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
+    t2: <h1 className="text-3xl lg:text-6xl font-bold">Custom Desktop</h1>,
+    t3: <h1 className="text-3xl lg:text-6xl font-bold">Application</h1>,
+    t4: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
     t5: (
       <p>
        At BrainsTerra Intelligence, we empower businesses of all sizes – MSMEs, startups, and enterprises – to
@@ -54,6 +54,7 @@ improve data security, and ultimately propel your business forward.
     a8: <img src={imga8} alt="Mobile CRM Solutions" />,
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
+
     p1: <p>Programming Languages:</p>,
     p2: <p>User Interface (UI) Frameworks:</p>,
     p3: <p>Database Integration:</p>,

@@ -12,9 +12,9 @@ import imga10 from "../assets/images/Asset14.png";const page12Content = {
     sec1: {
       title: <p>BrainsTerra Intelligence:</p>,
       t1: <h1 className="text-xl lg:text-4xl font-bold">Empowering Your Content with</h1>,
-      t2: <h1 className="text-3xl lg:text-8xl font-bold">Powerful</h1>,
-      t3: <h1 className="text-3xl lg:text-8xl font-bold">CMS</h1>,
-      t4: <h1 className="text-3xl lg:text-8xl font-bold">Solutions</h1>,
+      t2: <h1 className="text-3xl lg:text-6xl font-bold">Powerful</h1>,
+      t3: <h1 className="text-3xl lg:text-6xl font-bold">CMS</h1>,
+      t4: <h1 className="text-3xl lg:text-6xl font-bold">Solutions</h1>,
       t5: (
         <p>
         In today&#39;s digital age, creating and managing engaging online content is crucial for businesses of all

@@ -12,9 +12,9 @@ import imga10 from "../assets/images/Asset14.png";const page10Content = {
     sec1: {
       title: <p>BrainsTerra Intelligence:</p>,
       t1: <h1 className="text-xl lg:text-4xl font-bold">Fast-Track Your Innovation with</h1>,
-      t2: <h1 className="text-3xl lg:text-8xl font-bold">MVP</h1>,
-    //   t3: <h1 className="text-3xl lg:text-8xl font-bold">Application</h1>,
-      t4: <h1 className="text-3xl lg:text-8xl font-bold">Development</h1>,
+      t2: <h1 className="text-3xl lg:text-6xl font-bold">MVP</h1>,
+    //   t3: <h1 className="text-3xl lg:text-6xl font-bold">Application</h1>,
+      t4: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
       t5: (
         <p>
         At BrainsTerra Intelligence, we understand the critical role of speed and efficiency in today&#39;s dynamic

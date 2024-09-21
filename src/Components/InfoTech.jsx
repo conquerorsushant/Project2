@@ -57,7 +57,7 @@ const InfoTech = () => {
             <div className="absolute inset-x-0 top-[-5px] lg:top-[-150px] z-0">
               <img src={linesImage} alt="Lines" className="w-full h-auto" />
             </div>
-            <h1 className="heading text-center mb-5 relative z-10">
+            <h1 className="heading text-center  relative z-10">
               Level 1.0 Expertise
             </h1>{" "}
             {/* Added relative and z-10 */}
@@ -102,19 +102,19 @@ const InfoTech = () => {
       <h3>Database Recovery and Disaster Management</h3>
     </div>
     </Link>
-    <Link to='/page3'>
+    <Link to='/page14'>
     <div className="service-box">
       <img src={icon4} className="service-icon" />
       <h3>Forex Trading Automation Bot</h3>
     </div>
     </Link>
-    <Link to='/page4'>
+    <Link to='/page5'>
     <div className="service-box">
       <img src={icon5} className="service-icon" />
       <h3>App Development</h3>
     </div>
     </Link>
-    <Link to='/page5'>
+    <Link to='/page2'>
     <div className="service-box">
       <img src={icon6} className="service-icon" />
       <h3>Web Development</h3>
@@ -126,19 +126,19 @@ const InfoTech = () => {
       <h3>Custom Software Development</h3>
     </div>
     </Link>
-    <Link to='/page7'>
+    <Link to='/page8'>
     <div className="service-box">
       <img src={icon8} className="service-icon" />
       <h3>UI/UX Design Services</h3>
     </div>
     </Link>
-    <Link to='/page8'>
+    <Link to='/page9'>
     <div className="service-box">
       <img src={icon9} className="service-icon" />
       <h3>Iot Development </h3>
     </div>
     </Link>
-    <Link to='/page9'>
+    <Link to='/page13'>
     <div className="service-box">
       <img src={icon10} className="service-icon" />
       <h3>Game Development</h3>
@@ -150,7 +150,7 @@ const InfoTech = () => {
       <h3>Desktop Application</h3>
     </div>
     </Link>
-    <Link to='/page11'>
+    <Link to='/page10'>
     <div className="service-box">
       <img src={icon12} className="service-icon" />
       <h3>MVP Development</h3>
@@ -162,19 +162,19 @@ const InfoTech = () => {
       <h3>ERP Software Solutions</h3>
     </div>
     </Link>
-    <Link to='/page13'>
+    <Link to='/page1'>
     <div className="service-box">
       <img src={icon15} className="service-icon" />
       <h3>Customer Relationship Management</h3>
     </div>
     </Link>
-    <Link to='/page14'>
+    <Link to='/page12'>
     <div className="service-box">
       <img src={icon16} className="service-icon" />
       <h3>Content Management System</h3>
     </div>
     </Link>
-    <Link to='/page15'>
+    <Link to='/page11'>
     <div className="service-box">
       <img src={icon14} className="service-icon" />
       <h3>E-Commerce Solution</h3>

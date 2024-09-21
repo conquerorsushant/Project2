@@ -237,8 +237,8 @@ const Home = () => {
        
       </div>
       <div className="flex  px-28 my-12">
-        <div className="w-1/3 lg:h-[2px] h-0 bg-red-500"></div>
         <div className="w-1/3 lg:h-[2px] h-0 bg-blue-500"></div>
+        <div className="w-1/3 lg:h-[2px] h-0 bg-red-500"></div>
         <div className="w-1/3 lg:h-[2px] h-0 bg-green-500"></div>
         <div className="w-1/3 lg:h-[2px] h-0 bg-yellow-500"></div>
       </div>
@@ -247,19 +247,19 @@ const Home = () => {
       <div className="grid grid-cols-2 lg:grid-cols-4">
         <div className="relative">
           <img src={n1} alt="Image 1" className="w-full h-60 object-cover" />
-          <div className="absolute inset-0 bg-blue-400  opacity-65"></div>
+          <div className="absolute inset-0 bg-blue-500 hover:bg-blue-400 opacity-65"></div>
         </div>
         <div className="relative">
           <img src={n2} alt="Image 2" className="w-full h-60 object-cover" />
-          <div className="absolute inset-0 bg-red-400 opacity-65"></div>
+          <div className="absolute inset-0 bg-red-500 hover:bg-red-400 opacity-65"></div>
         </div>
         <div className="relative">
           <img src={n3} alt="Image 3" className="w-full h-60 object-cover" />
-          <div className="absolute inset-0 bg-green-400 opacity-65"></div>
+          <div className="absolute inset-0 bg-green-500 hover:bg-green-400 opacity-65"></div>
         </div>
         <div className="relative">
           <img src={n4} alt="Image 4" className="w-full h-60 object-cover" />
-          <div className="absolute inset-0 bg-yellow-400 opacity-65"></div>
+          <div className="absolute inset-0 bg-yellow-500 hover:bg-yellow-400 opacity-65"></div>
         </div>
       </div>
     </div>
