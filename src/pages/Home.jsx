@@ -38,7 +38,7 @@ const Home = () => {
      <div className="banner relative">
   <div className="banner__content">
   <div class="col-md-8 ">
-						<h1 class="banner__content-title pl-16 -ml-[6.40rem] ">A one-stop destination for START-ups to start, and EXCEL in their businesses.</h1>
+						<h1 class="banner__content-title ml-[17.5rem]">A one-stop destination for START-ups to start, and EXCEL in their businesses.</h1>
 					</div>
     
     {/* Container for the image */}
@@ -52,7 +52,7 @@ const Home = () => {
       <div className="col-md-6"></div>
       <div className="col-md-6 ">
         <div className="black-bg-text ">
-          <p className="text-left brain-text p-3 ">
+          <p className="text-left brain-text p-3">
             BrainsTerra Intelligence enables technical and non-technical CEOs/Founders to start, and excel in their businesses by helping them in building their high-quality engineering teams, and developing technology products for them. Companies can outsource all IT and tech development work from us until they have their own tech teams.
           </p>
         </div>
