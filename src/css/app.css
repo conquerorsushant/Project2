@@ -11861,7 +11861,7 @@ label {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns for large screens */
   gap: 1.5rem;
-  width: 70%;
+  width: 90%;
   padding: 0 1rem;
   padding-bottom: 10px;
 }
@@ -11875,8 +11875,8 @@ label {
 }
 
 .service-box img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .service-box h3 {
