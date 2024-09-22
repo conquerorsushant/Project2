@@ -20,7 +20,7 @@ const page6Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Application</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
     t5: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         At BrainsTerra Intelligence, we empower businesses of all sizes – MSMEs,
         startups, and enterprises – to streamline workflows, enhance efficiency,
         and achieve operational excellence through our custom desktop
@@ -70,7 +70,7 @@ const page6Content = {
     p5: <p>API Integration::</p>,
 
     p11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our developers are proficient in various programming languages suitable
         for desktop application development, including C++, C#, Java, Python
         (with frameworks like PyQt or Kivy), and .NET. We select the most
@@ -79,21 +79,21 @@ const page6Content = {
       </p>
     ),
     p22: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We utilize UI frameworks like Qt, WPF, or Windows Forms to design
         intuitive and user-friendly interfaces that cater to your specific
         workflows and user needs.
       </p>
     ),
     p33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We ensure seamless integration with your existing databases (MySQL, SQL
         Server, Oracle, etc.) to enable efficient data storage, retrieval, and
         manipulation within your desktop application.
       </p>
     ),
     p44: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Security is paramount. We adhere to best practices for secure coding and
         data encryption to safeguard your sensitive information. Additionally,
         we prioritize performance optimization to ensure your application runs
@@ -101,7 +101,7 @@ const page6Content = {
       </p>
     ),
     p55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our team excels in integrating your desktop application with third-party
         APIs and services to extend functionalities and connect with other
         business-critical systems.
@@ -113,7 +113,7 @@ const page6Content = {
     q1: <p>for Your Desktop Application Development Needs??</p>,
     s1: <p>Understanding Your Needs:</p>,
     s11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We prioritize understanding your business processes, pain points, and
         desired outcomes through a comprehensive needs assessment. This ensures
         the desktop application is tailored to address your specific challenges
@@ -122,7 +122,7 @@ const page6Content = {
     ),
     s2: <p>Focus on User Experience:</p>,
     s22: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We believe in creating applications that are not only powerful but also
         intuitive and user-friendly. Our UI/UX designers prioritize a
         user-centric approach, ensuring a smooth learning curve and high user
@@ -130,7 +130,7 @@ const page6Content = {
       </p>
     ),
     s33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Depending on your needs, we can develop desktop applications that run on
         various operating systems (Windows, macOS, Linux) or focus on a specific
         platform for optimal performance.
@@ -139,14 +139,14 @@ const page6Content = {
     s3: <p>Cross-Platform Compatibility (Optional):</p>,
     s4: <p>Robust Project Management:</p>,
     s44: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our experienced project managers ensure clear communication, efficient
         development lifecycles, and on-time project delivery within your budget.
       </p>
     ),
     s5: <p>Proven Track Record:</p>,
     s55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We boast a successful portfolio of desktop applications that have
         delivered significant productivity gains and improved operational
         efficiency for our clients. ○ Increased operational efficiency by 35%
@@ -160,7 +160,7 @@ const page6Content = {
     ),
     s6: <p>Cost-Effective Solutions: </p>,
     s66: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We leverage our in-house training programs and efficient processes to
         deliver cost-effective desktop application development solutions without
         compromising on quality. We offer customized plans that fit your budget
@@ -239,7 +239,7 @@ const page6Content = {
     ),
 
     f11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We help you automate repetitive tasks, improve data management, and
         streamline internal processes with custom desktop applications that
         cater to your specific business needs.
@@ -247,7 +247,7 @@ const page6Content = {
     ),
 
     f33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We assist you in developing innovative desktop applications that
         validate your market fit, enhance user experience for your target
         audience, and support rapid growth.
@@ -255,7 +255,7 @@ const page6Content = {
     ),
 
     f55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We provide comprehensive desktop application development solutions for
         complex enterprise needs, including custom software for data analysis,
         resource management, legacy system integration, and bespoke applications

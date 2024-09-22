@@ -20,7 +20,7 @@ const page14Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Automation</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Solutions</h1>,
     t5: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         At BrainsTerra Intelligence, we understand the dynamic and data-driven
         nature of the forex trading market. We empower traders of all experience
         levels with intelligent automation solutions designed to streamline
@@ -68,28 +68,28 @@ const page14Content = {
     p6: <p>Customization &amp; User Interface:</p>,
 
     p11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our team collaborates with you to develop and implement quantitative
         trading strategies based on technical analysis indicators, algorithmic
         models, and backtesting to identify potential trading opportunities.
       </p>
     ),
     p22: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our developers utilize Python (with libraries like NumPy, Pandas, and
         scikit-learn) or Javascript (with Node.js) to build robust and efficient
         trading algorithms that execute trades based on predefined criteria.
       </p>
     ),
     p33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We integrate your forex trading bot with leading forex brokers&#39; APIs
         to ensure seamless order placement, trade execution, and real-time data
         access for your bot&#39;s decision-making processes.
       </p>
     ),
     p44: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We prioritize the importance of risk management by incorporating
         features like stop-loss orders, take-profit targets, and position sizing
         into your bot&#39;s trading logic. We also utilize backtesting
@@ -98,13 +98,13 @@ const page14Content = {
       </p>
     ),
     p55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We deploy your forex trading bot on secure and reliable cloud platforms
         to ensure 24/7 uptime, accessibility, and real-time market monitoring.
       </p>
     ),
     p66: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We provide customizable dashboards and user interfaces to allow you to
         monitor your bot&#39;s performance, adjust trading parameters, and
         maintain control over your automated trading activity.
@@ -116,7 +116,7 @@ const page14Content = {
     q1: <p>for Your Forex Trading Automation Needs?</p>,
     s1: <p>Strategy-Centric Development:</p>,
     s11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We prioritize understanding your trading goals and risk tolerance before
         developing a bot. Our bots are not simply signal generators; they are
         built to execute your unique trading strategies.
@@ -124,14 +124,14 @@ const page14Content = {
     ),
     s2: <p>Focus on Transparency &amp; Control::</p>,
     s22: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We provide clear communication throughout the development process and
         ensure you have complete control over your bot&#39;s parameters and
         trading activity.
       </p>
     ),
     s33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Depending on your needs, we can develop desktop applications that run on
         various operating systems (Windows, macOS, Linux) or focus on a specific
         platform for optimal performance.
@@ -140,7 +140,7 @@ const page14Content = {
     s3: <p>Rigorous Testing &amp;Backtesting:</p>,
     s4: <p>Robust Project Management:</p>,
     s44: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We subject your bot to rigorous backtesting procedures and ongoing
         performance monitoring to optimize its effectiveness and identify
         potential areas for improvement.
@@ -148,7 +148,7 @@ const page14Content = {
     ),
     s5: <p>Security &amp; Reliability:</p>,
     s55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We prioritize robust security measures and reliable cloud infrastructure
         to ensure your bot&#39;s integrity and the safety of your trading
         capital.
@@ -156,7 +156,7 @@ const page14Content = {
     ),
     s6: <p>Proven Track Record: </p>,
     s66: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We have a successful portfolio of forex trading bot development
         projects, helping traders streamline their activities and potentially
         achieve their financial goals.
@@ -231,7 +231,7 @@ const page14Content = {
 
     f1: <p>Cost-Effective Automation Solutions::</p>,
     f11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We leverage our in-house training programs, and efficient development
         processes to create cost-effective forex trading bot solutions for
         individual traders.
@@ -239,7 +239,7 @@ const page14Content = {
     ),
     f2: <p>User-Friendly Interfaces &amp; Pre-Built Strategies: </p>,
     f22: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We can provide user-friendly interfaces and potentially offer pre-built,
         customizable trading strategies tailored towards retail traders who may
         not have extensive coding knowledge.
@@ -247,7 +247,7 @@ const page14Content = {
     ),
     f3: <p>Quantitative Models and Machine Learning Techniques:</p>,
     f33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We can assist algorithmic trading startups with the development and
         refinement of complex trading bots that leverage advanced quantitative
         models and machine learning techniques.
@@ -255,7 +255,7 @@ const page14Content = {
     ),
     f4: <p>High-Frequency Trading (HFT) Infrastructure: </p>,
     f44: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our expertise extends to building robust infrastructure for
         high-frequency trading (HFT) bots, ensuring low latency and efficient
         order execution for algorithmic trading strategies.
@@ -263,7 +263,7 @@ const page14Content = {
     ),
     f5: <p>Institutional-Grade Trading Bot Development:</p>,
     f55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We possess the capabilities to develop institutional-grade trading bots
         that meet the stringent requirements of professional traders and hedge
         funds. These bots may involve complex risk management frameworks,
@@ -273,7 +273,7 @@ const page14Content = {
     ),
     f6: <p>Customizable &amp; Scalable Solutions::</p>,
     f66: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We prioritize building highly customizable and scalable forex trading
         bot solutions that can adapt to the evolving needs of large enterprises
         and handle significant trading volumes.

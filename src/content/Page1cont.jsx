@@ -21,7 +21,7 @@ const page1Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         At BrainsTerra Intelligence, we understand the importance of fostering
         enduring customer relationships. Our CRM development expertise empowers
         businesses of all sizes to streamline customer interactions, personalize
@@ -69,7 +69,7 @@ const page1Content = {
     p5: <p>Mobile CRM Solutions:</p>,
 
     p11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We have extensive experience with popular CRM platforms like Salesforce,
         HubSpot, Zoho CRM, and Microsoft Dynamics 365. We can help you select
         the platform that best aligns with your specific needs, budget, and
@@ -77,28 +77,28 @@ const page1Content = {
       </p>
     ),
     p22: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         For complex requirements or situations where off-the-shelf solutions
         fall short, our developers can build custom CRM applications tailored to
         your unique business processes and workflows.
       </p>
     ),
     p33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We can integrate your CRM with other business-critical applications like
         marketing automation platforms, e-commerce platforms, and helpdesk
         software to create a unified customer experience ecosystem.
       </p>
     ),
     p44: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We prioritize data security and ensure your CRM provides insightful
         reporting and analytics to understand customer behavior, identify
         trends, and optimize marketing and sales strategies.
       </p>
     ),
     p55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         In today&#39;s mobile-first world, we can develop mobile CRM
         applications for your sales team, allowing them to access and update
         customer data on the go, enhancing productivity and responsiveness.
@@ -109,7 +109,7 @@ const page1Content = {
     q1: <p>for Your CRM Development Needs?</p>,
     s1: <p>In-Depth Needs Assessment:</p>,
     s11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We begin with a comprehensive needs assessment to understand your
         customer relationship management challenges, target audience, and
         desired functionalities.
@@ -117,14 +117,14 @@ const page1Content = {
     ),
     s2: <p>Focus on User Experience:</p>,
     s22: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We design user-friendly CRM interfaces that empower your sales,
         marketing, and customer service teams to leverage the system effectively
         and efficiently.
       </p>
     ),
     s33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We don&#39;t offer a one-size-fits-all approach. Our CRM solutions are
         customized based on your data and workflows to ensure they address your
         specific business needs.
@@ -133,7 +133,7 @@ const page1Content = {
     s3: <p>Data-Driven Customization:</p>,
     s4: <p>Integration Expertise:</p>,
     s44: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We possess the skills to seamlessly integrate your CRM with existing
         systems, eliminating data silos and streamlining information flow across
         your organization.
@@ -141,7 +141,7 @@ const page1Content = {
     ),
     s5: <p>Scalable &amp; Secure Solutions:</p>,
     s55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our CRM solutions are built with scalability in mind, allowing them to
         grow alongside your business. We also prioritize robust security
         measures to safeguard your valuable customer data.
@@ -212,14 +212,14 @@ const page1Content = {
     ),
     f1: <p>Cost-Effective CRM Solutions:</p>,
     f11: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We leverage our in-house training programs, and efficient development
         processes to create budget-friendly CRM solutions for MSMEs.
       </p>
     ),
     f2: <p>Improved Sales &amp; Marketing Coordination:</p>,
     f22: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We can help you implement a CRM that fosters better communication and
         collaboration between your sales and marketing teams, leading to more
         qualified leads and conversions.
@@ -227,7 +227,7 @@ const page1Content = {
     ),
     f3: <p>Scalable CRM Foundation for Growth:</p>,
     f33: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We design and develop CRM solutions that can scale alongside your
         growing startup, ensuring you have the tools and functionalities in
         place to manage customer relationships effectively as you acquire new
@@ -236,7 +236,7 @@ const page1Content = {
     ),
     f4: <p>Data-Driven Customer Insights:</p>,
     f44: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We can help you leverage your CRM data to gain valuable customer
         insights, personalize marketing campaigns, and improve customer
         engagement.
@@ -244,7 +244,7 @@ const page1Content = {
     ),
     f5: <p>Complex Enterprise CRM Solutions:</p>,
     f55: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our team has the expertise to develop and implement complex CRM
         solutions tailored to the specific needs of large enterprises,
         potentially involving integrations with legacy systems and advanced
@@ -254,7 +254,7 @@ const page1Content = {
     ),
     f6: <p>Enterprise-Grade Security &amp; Compliance:</p>,
     f66: (
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We understand the security and compliance requirements of large
         enterprises. Our CRM solutions prioritize robust security measures and
         are built to adhere to relevant industry regulations.
@@ -263,7 +263,7 @@ const page1Content = {
   },
   f7: <p>Advanced Analytics &amp; Reporting:</p>,
   f77: (
-    <p>
+    <p style={{ textAlign: "justify" }}>
       We can help you leverage advanced analytics and reporting functionalities
       within your CRM to gain deeper customer insights, identify trends, and
       make data- driven decisions to optimize customer experience and boost ROI.
