@@ -9827,9 +9827,9 @@ header .navbar-nav li a {
 }
 
 .banner__content {
-  margin-left: 180px;
+  /* margin-left: 180px; */
   
-  display: inline-block
+  /* display: inline-block */
 }
 .talentcontainer{
   padding-left: 100px;

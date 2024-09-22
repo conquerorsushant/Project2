@@ -36,9 +36,9 @@ const Home = () => {
   return (
     <div className="">
      <div className="banner relative">
-  <div className="banner__content">
+  <div className="banner__content container">
   <div class="col-md-8 ">
-						<h1 class="banner__content-title ml-[17.5rem]">A one-stop destination for START-ups to start, and EXCEL in their businesses.</h1>
+						<h1 class="banner__content-title ml-20">A one-stop destination for START-ups to start, and <br></br> EXCEL in their businesses.</h1>
 					</div>
     
     {/* Container for the image */}
@@ -52,7 +52,7 @@ const Home = () => {
       <div className="col-md-6"></div>
       <div className="col-md-6 ">
         <div className="black-bg-text ">
-          <p className="text-left brain-text p-3">
+          <p className="text-left brain-text p-3 ">
             BrainsTerra Intelligence enables technical and non-technical CEOs/Founders to start, and excel in their businesses by helping them in building their high-quality engineering teams, and developing technology products for them. Companies can outsource all IT and tech development work from us until they have their own tech teams.
           </p>
         </div>
@@ -236,7 +236,7 @@ const Home = () => {
         </div>
        
       </div>
-      <div className="flex px-20 my-12">
+      <div className="flex  px-28 my-12">
         <div className="w-1/3 lg:h-[2px] h-0 bg-blue-500"></div>
         <div className="w-1/3 lg:h-[2px] h-0 bg-red-500"></div>
         <div className="w-1/3 lg:h-[2px] h-0 bg-green-500"></div>

@@ -88,12 +88,12 @@ const TalentAcquisition = () => {
         {/* <img src={linesImage} className=""/> */}
 
         <div className="talentcontainer relative">
-          <div className="banner__content pl-[12.2rem]">
-            <h1 className="banner__content-title banner_font banner-font-change mt-12">
+          <div className="banner__content container">
+            <h1 className="banner__content-title banner_font banner-font-change mt-12 ml-24">
               We create a world of like-minded and coherent people for our
               clients.
             </h1>
-            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-5">
+            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-5 ml-24">
               Our expert teams have in-depth knowledge of technologies <br />
               and help companies build their HIGH-END engineering/technology{" "}
               <br />
