@@ -236,7 +236,7 @@ const Home = () => {
         </div>
        
       </div>
-      <div className="flex  px-28 my-12">
+      <div className="flex px-20 my-12">
         <div className="w-1/3 lg:h-[2px] h-0 bg-blue-500"></div>
         <div className="w-1/3 lg:h-[2px] h-0 bg-red-500"></div>
         <div className="w-1/3 lg:h-[2px] h-0 bg-green-500"></div>

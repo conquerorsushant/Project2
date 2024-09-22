@@ -115,7 +115,7 @@ const TalentAcquisition = () => {
 
             {/* Background lines image */}
 
-            <div className="row px-5 text-center mt-5 relative z-10">
+            <div className="row px-5 text-center mt-2 relative z-10">
               <div className="col-md-4 mt-4 mt-md-0">
                 <div
                   className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
@@ -1101,7 +1101,7 @@ const TalentAcquisition = () => {
                   style={{ height: "102px" }}
                 />
                 <h5 className="modal-title">Involvement of Multiple Teams</h5>
-                <p>
+                <p className="justify-center">
                   Imagine that you are getting 15 profiles for a vacant position
                   daily; out of 15 profiles, 13 profiles are highly irrelevant,
                   but you are still screening them and writing feedback to the
