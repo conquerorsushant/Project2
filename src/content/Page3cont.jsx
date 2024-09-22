@@ -173,54 +173,43 @@ const page3Content = {
         application process.
       </p>
     ),
-    smooth: (
-      <p>
-        A Smooth Onboarding Experience: Your Web Development Journey Starts Here
-      </p>
-    ),
+    smooth: <p>Software and Technologies for an Agile Workflow</p>,
     smoothp: (
       <p>
-        We prioritize a clear and efficient onboarding process to ensure a
-        positive experience throughout your web development journey with
-        BrainsTerra Intelligence:
+        We leverage a robust design stack to ensure an efficient and
+        high-quality design process:
       </p>
     ),
   },
   sec3: {
-    d1: <p>Discovery &amp; Requirements Gathering:</p>,
+    d1: <p>Design Thinking Methodologies:</p>,
     d11: (
       <p>
-        We begin with an in-depth workshop to understand your target audience,
-        business objectives, desired functionalities, and brand identity.
+        We employ human-centered design principles to ensure every design
+        decision is rooted in user needs and business goals.
       </p>
     ),
-    d2: <p>Information Architecture &amp; User Journey Mapping:</p>,
+    d2: <p>Design Collaboration Tools:</p>,
     d22: (
       <p>
-        We collaboratively develop a sitemap and user journey maps to define the
-        website&#39;s structure, content organization, and user flow.
+        We utilize collaborative design platforms like Figma or InVision to
+        streamline communication, feedback sharing, and real-time iteration.
       </p>
     ),
-    d3: <p>Wireframing &amp; Prototyping:</p>,
+    d3: <p>UI/UX Design Software:</p>,
     d33: (
       <p>
-        We create low-fidelity wireframes and interactive prototypes to
-        visualize the website&#39;s layout, user interface, and key
-        functionalities before diving into development.
+        Our designers are proficient in industry-standard design tools like
+        Adobe XD, Figma, Sketch, and Photoshop, allowing for the creation of
+        high-fidelity mockups and prototypes.
       </p>
     ),
-    d4: <p>Development &amp; Implementation:</p>,
+    d4: <p>User Research Tools:</p>,
     d44: (
       <p>
-        Our developers bring your website to life using the chosen technologies
-        and frameworks, ensuring a high-quality and secure website.
-      </p>
-    ),
-    d5: <p>Content Management &amp; SEO Optimization:</p>,
-    d55: (
-      <p>
-        We assist with content creation or integration and optimize your website
-        for search engines to improve online visibility.
+        We leverage user research tools like UserTesting.com or Hotjar to
+        conduct remote usability testing sessions and gather valuable user
+        feedback.
       </p>
     ),
     e1: (
