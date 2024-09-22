@@ -86,7 +86,7 @@ const Sec33 = ({content}) => {
         </div>
 
         {/* Image 3 and its text */}
-        <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center pt-8 px-4 sm:px-8">
+       { content.d5 && <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center pt-8 px-4 sm:px-8">
           <img
             src={img3}
             alt="Ongoing Support"
@@ -101,6 +101,7 @@ const Sec33 = ({content}) => {
             </p>
           </div>
         </div>
+}
 
       </div>
 

@@ -3,6 +3,7 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import img1 from "../../assets/images/Artboard4.png";
 import contact from "../../assets/images/contact.png";
 import bg from "../../assets/images/p12.png";
+import { Link } from "react-router-dom";
 
 
 const Faq3 = ({content}) => {
@@ -17,6 +18,7 @@ const Faq3 = ({content}) => {
 
   const handleClick = () => {
     setIsClicked(!isClicked);
+    
   };
 
   const getIconColor = (index) => {
@@ -180,7 +182,7 @@ const Faq3 = ({content}) => {
               </div>
             </div>
             {/* FAQ 4 */}
-            <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
+          {content.ques4 &&  <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
               <button
                 className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
                 onClick={() => handleToggle(2)}
@@ -211,9 +213,9 @@ const Faq3 = ({content}) => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div>}
             {/* FAQ 5 */}
-            <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
+           { content.ques5 && <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
               <button
                 className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
                 onClick={() => handleToggle(2)}
@@ -244,7 +246,7 @@ const Faq3 = ({content}) => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div>}
           </div>
         </div>
       </div>
@@ -259,8 +261,9 @@ const Faq3 = ({content}) => {
           <p className="text-sm sm:text-lg lg:mx-52 mb-2">
           {content.ready1}
           </p>
+          <Link to='/contact-us'>
           <button
-            onClick={handleClick}
+            // onClick={handleClick}
             className={`bg-blue-500 font-semibold flex items-center justify-center gap-2 py-2 px-4 rounded-md text-sm sm:text-base transform transition-transform duration-200 ease-in-out ${
               isClicked ? "scale-110" : ""
             } hover:scale-125`}
@@ -272,6 +275,7 @@ const Faq3 = ({content}) => {
             />
             <span>Contact Us</span>
           </button>
+          </Link>
         </div>
       </div>
     </div>

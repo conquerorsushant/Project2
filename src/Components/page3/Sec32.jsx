@@ -113,10 +113,10 @@ const Sec32 = ({content}) => {
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
               <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
+                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold ">
                 {content.p6}
                 </h2>
-                <p className="text-sm sm:text-base">
+                <p className="text-sm sm:text-base ">
                   {content.p66}
                 </p>
               </div>
@@ -188,7 +188,7 @@ const Sec32 = ({content}) => {
           </h2>
           <div className="lg:mt-4 mb-1 mt-2 sm:mt-8">
             <button
-              onClick={handleClick}
+              // onClick={handleClick}
               className={`bg-blue-500 font-semibold flex items-center justify-center lg:gap-2 py-1 px-1 lg:py-2 lg:px-4 rounded-md text-xs sm:text-lg transform transition-transform duration-200 ease-in-out ${
                 isClicked ? "scale-110" : ""
               } hover:scale-125`}
@@ -217,7 +217,7 @@ const Sec32 = ({content}) => {
             <img src={arrow} className="" />
           </div>
         </div>
-        <div className="flex lg:flex-col flex-col lg:gap-10 gap-6 flex-wrap    p-2">
+        <div className="flex lg:flex-col flex-col lg:gap-10 gap-6 flex-wrap  p-2">
           <div className="flex lg:flex-row flex-col lg:px-36 ">
             <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
@@ -312,8 +312,30 @@ const Sec32 = ({content}) => {
                {content.s66}</p>
               </div>
             </div>
+
+         
+           
            
           </div>
+         {content.s7 && <div className="flex lg:flex-row flex-col lg:px-36 ">
+            <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
+              <img
+                src={content.a1.props.src}
+                alt="Data Lakes Icon"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+              />
+              <div>
+                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
+               {content.s7}
+                </h2>
+                <p className="text-sm sm:text-base">
+                {content.s77}
+                </p>
+              </div>
+            </div>
+           
+          </div>}
+         
          
 
         </div>

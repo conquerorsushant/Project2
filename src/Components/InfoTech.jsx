@@ -90,18 +90,18 @@ const InfoTech = () => {
       <h3>AI/ML Models Development</h3>
     </div>
     </Link>
-    <Link to='/page1'>
+    <Link to='/data-engineering'>
     <div className="service-box">
       <img src={icon2} className="service-icon" />
       <h3>Data Engineering</h3>
     </div>
     </Link>
-    <Link to='/page2'>
+    {/* <Link to='/page2'> */}
     <div className="service-box">
       <img src={icon3} className="service-icon" />
       <h3>Database Recovery and Disaster Management</h3>
     </div>
-    </Link>
+    {/* </Link> */}
     <Link to='/forex-trading'>
     <div className="service-box">
       <img src={icon4} className="service-icon" />
@@ -144,7 +144,7 @@ const InfoTech = () => {
       <h3>Game Development</h3>
     </div>
     </Link>
-    <Link to='/page10'>
+    <Link to='/desktop-development'>
     <div className="service-box">
       <img src={icon11} className="service-icon" />
       <h3>Desktop Application</h3>

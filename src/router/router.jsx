@@ -63,7 +63,7 @@ const router = createBrowserRouter([
         element: <Page2 content={page3Content} />
       },
       {
-        path: '/page4',
+        path: '/data-engineering',
         element: <Page2 content={page4Content} />
       },
       {
@@ -71,13 +71,10 @@ const router = createBrowserRouter([
         element: <Page2 content={page5Content} />
       },
       {
-        path: '/page6',
+        path: '/custom-software',
         element: <Page2 content={page15Content} />
       },
-      {
-        path: '/page7',
-        element: <Page2 content={page7Content} />
-      },
+      
       {
         path: '/CMS',
         element: <Page2 content={page12Content} />
@@ -107,7 +104,7 @@ const router = createBrowserRouter([
         element: <Page2 content={page8Content} />
       },
       {
-        path: '/custom-software',
+        path: '/desktop-development',
         element: <Page2 content={page6Content} />
       },
       {
