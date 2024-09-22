@@ -101,7 +101,27 @@ const Sec33 = ({content}) => {
             </p>
           </div>
         </div>
+
       </div>
+
+     {content.d6 && < div className="flex flex-col lg:flex-row lg:items-center items-start justify-center pt-8 px-4 sm:px-8">
+          <img
+            src={img3}
+            alt="Ongoing Support"
+            className="w-[80px] lg:w-[150px]"
+          />
+          <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start p-4">
+            <h3 className="text-base lg:text-3xl font-semibold">
+            {content.d6}
+            </h3>
+            <p className="pt-4 lg:pt-6 text-base lg:text-xl">
+            {content.d66}
+            </p>
+          </div>
+        
+      </div>}
+
+      
 
       {/* Section 2 with overlapping image */}
       <div className="relative mt-12 sm:mt-24 lg:mt-28">

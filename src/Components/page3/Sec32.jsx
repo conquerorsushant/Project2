@@ -11,6 +11,7 @@ import arrow from "../../assets/images/Arrow111.png";
 import favicon from "../../assets/images/favicon.png";
 
 const Sec32 = ({content}) => {
+  console.log(content.a1.props)
   
   const [isClicked, setIsClicked] = useState(false);
 
@@ -28,7 +29,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36 ">
             <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a1}
+                src={content.a1.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -43,7 +44,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex lg:w-1/2   items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a2}
+                src={content.a2.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -60,7 +61,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36">
             <div className="flex  lg:w-1/2  items-start justify-center gap-4 lg:p-4 mx-2">
               <img
-                src={content.a3}
+                src={content.a3.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -75,7 +76,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 pl-2 mx-2 ">
               <img
-                src={content.a4}
+                src={content.a4.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -92,7 +93,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36 ">
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a5}
+                src={content.a5.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -105,9 +106,9 @@ const Sec32 = ({content}) => {
                 </p>
               </div>
             </div>
-            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
+        { content.p6 && <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a5}
+                src={content.a6.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -119,12 +120,12 @@ const Sec32 = ({content}) => {
                   {content.p66}
                 </p>
               </div>
-            </div>
+            </div>}
           </div>
-          <div className="flex lg:px-36 ">
+         { content.p7 && <div className="flex lg:px-36 ">
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a5}
+                src={content}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -137,7 +138,7 @@ const Sec32 = ({content}) => {
                 </p>
               </div>
             </div>
-          </div>
+          </div>}
         </div>
 
         {/* Left1 Image Positioned on Right Side */}
@@ -220,7 +221,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36 ">
             <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a1}
+                src={content.a1.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -235,7 +236,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex lg:w-1/2   items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a2}
+                src={content.a2.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -252,7 +253,7 @@ const Sec32 = ({content}) => {
           <div className="flex lg:flex-row flex-col lg:px-36">
             <div className="flex  lg:w-1/2  items-start justify-center gap-4 lg:p-4 mx-2">
               <img
-                src={content.a3}
+                src={content.a3.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -267,7 +268,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 pl-2 mx-2 ">
               <img
-                src={content.a4}
+                src={content.a4.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -285,7 +286,7 @@ const Sec32 = ({content}) => {
            
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a5}
+                src={content.a5.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -299,7 +300,7 @@ const Sec32 = ({content}) => {
             </div>
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a6}
+                src={content.a6.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />

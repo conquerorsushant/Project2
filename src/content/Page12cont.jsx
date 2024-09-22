@@ -299,16 +299,16 @@ empowers authorized users to control various aspects of your website&#39;s conte
       que2: <p>What are the benefits of using a CMS?</p>,
       ans2: (
         <p>
-         Benefits of using a CMS include:
-Simplified Content Management: Easily create, edit, and publish website content without relying on
-developers for basic updates.
-Improved Collaboration: Facilitate content creation and management by multiple users with designated
-access controls.
-SEO Optimization: Many CMS platforms offer built-in SEO features or allow for integration with SEO
-plugins to improve your website&#39;s search engine ranking.
-Cost-Effective Content Management: Reduce dependence on developers for content updates,
-potentially leading to cost savings.
-Scalability &amp; Flexibility: A CMS allows your website&#39;s content management to adapt and grow along
+        <b> Benefits of using a CMS include:</b><br/>
+<b>Simplified Content Management:</b> Easily create, edit, and publish website content without relying on
+developers for basic updates.<br/>
+<b>Improved Collaboration:</b> Facilitate content creation and management by multiple users with designated
+access controls.<br/>
+<b>SEO Optimization:</b> Many CMS platforms offer built-in SEO features or allow for integration with SEO
+plugins to improve your website&#39;s search engine ranking.<br/>
+<b>Cost-Effective Content Management:</b> Reduce dependence on developers for content updates,
+potentially leading to cost savings.<br/>
+<b>Scalability &amp; Flexibility:</b> A CMS allows your website&#39;s content management to adapt and grow along
 side your business.
         </p>
       ),
