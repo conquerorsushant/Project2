@@ -89,11 +89,11 @@ const TalentAcquisition = () => {
 
         <div className="talentcontainer relative">
           <div className="banner__content container">
-            <h1 className="banner__content-title banner_font banner-font-change mt-12 ml-24">
+            <h1 className="banner__content-title banner_font banner-font-change mt-12 pt-4 ml-24 front-heading2">
               We create a world of like-minded and coherent people for our
               clients.
             </h1>
-            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-5 ml-24">
+            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-5 ml-24 front-heading2">
               Our expert teams have in-depth knowledge of technologies <br />
               and help companies build their HIGH-END engineering/technology{" "}
               <br />
@@ -105,9 +105,9 @@ const TalentAcquisition = () => {
             <img src={linesImage} alt="Lines" className="w-full h-auto" />
           </div>
           {/* "Why Choose Us" Section */}
-          <div className="whatwedo relative px-5 mt-20 max-w-[70%] mx-[15%]">
+          <div className="whatwedo relative mt-20 max-w-[70%] mx-[15%]">
             <h1
-              className="heading text-center   recruit-head-change relative z-10"
+              className="heading text-center   recruit-head-change relative z-10 why_choose_us"
               style={{ marginTop: "155px" }}
             >
               Why Choose Us
@@ -166,7 +166,7 @@ const TalentAcquisition = () => {
           <br />
           <br />
           <div className="synergy__content">
-            <div style={{ maxWidth: "fit-content" }} className="px-2">
+            <div style={{ maxWidth: "fit-content" }} className="px-6">
               <p style={{ textAlign: "justify" }}>
                 We are a team of proficient and well-qualified professionals who
                 have in-depth knowledge of technology. Our focus is on
@@ -206,7 +206,7 @@ const TalentAcquisition = () => {
                 <img src={quotsImage} alt="Quotes" />
                 <br />
                 <br />
-                <h5 style={{ fontSize: "17px" }}>
+                <h5 style={{ fontSize: "17px", textAlign: "justify" }}>
                   “It has been seen that around 80% of companies, worldwide,
                   don’t know much about current hiring trends, effective
                   interview process, latest salary trends, etc. They are
@@ -504,25 +504,32 @@ const TalentAcquisition = () => {
               </div>
 
               <div className="modal-body">
-  <ul style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
-    <li>Data Science: Python, R, SQL, and more.</li>
-    <li>
-      Data Engineering: Spark, Hadoop, MapReduce, Hive, Pig, Kafka, and more.
-    </li>
-    <li>
-      Machine Learning/AI/Computer Vision: TensorFlow, Caffe, Keras, Theano,
-      PyTorch, Scikit-learn, OpenCV, MATLAB, CUDA, PCL, Dlib, and more.
-    </li>
-    <li>
-      Data Analytics: Business Intelligence, Data Visualization, ETL, Data
-      Warehousing, Data Pipeline, and more.
-    </li>
-    <li>
-      Database: NoSQL, MySQL, PostgreSQL, SQL, Oracle, and more.
-    </li>
-  </ul>
-</div>
-
+                <ul
+                  style={{
+                    textAlign: "left",
+                    listStyleType: "disc",
+                    paddingLeft: "20px",
+                  }}
+                >
+                  <li>Data Science: Python, R, SQL, and more.</li>
+                  <li>
+                    Data Engineering: Spark, Hadoop, MapReduce, Hive, Pig,
+                    Kafka, and more.
+                  </li>
+                  <li>
+                    Machine Learning/AI/Computer Vision: TensorFlow, Caffe,
+                    Keras, Theano, PyTorch, Scikit-learn, OpenCV, MATLAB, CUDA,
+                    PCL, Dlib, and more.
+                  </li>
+                  <li>
+                    Data Analytics: Business Intelligence, Data Visualization,
+                    ETL, Data Warehousing, Data Pipeline, and more.
+                  </li>
+                  <li>
+                    Database: NoSQL, MySQL, PostgreSQL, SQL, Oracle, and more.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -556,7 +563,13 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
+                <ul
+                  style={{
+                    textAlign: "left",
+                    listStyleType: "disc",
+                    paddingLeft: "20px",
+                  }}
+                >
                   <li>Data Science- Python, R, SQL, and more.</li>
                   <li>
                     Data Engineering- Spark, Hadoop, MapReduce, Hive, Pig,
@@ -608,7 +621,13 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
+                <ul
+                  style={{
+                    textAlign: "left",
+                    listStyleType: "disc",
+                    paddingLeft: "20px",
+                  }}
+                >
                   <li>
                     DevOps/SRE- CI/CD, Orchestration, Containerization,
                     Configuration Management, Build & Release, and more.
@@ -654,7 +673,13 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
+                <ul
+                  style={{
+                    textAlign: "left",
+                    listStyleType: "disc",
+                    paddingLeft: "20px",
+                  }}
+                >
                   <li>
                     Cloud Security, Application Security, Network Security,
                     Infrastructure Security, DevSecOps, Enterprise Governance,
@@ -695,7 +720,13 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
+                <ul
+                  style={{
+                    textAlign: "left",
+                    listStyleType: "disc",
+                    paddingLeft: "20px",
+                  }}
+                >
                   <li>
                     UI/UX, Visual Design, Interaction Design, User Research,
                     Creative/Art-Director, Product Management, and more.
@@ -735,7 +766,13 @@ const TalentAcquisition = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <ul  style={{ textAlign: "left", listStyleType: "disc", paddingLeft: "20px" }}>
+                <ul
+                  style={{
+                    textAlign: "left",
+                    listStyleType: "disc",
+                    paddingLeft: "20px",
+                  }}
+                >
                   <li>
                     Product Manager, Project Manager, Program Manager, Business
                     Analyst, Scrum Master, Technical Writer, Business
@@ -762,7 +799,6 @@ const TalentAcquisition = () => {
                 data-target="#rs1"
                 onClick={toggleModal12}
                 style={{
-                  float: "right",
                   fontSize: "2.0rem",
                   border: "none",
                   background: "none",
@@ -779,7 +815,6 @@ const TalentAcquisition = () => {
                 data-target="#rs2"
                 onClick={toggleModal13}
                 style={{
-                  float: "right",
                   fontSize: "2.0rem",
                   border: "none",
                   background: "none",
@@ -796,7 +831,6 @@ const TalentAcquisition = () => {
                 data-target="#rs3"
                 onClick={toggleModal14}
                 style={{
-                  float: "right",
                   fontSize: "2.0rem",
                   border: "none",
                   background: "none",
@@ -810,12 +844,18 @@ const TalentAcquisition = () => {
         </div>
       </div>
       <br />
-      <div className="pt-5 text-center">
-        <h1 className="heading mb-2 mx-4 lg:mx-2 " style={{ fontSize: "18px" }}>
+      <div className="pt-5 text-center flex flex-col justify-center items-center">
+        <h1
+          className="heading mb-2 mx-4 lg:mx-2 "
+          style={{ fontSize: "18px", textAlign: "justify" }}
+        >
           We are driven by the highest standards of quality, integrity, trust,
           and commitment while providing quality professional services.{" "}
         </h1>
-        <h1 className="heading mb-2 mx-4 lg:mx-2" style={{ fontSize: "18px" }}>
+        <h1
+          className="heading mb-2 mx-4 lg:mx-2"
+          style={{ fontSize: "18px", textAlign: "justify" }}
+        >
           We aim to lay a foundation towards building a great relationship
           between the employer and employee.
         </h1>
@@ -1051,7 +1091,7 @@ const TalentAcquisition = () => {
                   style={{ height: "102px" }}
                 />
                 <h5 className="modal-title">Off-Beat Hiring Approach</h5>
-                <p style={{textAlign:'justify'}}>
+                <p style={{ textAlign: "justify" }}>
                   When it comes to hiring top talent in the market, most
                   companies face many challenges like low rate of talent joining
                   at the company, low rate of interview footfalls, and
@@ -1101,7 +1141,7 @@ const TalentAcquisition = () => {
                   style={{ height: "102px" }}
                 />
                 <h5 className="modal-title">Involvement of Multiple Teams</h5>
-                <p style={{textAlign:'justify'}}>
+                <p style={{ textAlign: "justify" }}>
                   Imagine that you are getting 15 profiles for a vacant position
                   daily; out of 15 profiles, 13 profiles are highly irrelevant,
                   but you are still screening them and writing feedback to the

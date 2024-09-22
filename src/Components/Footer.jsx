@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="container">
           <div className="row mt-0 mt-md-5">
             <div className="col-md-3">
-              <div className=" pl-7 footer__about flex flex-col items-center justify-center">
+              <div className=" pl-7 footer-text footer__about flex flex-col items-center justify-center text-justify">
                 <p>
                   We are a one-stop destination for your business growth. We
                   have expertise in AI/ML and other technology product
@@ -79,7 +79,6 @@ const Footer = () => {
                       Information Technology Wing
                     </Link>
                   </li>
-                  
                 </ul>
               </div>
               <ul className="social">
