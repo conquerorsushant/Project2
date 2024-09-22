@@ -206,11 +206,12 @@ customer insights, personalize marketing campaigns, and improve customer engagem
     f66: <p>We understand the security and compliance
     requirements of large enterprises. Our CRM solutions prioritize robust security measures and are
     built to adhere to relevant industry regulations.</p>,
+     f7:<p>Advanced Analytics &amp; Reporting:</p>,
+     f77:<p>We can help you leverage advanced analytics and reporting
+     functionalities within your CRM to gain deeper customer insights, identify trends, and make data-
+     driven decisions to optimize customer experience and boost ROI.</p>,
   },
-  f7:<p>Advanced Analytics &amp; Reporting:</p>,
-  f77:<p>We can help you leverage advanced analytics and reporting
-  functionalities within your CRM to gain deeper customer insights, identify trends, and make data-
-  driven decisions to optimize customer experience and boost ROI.</p>,
+ 
   faq: {
    que1:<p>What are the benefits of using a CRM system?</p>,
    ans1:<p>CRM systems offer numerous benefits, including improved customer service, streamlined sales

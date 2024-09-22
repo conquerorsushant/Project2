@@ -317,13 +317,13 @@ gateways, and more.
       que2: <p>What are the benefits of having an e-commerce store?</p>,
       ans2: (
         <p>
-          Benefits of having an e-commerce store include:
-Reach a Wider Audience: Sell your products to customers around the world, 24/7.
-Reduced Overhead Costs: Eliminate or minimize physical store costs like rent and utilities.
-Increased Sales Opportunities: Offer promotions and discounts to drive sales and increase revenue.
-Improved Customer Convenience: Provide customers with a convenient and flexible shopping
-experience.
-Data-Driven Insights: Gain valuable customer data and insights to improve your product offerings and
+         <b> Benefits of having an e-commerce store include:</b><br/>
+<b>Reach a Wider Audience:</b> Sell your products to customers around the world, 24/7.<br/>
+<b>Reduced Overhead Costs:</b> Eliminate or minimize physical store costs like rent and utilities.<br/>
+<b>Increased Sales Opportunities:</b> Offer promotions and discounts to drive sales and increase revenue.<br/>
+<b>Improved Customer Convenience: </b>Provide customers with a convenient and flexible shopping
+experience.<br/>
+<b>Data-Driven Insights:</b> Gain valuable customer data and insights to improve your product offerings and
 marketing strategies.
         </p>
       ),
