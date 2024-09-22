@@ -1,4 +1,3 @@
-
 import imga1 from "../assets/images/Asset1.png";
 import imga2 from "../assets/images/Asset5.png";
 import imga3 from "../assets/images/Asset9.png";
@@ -8,9 +7,10 @@ import imga6 from "../assets/images/Asset11.png";
 import imga7 from "../assets/images/Asset13.png";
 import imga8 from "../assets/images/Asset15.png";
 import imga9 from "../assets/images/Asset12.png";
-import imga10 from "../assets/images/Asset14.png";const page2Content = {
+import imga10 from "../assets/images/Asset14.png";
+const page2Content = {
   sec1: {
-    title:<p>BrainsTerra Intelligence:</p>,
+    title: <p>BrainsTerra Intelligence:</p>,
     t1: (
       <h1 className="text-xl lg:text-4xl font-bold">
         Crafting Exceptional Web Experiences
@@ -119,8 +119,8 @@ import imga10 from "../assets/images/Asset14.png";const page2Content = {
         attracting potential customers.
       </p>
     ),
-    q2:<p>Why Choose</p>,
-    q3:<p>  BrainsTerra Intelligence</p>,
+    q2: <p>Why Choose</p>,
+    q3: <p> BrainsTerra Intelligence</p>,
     q1: <p>for Your Web Development Needs?</p>,
     s1: <p>Collaborative &amp; Agile Approach:</p>,
     s11: (
@@ -237,7 +237,7 @@ import imga10 from "../assets/images/Asset14.png";const page2Content = {
         at various stages:
       </p>
     ),
-    f1: <p>Cost-Effective CRM Solutions:</p>,
+    f1: <p>Cost-Effective Website Solutions:</p>,
     f11: (
       <p>
         We leverage efficient development processes, dynamic team structure

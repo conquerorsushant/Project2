@@ -14,8 +14,8 @@ import lines from "../../assets/images/lines.png";
 import page1Content from '../../content/Page1cont'; 
 
 
-const Sec33 = () => {
-    const content = page1Content.sec3;
+const Sec33 = ({content}) => {
+    // const content = page1Content.sec3;
 
   return (
     <div className="bg-primary relative text-white">

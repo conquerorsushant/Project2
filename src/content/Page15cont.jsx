@@ -283,7 +283,7 @@ and legacy systems.
     },
     
     faq: {
-      que1: <p>What is the difference between custom software development and off-the-shelf software?</p>,
+      que1: <p> custom software development and off-the-shelf software?</p>,
       ans1: (
         <p>
       Custom software development involves building software tailored to your specific needs and business
