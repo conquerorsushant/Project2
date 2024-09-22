@@ -1051,7 +1051,7 @@ const TalentAcquisition = () => {
                   style={{ height: "102px" }}
                 />
                 <h5 className="modal-title">Off-Beat Hiring Approach</h5>
-                <p>
+                <p style={{textAlign:'justify'}}>
                   When it comes to hiring top talent in the market, most
                   companies face many challenges like low rate of talent joining
                   at the company, low rate of interview footfalls, and
@@ -1101,7 +1101,7 @@ const TalentAcquisition = () => {
                   style={{ height: "102px" }}
                 />
                 <h5 className="modal-title">Involvement of Multiple Teams</h5>
-                <p className="justify-center">
+                <p style={{textAlign:'justify'}}>
                   Imagine that you are getting 15 profiles for a vacant position
                   daily; out of 15 profiles, 13 profiles are highly irrelevant,
                   but you are still screening them and writing feedback to the
