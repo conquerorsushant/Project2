@@ -84,7 +84,7 @@ const InfoTech = () => {
             {/**icons */}
             <div className="service-container">
   <div className="grid-container">
-    <Link to='/expert-data'>
+    <Link to='/AI-ML'>
     <div className="service-box">
       <img src={icon1} className="service-icon" />
       <h3>AI/ML Models Development</h3>
@@ -102,43 +102,43 @@ const InfoTech = () => {
       <h3>Database Recovery and Disaster Management</h3>
     </div>
     </Link>
-    <Link to='/page14'>
+    <Link to='/forex-trading'>
     <div className="service-box">
       <img src={icon4} className="service-icon" />
       <h3>Forex Trading Automation Bot</h3>
     </div>
     </Link>
-    <Link to='/page5'>
+    <Link to='/app-development'>
     <div className="service-box">
       <img src={icon5} className="service-icon" />
       <h3>App Development</h3>
     </div>
     </Link>
-    <Link to='/page2'>
+    <Link to='/web-development'>
     <div className="service-box">
       <img src={icon6} className="service-icon" />
       <h3>Web Development</h3>
     </div>
     </Link>
-    <Link to='/page6'>
+    <Link to='/custom-software'>
     <div className="service-box">
       <img src={icon7} className="service-icon" />
       <h3>Custom Software Development</h3>
     </div>
     </Link>
-    <Link to='/page8'>
+    <Link to='/ui-ux'>
     <div className="service-box">
       <img src={icon8} className="service-icon" />
       <h3>UI/UX Design Services</h3>
     </div>
     </Link>
-    <Link to='/page9'>
+    <Link to='/IOT'>
     <div className="service-box">
       <img src={icon9} className="service-icon" />
       <h3>Iot Development </h3>
     </div>
     </Link>
-    <Link to='/page13'>
+    <Link to='/game-development'>
     <div className="service-box">
       <img src={icon10} className="service-icon" />
       <h3>Game Development</h3>
@@ -150,31 +150,31 @@ const InfoTech = () => {
       <h3>Desktop Application</h3>
     </div>
     </Link>
-    <Link to='/page10'>
+    <Link to='/MVP'>
     <div className="service-box">
       <img src={icon12} className="service-icon" />
       <h3>MVP Development</h3>
     </div>
     </Link>
-    <Link to='/page12'>
+    <Link to='/EPR'>
     <div className="service-box">
       <img src={icon13} className="service-icon" />
       <h3>ERP Software Solutions</h3>
     </div>
     </Link>
-    <Link to='/page1'>
+    <Link to='/CRM'>
     <div className="service-box">
       <img src={icon15} className="service-icon" />
       <h3>Customer Relationship Management</h3>
     </div>
     </Link>
-    <Link to='/page12'>
+    <Link to='/CMS'>
     <div className="service-box">
       <img src={icon16} className="service-icon" />
       <h3>Content Management System</h3>
     </div>
     </Link>
-    <Link to='/page11'>
+    <Link to='/e-commerce'>
     <div className="service-box">
       <img src={icon14} className="service-icon" />
       <h3>E-Commerce Solution</h3>

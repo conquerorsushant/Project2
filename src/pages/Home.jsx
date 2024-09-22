@@ -38,7 +38,7 @@ const Home = () => {
      <div className="banner relative">
   <div className="banner__content">
   <div class="col-md-8 ">
-						<h1 class="banner__content-title pl-16 ">A one-stop destination for START-ups to start, and EXCEL in their businesses.</h1>
+						<h1 class="banner__content-title pl-16 -ml-[6.40rem] ">A one-stop destination for START-ups to start, and EXCEL in their businesses.</h1>
 					</div>
     
     {/* Container for the image */}

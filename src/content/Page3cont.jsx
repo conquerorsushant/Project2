@@ -13,7 +13,7 @@ import imga10 from "../assets/images/Asset14.png";const page3Content = {
     title:<p>Craft Exceptional User Experiences</p>,
     t1: (
       <h1 className="text-xl lg:text-4xl font-bold">
-       with BrainsTerra Intelligence&#39;s
+       with BrainsTerra Intelligence&#39;s 
       </h1>
     ),
     t2: <h1 className="text-3xl lg:text-6xl font-bold">UI/UX</h1>,
