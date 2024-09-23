@@ -89,11 +89,11 @@ const TalentAcquisition = () => {
 
         <div className="talentcontainer relative">
           <div className="banner__content container">
-            <h1 className="banner__content-title banner_font banner-font-change mt-12 pt-4 ml-[3.7rem] front-heading2">
+            <h1 className="banner__content-title banner_font banner-font-change pt-[4.8rem]  ml-[3.7rem] front-heading2">
               We create a world of like-minded and coherent people for our
               clients.
             </h1>
-            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-5 ml-[3.7rem] front-heading2">
+            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-3 ml-[3.7rem] front-heading2">
               Our expert teams have in-depth knowledge of technologies <br />
               and help companies build their HIGH-END engineering/technology{" "}
               <br />
@@ -166,8 +166,8 @@ const TalentAcquisition = () => {
           <br />
           <br />
           <div className="synergy__content">
-            <div style={{ maxWidth: "fit-content" }} className="px-6">
-              <p style={{ textAlign: "justify" }}>
+            <div style={{ maxWidth: "fit-content" }} className="px-6 text-start">
+              <p>
                 We are a team of proficient and well-qualified professionals who
                 have in-depth knowledge of technology. Our focus is on
                 conserving the clients' pace and effort by performing the hiring
@@ -177,7 +177,7 @@ const TalentAcquisition = () => {
                 to build their engineering/technology teams.
               </p>
 
-              <p style={{ textAlign: "justify" }}>
+              <p >
                 We have expertise in junior level to leadership/executive level
                 hiring. We have been working seamlessly as a whole team behind
                 the scenes for many start-ups and middle-level tech
@@ -186,7 +186,7 @@ const TalentAcquisition = () => {
                 thoroughly vetted and curated talent in India and the USA.
               </p>
 
-              <p style={{ textAlign: "justify" }}>
+              <p>
                 Our team has a proven track record of meeting our clients’
                 expectations who are very selective in picking up the talent for
                 hire; they consider the resources from premium engineering
@@ -206,7 +206,7 @@ const TalentAcquisition = () => {
                 <img src={quotsImage} alt="Quotes" />
                 <br />
                 <br />
-                <h5 style={{ fontSize: "17px", textAlign: "justify" }}>
+                <h5 style={{ fontSize: "17px" }}>
                   “It has been seen that around 80% of companies, worldwide,
                   don’t know much about current hiring trends, effective
                   interview process, latest salary trends, etc. They are
@@ -847,14 +847,14 @@ const TalentAcquisition = () => {
       <div className="pt-5 text-center flex flex-col justify-center items-center">
         <h1
           className="heading mb-2 mx-4 lg:mx-2 "
-          style={{ fontSize: "18px", textAlign: "justify" }}
+          style={{ fontSize: "18px"}}
         >
           We are driven by the highest standards of quality, integrity, trust,
           and commitment while providing quality professional services.{" "}
         </h1>
         <h1
           className="heading mb-2 mx-4 lg:mx-2"
-          style={{ fontSize: "18px", textAlign: "justify" }}
+          style={{ fontSize: "18px" }}
         >
           We aim to lay a foundation towards building a great relationship
           between the employer and employee.
@@ -1091,7 +1091,7 @@ const TalentAcquisition = () => {
                   style={{ height: "102px" }}
                 />
                 <h5 className="modal-title">Off-Beat Hiring Approach</h5>
-                <p style={{ textAlign: "justify" }}>
+                <p>
                   When it comes to hiring top talent in the market, most
                   companies face many challenges like low rate of talent joining
                   at the company, low rate of interview footfalls, and
@@ -1141,7 +1141,7 @@ const TalentAcquisition = () => {
                   style={{ height: "102px" }}
                 />
                 <h5 className="modal-title">Involvement of Multiple Teams</h5>
-                <p style={{ textAlign: "justify" }}>
+                <p>
                   Imagine that you are getting 15 profiles for a vacant position
                   daily; out of 15 profiles, 13 profiles are highly irrelevant,
                   but you are still screening them and writing feedback to the

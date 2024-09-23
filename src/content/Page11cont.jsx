@@ -18,7 +18,7 @@ const page11Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Solutions</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">for Growth</h1>,
     t5: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         In today&#39;s dynamic e-commerce landscape, a robust and scalable
         online store is essential for businesses of all sizes. At BrainsTerra
         Intelligence, we are your one-stop partner for crafting exceptional
@@ -67,42 +67,42 @@ const page11Content = {
     p7: <p>API Integrations::</p>,
 
     p11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We are proficient in leading e-commerce platforms like Magento, Shopify,
         WooCommerce, and BigCommerce, allowing us to select the best fit based
         on your project&#39;s specific needs and scalability requirements.
       </p>
     ),
     p22: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We utilize frameworks like React, Angular, or Vue.js to create visually
         appealing and responsive user interfaces that provide a seamless
         shopping experience across devices.
       </p>
     ),
     p33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Our developers leverage secure and scalable back-end technologies like
         Python (Django), Node.js (Express), or PHP (Laravel) to ensure smooth
         order processing, payment integrations, and robust data management.
       </p>
     ),
     p44: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We integrate secure payment gateways like Stripe, PayPal, and
         Authorize.net to facilitate seamless and secure transactions for your
         customers.
       </p>
     ),
     p55: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We integrate user-friendly CMS platforms like WordPress or Drupal to
         empower you to manage your product information, promotions, and website
         content effectively.
       </p>
     ),
     p66: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We leverage cloud platforms like AWS, Azure, or Google Cloud Platform
         (GCP) to provide a reliable, scalable, and secure foundation for your
         e-commerce store, ensuring optimal performance and handling high traffic
@@ -110,7 +110,7 @@ const page11Content = {
       </p>
     ),
     p77: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We excel at integrating third-party APIs and services to extend
         functionalities, such as shipping management, marketing automation, or
         customer relationship management (CRM) tools, into your e-commerce
@@ -123,7 +123,7 @@ const page11Content = {
     q1: <p>for Your E-Commerce Needs?</p>,
     s1: <p>Strategic Planning &amp; Roadmap Development:</p>,
     s11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We collaborate with you to develop a comprehensive e-commerce strategy
         and roadmap, aligning your online store with your overall business goals
         and target audience.
@@ -131,13 +131,13 @@ const page11Content = {
     ),
     s2: <p>Customizable Solutions:</p>,
     s22: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We don&#39;t offer a one-size-fits-all approach. We tailor our solutions
         based on your specific needs, product range, and budget.
       </p>
     ),
     s33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We help you create a seamless omnichannel experience by integrating your
         e-commerce store with other sales channels, such as brick-and-mortar
         stores or social media platforms.
@@ -146,7 +146,7 @@ const page11Content = {
     s3: <p>Omnichannel Experience:</p>,
     s4: <p>Performance Optimization:</p>,
     s44: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We optimize your e-commerce store for speed, security, and search engine
         visibility (SEO) to ensure optimal user experience and organic traffic
         generation.
@@ -154,7 +154,7 @@ const page11Content = {
     ),
     s5: <p>Security &amp; Compliance:</p>,
     s55: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We prioritize robust security measures and ensure your e-commerce
         platform adheres to industry-standard compliance regulations to
         safeguard customer data.
@@ -162,7 +162,7 @@ const page11Content = {
     ),
     s6: <p>Proven Track Record: </p>,
     s66: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We boast a successful portfolio of e-commerce projects that have helped
         businesses of all sizes achieve significant growth in online sales and
         brand recognition. ○ Successfully developed a B2C e-commerce platform
@@ -261,7 +261,7 @@ const page11Content = {
 
     f3: <p>Scalable &amp; Secure Platforms:</p>,
     f33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We design and develop e-commerce platforms with scalability in mind,
         ensuring your online store can handle increasing traffic and product
         volumes as your startup grows. We prioritize robust security measures to
@@ -270,7 +270,7 @@ const page11Content = {
     ),
     f4: <p>Integration with Marketing Automation: </p>,
     f44: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We can integrate your e-commerce platform with marketing automation
         tools to streamline customer interactions, personalize marketing
         campaigns, and track campaign performance for data-driven optimization.
@@ -278,7 +278,7 @@ const page11Content = {
     ),
     f5: <p>Omnichannel Strategy &amp; Integration:</p>,
     f55: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We help you create a seamless omnichannel experience by integrating your
         e-commerce store with existing enterprise systems (ERP, CRM) and
         physical stores. This ensures consistent product information, pricing,
@@ -287,7 +287,7 @@ const page11Content = {
     ),
     f6: <p>Advanced Features &amp; Customization::</p>,
     f66: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We can develop custom functionalities or integrate third- party APIs to
         cater to your specific e-commerce needs, such as advanced product
         filtering, personalized recommendations, or loyalty program management.
@@ -295,7 +295,7 @@ const page11Content = {
     ),
     f1: <p>Cost-Effective Solutions::</p>,
     f11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We leverage our in-house training programs and efficient processes to
         deliver cost-effective e-commerce solutions that fit your budget. We can
         recommend open- source platforms/tools where applicable to streamline
@@ -304,7 +304,7 @@ const page11Content = {
     ),
     f2: <p>Quick Launch &amp; Growth Strategies:</p>,
     f22: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We focus on building a user-friendly core e-commerce platform with
         essential functionalities to get you online quickly. We can then help
         develop growth strategies like targeted social media advertising or

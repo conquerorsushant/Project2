@@ -20,7 +20,7 @@ const page10Content = {
     //   t3: <h1 className="text-3xl lg:text-6xl font-bold">Application</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
     t5: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         At BrainsTerra Intelligence, we understand the critical role of speed
         and efficiency in today&#39;s dynamic business landscape. That&#39;s why
         we offer expert Minimum Viable Product (MVP) development services to
@@ -68,7 +68,7 @@ const page10Content = {
     //   p5: <p>API Integration::</p>,
 
     p11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We are proficient in a wide range of technologies and frameworks,
         allowing us to select the most suitable tools based on your
         project&#39;s specific needs. This may include: 1. Front-end
@@ -77,7 +77,7 @@ const page10Content = {
       </p>
     ),
     p22: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We follow an iterative agile development process, breaking down the MVP
         development into smaller sprints with frequent delivery cycles. This
         allows for continuous feedback integration, ensuring your MVP remains
@@ -85,7 +85,7 @@ const page10Content = {
       </p>
     ),
     p33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We prioritize user-centered design principles throughout the development
         process. This ensures your MVP offers a clear value proposition,
         intuitive user experience, and provides a foundation for future
@@ -111,7 +111,7 @@ const page10Content = {
     q1: <p>for Your MVP Development Needs?</p>,
     s1: <p>Rapid Prototyping &amp; Validation:</p>,
     s11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Our expertise in rapid prototyping allows you to test your core concept
         with potential users early on, minimizing development risks and
         maximizing the chances of success.
@@ -119,14 +119,14 @@ const page10Content = {
     ),
     s2: <p>Focus on Core Features:</p>,
     s22: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We prioritize building an MVP that focuses on the essential
         functionalities that validate your product&#39;s market fit and user
         needs.
       </p>
     ),
     s33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Our agile approach ensures flexibility and allows for continuous user
         feedback integration, leading to a more refined and market-ready
         product.
@@ -135,7 +135,7 @@ const page10Content = {
     s3: <p>Agile &amp; Iterative Development:</p>,
     s4: <p>High Speed Development:</p>,
     s44: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We strategically leverage our in-house training programs, and efficient
         development practices to expedite the development process while
         maintaining quality and customization capabilities, ultimately reducing
@@ -144,7 +144,7 @@ const page10Content = {
     ),
     s5: <p>Cost-Effective Solutions:</p>,
     s55: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We leverage our in-house training programs and efficient processes to
         deliver cost-effective MVP development solutions without compromising on
         quality. We offer customized plans that fit your budget and project
@@ -153,7 +153,7 @@ const page10Content = {
     ),
     s6: <p>Proven Track Record: </p>,
     s66: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We boast a successful portfolio of MVP development projects that have
         helped businesses across various industries launch innovative products
         and achieve rapid growth.
@@ -162,7 +162,7 @@ const page10Content = {
 
     s8: <p> FinTech Startup:</p>,
     s88: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Developed an MVP mobile app that streamlined the loan application
         process for a FinTech startup, resulting in a 25% increase in loan
         applications within the first 3 months.
@@ -170,7 +170,7 @@ const page10Content = {
     ),
     s9: <p>E-commerce Platform:</p>,
     s99: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Built an MVP e-commerce platform for a new retail brand, enabling them
         to launch their online store swiftly and test product-market fit before
         full- scale development.
@@ -178,7 +178,7 @@ const page10Content = {
     ),
     s7: <p>Social Networking App:</p>,
     s77: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Created an MVP social networking app for a niche community, facilitating
         rapid user acquisition and validation of core app features.
       </p>
@@ -259,7 +259,7 @@ const page10Content = {
     ),
 
     f11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We help you validate your innovative product ideas efficiently, gather
         valuable user feedback from your target market, and gain traction within
         your niche before significant investment. Our efficient development
@@ -269,7 +269,7 @@ const page10Content = {
     ),
 
     f33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We assist you in launching your MVP quickly and attracting early
         adopters to propel your startup&#39;s growth. Our agile approach allows
         for rapid iteration based on user feedback, enabling you to refine your
@@ -278,7 +278,7 @@ const page10Content = {
     ),
 
     f55: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We provide tailored MVP development solutions for large organizations
         looking to explore new market opportunities, test innovative internal
         tools, or disrupt existing business models. Our expertise in secure and

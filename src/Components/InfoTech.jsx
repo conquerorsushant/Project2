@@ -41,7 +41,7 @@ const InfoTech = () => {
       >
         <div className="relative ">
           <div className="banner__content container px-9">
-            <h1 className="banner__content-title banner-font-change ml-14 front-heading3">
+            <h1 className="banner__content-title banner-font-change pt-[4.8rem] ml-14 front-heading3">
               We develop best-in-class
               <br />
               tech products and help our

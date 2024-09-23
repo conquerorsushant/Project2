@@ -20,7 +20,7 @@ const page3Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Design</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         At BrainsTerra Intelligence, we understand the power of exceptional
         UI/UX design in driving user engagement, brand loyalty, and ultimately,
         business growth. Our team of passionate UI/UX designers collaborates
@@ -67,14 +67,14 @@ const page3Content = {
     p7: <p>Development &amp; Handover:</p>,
 
     p11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We begin with a comprehensive discovery workshop to understand your
         target audience, brand identity, project goals, and any existing user
         research.
       </p>
     ),
     p22: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Our team conducts in-depth user research through surveys, interviews,
         and usability testing to gain valuable insights into user needs,
         behaviors, and pain points. We also perform a competitive analysis to
@@ -82,7 +82,7 @@ const page3Content = {
       </p>
     ),
     p33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We meticulously plan the information architecture, outlining the content
         hierarchy and navigation structure for optimal user experience. User
         flows are then mapped to visualize the user journey across various
@@ -90,14 +90,14 @@ const page3Content = {
       </p>
     ),
     p44: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Low-fidelity wireframes are created to establish the core user interface
         layout. These evolve into interactive prototypes for user testing and
         validation.
       </p>
     ),
     p55: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Our UI designers bring your brand vision to life, crafting a visually
         appealing and user-friendly interface that aligns with your brand
         identity. We leverage design tools like Adobe XD, Figma, or Sketch to
@@ -105,14 +105,14 @@ const page3Content = {
       </p>
     ),
     p66: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Usability testing is conducted throughout the design process to identify
         areas for improvement. We iterate on the design based on user feedback
         to ensure an optimal user experience.
       </p>
     ),
     p77: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Seamlessly collaborate with your development team through style guides,
         asset delivery, and comprehensive design documentation to facilitate a
         smooth handoff for development.
@@ -123,7 +123,7 @@ const page3Content = {
     q1: <p>for Your UI/UX Design Needs?</p>,
     s1: <p>User-Centered Approach:</p>,
     s11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We prioritize user needs above all else, ensuring your UI/UX design is
         intuitive, engaging, and addresses your target audience&#39;s pain
         points.
@@ -131,14 +131,14 @@ const page3Content = {
     ),
     s2: <p>Data-Driven Design Decisions:</p>,
     s22: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Our design decisions are backed by user research and data analysis,
         leading to measurable improvements in user engagement and conversion
         rates..
       </p>
     ),
     s33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We adopt an agile workflow, allowing for continuous feedback and
         refinement throughout the design process, ensuring optimal results.
       </p>
@@ -146,14 +146,14 @@ const page3Content = {
     s3: <p>Agile &amp; Iterative Process:</p>,
     s4: <p>Experienced Design Team::</p>,
     s44: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         Our team comprises skilled UI/UX designers with a proven track record of
         creating user-centric designs across diverse industries.
       </p>
     ),
     s5: <p>Customizable Solutions:</p>,
     s55: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We understand that every project is unique. We offer tailored UI/UX
         design solutions that perfectly align with your specific needs and
         budget.
@@ -161,7 +161,7 @@ const page3Content = {
     ),
     s6: <p>Proven Results:</p>,
     s66: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We boast a portfolio of successful projects where we&#39;ve transformed
         user experiences and driven real business growth for our clients. ○
         Increased user engagement by 25% for a leading e-commerce platform in
@@ -222,19 +222,19 @@ const page3Content = {
       </p>
     ),
     f11: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We help you establish a strong brand identity with a user-friendly
         website or mobile app designed to convert visitors into customers.
       </p>
     ),
     f33: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We assist you in creating intuitive and scalable UI/UX experiences that
         can accommodate rapid user growth and evolving product features.
       </p>
     ),
     f55: (
-      <p style={{ textAlign: "justify" }}>
+      <p   >
         We provide comprehensive UI/UX design solutions to optimize complex
         enterprise applications, enhancing user adoption and driving employee
         productivity.

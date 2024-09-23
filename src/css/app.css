@@ -9846,7 +9846,7 @@ header .navbar-nav li a {
 .banner__content-title {
   font-size: 22px;
   font-weight: bolder;
-  margin-top: 60px
+  /* padding-top: 6rem */
 }
 
 @media (max-width: 767.98px) {
@@ -11036,7 +11036,7 @@ header .navbar-nav li a {
   }
   .front-heading3 {
     margin-left: -1.3rem;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     max-width: 80%;
   }
   .why_choose_us{
@@ -11050,6 +11050,7 @@ header .navbar-nav li a {
   }
   p{
     margin-bottom: 0;
+    padding: 1.4rem;
   }
 }
 
@@ -11328,6 +11329,7 @@ label {
 .banner__content-title {
   opacity: 0;
   animation: reveal 1.1s ease-out forwards;
+  /* padding-top: 6rem; */
 }
 
 .animate-first {

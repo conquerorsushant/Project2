@@ -16,7 +16,7 @@ import imga10 from "../assets/images/Asset14.png"; const page16Content = {
         t3: <h1 className="text-3xl lg:text-6xl font-bold"> Next-Gen</h1>,
         t4: <h1 className="text-3xl lg:text-6xl font-bold">ERP Solutions</h1>,
         t5: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 At BrainsTerra Intelligence, we empower businesses of all sizes to achieve operational excellence
                 through our world-class Enterprise Resource Planning (ERP) software solutions. Our team of seasoned
                 ERP consultants and developers works closely with you to understand your unique business needs and
@@ -62,33 +62,33 @@ import imga10 from "../assets/images/Asset14.png"; const page16Content = {
 
 
         p11: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We are well-versed in implementing and customizing popular ERP
                 platforms like SAP S/4HANA, Oracle NetSuite, Microsoft Dynamics 365, and Odoo, ensuring a
                 solution that aligns perfectly with your existing infrastructure and scalability requirements.
             </p>
         ),
         p22: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We excel in integrating your ERP system with existing CRM, SCM, and
                 other business-critical applications, creating a unified data ecosystem for seamless information
                 flow.
             </p>
         ),
         p33: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We champion cloud-based ERP deployments, offering scalability,
                 security, and accessibility from anywhere.
             </p>
         ),
         p44: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We leverage workflow automation tools and robotic process
                 automation (RPA) to streamline repetitive tasks and enhance operational efficiency.
             </p>
         ),
         p55: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We integrate robust data analytics and reporting capabilities into
                 your ERP system, empowering you to gain valuable insights from your data and make data-
                 driven decisions.
@@ -100,7 +100,7 @@ import imga10 from "../assets/images/Asset14.png"; const page16Content = {
         q1: <p>for Your ERP Implementation?</p>,
         s1: <p>In-Depth Industry Knowledge:</p>,
         s11: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 Our team possesses in-depth understanding of diverse industry-
                 specific requirements, ensuring the tailored implementation of ERP functionalities that cater to
                 your unique business needs.
@@ -108,7 +108,7 @@ import imga10 from "../assets/images/Asset14.png"; const page16Content = {
         ),
         s2: <p>Needs-Based Approach:</p>,
         s22: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We prioritize understanding your specific challenges and goals before
                 recommending an ERP solution. This ensures you receive a system that directly addresses your
                 pain points and supports your growth objectives.
@@ -116,7 +116,7 @@ import imga10 from "../assets/images/Asset14.png"; const page16Content = {
         ),
         s3: <p>Change Management Expertise:</p>,
         s33: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We understand that successful ERP implementation hinges on
                 user adoption. Our team provides comprehensive change management services to ensure a
                 smooth transition for your employees.
@@ -125,21 +125,21 @@ import imga10 from "../assets/images/Asset14.png"; const page16Content = {
 
         s4: <p>Data Migration &amp; Security:</p>,
         s44: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We possess the expertise to securely migrate your existing data to
                 the new ERP system, ensuring data integrity and maintaining the highest security standards.
             </p>
         ),
         s5: <p>Ongoing Support &amp; Training:</p>,
         s55: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We offer ongoing support and training programs to ensure your
                 team can maximize the value of your ERP system.
             </p>
         ),
         s6: <p style={{ zIndex: '55', position: 'relative' }}>Cost-Effective Solutions:</p>,
         s66: (
-            <p style={{ zIndex: '55', position: 'relative', textAlign: "justify" }}>
+            <p style={{ zIndex: '55', position: 'relative',   }}>
                 We leverage our in-house training programs and efficient processes
                 to deliver cost-effective ERP solutions without compromising on quality. We offer customized
                 plans that fit your budget and project scope.
@@ -213,7 +213,7 @@ import imga10 from "../assets/images/Asset14.png"; const page16Content = {
             </p>
         ),
         f11: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We help you establish a strong foundation for growth by implementing an ERP system
                 that centralizes and streamlines core functionalities like accounting, inventory management, and
                 customer relationship management.
@@ -221,14 +221,14 @@ import imga10 from "../assets/images/Asset14.png"; const page16Content = {
         ),
 
         f33: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We assist you in scaling your operations efficiently with a cloud-based ERP solution
                 that can accommodate rapid data growth and evolving business needs.
             </p>
         ),
 
         f55: (
-            <p style={{textAlign:"justify"}}>
+            <p   >
                 We provide comprehensive ERP solutions to manage complex business processes
                 across your entire organization. Our expertise spans multi-company deployments, advanced
                 business intelligence, and integration with legacy systems.

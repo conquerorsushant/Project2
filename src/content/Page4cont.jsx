@@ -13,16 +13,16 @@ const page4Content = {
     title: <p>BrainsTerra Intelligence:</p>,
     t1: (
       <h1 className="text-xl lg:text-4xl font-bold">
-        Unleash the Power of Your
+        Unleash the Power of Your Data with
       </h1>
     ),
-    t2: <h1 className="text-3xl lg:text-6xl font-bold">Data</h1>,
-    t3: <h1 className="text-3xl lg:text-6xl font-bold">with Expert</h1>,
-    t4: <h1 className="text-3xl lg:text-6xl font-bold">Data Engineering</h1>,
+    t2: <h1 className="text-3xl lg:text-6xl font-bold">Expert</h1>,
+    t3: <h1 className="text-3xl lg:text-6xl font-bold">Data</h1>,
+    t4: <h1 className="text-3xl lg:text-6xl font-bold">Engineering</h1>,
     t5: (
-      <p style={{ textAlign: "justify" }}>
-        At BrainsTerra Intelligence, we empower businesses of all sizes – MSMEs,
-        startups, and enterprises – to leverage the transformative power of
+      <p>
+        At BrainsTerra Intelligence,<br/> we empower businesses of all sizes:<br/> <span className="text-3xl"> MSMEs,
+        startups, and enterprises  </span><br/>to leverage the transformative power of
         data. Our world-class Data Engineering Services are crafted to build
         robust infrastructure tailored to your specific needs, driving your
         business towards data-driven decision- making and growth.
@@ -70,7 +70,7 @@ const page4Content = {
     ),
 
     p11: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We design and implement scalable data lakes using technologies like
         Apache Hadoop, Amazon S3, or Azure Data Lake Storage. These repositories
         serve as the central hub for ingesting and storing all your raw,
@@ -78,7 +78,7 @@ const page4Content = {
       </p>
     ),
     p22: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We leverage robust frameworks like Apache Airflow, Apache Spark, or
         Luigi to construct efficient data pipelines. These automated workflows
         seamlessly extract, transform, and load (ETL) data from disparate
@@ -87,7 +87,7 @@ const page4Content = {
       </p>
     ),
     p33: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We help you implement and manage high-performance EDWs using
         technologies like Snowflake, Amazon Redshift, or Google BigQuery. EDWs
         provide a centralized repository for structured, business-critical data,
@@ -95,7 +95,7 @@ const page4Content = {
       </p>
     ),
     p44: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We bridge the gap between development and deployment by operationalizing
         your ML models. We containerize models using Docker and orchestrate
         deployments using Kubernetes, ensuring seamless integration into your
@@ -103,7 +103,7 @@ const page4Content = {
       </p>
     ),
     p55: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We provide seamless cloud migration for your data infrastructure,
         leveraging platforms like AWS, Azure, or GCP. Our expertise extends to
         data lake, data warehouse, and data pipeline migration, ensuring a
@@ -112,7 +112,7 @@ const page4Content = {
     ),
     // p6: <p>API Integrations:</p>,
     p66: (
-      <p style={{ zIndex: "55", position: "relative", textAlign: "justify" }}>
+      <p style={{ zIndex: "55", position: "relative"}}>
         We offer ongoing data lake management services, including data quality
         monitoring, data governance implementation, and cost optimization
         strategies. This ensures your data lake remains a reliable and valuable
@@ -125,7 +125,7 @@ const page4Content = {
     q1: <p>for Your Data Engineering Needs?</p>,
     s1: <p>Customized Solutions:</p>,
     s11: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We understand that one-size-fits-all solutions rarely work in data
         engineering. We take a collaborative approach, understanding your unique
         business challenges and data landscape to design a bespoke solution that
@@ -134,7 +134,7 @@ const page4Content = {
     ),
     s2: <p> Technology Expert:</p>,
     s22: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         Our team is well-versed in a comprehensive suite of data engineering
         tools and technologies. This flexibility allows us to recommend the
         best-fit solutions based on your specific needs and infrastructure,
@@ -143,7 +143,7 @@ const page4Content = {
     ),
     s3: <p> Focus on Scalability:</p>,
     s33: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We design and build data infrastructure with scalability in mind. As
         your data volume and complexity grow, your data engineering
         infrastructure seamlessly scales to accommodate future needs.
@@ -152,7 +152,7 @@ const page4Content = {
 
     s4: <p>Scalability &amp; Security:</p>,
     s44: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         Our web development solutions are built with scalability in mind,
         allowing your website to grow alongside your business. We also
         prioritize robust security measures to safeguard your website and user
@@ -161,7 +161,7 @@ const page4Content = {
     ),
     s5: <p>In-House Training:</p>,
     s55: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         Our team continuously undergoes rigorous training to stay at the
         forefront of the ever-evolving data engineering landscape. This ensures
         we leverage the latest advancements and best practices to deliver
@@ -170,7 +170,7 @@ const page4Content = {
     ),
     s6: <p>Cost-Effectiveness:</p>,
     s66: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We leverage our in-house training programs to optimize our processes,
         translating into cost savings that we pass on to you. Additionally, we
         offer customized plans to fit your budget and project scope.
@@ -178,7 +178,7 @@ const page4Content = {
     ),
     s7: <p> Proven Track Record:</p>,
     s77: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We possess a successful history of delivering impactful data engineering
         solutions across diverse industry domains.
         <ul>
@@ -255,7 +255,7 @@ const page4Content = {
     ),
 
     f11: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We help you establish a solid data foundation using cost-effective
         solutions on cloud platforms. This empowers you to unlock valuable
         insights from your data and make data-driven decisions for early-stage
@@ -264,7 +264,7 @@ const page4Content = {
     ),
 
     f33: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We assist you in scaling your data infrastructure efficiently as you
         experience rapid data growth. We ensure your data pipelines are robust
         and can handle increasing data volumes while maintaining data quality.
@@ -272,7 +272,7 @@ const page4Content = {
     ),
 
     f55: (
-      <p style={{ textAlign: "justify" }}>
+      <p>
         We provide comprehensive data engineering solutions to manage your
         complex data ecosystem. Our expertise spans data lakehouse architecture
         for housing both structured and unstructured data, real-time data
@@ -289,25 +289,25 @@ const page4Content = {
         Data engineering services offer a multitude of benefits, including:
         <ul>
           <li>
-            <b>Improved Data Accessibility:</b> By establishing a structured
+            <b>Improved Data Accessibility:</b> <br/>By establishing a structured
             data infrastructure, data becomes readily accessible for analysis
             and reporting.
           </li>
           <li>
-            <b>Enhanced Data Quality:</b> Data pipelines ensure data accuracy
+            <b>Enhanced Data Quality:</b><br/> Data pipelines ensure data accuracy
             and consistency, leading to reliable insights.
           </li>
           <li>
-            <b>Streamlined Data-Driven Decision Making:</b> Easy access to clean
+            <b>Streamlined Data-Driven Decision Making:</b><br/> Easy access to clean
             and organized data empowers faster and more informed business
             decisions.
           </li>
           <li>
-            <b>Reduced Costs:</b> Efficient data management practices can
+            <b>Reduced Costs:</b><br/> Efficient data management practices can
             significantly lower data storage and processing costs.
           </li>
           <li>
-            <b>Scalability and Agility:</b> A well-designed data engineering
+            <b>Scalability and Agility:</b> <br/>A well-designed data engineering
             solution can seamlessly scale to accommodate future growth and
             evolving business needs
           </li>

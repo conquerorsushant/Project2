@@ -16,7 +16,7 @@ const page5Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         In today&#39;s mobile-first world, a well-crafted mobile app can be a
         game-changer for your business. At BrainsTerra Intelligence, we
         transform innovative ideas into engaging and feature-rich mobile
@@ -66,7 +66,7 @@ const page5Content = {
     p7: <p>Security &amp; Data Protection:</p>,
 
     p11: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         Our developers possess expertise in native app development using
         platform-specific languages and frameworks like Swift or Kotlin to
         create high- performance apps that leverage the full potential of each
@@ -74,41 +74,41 @@ const page5Content = {
       </p>
     ),
     p22: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         For broader reach, we can develop cross-platform apps using frameworks
         like React Native or Flutter, allowing you to create a single codebase
         that functions on both iOS and Android devices.
       </p>
     ),
     p33: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We prioritize user-centered design principles to create intuitive and
         visually appealing user interfaces that deliver a seamless and enjoyable
         user experience.
       </p>
     ),
     p44: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         Our team can integrate your mobile app with various APIs to connect with
         backend systems, payment gateways, social media platforms, or other
         relevant services to enhance app functionalities.
       </p>
     ),
     p55: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We understand the importance of offline capabilities for mobile apps. We
         can design and develop apps that function even without an internet
         connection, providing a more user-friendly experience.
       </p>
     ),
     p66: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We optimize app performance for speed and responsiveness to ensure a
         smooth and lag-free user experience.
       </p>
     ),
     p77: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We prioritize robust security measures to safeguard user data and ensure
         your app adheres to relevant data privacy regulations.
       </p>
@@ -118,7 +118,7 @@ const page5Content = {
     q1: <p>for Your Mobile App Development Needs?</p>,
     s1: <p>Collaborative &amp; Agile Approach:</p>,
     s11: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We believe in close collaboration throughout the development process to
         ensure your vision translates into a mobile app that meets your specific
         goals and user needs. We utilize agile methodologies for flexible and
@@ -128,14 +128,14 @@ const page5Content = {
     ),
     s2: <p>Focus on User Experience (UX):</p>,
     s22: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We prioritize user-centered design principles to create intuitive and
         user-friendly mobile apps that are easy to navigate and provide a
         positive user experience.
       </p>
     ),
     s33: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We offer both native app development for iOS and Android, as well as
         cross-platform development expertise to cater to your specific needs and
         target audience.
@@ -144,7 +144,7 @@ const page5Content = {
     s3: <p>Native &amp; Cross-Platform Expertise:</p>,
     s4: <p>Focus on Innovation &amp; Emerging Technologies:</p>,
     s44: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         Our team stays current with the latest advancements in mobile app
         development and can integrate emerging technologies like Augmented
         Reality (AR) or Virtual Reality (VR) to create truly innovative and
@@ -153,7 +153,7 @@ const page5Content = {
     ),
     s5: <p>Proven Track Record:</p>,
     s55: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We boast a successful portfolio of mobile app development projects,
         helping businesses of all sizes achieve their mobile app goals. ○
         Increased User Engagement by 25% for a social networking app through
@@ -167,14 +167,14 @@ const page5Content = {
     ),
     s6: <p>Developed a healthcare app</p>,
     s66: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         facilitating secure communication between patients and doctors, leading
         to improved appointment scheduling and medication management.
       </p>
     ),
     s7: <p>Developed a healthcare app</p>,
     s77: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         facilitating secure communication between patients and doctors, leading
         to improved appointment scheduling and medication management.
       </p>
@@ -252,7 +252,7 @@ const page5Content = {
     ),
     f1: <p>Cost-Effective App Development Solutions:</p>,
     f11: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We leverage efficient development processes, in- house trained team, and
         recommend cost-effective solutions to create budget-friendly mobile apps
         for MSMEs. This allows you to establish a mobile presence and engage
@@ -261,7 +261,7 @@ const page5Content = {
     ),
     f2: <p>Focus on Core Functionalities: </p>,
     f22: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We can help you identify the essential features that deliver the most
         value for your target audience and prioritize those functionalities
         within your budget constraints.
@@ -269,7 +269,7 @@ const page5Content = {
     ),
     f3: <p>Agile Development &amp; Rapid Prototyping:</p>,
     f33: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We understand the fast-paced nature of startups. Our agile development
         approach and rapid prototyping capabilities allow for quick iterations
         and adjustments to your mobile app as your business evolves and you
@@ -278,7 +278,7 @@ const page5Content = {
     ),
     f4: <p>Data-Driven Optimization &amp; A/B Testing:</p>,
     f44: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We can help you integrate app analytics tools and conduct A/B testing to
         optimize your app for user engagement, conversions, and key performance
         indicators (KPIs) based on real-time data.
@@ -286,7 +286,7 @@ const page5Content = {
     ),
     f5: <p>Complex Enterprise Mobile Apps:</p>,
     f55: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         Our team has the expertise to develop complex enterprise- grade mobile
         apps that integrate seamlessly with existing enterprise systems,
         addressing your specific business needs and functionalities.
@@ -294,7 +294,7 @@ const page5Content = {
     ),
     f6: <p>Security &amp; Scalability for High-Traffic Apps:</p>,
     f66: (
-      <p style={{textAlign:"justify"}}>
+      <p   >
         We prioritize robust security measures and scalable architecture to
         ensure your mobile app can handle high user volumes and protect
         sensitive business data.

@@ -49,8 +49,8 @@ const Sec31 = ({content}) => {
       {/* Section 2 */}
       <div className="flex flex-col sm:flex-row lg:flex-row items-center justify-center gap-4 lg:gap-11 pt-16 lg:mt-7 sm:gap-2 px-4 lg:mx-28  sm:p-2 lg:p-10">
         <div className="flex-1 flex justify-center p-3 lg:justify-end sm:justify-center lg:py-16 lg:pl-56  px-4 lg:pt-8 pt-14 ">
-          <div className="bg-opacity-30 text-sm lg:text-lg bg-[#283B5E] lg:py-6 px-4 pr-2 text-start sm:text-start text-white rounded-xl">
-            <p className="lg:mr-32">
+          <div className="bg-opacity-30 text-sm lg:text-lg bg-[#283B5E] lg:py-6 px-6   sm:text-start text-white rounded-[2rem] ">
+            <p className="w-[30rem] ">
              {content.t5}
             </p>
           </div>
