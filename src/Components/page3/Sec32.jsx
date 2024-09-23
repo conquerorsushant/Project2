@@ -288,7 +288,7 @@ const Sec32 = ({ content }) => {
                 </p>
               </div>
             </div>
-            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
+          { content.s6 && <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
                 src={content.a6.props.src}
                 alt="Data Lakes Icon"
@@ -302,13 +302,13 @@ const Sec32 = ({ content }) => {
                   {content.s66}
                 </p>
               </div>
-            </div>
+            </div>}
           </div>
           {content.s7 && (
             <div className="flex lg:flex-row flex-col lg:px-36 ">
               <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
                 <img
-                  src={content.a1.props.src}
+                  src={content.a2.props.src}
                   alt="Data Lakes Icon"
                   className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
                 />

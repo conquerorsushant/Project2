@@ -270,16 +270,16 @@ const page6Content = {
     ),
     ans1: (
       <p>
-        Custom desktop applications offer several benefits, including: *
-        **Increased Efficiency:** Automation of repetitive tasks and streamlined
-        workflows can significantly improve team productivity. * **Enhanced Data
-        Security:** Desktop applications provide greater control over data
-        security compared to cloud-based solutions. * **Offline Functionality:**
-        Desktop applications can function without an internet connection,
+       <b> Custom desktop applications offer several benefits, including:</b><br/>
+        <b>Increased Efficiency:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}> Automation of repetitive tasks and streamlined
+        workflows can significantly improve team productivity.</span><br/> <b>Enhanced Data
+        Security: </b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>Desktop applications provide greater control over data
+        security compared to cloud-based solutions.</span><br/><b>Offline Functionality:</b><br/>
+        <span style={{fontWeight:'lighter',opacity:'0.7'}}>Desktop applications can function without an internet connection,
         ensuring uninterrupted operation even in areas with limited
-        connectivity. * **Customization:** Custom development allows for
+        connectivity.</span><br/><b>Customization:</b><br/> <span style={{fontWeight:'lighter',opacity:'0.7'}}> Custom development allows for
         features and functionalities that perfectly align with your unique
-        business processes and needs.
+        business processes and needs.</span>
       </p>
     ),
     que2: <p>How much does desktop application development cost?</p>,

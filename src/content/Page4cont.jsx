@@ -294,22 +294,22 @@ const page4Content = {
             and reporting.
           </li>
           <li>
-            <b>Enhanced Data Quality:</b><br/> Data pipelines ensure data accuracy
-            and consistency, leading to reliable insights.
+            <b>Enhanced Data Quality:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}> Data pipelines ensure data accuracy
+            and consistency, leading to reliable insights.</span>
           </li>
           <li>
-            <b>Streamlined Data-Driven Decision Making:</b><br/> Easy access to clean
+            <b>Streamlined Data-Driven Decision Making:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>  Easy access to clean
             and organized data empowers faster and more informed business
-            decisions.
+            decisions.</span>
           </li>
           <li>
-            <b>Reduced Costs:</b><br/> Efficient data management practices can
-            significantly lower data storage and processing costs.
+            <b>Reduced Costs:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>  Efficient data management practices can
+            significantly lower data storage and processing costs.</span>
           </li>
           <li>
-            <b>Scalability and Agility:</b> <br/>A well-designed data engineering
+            <b>Scalability and Agility:</b> <br/><span style={{fontWeight:'lighter',opacity:'0.7'}}> A well-designed data engineering
             solution can seamlessly scale to accommodate future growth and
-            evolving business needs
+            evolving business needs</span>
           </li>
         </ul>
       </p>

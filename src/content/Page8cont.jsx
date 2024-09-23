@@ -255,17 +255,22 @@ const page8Content = {
     que1: <p>What is AI/ML and how can it benefit my business?</p>,
     ans1: (
       <p>
-        Artificial Intelligence (AI) and Machine Learning (ML) are a powerful
-        combination that allows computers to learn from data and make
-        intelligent decisions. AI/ML can benefit your business in numerous ways,
-        including: Automating repetitive tasks: Free up your human workforce to
-        focus on higher-level activities. Gaining deeper customer insights:
-        Uncover hidden patterns and trends in your data to better understand
-        your customers and personalize their experiences. Improving operational
-        efficiency: Optimize your processes and workflows for increased
-        productivity and cost savings. Developing innovative products and
-        services: Leverage AI/ML to create cutting-edge solutions that
-        differentiate you from the competition.
+       <b>Artificial Intelligence (AI) and Machine Learning (ML) are a powerful combination that allows computers to learn from data and make intelligent decisions.</b>
+<br/>
+AI/ML can benefit your business in numerous ways, including:
+<br/><br/>
+<b>Automating repetitive tasks:</b><br/>
+<span style={{fontWeight:'lighter',opacity:'0.7'}}> Free up your human workforce to focus on higher-level activities.</span>
+<br/>
+<b>Gaining deeper customer insights:</b><br/>
+<span style={{fontWeight:'lighter',opacity:'0.7'}}> Uncover hidden patterns and trends in your data to better understand your customers and personalize their experiences.</span>
+<br/>
+<b>Improving operational efficiency:</b><br/>
+<span style={{fontWeight:'lighter',opacity:'0.7'}}> Optimize your processes and workflows for increased productivity and cost savings.</span>
+<br/>
+<b>Developing innovative products and services:</b><br/>
+<span style={{fontWeight:'lighter',opacity:'0.7'}}> Leverage AI/ML to create cutting-edge solutions that differentiate you from the competition.</span>
+
       </p>
     ),
     que2: <p>Do I need a lot of data to develop an AI/ML model?</p>,

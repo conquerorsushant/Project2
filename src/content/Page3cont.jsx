@@ -253,17 +253,17 @@ const page3Content = {
     que2: <p>What are the benefits of good UI/UX design?</p>,
     ans2: (
       <p>
-        Good UI/UX design offers a multitude of benefits, including: *
-        **Enhanced User Engagement:** An intuitive and user-friendly interface
-        keeps users engaged and coming back for more. Increased Conversion
-        Rates: A well-designed interface can significantly improve conversion
-        rates, whether it&#39;s driving sales, signups, or desired user actions.
-        Improved Brand Perception: A polished and user-centric design experience
-        fosters a positive brand image and builds trust with users. Reduced
-        Development Costs: A well-defined UI/UX design translates into a
+       <b> Good UI/UX design offers a multitude of benefits, including:</b> <br/>
+        <b>Enhanced User Engagement:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}> An intuitive and user-friendly interface
+        keeps users engaged and coming back for more.</span> <br/><b>Increased Conversion
+        Rates:</b><br/> <span style={{fontWeight:'lighter',opacity:'0.7'}}>A well-designed interface can significantly improve conversion
+        rates, whether it&#39;s driving sales, signups, or desired user actions.</span><br/>
+       <b> Improved Brand Perception:</b> <br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>A polished and user-centric design experience
+        fosters a positive brand image and builds trust with users.</span><br/><b> Reduced
+        Development Costs:</b><br/><span > A well-defined UI/UX design translates into a
         smoother development process, potentially reducing development time and
-        costs. Increased Customer Satisfaction: A positive user experience leads
-        to higher customer satisfaction and loyalty.
+        costs. </span><br/><b>Increased Customer Satisfaction:</b> <br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>A positive user experience leads
+        to higher customer satisfaction and loyalty.</span>
       </p>
     ),
     que3: <p>Do you offer any standalone UI or UX design services?</p>,
