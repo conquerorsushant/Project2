@@ -10,13 +10,13 @@ const Contact = () => {
     <div  className="contact">
 			<div  className="container">
 				<div  className="contact__content">
-					<div  className="row">
+					<div  className="row mt-5">
 						<div  className="col-md-5">
-							<h1  className="contact__content-title">Send Us A Message</h1>
-							<p>We’re happy to answer any questions you have or provide you with an estimate. Just send us a message in the form.</p>
-							<p> If you have any questions, please feel free to drop us a line. If you don't get an immediate answer, we might be in the middle of something. We'll get back to you as soon as we can, that's a promise!</p>
+							<h1  className="contact__content-title ml-8">Send Us A Message</h1>
+							<p className="ml-8 para">We’re happy to answer any questions you have or provide you with an estimate. Just send us a message in the form.</p>
+							<p className="ml-8 para"> If you have any questions, please feel free to drop us a line. If you don't get an immediate answer, we might be in the middle of something. We'll get back to you as soon as we can, that's a promise!</p>
 						</div>
-						<div  className="col-md-7">
+						<div  className="col-md-7 form">
 							<form id="contact-form" name="contact-form" method="POST">
 								<div  className="row">
 									<div  className="col-md-6">

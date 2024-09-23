@@ -100,11 +100,11 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-8 text-xs">
-              <div className="ml-8">
+              <div className="ml-8 right-reserved">
                 2023 &copy; BrainsTerra Intelligence. All rights reserved.
               </div>
             </div>
-            <div className="col-md-4 text-xs">
+            <div className="col-md-4 text-xs right-reserved2">
               Designed and Developed by Brainsterra Syenrgy Pvt. Ltd.
             </div>
           </div>

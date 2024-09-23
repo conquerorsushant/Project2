@@ -10851,6 +10851,7 @@ header .navbar-nav li a {
     margin-top: 78px;
     margin-left: 0px;
     width: 274px;
+    margin-bottom: 30px;
   }
 }
 
@@ -10863,6 +10864,7 @@ header .navbar-nav li a {
   height: auto;
   max-width: 100%;
 }
+
 
 .first-arrow {
   height: auto;
@@ -10900,7 +10902,7 @@ header .navbar-nav li a {
   .float-image {
     display: block;
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 130px;
   }
 }
 
@@ -11094,9 +11096,31 @@ header .navbar-nav li a {
   padding-top: 20px;
   padding-bottom: 140px;
 }
+
+@media (max-width:450px){
+   .right-reserved{
+    margin-left: 45px;
+  }
+  .right-reserved2{
+    margin-left: 30px;
+  }
+  .contact__content-title{
+    margin-left: 5rem;
+    font-size: 20px;
+  }
+  .para{
+    margin-left: 5rem;
+    font-size: 15px;
+  }
+  .form{
+    margin-top: 30px;
+  }
+  
+}
+
 @media (max-width: 700px) {
   .front-heading {
-    margin-left: 0;
+    margin-left: 15px;
   }
   .front-heading2 {
     margin-left: -5.2rem;
@@ -11117,6 +11141,9 @@ header .navbar-nav li a {
   .footer-text {
     padding-left: 0;
   }
+  /* .right-reserved{
+    margin-left: 2px;
+  } */
   /* p {
     margin-bottom: 0;
     padding: 0.8rem;
@@ -11128,11 +11155,32 @@ header .navbar-nav li a {
     padding-left: 0 !important;
   }
 }
-@media (max-width: 1400px) {
+@media (min-width: 1300px) and (max-width: 1400px) {
   .front-heading {
-    margin-left: 4.4rem;
+    margin-left: 5.1rem;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .front-heading {
+    margin-left: 4rem;
+  }
+  .brain-text{
+    margin-left: 0;
+  }
+
+  .contact__content-title{
+    margin-left: 0.8rem;
+  }
+  .para{
+    margin-left: 0.8rem;
+  }
+ 
+  .footer__about p{
+    margin-left: 40px;
+    margin-bottom: 0;
+  }
+}
+
 
 .lionbg {
   background-image: url("../assets/images/test-bgs.png");
