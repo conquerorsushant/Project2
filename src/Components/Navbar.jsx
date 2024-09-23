@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='font-sansation fixed left-0 right-0 top-0 bg-secondary z-50'>
+    <div className='font-sansation fixed left-0 right-0 top-0 bg-secondary'>
       <header className='bg-secondary max-w-screen-2xl container mx-auto xl:px-36 px-4'>
         <nav className='flex justify-between items-center py-3'>
           <Link to="/" className='flex items-center gap-2 text-2xl'>

@@ -20,7 +20,7 @@ const page9Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
-      <p   >
+      <p>
         At BrainsTerra Intelligence, we transform everyday objects into
         intelligent assets. Our team of skilled engineers and developers helps
         you harness the power of the Internet of Things (IoT) to revolutionize
@@ -68,34 +68,34 @@ const page9Content = {
     p6: <p>Machine Learning Integration:</p>,
 
     p11: (
-      <p   >
+      <p>
         We utilize popular platforms like Arduino, Raspberry Pi, and ESP series
         microcontrollers to collect sensor data and control connected devices.
       </p>
     ),
     p22: (
-      <p   >
+      <p>
         We ensure seamless communication between your IoT devices and the cloud
         using various protocols like Wi-Fi, Bluetooth, Cellular (LTE-M, NB-IoT),
         and even low-power wide-area networks (LPWAN) like LoRaWAN.
       </p>
     ),
     p33: (
-      <p   >
+      <p>
         We integrate your IoT solution with leading cloud platforms like AWS
         IoT, Microsoft Azure IoT, or Google Cloud IoT Core. This enables secure
         data storage, scalability, and remote device management.
       </p>
     ),
     p44: (
-      <p   >
+      <p>
         We leverage data analytics tools and visualization platforms to
         transform collected sensor data into actionable insights that inform
         decision-making and optimize operations.
       </p>
     ),
     p55: (
-      <p   >
+      <p>
         We prioritize robust security measures throughout the development
         lifecycle to safeguard your devices, data privacy, and network
         integrity. We also implement secure device management protocols for
@@ -103,7 +103,7 @@ const page9Content = {
       </p>
     ),
     p66: (
-      <p   >
+      <p>
         For advanced applications, we can integrate machine learning algorithms
         to enable features like predictive maintenance, anomaly detection, or
         real-time process optimization based on sensor data analysis.
@@ -115,7 +115,7 @@ const page9Content = {
     q1: <p>for Your IoT Development Needs?</p>,
     s1: <p>End-to-End Expertise:</p>,
     s11: (
-      <p   >
+      <p>
         We offer a comprehensive suite of services, from initial concept
         development and prototyping to hardware selection, software development,
         cloud integration, and ongoing support.
@@ -123,14 +123,14 @@ const page9Content = {
     ),
     s2: <p>Focus on Business Value:</p>,
     s22: (
-      <p   >
+      <p>
         We don&#39;t just build connected devices; we focus on creating IoT
         solutions that deliver tangible business value, improve efficiency, and
         generate a positive return on investment (ROI).
       </p>
     ),
     s33: (
-      <p   >
+      <p>
         Security is paramount in IoT development. We prioritize robust security
         measures at every stage to protect your devices, data, and network
         infrastructure.
@@ -139,33 +139,43 @@ const page9Content = {
     s3: <p>Security-Centric Approach:</p>,
     s4: <p>Scalable &amp; Future-Proof Solutions:</p>,
     s44: (
-      <p   >
+      <p>
         We design and develop IoT solutions with scalability in mind, ensuring
         they can adapt and grow alongside your evolving business needs.
       </p>
     ),
     s5: <p>Proven Track Record:</p>,
     s55: (
-      <p   >
-        We boast a successful portfolio of IoT development projects, helping
-        businesses across industries leverage the power of connected devices. ○
-        Smart Homes &amp; Automation: Successfully developed a custom IoT
-        solution for a leading home automation company, resulting in a 25%
-        increase in operational efficiency and a 10% reduction in energy
-        consumption for their smart home devices. ○ Industrial IoT &amp;
-        Predictive Maintenance: Built an IoT platform for a manufacturing
-        company that monitors industrial equipment in real-time, enabling
-        predictive maintenance and preventing costly downtime. The solution
-        reduced unplanned machine failures by 30%. ○ Connected Logistics &amp;
-        Supply Chain Management: Developed a cloud-based IoT application for a
-        logistics company to track and monitor inventory throughout the supply
-        chain in real-time. This improved delivery accuracy by 15% and reduced
-        shipment delays.
-      </p>
+      <div>
+        <p>
+          We boast a successful portfolio of IoT development projects, helping
+          businesses across industries leverage the power of connected devices:
+        </p>
+        <ul class="list-disc text-white">
+          <li>
+            Smart Homes & Automation: Successfully developed a custom IoT
+            solution for a leading home automation company, resulting in a 25%
+            increase in operational efficiency and a 10% reduction in energy
+            consumption for their smart home devices.
+          </li>
+          <li>
+            Industrial IoT & Predictive Maintenance: Built an IoT platform for a
+            manufacturing company that monitors industrial equipment in
+            real-time, enabling predictive maintenance and preventing costly
+            downtime. The solution reduced unplanned machine failures by 30%.
+          </li>
+          <li>
+            Connected Logistics & Supply Chain Management: Developed a
+            cloud-based IoT application for a logistics company to track and
+            monitor inventory throughout the supply chain in real-time. This
+            improved delivery accuracy by 15% and reduced shipment delays.
+          </li>
+        </ul>
+      </div>
     ),
     s6: <p>Smart Agriculture &amp; Precision Farming: </p>,
     s66: (
-      <p   >
+      <p>
         Farming: Implemented an IoT system for a large agricultural enterprise
         to optimize irrigation, fertilization, and overall farm management. The
         solution led to a 12% increase in crop yield and a 7% reduction in water
@@ -256,14 +266,14 @@ const page9Content = {
 
     f1: <p>Cost-Effective Solutions:</p>,
     f11: (
-      <p   >
+      <p>
         We leverage our in-house training programs, and efficient development
         processes to create budget-friendly IoT solutions for MSMEs.
       </p>
     ),
     f2: <p>Sensor-Based Data Collection &amp; Monitoring:</p>,
     f22: (
-      <p   >
+      <p>
         We can help you collect real-time sensor data from your environment
         (temperature, humidity, energy consumption) to gain insights and
         optimize operations.
@@ -271,14 +281,14 @@ const page9Content = {
     ),
     f3: <p>Rapid Prototyping &amp; MVP Development:</p>,
     f33: (
-      <p   >
+      <p>
         We can assist startups with rapid prototyping and Minimum Viable Product
         (MVP) development to validate their IoT concepts for product market fit.
       </p>
     ),
     f4: <p>Machine Learning Integrations:</p>,
     f44: (
-      <p   >
+      <p>
         We can also help integrate machine learning algorithms to enable
         features like predictive maintenance or anomaly detection in your IoT
         solution, enhancing its capabilities.
@@ -286,7 +296,7 @@ const page9Content = {
     ),
     f5: <p>Complex Industrial IoT (IIoT) Solutions:</p>,
     f55: (
-      <p   >
+      <p>
         We possess the expertise to develop and implement complex Industrial IoT
         (IIoT) solutions for large-scale applications, such as predictive
         maintenance in manufacturing
@@ -294,7 +304,7 @@ const page9Content = {
     ),
     f6: <p>Data Integration &amp; Business Intelligence:</p>,
     f66: (
-      <p   >
+      <p>
         We can help integrate your IoT data with existing enterprise systems and
         leverage business intelligence tools to transform data into actionable
         insights for strategic decision-making.

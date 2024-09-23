@@ -140,7 +140,13 @@ const TalentAcquisition = () => {
           <div className="whatwedo relative mt-20 max-w-[70%] mx-[15%]">
             <h1
               className="heading text-center recruit-head-change relative z-10 why_choose_us"
-              style={{ marginTop: "155px", fontSize: "1.6rem" }}
+              style={{
+                marginTop: "100px",
+                fontSize: "25px",
+                fontWeight: "500",
+                letterSpacing: "-0.16px",
+                lineHeight: "30px",
+              }}
             >
               Why Choose Us
             </h1>
@@ -198,7 +204,10 @@ const TalentAcquisition = () => {
           <br />
           <br />
           <div className="synergy__content">
-            <div style={{ maxWidth: "fit-content" }} className="px-6 text-start">
+            <div
+              style={{ maxWidth: "fit-content" }}
+              className="px-6 text-start"
+            >
               <p>
                 We are a team of proficient and well-qualified professionals who
                 have in-depth knowledge of technology. Our focus is on
@@ -209,7 +218,7 @@ const TalentAcquisition = () => {
                 to build their engineering/technology teams.
               </p>
 
-              <p >
+              <p>
                 We have expertise in junior level to leadership/executive level
                 hiring. We have been working seamlessly as a whole team behind
                 the scenes for many start-ups and middle-level tech
@@ -354,7 +363,7 @@ const TalentAcquisition = () => {
           </div>
         </div>
         <img src={linesImage} className="w-100 mt-4 " alt="Lines" />
-        <div className="number container" id="counter">
+        {/* <div className="number container" id="counter">
           <div className="bg-black mw-100 text-center">
             <div className="row">
               <div className="col-md-3 mb-3 mb-md-0">
@@ -391,7 +400,7 @@ const TalentAcquisition = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       {showModal4 && (
         <div
@@ -877,17 +886,11 @@ const TalentAcquisition = () => {
       </div>
       <br />
       <div className="pt-5 text-center flex flex-col justify-center items-center">
-        <h1
-          className="heading mb-2 mx-4 lg:mx-2 "
-          style={{ fontSize: "18px"}}
-        >
+        <h1 className="heading mb-2 mx-4 lg:mx-2 " style={{ fontSize: "18px" }}>
           We are driven by the highest standards of quality, integrity, trust,
           and commitment while providing quality professional services.{" "}
         </h1>
-        <h1
-          className="heading mb-2 mx-4 lg:mx-2"
-          style={{ fontSize: "18px" }}
-        >
+        <h1 className="heading mb-2 mx-4 lg:mx-2" style={{ fontSize: "18px" }}>
           We aim to lay a foundation towards building a great relationship
           between the employer and employee.
         </h1>

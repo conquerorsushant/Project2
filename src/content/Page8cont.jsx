@@ -16,7 +16,7 @@ const page8Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Transform</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Your Business</h1>,
     t5: (
-      <p    >
+      <p>
         At BrainsTerra Intelligence, we empower businesses of all sizes – MSMEs,
         startups, and enterprises – to gain a competitive edge and unlock new
         possibilities through our expertise in custom AI/ML model development.
@@ -62,7 +62,7 @@ const page8Content = {
     p5: <p>API Integration:</p>,
 
     p11: (
-      <p   >
+      <p>
         Our data scientists are proficient in industry-leading frameworks like
         TensorFlow, PyTorch, scikit-learn, and XGBoost, allowing us to tackle a
         wide range of machine learning tasks, from classification and regression
@@ -70,7 +70,7 @@ const page8Content = {
       </p>
     ),
     p22: (
-      <p   >
+      <p>
         We prioritize data quality and understand its critical role in model
         performance. Our team employs various data preprocessing techniques like
         cleaning, normalization, and feature engineering to ensure your data is
@@ -78,7 +78,7 @@ const page8Content = {
       </p>
     ),
     p33: (
-      <p   >
+      <p>
         Based on your specific requirements, we select the most appropriate
         machine learning algorithms and train robust models using your data. We
         employ various techniques like hyperparameter tuning and regularization
@@ -86,7 +86,7 @@ const page8Content = {
       </p>
     ),
     p44: (
-      <p   >
+      <p>
         Deployment: We rigorously evaluate the trained model&#39;s performance
         using relevant metrics. Once satisfied, we facilitate a seamless
         deployment process, integrating the model into your existing
@@ -94,7 +94,7 @@ const page8Content = {
       </p>
     ),
     p55: (
-      <p   >
+      <p>
         Our team excels in integrating your AI/ML model with APIs and
         applications to make its functionalities accessible and usable within
         your business processes.
@@ -106,7 +106,7 @@ const page8Content = {
     q1: <p>for Your AI/ML Model Development Needs?</p>,
     s1: <p>Business-Centric Approach:</p>,
     s11: (
-      <p   >
+      <p>
         We go beyond just building models. We focus on understanding your
         business goals and challenges to ensure the AI/ML solution directly
         addresses your needs and delivers tangible business value.
@@ -114,14 +114,14 @@ const page8Content = {
     ),
     s2: <p>Data Expertise:</p>,
     s22: (
-      <p   >
+      <p>
         Our team possesses in-depth knowledge of data science principles and
         best practices. We prioritize data quality and ensure your AI/ML model
         is built on a solid data foundation.
       </p>
     ),
     s33: (
-      <p   >
+      <p>
         When appropriate, we incorporate Explainable AI (XAI) techniques to
         provide transparency into the model&#39;s decision-making process,
         fostering trust and understanding for human users.
@@ -130,7 +130,7 @@ const page8Content = {
     s3: <p>Explainable AI (XAI):</p>,
     s4: <p>Security &amp; Scalability::</p>,
     s44: (
-      <p   >
+      <p>
         Security is paramount. We adhere to best practices to ensure the
         security and privacy of your data throughout the AI/ML development
         lifecycle. Additionally, we design models that can scale efficiently as
@@ -139,23 +139,38 @@ const page8Content = {
     ),
     s5: <p>Proven Track Record:</p>,
     s55: (
-      <p   >
-        We have a successful portfolio of AI/ML projects that have helped
-        businesses achieve significant results in various industries. ○
-        Increased lead generation by 25% for an e-commerce platform through
-        AI-powered product recommendations. ○ Reduced churn rate by 18% in a
-        subscription-based service using ML-driven customer segmentation and
-        targeted marketing campaigns. ○ Improved operational efficiency by 20%
-        in a manufacturing facility by implementing AI- based predictive
-        maintenance for machinery. ○ Enhanced fraud detection accuracy by 30%
-        for a financial services company through machine learning algorithms. ○
-        Developed a computer vision system for an autonomous vehicle prototype,
-        achieving an accuracy rate of 92% in object recognition.
-      </p>
+      <div>
+        <p>
+          We have a successful portfolio of AI/ML projects that have helped
+          businesses achieve significant results in various industries:
+        </p>
+        <ul class="list-disc text-white">
+          <li>
+            Increased lead generation by 25% for an e-commerce platform through
+            AI-powered product recommendations.
+          </li>
+          <li>
+            Reduced churn rate by 18% in a subscription-based service using
+            ML-driven customer segmentation and targeted marketing campaigns.
+          </li>
+          <li>
+            Improved operational efficiency by 20% in a manufacturing facility
+            by implementing AI-based predictive maintenance for machinery.
+          </li>
+          <li>
+            Enhanced fraud detection accuracy by 30% for a financial services
+            company through machine learning algorithms.
+          </li>
+          <li>
+            Developed a computer vision system for an autonomous vehicle
+            prototype, achieving an accuracy rate of 92% in object recognition.
+          </li>
+        </ul>
+      </div>
     ),
     s6: <p>Cost-Effective Solutions: </p>,
     s66: (
-      <p   >
+      <p>
         We leverage our in-house training programs and efficient processes to
         deliver cost-effective AI/ML model development solutions without
         compromising on quality. We offer customized plans that fit your budget
@@ -226,14 +241,14 @@ const page8Content = {
     ),
 
     f11: (
-      <p   >
+      <p>
         We help you leverage AI/ML to automate tasks, gain customer insights
         from data, and improve operational efficiency.
       </p>
     ),
 
     f33: (
-      <p   >
+      <p>
         We assist you in developing innovative AI-powered products and services
         to disrupt your industry, validate your market fit, and achieve rapid
         growth.
@@ -241,7 +256,7 @@ const page8Content = {
     ),
 
     f55: (
-      <p   >
+      <p>
         We provide comprehensive AI/ML solutions for complex enterprise needs,
         including predictive analytics (e.g., forecasting sales trends,
         identifying equipment maintenance needs), intelligent automation (e.g.,

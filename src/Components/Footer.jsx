@@ -32,28 +32,28 @@ const Footer = () => {
                 <h3 className="text-xl">Quick Links</h3>
                 <ul>
                   <li>
-                    <Link to="/">
+                    <a href="/">
                       <span>
                         <img alt="Home" src={ic1} />
                       </span>{" "}
                       Home
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="/">
+                    <a href="/">
                       <span>
                         <img alt="About Us" src={ic2} className="pl-1" />
                       </span>{" "}
                       About Us
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="/contact-us">
+                    <a href="/contact-us">
                       <span>
                         <img alt="Contact Us" src={ic3} />
                       </span>{" "}
                       Contact Us
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -64,20 +64,20 @@ const Footer = () => {
                 <h3 className="text-xl">Site Access</h3>
                 <ul>
                   <li>
-                    <Link to="Talent-acquisition.html">
+                    <a href="/talent-acquisition">
                       <span>
                         <img alt="Talent Acquisition Wing" src={is2} />
                       </span>{" "}
                       Talent Acquisition Wing
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="information-technology.html">
+                    <a href="/info-tech">
                       <span>
                         <img alt="Information Technology Wing" src={ic4} />
                       </span>{" "}
                       Information Technology Wing
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -100,7 +100,9 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-8 text-xs">
-              2023 &copy; BrainsTerra Intelligence. All rights reserved.
+              <div className="ml-8">
+                2023 &copy; BrainsTerra Intelligence. All rights reserved.
+              </div>
             </div>
             <div className="col-md-4 text-xs">
               Designed and Developed by Brainsterra Syenrgy Pvt. Ltd.

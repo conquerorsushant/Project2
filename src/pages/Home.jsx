@@ -143,7 +143,11 @@ const Home = () => {
 
               {/* Collapsible section */}
               {isCollapsed1 && (
-                <div className="col-12 mt-3 style-read">
+                <div
+                  className={`transition-all duration-500 ease-in-out overflow-hidden ${
+                    isCollapsed1 ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+                  }`}
+                >
                   <div className="readmore-boxx">
                     We are obsessed with perfection in our work, and we never
                     compromise on the quality of the software we develop. Our

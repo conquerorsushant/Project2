@@ -47,7 +47,7 @@ const Contact = () => {
 								<div  className="row mt-3">
 									<div  className="col-md-12">
 										<div  className="md-form text-right">
-											<input type="submit"  className="btn btn-primary px-5 cont-form-btn 	border: #5f5f60" name="" style={{backgroundColor: '#000000'}}    
+											<input type="submit"  className="btn px-5 cont-form-btn 	border: #5f5f60" name="" style={{backgroundColor: '#000000', border: "1px solid #5f5f60"}}    
 										/>
 										</div>
 									</div>

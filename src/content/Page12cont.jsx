@@ -20,7 +20,7 @@ const page12Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">CMS</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Solutions</h1>,
     t5: (
-      <p   >
+      <p>
         In today&#39;s digital age, creating and managing engaging online
         content is crucial for businesses of all sizes. At BrainsTerra
         Intelligence, we are your trusted partner for crafting exceptional
@@ -69,7 +69,7 @@ const page12Content = {
     p6: <p>Responsive Design &amp; Mobile Optimization:</p>,
 
     p11: (
-      <p   >
+      <p>
         We are proficient in leading open-source CMS platforms like WordPress,
         Drupal, and Joomla, as well as cloud-based solutions like Adobe
         Experience Manager (AEM) or Contentful. Our expertise allows us to
@@ -78,14 +78,14 @@ const page12Content = {
       </p>
     ),
     p22: (
-      <p   >
+      <p>
         We utilize modern front-end frameworks like React, Angular, or Vue.js to
         create visually appealing and user-friendly interfaces for your CMS,
         ensuring a seamless content editing experience for authorized users.
       </p>
     ),
     p33: (
-      <p   >
+      <p>
         Our developers leverage secure and scalable back-end technologies like
         Python (Django), Node.js (Express), or PHP (Laravel) to ensure smooth
         content management functionalities, user access controls, and seamless
@@ -93,7 +93,7 @@ const page12Content = {
       </p>
     ),
     p44: (
-      <p   >
+      <p>
         We excel at integrating third-party APIs and services to extend
         functionalities within your CMS. This may include CRM integrations for
         managing customer interactions, marketing automation tools for
@@ -102,7 +102,7 @@ const page12Content = {
       </p>
     ),
     p55: (
-      <p   >
+      <p>
         We can develop custom content types and taxonomies within your CMS to
         cater to your specific content needs. This allows for organized content
         management for various content formats, such as blog posts, product
@@ -111,7 +111,7 @@ const page12Content = {
     ),
 
     p66: (
-      <p   >
+      <p>
         We prioritize responsive design principles to ensure your CMS and the
         content it manages are accessible and display optimally across various
         devices, from desktops to tablets and smartphones.
@@ -123,21 +123,21 @@ const page12Content = {
     q1: <p>for Your CMS Needs?</p>,
     s1: <p>Strategic Content Planning:</p>,
     s11: (
-      <p   >
+      <p>
         We collaborate with you to develop a comprehensive content strategy that
         aligns with your overall business goals and target audience.
       </p>
     ),
     s2: <p>User-Centric Design:</p>,
     s22: (
-      <p   >
+      <p>
         We design user-friendly CMS interfaces that prioritize ease of use and
         intuitive navigation for authorized users, ensuring efficient content
         creation and management.
       </p>
     ),
     s33: (
-      <p   >
+      <p>
         We integrate SEO best practices within your CMS to improve your
         content&#39;s discoverability in search engines and drive organic
         traffic to your website.
@@ -146,7 +146,7 @@ const page12Content = {
     s3: <p>SEO Optimization:</p>,
     s4: <p>Security &amp; Scalability:</p>,
     s44: (
-      <p   >
+      <p>
         We prioritize robust security measures to protect your CMS and website
         content. Our solutions are built with scalability in mind, ensuring they
         can accommodate your growing content needs.
@@ -154,7 +154,7 @@ const page12Content = {
     ),
     s5: <p>Ongoing Support &amp; Maintenance: We:</p>,
     s55: (
-      <p   >
+      <p>
         We offer ongoing support and maintenance services to keep your CMS
         secure, up-to-date, and functioning optimally. We can also assist with
         content creation and management tasks as needed.
@@ -162,20 +162,31 @@ const page12Content = {
     ),
     s6: <p>Proven Track Record: </p>,
     s66: (
-      <p   >
-        Record: We boast a successful portfolio of CMS development projects that
-        have helped businesses streamline content management processes, improve
-        content quality, and achieve their digital marketing goals. ○
-        Successfully developed a content management system (CMS) for a leading
-        e-commerce platform in the fashion industry, resulting in a 30% increase
-        in content creation efficiency and a 25% reduction in time spent on
-        content updates. ○ Built a custom CMS for a major non-profit
-        organization, enabling them to streamline volunteer management and
-        improve communication with their donor base by 40%. ○ Developed a
-        scalable CMS solution for a news and media company, facilitating a 50%
-        increase in content publishings while simplifying website maintenance
-        processes.
-      </p>
+      <div>
+        <p>
+          Record: We boast a successful portfolio of CMS development projects
+          that have helped businesses streamline content management processes,
+          improve content quality, and achieve their digital marketing goals:
+        </p>
+        <ul class="list-disc text-white">
+          <li>
+            Successfully developed a content management system (CMS) for a
+            leading e-commerce platform in the fashion industry, resulting in a
+            30% increase in content creation efficiency and a 25% reduction in
+            time spent on content updates.
+          </li>
+          <li>
+            Built a custom CMS for a major non-profit organization, enabling
+            them to streamline volunteer management and improve communication
+            with their donor base by 40%.
+          </li>
+          <li>
+            Developed a scalable CMS solution for a news and media company,
+            facilitating a 50% increase in content publishings while simplifying
+            website maintenance processes.
+          </li>
+        </ul>
+      </div>
     ),
 
     smooth: <p>A Smooth Onboarding Experience: Your CMS Journey Starts Here</p>,
@@ -244,7 +255,7 @@ const page12Content = {
     ),
     f1: <p>Cost-Effective Solutions:</p>,
     f11: (
-      <p   >
+      <p>
         We leverage our in-house training programs and efficient processes to
         deliver cost-effective CMS solutions that fit your budget. We can
         recommend open-source platforms/tools where applicable to streamline
@@ -253,7 +264,7 @@ const page12Content = {
     ),
     f2: <p>Easy-to-Use CMS &amp; Content Management: </p>,
     f22: (
-      <p   >
+      <p>
         We prioritize user-friendly CMS interfaces to empower even non-technical
         users to manage your website content effectively, reducing reliance on
         developers for basic content updates.
@@ -261,7 +272,7 @@ const page12Content = {
     ),
     f3: <p>Scalable &amp; Flexible CMS::</p>,
     f33: (
-      <p   >
+      <p>
         We design and develop CMS solutions that can adapt and grow with your
         startup. This ensures you have a content management platform that can
         handle increasing content volume and evolving marketing strategies.
@@ -269,7 +280,7 @@ const page12Content = {
     ),
     f4: <p>Omnichannel Content Management:</p>,
     f44: (
-      <p   >
+      <p>
         We can integrate your CMS with marketing automation tools or social
         media platforms, allowing you to manage and publish content across
         various channels from a centralized location.
@@ -277,7 +288,7 @@ const page12Content = {
     ),
     f5: <p>Advanced Security &amp; User Access Controls:</p>,
     f55: (
-      <p   >
+      <p>
         We prioritize robust security measures and granular user access controls
         within your CMS to safeguard sensitive business information and ensure
         content management permissions are aligned with user roles.
@@ -285,7 +296,7 @@ const page12Content = {
     ),
     f6: <p>Integration with Existing Systems:</p>,
     f66: (
-      <p   >
+      <p>
         We can integrate your CMS with your existing enterprise systems (CRM,
         ERP) to streamline content workflows and ensure consistency across
         marketing, sales, and other departments.

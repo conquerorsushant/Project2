@@ -5,9 +5,7 @@ import contact from "../../assets/images/contact.png";
 import bg from "../../assets/images/p12.png";
 import { Link } from "react-router-dom";
 
-
-const Faq3 = ({content}) => {
- 
+const Faq3 = ({ content }) => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [isClicked, setIsClicked] = useState(false);
   const [faqExpanded, setFaqExpanded] = useState(false);
@@ -18,7 +16,6 @@ const Faq3 = ({content}) => {
 
   const handleClick = () => {
     setIsClicked(!isClicked);
-    
   };
 
   const getIconColor = (index) => {
@@ -75,7 +72,7 @@ const Faq3 = ({content}) => {
             faqExpanded ? "lg:translate-y-[-220px] translate-y-[-350px]  " : ""
           }`}
         >
-          <div className="space-y-4 lg:pt-12">
+          <div className="space-y-4">
             {/* FAQ 1 */}
             <div className="relative mb-4 border-b bg-[#283B5E] rounded-lg border-gray-700">
               <button
@@ -83,7 +80,7 @@ const Faq3 = ({content}) => {
                 onClick={() => handleToggle(0)}
               >
                 <span className="flex-1 text-base lg:text-xl lg:px-8">
-                 {content.que1}
+                  {content.que1}
                 </span>
                 <div
                   className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(
@@ -103,9 +100,7 @@ const Faq3 = ({content}) => {
                 }`}
               >
                 <div className="text-sm lg:text-xl lg:px-16 px-2">
-                  <p>
-                  {content.ans1}
-                  </p>{" "}
+                  <p>{content.ans1}</p>{" "}
                 </div>
               </div>
             </div>
@@ -121,7 +116,7 @@ const Faq3 = ({content}) => {
                 onClick={() => handleToggle(1)}
               >
                 <span className="flex-1 text-base lg:text-xl lg:px-8">
-                {content.que2}
+                  {content.que2}
                 </span>
                 <div
                   className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(
@@ -141,9 +136,7 @@ const Faq3 = ({content}) => {
                 }`}
               >
                 <div className="text-sm lg:text-lg lg:px-16 px-2">
-                  <p>
-                  {content.ans2}
-                  </p>
+                  <p>{content.ans2}</p>
                 </div>
               </div>
             </div>
@@ -155,7 +148,7 @@ const Faq3 = ({content}) => {
                 onClick={() => handleToggle(2)}
               >
                 <span className="flex-1 text-base lg:text-xl lg:px-8">
-                {content.que3}
+                  {content.que3}
                 </span>
                 <div
                   className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(
@@ -175,78 +168,76 @@ const Faq3 = ({content}) => {
                 }`}
               >
                 <div className="text-base lg:text-lg lg:px-16 px-2">
-                  <p>
-                  {content.ans3}
-                  </p>
+                  <p>{content.ans3}</p>
                 </div>
               </div>
             </div>
             {/* FAQ 4 */}
-          {content.ques4 &&  <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
-              <button
-                className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
-                onClick={() => handleToggle(2)}
-              >
-                <span className="flex-1 text-base lg:text-xl lg:px-8">
-                  {content.que4}
-                </span>
-                <div
-                  className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(
-                    2
-                  )}`}
+            {content.ques4 && (
+              <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
+                <button
+                  className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
+                  onClick={() => handleToggle(2)}
                 >
-                  <span className="text-lg">
-                    {activeIndex === 2 ? <FaChevronUp /> : <FaChevronDown />}
+                  <span className="flex-1 text-base lg:text-xl lg:px-8">
+                    {content.que4}
                   </span>
-                </div>
-              </button>
-              <div
-                className={`transition-all duration-300 ease-in-out ${
-                  activeIndex === 2
-                    ? "max-h-[500px] mt-4"
-                    : "max-h-0 overflow-hidden"
-                }`}
-              >
-                <div className="text-base lg:text-lg lg:px-16 px-2">
-                  <p>
-                  {content.ans4}
-                  </p>
+                  <div
+                    className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(
+                      2
+                    )}`}
+                  >
+                    <span className="text-lg">
+                      {activeIndex === 2 ? <FaChevronUp /> : <FaChevronDown />}
+                    </span>
+                  </div>
+                </button>
+                <div
+                  className={`transition-all duration-300 ease-in-out ${
+                    activeIndex === 2
+                      ? "max-h-[500px] mt-4"
+                      : "max-h-0 overflow-hidden"
+                  }`}
+                >
+                  <div className="text-base lg:text-lg lg:px-16 px-2">
+                    <p>{content.ans4}</p>
+                  </div>
                 </div>
               </div>
-            </div>}
+            )}
             {/* FAQ 5 */}
-           { content.ques5 && <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
-              <button
-                className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
-                onClick={() => handleToggle(2)}
-              >
-                <span className="flex-1 text-base lg:text-xl lg:px-8">
-                {content.que5}
-                </span>
-                <div
-                  className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(
-                    2
-                  )}`}
+            {content.ques5 && (
+              <div className="relative bg-[#283B5E] border-gray-700 border-b rounded-lg">
+                <button
+                  className="w-full text-left bg-[#182544] p-4 rounded-lg text-base sm:text-lg font-semibold flex items-center"
+                  onClick={() => handleToggle(2)}
                 >
-                  <span className="text-lg">
-                    {activeIndex === 2 ? <FaChevronUp /> : <FaChevronDown />}
+                  <span className="flex-1 text-base lg:text-xl lg:px-8">
+                    {content.que5}
                   </span>
-                </div>
-              </button>
-              <div
-                className={`transition-all duration-300 ease-in-out ${
-                  activeIndex === 2
-                    ? "max-h-[500px] mt-4"
-                    : "max-h-0 overflow-hidden"
-                }`}
-              >
-                <div className="text-base lg:text-lg lg:px-16 px-2">
-                  <p>
-                  {content.ans5}
-                  </p>
+                  <div
+                    className={`flex items-center ml-4 border-l border-gray-500 pl-4 ${getIconColor(
+                      2
+                    )}`}
+                  >
+                    <span className="text-lg">
+                      {activeIndex === 2 ? <FaChevronUp /> : <FaChevronDown />}
+                    </span>
+                  </div>
+                </button>
+                <div
+                  className={`transition-all duration-300 ease-in-out ${
+                    activeIndex === 2
+                      ? "max-h-[500px] mt-4"
+                      : "max-h-0 overflow-hidden"
+                  }`}
+                >
+                  <div className="text-base lg:text-lg lg:px-16 px-2">
+                    <p>{content.ans5}</p>
+                  </div>
                 </div>
               </div>
-            </div>}
+            )}
           </div>
         </div>
       </div>
@@ -256,12 +247,9 @@ const Faq3 = ({content}) => {
         <img src={img1} alt="Contact" className="w-full h-full object-cover" />
         <div className="absolute inset-0 flex flex-col items-center lg:px-80 justify-center text-center p-4 sm:p-8 ">
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl lg:mx-[400px] font-semibold mb-4">
-          {content.ready}
+            {content.ready}
           </h2>
-          <p className="text-sm sm:text-lg lg:mx-52 mb-2">
-          {content.ready1}
-          </p>
-          <Link to='/contact-us'>
+          <p className="text-sm sm:text-lg lg:mx-52 mb-2">{content.ready1}</p>
           <button
             // onClick={handleClick}
             className={`bg-blue-500 font-semibold flex items-center justify-center gap-2 py-2 px-4 rounded-md text-sm sm:text-base transform transition-transform duration-200 ease-in-out ${
@@ -275,7 +263,6 @@ const Faq3 = ({content}) => {
             />
             <span>Contact Us</span>
           </button>
-          </Link>
         </div>
       </div>
     </div>

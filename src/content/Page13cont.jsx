@@ -16,7 +16,7 @@ const page13Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Development</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Services</h1>,
     t5: (
-      <p   >
+      <p>
         At BrainsTerra Intelligence, we ignite your passion for games and
         translate it into captivating realities. Our team of skilled game
         developers, designers, and engineers collaborates closely with you to
@@ -64,7 +64,7 @@ const page13Content = {
     p7: <p>API Integrations &amp; Monetization Strategies:</p>,
 
     p11: (
-      <p   >
+      <p>
         We are experts in leading game engines like Unity, Unreal Engine, Godot,
         and Construct 3, allowing us to select the best fit based on your
         project&#39;s genre, complexity, and target platforms (PC, mobile,
@@ -72,33 +72,33 @@ const page13Content = {
       </p>
     ),
     p22: (
-      <p   >
+      <p>
         Our developers possess mastery in various programming languages
         essential for game development, including C#, C++, Java, and JavaScript.
       </p>
     ),
     p33: (
-      <p   >
+      <p>
         Our skilled 3D artists create stunning visuals, characters, and
         environments that immerse players in your game world.
       </p>
     ),
     p44: (
-      <p   >
+      <p>
         Our 2D animation and UI/UX design specialists craft engaging character
         sprites, user interfaces, and menus that ensure intuitive gameplay and a
         seamless user experience.
       </p>
     ),
     p55: (
-      <p   >
+      <p>
         We collaborate with experienced sound designers and music composers to
         create captivating audio experiences that complement your game&#39;s
         visuals and enhance player immersion.
       </p>
     ),
     p66: (
-      <p   >
+      <p>
         We utilize robust version control systems (Git) and agile project
         management methodologies (Scrum, Kanban) to streamline development,
         facilitate collaboration, and ensure efficient project delivery.
@@ -106,7 +106,7 @@ const page13Content = {
     ),
 
     p77: (
-      <p   >
+      <p>
         We can integrate third-party APIs for functionalities like social media
         leaderboards, in-app purchases, or analytics to enhance your game&#39;s
         features and explore monetization opportunities.
@@ -117,7 +117,7 @@ const page13Content = {
     q1: <p>for Your Game Development Needs?</p>,
     s1: <p>Concept-to-Completion Expertise:</p>,
     s11: (
-      <p   >
+      <p>
         Whether you have a fully fleshed-out game concept or just a spark of an
         idea, we collaborate with you throughout the entire development process,
         from ideation and prototyping to final launch and post-release support.
@@ -125,14 +125,14 @@ const page13Content = {
     ),
     s2: <p>Agile Development &amp; Iterative Design:</p>,
     s22: (
-      <p   >
+      <p>
         We follow agile development methodologies to ensure flexibility and
         continuous improvement. Regular feedback loops allow for user testing
         and data- driven optimizations throughout the development process.
       </p>
     ),
     s33: (
-      <p   >
+      <p>
         We can develop your game for various platforms, including PC, mobile
         (iOS, Android), and consoles (depending on project scope), allowing you
         to reach a wider audience.
@@ -141,7 +141,7 @@ const page13Content = {
     s3: <p>Cross-Platform Development:</p>,
     s4: <p>Focus on Player Engagement &amp; Retention:</p>,
     s44: (
-      <p   >
+      <p>
         We prioritize crafting games that are not only visually stunning but
         also offer engaging mechanics, intuitive controls, and a captivating
         narrative (if applicable) to keep players hooked.
@@ -149,15 +149,27 @@ const page13Content = {
     ),
     s5: <p>Proven Track Record:</p>,
     s55: (
-      <p   >
-        We boast a successful portfolio of game development projects for clients
-        of various sizes, from concept art and prototyping to full-fledged game
-        development. ○ Successfully developed a complex 3D multiplayer online
-        role-playing game (MMORPG) for a leading gaming company. ○ Built a
-        top-grossing mobile puzzle game for the casual gaming market. ○
-        Delivered a challenging and engaging educational game for the
-        children&#39;s entertainment industry.
-      </p>
+      <div>
+        <p>
+          We boast a successful portfolio of game development projects for
+          clients of various sizes, from concept art and prototyping to
+          full-fledged game development:
+        </p>
+        <ul class="list-disc text-white">
+          <li>
+            Successfully developed a complex 3D multiplayer online role-playing
+            game (MMORPG) for a leading gaming company.
+          </li>
+          <li>
+            Built a top-grossing mobile puzzle game for the casual gaming
+            market.
+          </li>
+          <li>
+            Delivered a challenging and engaging educational game for the
+            children's entertainment industry.
+          </li>
+        </ul>
+      </div>
     ),
     //       s6: <p>Cost-Effective Solutions: </p>,
     //       s66: (
@@ -246,14 +258,14 @@ const page13Content = {
 
     f1: <p>Cost-Effective Solutions:</p>,
     f11: (
-      <p   >
+      <p>
         We leverage our in-house training programs, and efficient development
         processes to deliver cost-effective game development within your budget.
       </p>
     ),
     f2: <p>2D Game Development Expertise: </p>,
     f22: (
-      <p   >
+      <p>
         We excel in creating engaging 2D games with a focus on mobile platforms.
         This can be ideal for MSMEs due to potentially lower development costs
         and faster turnaround times compared to complex 3D games.
@@ -261,14 +273,14 @@ const page13Content = {
     ),
     f3: <p>Innovative Game Concepts &amp; Prototyping:</p>,
     f33: (
-      <p   >
+      <p>
         We help you refine your innovative game concepts, create playable
         prototypes to validate your ideas with target users.
       </p>
     ),
     f4: <p>Monetization Strategy &amp; LiveOps Integration: </p>,
     f44: (
-      <p   >
+      <p>
         We can advise on suitable monetization strategies for your game, such as
         in-app purchases, advertising, or subscription models. We can also
         integrate live ops functionalities if your game concept lends itself to
@@ -278,7 +290,7 @@ const page13Content = {
     ),
     f5: <p>High-Fidelity 3D Games &amp; VR/AR Integration:</p>,
     f55: (
-      <p   >
+      <p>
         We possess the expertise to develop high- fidelity 3D games for PC and
         consoles, leveraging advanced graphics rendering techniques and physics
         simulations. We can also explore the integration of virtual reality (VR)
@@ -288,7 +300,7 @@ const page13Content = {
     ),
     f6: <p>Cross-Platform Development &amp; Global Reach:</p>,
     f66: (
-      <p   >
+      <p>
         We can help you bring your game to a wider audience by developing for
         multiple platforms (PC, mobile, console) and navigating the complexities
         of global game publishing.

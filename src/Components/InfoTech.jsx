@@ -83,107 +83,105 @@ const InfoTech = () => {
   </div> */}
             {/**icons */}
             <div className="service-container">
-  <div className="grid-container">
-    <Link to='/AI-ML'>
-    <div className="service-box">
-      <img src={icon1} className="service-icon" />
-      <h3>AI/ML Models Development</h3>
-    </div>
-    </Link>
-    <Link to='/data-engineering'>
-    <div className="service-box">
-      <img src={icon2} className="service-icon" />
-      <h3>Data Engineering</h3>
-    </div>
-    </Link>
-    {/* <Link to='/page2'> */}
-    <div className="service-box">
-      <img src={icon3} className="service-icon" />
-      <h3>Database Recovery and Disaster Management</h3>
-    </div>
-    {/* </Link> */}
-    <Link to='/forex-trading'>
-    <div className="service-box">
-      <img src={icon4} className="service-icon" />
-      <h3>Forex Trading Automation Bot</h3>
-    </div>
-    </Link>
-    <Link to='/app-development'>
-    <div className="service-box">
-      <img src={icon5} className="service-icon" />
-      <h3>App Development</h3>
-    </div>
-    </Link>
-    <Link to='/web-development'>
-    <div className="service-box">
-      <img src={icon6} className="service-icon" />
-      <h3>Web Development</h3>
-    </div>
-    </Link>
-    <Link to='/custom-software'>
-    <div className="service-box">
-      <img src={icon7} className="service-icon" />
-      <h3>Custom Software Development</h3>
-    </div>
-    </Link>
-    <Link to='/ui-ux'>
-    <div className="service-box">
-      <img src={icon8} className="service-icon" />
-      <h3>UI/UX Design Services</h3>
-    </div>
-    </Link>
-    <Link to='/IOT'>
-    <div className="service-box">
-      <img src={icon9} className="service-icon" />
-      <h3>Iot Development </h3>
-    </div>
-    </Link>
-    <Link to='/game-development'>
-    <div className="service-box">
-      <img src={icon10} className="service-icon" />
-      <h3>Game Development</h3>
-    </div>
-    </Link>
-    <Link to='/desktop-development'>
-    <div className="service-box">
-      <img src={icon11} className="service-icon" />
-      <h3>Desktop Application</h3>
-    </div>
-    </Link>
-    <Link to='/MVP'>
-    <div className="service-box">
-      <img src={icon12} className="service-icon" />
-      <h3>MVP Development</h3>
-    </div>
-    </Link>
-    <Link to='/EPR'>
-    <div className="service-box">
-      <img src={icon13} className="service-icon" />
-      <h3>ERP Software Solutions</h3>
-    </div>
-    </Link>
-    <Link to='/CRM'>
-    <div className="service-box">
-      <img src={icon15} className="service-icon" />
-      <h3>Customer Relationship Management</h3>
-    </div>
-    </Link>
-    <Link to='/CMS'>
-    <div className="service-box">
-      <img src={icon16} className="service-icon" />
-      <h3>Content Management System</h3>
-    </div>
-    </Link>
-    <Link to='/e-commerce'>
-    <div className="service-box">
-      <img src={icon14} className="service-icon" />
-      <h3>E-Commerce Solution</h3>
-    </div>
-    </Link>
-  </div>
-</div>
-
-
+              <div className="grid-container">
+                <Link to="/AI-ML">
+                  <div className="service-box hoverplus">
+                    <img src={icon1} className="service-icon" />
+                    <h3>AI/ML Models Development</h3>
+                  </div>
+                </Link>
+                <Link to="/data-engineering">
+                  <div className="service-box hoverplus">
+                    <img src={icon2} className="service-icon" />
+                    <h3>Data Engineering</h3>
+                  </div>
+                </Link>
+                {/* <Link to='/page2'> */}
+                <div className="service-box hoverplus">
+                  <img src={icon3} className="service-icon" />
+                  <h3>Database Recovery and Disaster Mgmt.</h3>
+                </div>
+                {/* </Link> */}
+                <Link to="/forex-trading">
+                  <div className="service-box hoverplus">
+                    <img src={icon4} className="service-icon" />
+                    <h3>Forex Trading Automation Bot</h3>
+                  </div>
+                </Link>
+                <Link to="/app-development">
+                  <div className="service-box hoverplus">
+                    <img src={icon5} className="service-icon" />
+                    <h3>App Development</h3>
+                  </div>
+                </Link>
+                <Link to="/web-development">
+                  <div className="service-box hoverplus">
+                    <img src={icon6} className="service-icon" />
+                    <h3>Web Development</h3>
+                  </div>
+                </Link>
+                <Link to="/custom-software">
+                  <div className="service-box hoverplus">
+                    <img src={icon7} className="service-icon" />
+                    <h3>Custom Software Development</h3>
+                  </div>
+                </Link>
+                <Link to="/ui-ux">
+                  <div className="service-box hoverplus">
+                    <img src={icon8} className="service-icon" />
+                    <h3>UI/UX Design Services</h3>
+                  </div>
+                </Link>
+                <Link to="/IOT">
+                  <div className="service-box hoverplus">
+                    <img src={icon9} className="service-icon" />
+                    <h3>Iot Development </h3>
+                  </div>
+                </Link>
+                <Link to="/game-development">
+                  <div className="service-box hoverplus">
+                    <img src={icon10} className="service-icon" />
+                    <h3>Game Development</h3>
+                  </div>
+                </Link>
+                <Link to="/desktop-development">
+                  <div className="service-box hoverplus">
+                    <img src={icon11} className="service-icon" />
+                    <h3>Desktop Application</h3>
+                  </div>
+                </Link>
+                <Link to="/MVP">
+                  <div className="service-box hoverplus">
+                    <img src={icon12} className="service-icon" />
+                    <h3>MVP Development</h3>
+                  </div>
+                </Link>
+                <Link to="/EPR">
+                  <div className="service-box hoverplus">
+                    <img src={icon13} className="service-icon" />
+                    <h3>ERP Software Solutions</h3>
+                  </div>
+                </Link>
+                <Link to="/CRM">
+                  <div className="service-box hoverplus">
+                    <img src={icon15} className="service-icon" />
+                    <h3>Customer Relationship Management</h3>
+                  </div>
+                </Link>
+                <Link to="/CMS">
+                  <div className="service-box hoverplus">
+                    <img src={icon16} className="service-icon" />
+                    <h3>Content Management System</h3>
+                  </div>
+                </Link>
+                <Link to="/e-commerce">
+                  <div className="service-box hoverplus">
+                    <img src={icon14} className="service-icon" />
+                    <h3>E-Commerce Solution</h3>
+                  </div>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -343,7 +341,10 @@ const InfoTech = () => {
         <div className="container top-infotech">
           <h1 className="heading"></h1>
           <div className="synergy__content">
-            <div style={{ maxWidth: "fit-content,", textAlign:"center" }} className="px-4">
+            <div
+              style={{ maxWidth: "fit-content,", textAlign: "center" }}
+              className="px-4"
+            >
               <p>
                 We have designed our entire process and products to provide
                 everything a business needs when starting from scratch. We
@@ -391,70 +392,63 @@ const InfoTech = () => {
           </h1>
           <div className="flex flex-col">
             <div className="intelligence__row   !gap-7     h-auto">
-              
-                <div className="intelligence__row-single four h-fit   ">
-                  <div className="content  ">
-                    <h3 className="text-base ">Web designing</h3>
-                    <span>and development</span>
-                  </div>
+              <div className="intelligence__row-single four h-fit   ">
+                <div className="content  ">
+                  <h3 className="text-base ">Web designing</h3>
+                  <span>and development</span>
                 </div>
-             
-              
-                <div className="intelligence__row-single two h-fit">
-                  <div className="content ">
-                    <h3 className="text-base ">Web Application</h3>
-                    <span>Design & Development</span>
-                  </div>
+              </div>
+
+              <div className="intelligence__row-single two h-fit">
+                <div className="content ">
+                  <h3 className="text-base ">Web Application</h3>
+                  <span>Design & Development</span>
                 </div>
-             
-              
-                <div className="intelligence__row-single three h-fit">
-                  <div className="content ">
-                    <h3 className="text-base ">Pre Developed Website</h3>
-                    <span>or Application maintenance</span>
-                  </div>
+              </div>
+
+              <div className="intelligence__row-single three h-fit">
+                <div className="content ">
+                  <h3 className="text-base ">Pre Developed Website</h3>
+                  <span>or Application maintenance</span>
                 </div>
-             
-              
-                <div className="intelligence__row-single one h-fit">
-                  <div className="content  ">
-                    <h3 className="text-base ">Software Development</h3>
-                    <span>& testing</span>
-                  </div>
+              </div>
+
+              <div className="intelligence__row-single one h-fit">
+                <div className="content  ">
+                  <h3 className="text-base ">Software Development</h3>
+                  <span>& testing</span>
                 </div>
-              
+              </div>
             </div>
 
             <div className="intelligence__row  h-auto !gap-7   ">
-             
-                <div className="intelligence__row-single five h-fit ">
-                  <div className="content ">
-                    <h3 className="text-base ">Bug Fixing Services</h3>
-                    <span>for Application</span>
-                  </div>
+              <div className="intelligence__row-single five h-fit ">
+                <div className="content ">
+                  <h3 className="text-base ">Bug Fixing Services</h3>
+                  <span>for Application</span>
                 </div>
-             
-                <div className="intelligence__row-single two h-fit">
-                  <div className="content ">
-                    <h3 className="text-base ">Mobile Application</h3>
-                    <span>Development</span>
-                  </div>
+              </div>
+
+              <div className="intelligence__row-single two h-fit">
+                <div className="content ">
+                  <h3 className="text-base ">Mobile Application</h3>
+                  <span>Development</span>
                 </div>
-             
-                <div className="intelligence__row-single three mt-10">
-                  <div className="content ">
-                    <h3 className="text-base  ">Custom Application</h3>
-                    <span>Development</span>
-                  </div>
+              </div>
+
+              <div className="intelligence__row-single three mt-10">
+                <div className="content ">
+                  <h3 className="text-base  ">Custom Application</h3>
+                  <span>Development</span>
                 </div>
-         
-                <div className="intelligence__row-single one h-fit mt-7">
-                  <div className="content">
-                    <h3 className="text-base ">Application</h3>
-                    <span>Modemization</span>
-                  </div>
+              </div>
+
+              <div className="intelligence__row-single one h-fit mt-7">
+                <div className="content">
+                  <h3 className="text-base ">Application</h3>
+                  <span>Modemization</span>
                 </div>
-           
+              </div>
             </div>
           </div>
         </div>
@@ -520,7 +514,11 @@ const InfoTech = () => {
       <div class="pt-5 text-center">
         <div class="container px-4">
           <br />
-          <h1 class="heading mb-8 " style={{ fontSize: "18px" }} className="text-center">
+          <h1
+            class="heading mb-8 "
+            style={{ fontSize: "18px" }}
+            className="text-center"
+          >
             We truly understand that a healthy IT system is the backbone of a
             company, and to have it, you need the support of a good team of
             experts, which is where we play a significant role as your

@@ -21,11 +21,15 @@ const page4Content = {
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Engineering</h1>,
     t5: (
       <p>
-        At BrainsTerra Intelligence,<br/> we empower businesses of all sizes:<br/> <span className="text-3xl"> MSMEs,
-        startups, and enterprises  </span><br/>to leverage the transformative power of
-        data. Our world-class Data Engineering Services are crafted to build
-        robust infrastructure tailored to your specific needs, driving your
-        business towards data-driven decision- making and growth.
+        At BrainsTerra Intelligence,
+        <br /> we empower businesses of all sizes:
+        <br />{" "}
+        <span className="text-3xl"> MSMEs, startups, and enterprises </span>
+        <br />
+        to leverage the transformative power of data. Our world-class Data
+        Engineering Services are crafted to build robust infrastructure tailored
+        to your specific needs, driving your business towards data-driven
+        decision- making and growth.
       </p>
     ),
     t6: (
@@ -112,7 +116,7 @@ const page4Content = {
     ),
     // p6: <p>API Integrations:</p>,
     p66: (
-      <p style={{ zIndex: "55", position: "relative"}}>
+      <p style={{ zIndex: "55", position: "relative" }}>
         We offer ongoing data lake management services, including data quality
         monitoring, data governance implementation, and cost optimization
         strategies. This ensures your data lake remains a reliable and valuable
@@ -181,7 +185,7 @@ const page4Content = {
       <p>
         We possess a successful history of delivering impactful data engineering
         solutions across diverse industry domains.
-        <ul>
+        <ul className="list-disc">
           <li>
             Successfully built a real-time data pipeline for a leading retail
             company, enabling them to analyze customer behavior and optimize
@@ -224,15 +228,15 @@ const page4Content = {
         outlining the technologies, tools, and processes tailored to your needs.
       </p>
     ),
-    d3: <p>Proof of Concept (POC): </p>,
-    d33: (
+    d4: <p>Proof of Concept (POC): </p>,
+    d44: (
       <p>
         To mitigate risk and ensure alignment, we can develop a focused POC to
         demonstrate the effectiveness of our proposed solution.
       </p>
     ),
-    d4: <p>Implementation & Deployment:</p>,
-    d44: (
+    d3: <p>Implementation & Deployment:</p>,
+    d33: (
       <p>
         Our team implements the agreed-upon solution, ensuring seamless
         integration with your existing infrastructure.
@@ -289,27 +293,29 @@ const page4Content = {
         Data engineering services offer a multitude of benefits, including:
         <ul>
           <li>
-            <b>Improved Data Accessibility:</b> <br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>By establishing a structured
-            data infrastructure, data becomes readily accessible for analysis
-            and reporting.</span>
+            <b>Improved Data Accessibility:</b> <br />
+            By establishing a structured data infrastructure, data becomes
+            readily accessible for analysis and reporting.
           </li>
           <li>
-            <b>Enhanced Data Quality:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}> Data pipelines ensure data accuracy
-            and consistency, leading to reliable insights.</span>
+            <b>Enhanced Data Quality:</b>
+            <br /> Data pipelines ensure data accuracy and consistency, leading
+            to reliable insights.
           </li>
           <li>
-            <b>Streamlined Data-Driven Decision Making:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>  Easy access to clean
-            and organized data empowers faster and more informed business
-            decisions.</span>
+            <b>Streamlined Data-Driven Decision Making:</b>
+            <br /> Easy access to clean and organized data empowers faster and
+            more informed business decisions.
           </li>
           <li>
-            <b>Reduced Costs:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>  Efficient data management practices can
-            significantly lower data storage and processing costs.</span>
+            <b>Reduced Costs:</b>
+            <br /> Efficient data management practices can significantly lower
+            data storage and processing costs.
           </li>
           <li>
-            <b>Scalability and Agility:</b> <br/><span style={{fontWeight:'lighter',opacity:'0.7'}}> A well-designed data engineering
-            solution can seamlessly scale to accommodate future growth and
-            evolving business needs</span>
+            <b>Scalability and Agility:</b> <br />A well-designed data
+            engineering solution can seamlessly scale to accommodate future
+            growth and evolving business needs
           </li>
         </ul>
       </p>

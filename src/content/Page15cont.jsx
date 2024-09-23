@@ -20,7 +20,7 @@ const page15Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">for your</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Success</h1>,
     t5: (
-      <p   >
+      <p>
         At BrainsTerra Intelligence, we empower businesses of all sizes – MSMEs,
         startups, and enterprises – to achieve their goals through custom
         software development. We are a team of passionate developers and
@@ -66,7 +66,7 @@ const page15Content = {
     p4: <p>Deployment &amp; Maintenance:</p>,
 
     p11: (
-      <p   >
+      <p>
         We initiate the collaboration with a comprehensive discovery workshop to
         delve deep into your business needs, target audience, project goals, and
         desired functionalities. Through in-depth discussions and user research,
@@ -74,7 +74,7 @@ const page15Content = {
       </p>
     ),
     p22: (
-      <p   >
+      <p>
         Our experienced architects translate your requirements into a technical
         roadmap, outlining the optimal technology stack for your project. This
         may include programming languages like Java, Python, or JavaScript
@@ -83,7 +83,7 @@ const page15Content = {
       </p>
     ),
     p33: (
-      <p   >
+      <p>
         We adopt an agile development methodology, breaking down the project
         into manageable sprints. This allows for continuous development,
         testing, and feedback throughout the process, ensuring the final product
@@ -91,7 +91,7 @@ const page15Content = {
       </p>
     ),
     p44: (
-      <p   >
+      <p>
         Our dedicated QA team rigorously tests the software throughout the
         development lifecycle, employing a combination of unit testing,
         integration testing, and user acceptance testing (UAT) to guarantee a
@@ -99,7 +99,7 @@ const page15Content = {
       </p>
     ),
     p55: (
-      <p   >
+      <p>
         We seamlessly deploy your software to your preferred production
         environment and provide ongoing maintenance and support services to
         ensure optimal performance and address any future needs.
@@ -111,7 +111,7 @@ const page15Content = {
     q1: <p>for Your Custom Software Development Needs?</p>,
     s1: <p>Collaborative Approach:</p>,
     s11: (
-      <p   >
+      <p>
         We believe in building strong partnerships with our clients. Through
         open communication and active collaboration, we ensure your vision is
         translated into a successful software solution.
@@ -119,14 +119,14 @@ const page15Content = {
     ),
     s2: <p>Technology Agnostic::</p>,
     s22: (
-      <p   >
+      <p>
         Our expertise extends across various technologies and frameworks. We
         recommend the best-fit solution based on your specific needs, ensuring
         optimal performance and cost-effectiveness.
       </p>
     ),
     s33: (
-      <p   >
+      <p>
         We adopt agile methodologies to deliver value early and often, allowing
         for continuous feedback and course correction throughout the development
         process.
@@ -135,30 +135,47 @@ const page15Content = {
     s3: <p>Agile &amp; Iterative Development:</p>,
     s4: <p>Focus on Security &amp; Scalability:</p>,
     s44: (
-      <p   >
+      <p>
         Security and scalability are paramount. We build software with robust
         security measures in place and design it to accommodate future growth.
       </p>
     ),
     s5: <p>Experienced Development Team:</p>,
     s55: (
-      <p   >
-        Team: Our team comprises skilled developers with a proven track record
-        of delivering high-quality custom software solutions across diverse
-        industries such as: ○ Successfully developed a custom warehouse
-        management system for a leading logistics company, improving inventory
-        accuracy by 25% and reducing order fulfillment time by 10%. ○ Built a
-        scalable e-commerce platform for a fast-growing retail company,
-        resulting in a 30% increase in online sales within the first year of
-        launch. ○ Designed and implemented a custom customer relationship
-        management (CRM) system for a mid-sized healthcare provider,
-        streamlining patient data management and boosting patient satisfaction
-        by 15%. ○ Developed a feature-rich project management application for an
-        engineering firm, enhancing team collaboration and leading to a 20%
-        reduction in project completion timelines. ○ Created a robust data
-        analytics platform for a large financial institution, enabling
-        data-driven decision making and optimizing investment strategies.
-      </p>
+      <div>
+        <p>
+          Team: Our team comprises skilled developers with a proven track record
+          of delivering high-quality custom software solutions across diverse
+          industries such as:
+        </p>
+        <ul class="list-disc text-white">
+          <li>
+            Successfully developed a custom warehouse management system for a
+            leading logistics company, improving inventory accuracy by 25% and
+            reducing order fulfillment time by 10%.
+          </li>
+          <li>
+            Built a scalable e-commerce platform for a fast-growing retail
+            company, resulting in a 30% increase in online sales within the
+            first year of launch.
+          </li>
+          <li>
+            Designed and implemented a custom customer relationship management
+            (CRM) system for a mid-sized healthcare provider, streamlining
+            patient data management and boosting patient satisfaction by 15%.
+          </li>
+          <li>
+            Developed a feature-rich project management application for an
+            engineering firm, enhancing team collaboration and leading to a 20%
+            reduction in project completion timelines.
+          </li>
+          <li>
+            Created a robust data analytics platform for a large financial
+            institution, enabling data-driven decision making and optimizing
+            investment strategies.
+          </li>
+        </ul>
+      </div>
     ),
     s6: <p>Customizable Solutions &amp; Cost-Effectiveness:</p>,
     s66: (
@@ -239,7 +256,7 @@ const page15Content = {
     ),
     f1: <p>Cost-Effective Custom Software Solutions:</p>,
     f11: (
-      <p   >
+      <p>
         We explore efficient development processes, leverage open-source
         technologies where applicable, and recommend cost-effective solutions to
         create custom software solutions that fit your budget constraints.
@@ -255,7 +272,7 @@ const page15Content = {
     //       ),
     f3: <p>Rapid Prototyping &amp; Validation:</p>,
     f33: (
-      <p   >
+      <p>
         We can help you develop rapid prototypes to validate your software
         concept before investing in full-scale development, minimizing risks and
         ensuring you&#39;re building the right solution.
@@ -263,14 +280,14 @@ const page15Content = {
     ),
     f4: <p>Focus on Innovation &amp; Scalability: </p>,
     f44: (
-      <p   >
+      <p>
         We can help you leverage innovative technologies and design your custom
         software with scalability in mind to accommodate future growth.
       </p>
     ),
     f5: <p> Complex Enterprise Software Solutions:</p>,
     f55: (
-      <p   >
+      <p>
         Our team has the expertise to develop complex enterprise-grade software
         solutions that integrate seamlessly with your existing IT infrastructure
         and legacy systems.
@@ -280,7 +297,7 @@ const page15Content = {
     f66: <p>We can leverage microservices architecture to build robust</p>,
     f7: <p>Data Security &amp; Compliance:</p>,
     f77: (
-      <p   >
+      <p>
         We prioritize robust security measures and ensure your custom software
         adheres to industry regulations and data privacy compliance standards.
       </p>
