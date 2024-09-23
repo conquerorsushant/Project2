@@ -38,7 +38,7 @@ const Home = () => {
       <div className="banner relative">
         <div className="banner__content container">
           <div class="col-md-8 ">
-            <h1 class="banner__content-title ml-20 pt-[4.8rem] front-heading max-w-[80%]">
+            <h1 class="banner__content-title ml-[5.6rem] pt-[4.8rem] front-heading max-w-[80%]">
               A one-stop destination for START-ups to start, and <br></br> EXCEL
               in their businesses.
             </h1>

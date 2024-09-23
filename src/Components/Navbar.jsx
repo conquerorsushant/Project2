@@ -23,7 +23,7 @@ const Navbar = () => {
       <header className='bg-secondary max-w-screen-2xl container mx-auto xl:px-36 px-4'>
         <nav className='flex justify-between items-center py-3'>
           <Link to="/" className='flex items-center gap-2 text-2xl'>
-            <img src={logo} className='h-14' alt="logo" />
+            <img src={logo} className=' w-[15.8rem]' alt="logo" />
           </Link>
 
           {/* Desktop Nav Items */}

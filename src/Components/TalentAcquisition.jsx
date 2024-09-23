@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useRef } from "react";
 import rocktIcon from "../assets/images/rockt.png"; // Update the path to your assets
 import hiringIcon from "../assets/images/hiring.png"; // Update the path to your assets
 import teamIcon from "../assets/images/team.png";
@@ -10,6 +10,7 @@ import rec2 from "../assets/images/rec2.png";
 import rec3 from "../assets/images/rec3.png";
 
 const TalentAcquisition = () => {
+  const modalRefs = useRef([]);
   const [showModal, setShowModal] = useState(false);
   const [showModal2, setShowModal2] = useState(false);
   const [showModal3, setShowModal3] = useState(false);
@@ -47,6 +48,13 @@ const TalentAcquisition = () => {
     happyClients: 0,
   });
 
+  const closeModalOnOutsideClick = (e, modalIndex, setShowModalFn) => {
+    console.log(e.target,"consoling e.target")
+    if (modalRefs.current[modalIndex] && !modalRefs.current[modalIndex].contains(e.target)) {
+      setShowModalFn(false);
+    }
+  };
+
   // Function to animate counters
   const animateCounter = (endValue, key) => {
     let startValue = 0;
@@ -71,6 +79,30 @@ const TalentAcquisition = () => {
       }
     }, stepTime);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      console.log(e,"hi")
+      if (showModal) closeModalOnOutsideClick(e, 0, setShowModal);
+      if (showModal2) closeModalOnOutsideClick(e, 1, setShowModal2);
+      if (showModal3) closeModalOnOutsideClick(e, 2, setShowModal3);
+      if (showModal4) closeModalOnOutsideClick(e, 3, setShowModal4);
+      if (showModal5) closeModalOnOutsideClick(e, 4, setShowModal5);
+      if (showModal6) closeModalOnOutsideClick(e, 5, setShowModal6);
+      if (showModal7) closeModalOnOutsideClick(e, 6, setShowModal7);
+      if (showModal8) closeModalOnOutsideClick(e, 7, setShowModal8);
+      if (showModal9) closeModalOnOutsideClick(e, 8, setShowModal9);
+      if (showModal10) closeModalOnOutsideClick(e, 9, setShowModal10);
+      if (showModal11) closeModalOnOutsideClick(e, 10, setShowModal11);
+      if (showModal12) closeModalOnOutsideClick(e, 11, setShowModal12);
+      if (showModal13) closeModalOnOutsideClick(e, 12, setShowModal13);
+      if (showModal14) closeModalOnOutsideClick(e, 13, setShowModal14);
+      // Add conditions for other modals...
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [showModal, showModal2,showModal3,showModal4,showModal5,showModal6,showModal7,showModal8,showModal9,showModal10,showModal11,showModal12,showModal13,showModal14,]); 
 
   useEffect(() => {
     animateCounter(500000, "activeJobSeekers");
@@ -366,7 +398,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[3] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -422,7 +454,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[4] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -479,7 +511,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[5] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -539,7 +571,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[6] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -598,7 +630,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[7] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -650,7 +682,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[8] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -696,7 +728,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[9] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -742,7 +774,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[10] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -868,7 +900,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[11] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -915,7 +947,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[12] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -968,7 +1000,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[13] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -1012,8 +1044,9 @@ const TalentAcquisition = () => {
         <div
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
+          
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog" ref={(el) => (modalRefs.current[0] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -1065,8 +1098,9 @@ const TalentAcquisition = () => {
         <div
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
+         
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[1] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button
@@ -1116,7 +1150,7 @@ const TalentAcquisition = () => {
           className="modal fade show text-center "
           style={{ display: "block", zIndex: 1050 }}
         >
-          <div className="modal-dialog">
+          <div className="modal-dialog"  ref={(el) => (modalRefs.current[2] = el)}>
             <div className="modal-content">
               <div className="modal-header">
                 <button

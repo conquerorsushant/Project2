@@ -289,9 +289,9 @@ const page4Content = {
         Data engineering services offer a multitude of benefits, including:
         <ul>
           <li>
-            <b>Improved Data Accessibility:</b> <br/>By establishing a structured
+            <b>Improved Data Accessibility:</b> <br/><span style={{fontWeight:'lighter',opacity:'0.7'}}>By establishing a structured
             data infrastructure, data becomes readily accessible for analysis
-            and reporting.
+            and reporting.</span>
           </li>
           <li>
             <b>Enhanced Data Quality:</b><br/><span style={{fontWeight:'lighter',opacity:'0.7'}}> Data pipelines ensure data accuracy
