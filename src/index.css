@@ -2,85 +2,136 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: myfontBold;
+  src: url(./assets/font/Sansation-Bold.ttf);
+}
+@font-face {
+  font-family: myfontBoldItalic;
+  src: url(./assets/font/Sansation-BoldItalic.ttf);
+}
+@font-face {
+  font-family: myfontItalic;
+  src: url(./assets/font/Sansation-Italic.ttf);
+}
+@font-face {
+  font-family: myfontLight;
+  src: url(./assets/font/Sansation-Light.ttf);
+}
+@font-face {
+  font-family: myfontLightItalic;
+  src: url(./assets/font/Sansation-LightItalic.ttf);
+}
+@font-face {
+  font-family: myfontRegular;
+  src: url(./assets/font/Sansation-Regular.ttf);
+}
+
+.myfontBold {
+  font-family: myfontBold;
+  font-weight: bold;
+}
+.myfontBoldItalic {
+  font-family: myfontBoldItalic;
+  font-weight: bold;
+  font-style: italic;
+}
+.myfontLight {
+  font-family: myfontLight;
+  font-weight: lighter;
+}
+.myfontItalic {
+  font-family: myfontItalic;
+  font-style: italic;
+}
+.myfontLightItalic {
+  font-family: myfontLightItalic;
+  font-weight: lighter;
+  font-style: italic;
+}
+.myfontRegular {
+  font-family: myfontRegular;
+}
+
 html,
 body {
-	overflow-x: hidden;
-	margin: 0;
-	padding: 0; 
-	width: 100%;
-	height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .bgFirst {
-	background-image: url("../src/assets/images/home-banner.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 130vh;
+  background-image: url("../src/assets/images/home-banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 130vh;
 }
 
 .bgContact {
-	background-image: url("../src/assets/images/subfooter-bg.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 40vh;
+  background-image: url("../src/assets/images/subfooter-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
 }
 
 .bgFourth {
-	background-image: url("../src/assets/images/test-bgs.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+  background-image: url("../src/assets/images/test-bgs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bgFooter {
-	background-image: url("../src/assets/images/footer.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 40vh;
+  background-image: url("../src/assets/images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
 }
 
 .pt-16 {
-	padding-top: 4rem; 
+  padding-top: 4rem;
 }
 
 .flex-grow {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 
 @font-face {
-	font-family: "Sansation";
-	src: url("/src/assets/LocalFonts//Sansation_Regular.ttf") format("truetype");
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Sansation";
+  src: url("/src/assets/LocalFonts//Sansation_Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: "Sansation";
-	src: url("/src/assets/LocalFonts/Sansation_Bold.ttf") format("truetype");
-	font-weight: 700;
-	font-style: normal;
+  font-family: "Sansation";
+  src: url("/src/assets/LocalFonts/Sansation_Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: "Sansation";
-	src: url("/src/assets/LocalFonts/Sansation_Italic.ttf") format("truetype");
-	font-weight: 400;
-	font-style: italic;
+  font-family: "Sansation";
+  src: url("/src/assets/LocalFonts/Sansation_Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
-	font-family: "Sansation";
-	src: url("/src/assets/LocalFonts/Sansation_Bold_Italic.ttf") format("truetype");
-	font-weight: 700;
-	font-style: italic;
+  font-family: "Sansation";
+  src: url("/src/assets/LocalFonts/Sansation_Bold_Italic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
 }
-.recruitment{
-	background-image: url("../src/assets/images/recruitment.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-
- }
+.recruitment {
+  background-image: url("../src/assets/images/recruitment.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
