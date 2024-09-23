@@ -27,9 +27,9 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Nav Items */}
-          <ul className='hidden md:flex items-center justify-center gap-12'>
+          <ul className='hidden md:flex items-center justify-center gap-10'>
             {navItems.map(({ path, title }) => (
-              <li key={path} className='text-sm font-bold hover:text-green-700 pt-3'>
+              <li key={path} className='text-[.8rem] font-bold hover:text-green-700 pt-3 '>
                 <NavLink 
                   to={path} 
                   className='hover:text-green-700 active:text-green-800 '

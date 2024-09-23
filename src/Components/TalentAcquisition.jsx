@@ -89,11 +89,11 @@ const TalentAcquisition = () => {
 
         <div className="talentcontainer relative">
           <div className="banner__content container">
-            <h1 className="banner__content-title banner_font banner-font-change pt-[4.8rem]  ml-[3.7rem] front-heading2">
+            <h1 className="banner__content-title banner_font banner-font-change pt-[4.8rem]  ml-[6rem] front-heading2">
               We create a world of like-minded and coherent people for our
               clients.
             </h1>
-            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-3 ml-[3.7rem] front-heading2">
+            <h1 className="banner__content-title banner_font banner-font-change animate-second mt-3 ml-[6rem] front-heading2">
               Our expert teams have in-depth knowledge of technologies <br />
               and help companies build their HIGH-END engineering/technology{" "}
               <br />
@@ -107,8 +107,8 @@ const TalentAcquisition = () => {
           {/* "Why Choose Us" Section */}
           <div className="whatwedo relative mt-20 max-w-[70%] mx-[15%]">
             <h1
-              className="heading text-center   recruit-head-change relative z-10 why_choose_us"
-              style={{ marginTop: "155px" }}
+              className="heading text-center recruit-head-change relative z-10 why_choose_us"
+              style={{ marginTop: "155px", fontSize: "1.6rem" }}
             >
               Why Choose Us
             </h1>

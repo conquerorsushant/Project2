@@ -343,7 +343,7 @@ const InfoTech = () => {
         <div className="container top-infotech">
           <h1 className="heading"></h1>
           <div className="synergy__content">
-            <div style={{ maxWidth: "fit-content,", textAlign:"justify" }} className="px-4">
+            <div style={{ maxWidth: "fit-content,", textAlign:"center" }} className="px-4">
               <p>
                 We have designed our entire process and products to provide
                 everything a business needs when starting from scratch. We
@@ -368,7 +368,7 @@ const InfoTech = () => {
             <div className="col-lg-10 offset-lg-1 pb-3">
               <div className="testimonial__single text-center flex flex-col items-center justify-center">
                 <img className="mb-4 mt-5" src={quots} alt="" />
-                <h4 style={{ fontSize: "20px" }} className="text-justify px-4">
+                <h4 style={{ fontSize: "20px" }} className="text-center px-4">
                   “We are a growth catalyst with the simple aim of helping our
                   clients achieve their full potential and excel in their
                   business. We help our clients stand out by ensuring that
@@ -520,7 +520,7 @@ const InfoTech = () => {
       <div class="pt-5 text-center">
         <div class="container px-4">
           <br />
-          <h1 class="heading mb-8 " style={{ fontSize: "18px" }} className="text-justify">
+          <h1 class="heading mb-8 " style={{ fontSize: "18px" }} className="text-center">
             We truly understand that a healthy IT system is the backbone of a
             company, and to have it, you need the support of a good team of
             experts, which is where we play a significant role as your

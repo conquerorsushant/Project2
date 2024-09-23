@@ -10,9 +10,9 @@ import color from "../../assets/images/Asset17.png";
 import arrow from "../../assets/images/Arrow111.png";
 import favicon from "../../assets/images/favicon.png";
 
-const Sec32 = ({content}) => {
-  console.log(content.a1.props)
-  
+const Sec32 = ({ content }) => {
+  console.log(content.a1.props);
+
   const [isClicked, setIsClicked] = useState(false);
 
   const handleClick = () => {
@@ -35,11 +35,9 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-                 {content.p1}
+                  {content.p1}
                 </h2>
-                <p className="text-sm sm:text-base">
-                 {content.p11}
-                </p>
+                <p className="text-sm sm:text-base">{content.p11}</p>
               </div>
             </div>
             <div className="flex lg:w-1/2   items-start justify-center gap-4 lg:p-4 mx-2 ">
@@ -52,9 +50,7 @@ const Sec32 = ({content}) => {
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
                   {content.p2}
                 </h2>
-                <p className="text-sm sm:text-base">
-                 {content.p22}
-                </p>
+                <p className="text-sm sm:text-base">{content.p22}</p>
               </div>
             </div>
           </div>
@@ -67,11 +63,9 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-               {content.p3}
+                  {content.p3}
                 </h2>
-                <p className="text-sm sm:text-base">
-                 {content.p33}
-                </p>
+                <p className="text-sm sm:text-base">{content.p33}</p>
               </div>
             </div>
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 pl-2 mx-2 ">
@@ -82,11 +76,9 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-                 {content.p4}
+                  {content.p4}
                 </h2>
-                <p className="text-sm sm:text-base">
-                  {content.p44}
-                </p>
+                <p className="text-sm sm:text-base">{content.p44}</p>
               </div>
             </div>
           </div>
@@ -99,46 +91,44 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-                 {content.p5}
+                  {content.p5}
                 </h2>
-                <p className="text-sm sm:text-base">
-                  {content.p55}
-                </p>
+                <p className="text-sm sm:text-base">{content.p55}</p>
               </div>
             </div>
-        { content.p6 && <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
-              <img
-                src={content.a6.props.src}
-                alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
-              />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold ">
-                {content.p6}
-                </h2>
-                <p className="text-sm sm:text-base ">
-                  {content.p66}
-                </p>
+            {content.p6 && (
+              <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
+                <img
+                  src={content.a6.props.src}
+                  alt="Data Lakes Icon"
+                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                />
+                <div>
+                  <h2 className="text-base sm:text-xl lg:text-3xl font-semibold ">
+                    {content.p6}
+                  </h2>
+                  <p className="text-sm sm:text-base ">{content.p66}</p>
+                </div>
               </div>
-            </div>}
+            )}
           </div>
-         { content.p7 && <div className="flex lg:px-36 ">
-            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
-              <img
-                src={content}
-                alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
-              />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-                  {content.p7}
-                </h2>
-                <p className="text-sm sm:text-base">
-                 {content.p77}
-                </p>
+          {content.p7 && (
+            <div className="flex lg:px-36 ">
+              <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
+                <img
+                  src={content}
+                  alt="Data Lakes Icon"
+                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                />
+                <div>
+                  <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
+                    {content.p7}
+                  </h2>
+                  <p className="text-sm sm:text-base">{content.p77}</p>
+                </div>
               </div>
             </div>
-          </div>}
+          )}
         </div>
 
         {/* Left1 Image Positioned on Right Side */}
@@ -180,11 +170,11 @@ const Sec32 = ({content}) => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
           <h2 className="text-lg sm:text-3xl font-bold mx-auto max-w-screen-sm sm:max-w-[80%]">
-          {content.q2}
-            
+            {content.q2}
+
             {content.q3}
-            
-           {content.q1}
+
+            {content.q1}
           </h2>
           <div className="lg:mt-4 mb-1 mt-2 sm:mt-8">
             <button
@@ -227,10 +217,10 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-               {content.s1}
+                  {content.s1}
                 </h2>
-                <p className="text-sm sm:text-base">
-                {content.s11}
+                <p className="text-sm sm:text-base font-semibold">
+                  {content.s11}
                 </p>
               </div>
             </div>
@@ -242,10 +232,10 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-               {content.s2}
+                  {content.s2}
                 </h2>
-                <p className="text-sm sm:text-base">
-               {content.s22}
+                <p className="text-sm sm:text-base font-semibold">
+                  {content.s22}
                 </p>
               </div>
             </div>
@@ -259,10 +249,10 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-                {content.s3}
+                  {content.s3}
                 </h2>
-                <p className="text-sm sm:text-base">
-              {content.s33}
+                <p className="text-sm sm:text-base font-semibold">
+                  {content.s33}
                 </p>
               </div>
             </div>
@@ -274,16 +264,15 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-                {content.s4}
+                  {content.s4}
                 </h2>
-                <p className="text-sm sm:text-base">
-               {content.s44}
+                <p className="text-sm sm:text-base font-semibold">
+                  {content.s44}
                 </p>
               </div>
             </div>
           </div>
           <div className="flex lg:flex-row flex-col lg:px-36 ">
-           
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
                 src={content.a5.props.src}
@@ -292,10 +281,11 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-               {content.s5}
+                  {content.s5}
                 </h2>
-                <p className="text-sm sm:text-base">
-               {content.s55}</p>
+                <p className="text-sm sm:text-base font-semibold">
+                  {content.s55}
+                </p>
               </div>
             </div>
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
@@ -306,38 +296,33 @@ const Sec32 = ({content}) => {
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-               {content.s6}
+                  {content.s6}
                 </h2>
-                <p className="text-sm sm:text-base">
-               {content.s66}</p>
-              </div>
-            </div>
-
-         
-           
-           
-          </div>
-         {content.s7 && <div className="flex lg:flex-row flex-col lg:px-36 ">
-            <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
-              <img
-                src={content.a1.props.src}
-                alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
-              />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-               {content.s7}
-                </h2>
-                <p className="text-sm sm:text-base">
-                {content.s77}
+                <p className="text-sm sm:text-base font-semibold">
+                  {content.s66}
                 </p>
               </div>
             </div>
-           
-          </div>}
-         
-         
-
+          </div>
+          {content.s7 && (
+            <div className="flex lg:flex-row flex-col lg:px-36 ">
+              <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
+                <img
+                  src={content.a1.props.src}
+                  alt="Data Lakes Icon"
+                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                />
+                <div>
+                  <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
+                    {content.s7}
+                  </h2>
+                  <p className="text-sm sm:text-base font-semibold">
+                    {content.s77}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Left2 Image Positioned on Right Side */}
@@ -363,12 +348,9 @@ const Sec32 = ({content}) => {
 
           {/* Text on bg3 Image */}
           <div className="absolute inset-0 flex flex-col items-center justify-center z-10 lg:mb-10 mb-10 text-center">
-            <h2 className="text-xl sm:text-3xl font-bold">
-            {content.smooth}
-             
-            </h2>
+            <h2 className="text-xl sm:text-3xl font-bold">{content.smooth}</h2>
             <p className="text-sm sm:text-xl font-semibold lg:mt-4 max-w-2xl mx-auto rounded-lg shadow-lg">
-           {content.smoothp}
+              {content.smoothp}
             </p>
           </div>
         </div>

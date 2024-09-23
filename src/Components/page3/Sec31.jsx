@@ -33,7 +33,9 @@ const Sec31 = ({content}) => {
           {/* Adjust size here */}
         </div>
 
-        <div className="absolute left-8 lg:left-72 pt-2  z-40 text-white text-start !lg:text-left lg:w-1/2">
+        <div className="absolute  left-8 lg:left-72 pt-2  z-40 text-white text-start !lg:text-left lg:w-1/2"
+        style={{ textShadow: "5px 5px 10px rgba(0, 0, 0)" }}
+        >
           <h1 >
             {content.title}
           </h1>
