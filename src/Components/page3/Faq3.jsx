@@ -43,13 +43,13 @@ const Faq3 = ({ content }) => {
     >
       {/* FAQ Section Title */}
       <div
-        className={`relative z-20 lg:mx-20 p-8 ${
+        className={`relative z-20 lg:mx-20 p-8 pb-4 ${
           faqExpanded
             ? "lg:translate-y-[-200px] translate-y-[-280px] lg:pt-8 lg:py-4 pt-14 "
             : ""
         }`}
       >
-        <h2 className="lg:text-4xl text-xl font-bold mb-4">
+        <h2 className="lg:text-4xl text-xl font-bold">
           Frequently Asked Questions (FAQs)
         </h2>
       </div>

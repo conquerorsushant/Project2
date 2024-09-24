@@ -318,23 +318,48 @@ const page12Content = {
     que2: <p>What are the benefits of using a CMS?</p>,
     ans2: (
       <p>
-        <b> Benefits of using a CMS include:</b>
+        <b>Benefits of using a CMS include:</b>
         <br />
-        <b>Simplified Content Management:</b> Easily create, edit, and publish
-        website content without relying on developers for basic updates.
+
+        <b>Simplified Content Management:</b>
         <br />
-        <b>Improved Collaboration:</b> Facilitate content creation and
-        management by multiple users with designated access controls.
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Easily create, edit, and publish website content without relying on
+          developers for basic updates.
+        </span>
         <br />
-        <b>SEO Optimization:</b> Many CMS platforms offer built-in SEO features
-        or allow for integration with SEO plugins to improve your website&#39;s
-        search engine ranking.
+
+        <b>Improved Collaboration:</b>
         <br />
-        <b>Cost-Effective Content Management:</b> Reduce dependence on
-        developers for content updates, potentially leading to cost savings.
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Facilitate content creation and management by multiple users with
+          designated access controls.
+        </span>
         <br />
-        <b>Scalability &amp; Flexibility:</b> A CMS allows your website&#39;s
-        content management to adapt and grow along side your business.
+
+        <b>SEO Optimization:</b>
+        <br />
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Many CMS platforms offer built-in SEO features or allow for
+          integration with SEO plugins to improve your website's search engine
+          ranking.
+        </span>
+        <br />
+
+        <b>Cost-Effective Content Management:</b>
+        <br />
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Reduce dependence on developers for content updates, potentially
+          leading to cost savings.
+        </span>
+        <br />
+
+        <b>Scalability &amp; Flexibility:</b>
+        <br />
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          A CMS allows your website's content management to adapt and grow
+          alongside your business.
+        </span>
       </p>
     ),
     que3: <p>Do you offer custom CMS development?</p>,

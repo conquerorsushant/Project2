@@ -73,13 +73,13 @@ const Navbar = () => {
                     key={path}
                     className="text-sm font-bold hover:text-green-700 "
                   >
-                    <NavLink
-                      to={path}
+                    <a
+                      href={path}
                       className="active:text-green-800 "
                       onClick={handleMenuToggler} // Close menu on link click
                     >
                       {title}
-                    </NavLink>
+                    </a>
                   </li>
                 ))}
               </ul>

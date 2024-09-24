@@ -338,22 +338,43 @@ const page11Content = {
     que2: <p>What are the benefits of having an e-commerce store?</p>,
     ans2: (
       <p>
-        <b> Benefits of having an e-commerce store include:</b>
+        <b>Benefits of having an e-commerce store include:</b>
         <br />
-        <b>Reach a Wider Audience:</b> Sell your products to customers around
-        the world, 24/7.
+
+        <b>Reach a Wider Audience:</b>
         <br />
-        <b>Reduced Overhead Costs:</b> Eliminate or minimize physical store
-        costs like rent and utilities.
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Sell your products to customers around the world, 24/7.
+        </span>
         <br />
-        <b>Increased Sales Opportunities:</b> Offer promotions and discounts to
-        drive sales and increase revenue.
+
+        <b>Reduced Overhead Costs:</b>
         <br />
-        <b>Improved Customer Convenience: </b>Provide customers with a
-        convenient and flexible shopping experience.
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Eliminate or minimize physical store costs like rent and utilities.
+        </span>
         <br />
-        <b>Data-Driven Insights:</b> Gain valuable customer data and insights to
-        improve your product offerings and marketing strategies.
+
+        <b>Increased Sales Opportunities:</b>
+        <br />
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Offer promotions and discounts to drive sales and increase revenue.
+        </span>
+        <br />
+
+        <b>Improved Customer Convenience:</b>
+        <br />
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Provide customers with a convenient and flexible shopping experience.
+        </span>
+        <br />
+
+        <b>Data-Driven Insights:</b>
+        <br />
+        <span style={{ fontWeight: "lighter", opacity: "0.7" }}>
+          Gain valuable customer data and insights to improve your product
+          offerings and marketing strategies.
+        </span>
       </p>
     ),
     que3: <p>Do you offer custom e-commerce development?</p>,
