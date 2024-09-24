@@ -11126,10 +11126,12 @@ header .navbar-nav li a {
 
 @media (max-width:450px){
    .right-reserved{
-    margin-left: 45px;
+    margin-left: 49px;
+    font-size: 10px;
   }
   .right-reserved2{
-    margin-left: 30px;
+    margin-left: 35px;
+    font-size: 10px;
   }
   .contact__content-title{
     margin-left: 5rem;
@@ -11147,7 +11149,7 @@ header .navbar-nav li a {
 
 @media (max-width: 700px) {
   .front-heading {
-    margin-left: 15px;
+    margin-left: 8px;
   }
   .front-heading2 {
     margin-left: -5.4rem;
@@ -11184,12 +11186,12 @@ header .navbar-nav li a {
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
   .front-heading {
-    margin-left: 5.1rem;
+    margin-left: 4.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .front-heading {
-    margin-left: 4rem;
+    margin-left: 4.7rem;
   }
   .brain-text{
     margin-left: 0;
