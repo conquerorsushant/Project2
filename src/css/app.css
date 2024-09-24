@@ -614,25 +614,25 @@ pre code {
   }
 }
 
-/* @keyframes slide-out {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-} */
-
 .slide-in {
   animation: slide-in 0.5s ease-out forwards;
 }
+@keyframes slide-down {
+  0% {
+    max-height: 0;
+    opacity: 0;
+  }
+  100% {
+    max-height: 500px; /* Set a max height that is large enough to accommodate the content */
+    opacity: 1;
+  }
+}
 
-/* .slide-out {
-  animation: slide-out 0.5s ease-in forwards;
-} */
-
+.slide-down {
+  animation: slide-down 1s ease-out forwards;
+  overflow: hidden;
+  max-height: 0; /* Initial max height should be 0 */
+}
 
 @media (min-width: 576px) {
   .container {
@@ -10897,7 +10897,6 @@ header .navbar-nav li a {
   max-width: 100%;
 }
 
-
 .first-arrow {
   height: auto;
   max-width: 100%;
@@ -11156,27 +11155,26 @@ header .navbar-nav li a {
   }
 }
 
-@media (max-width:450px){
-   .right-reserved{
+@media (max-width: 450px) {
+  .right-reserved {
     margin-left: 49px;
     font-size: 10px;
   }
-  .right-reserved2{
+  .right-reserved2 {
     margin-left: 35px;
     font-size: 10px;
   }
-  .contact__content-title{
+  .contact__content-title {
     margin-left: 4.4rem;
     font-size: 20px;
   }
-  .para{
+  .para {
     margin-left: 4.4rem;
     font-size: 15px;
   }
-  .form{
+  .form {
     margin-top: 30px;
   }
-  
 }
 
 @media (max-width: 700px) {
@@ -11220,19 +11218,19 @@ header .navbar-nav li a {
   .front-heading {
     margin-left: 4.5rem;
   }
-  .front-heading2{
+  .front-heading2 {
     margin-left: 5.5rem;
   }
 
-  .contact__content-title{
+  .contact__content-title {
     margin-left: 1rem;
   }
-  .para{
+  .para {
     margin-left: 1rem;
   }
 }
-@media(min-width:1022px) and (max-width:1200px){
-  .front-heading2{
+@media (min-width: 1022px) and (max-width: 1200px) {
+  .front-heading2 {
     margin-left: 1rem;
   }
 }
@@ -11240,23 +11238,22 @@ header .navbar-nav li a {
   .front-heading {
     margin-left: 4.7rem;
   }
-  .brain-text{
+  .brain-text {
     margin-left: 0;
   }
 
-  .contact__content-title{
+  .contact__content-title {
     margin-left: 0.8rem;
   }
-  .para{
+  .para {
     margin-left: 0.8rem;
   }
- 
-  .footer__about p{
+
+  .footer__about p {
     margin-left: 40px;
     margin-bottom: 0;
   }
 }
-
 
 .lionbg {
   background-image: url("../assets/images/test-bgs.png");

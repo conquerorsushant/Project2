@@ -32,7 +32,7 @@ const Sec33 = ({ content }) => {
             alt="Discovery Workshop"
             className="w-full sm:w-2/3 lg:w-1/2"
           />
-          <div className="flex flex-col lg:flex-row items-start px-2 lg:mx-44">
+          <div className="flex flex-col lg:flex-row items-start px-2 lg:mx-44 z-10">
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px- lg:px-16">
               <h3 className="text-base lg:text-3xl font-semibold">
                 {content.d1}
@@ -60,7 +60,7 @@ const Sec33 = ({ content }) => {
             alt="Implementation & Deployment"
             className="w-full sm:w-2/3 lg:w-1/2"
           />
-          <div className="flex flex-col lg:flex-row items-start px-4 lg:mx-44 ">
+          <div className="flex flex-col lg:flex-row items-start px-4 lg:mx-44 z-10">
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-2 lg:px-24  ">
               <h3 className="text-base lg:text-3xl font-semibold">
                 {content.d3}
@@ -78,7 +78,7 @@ const Sec33 = ({ content }) => {
 
         {/* Image 3 and its text */}
         {content.d5 && (
-          <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center pt-8 px-4 sm:px-8">
+          <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center pt-8 px-4 sm:px-8 z-10">
             <img
               src={img3}
               alt="Ongoing Support"

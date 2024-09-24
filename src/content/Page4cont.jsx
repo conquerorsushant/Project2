@@ -68,7 +68,7 @@ const page4Content = {
     p4: <p>Productionizing Machine Learning (ML) Algorithms:</p>,
     p5: <p> Cloud Migration Services:</p>,
     p6: (
-      <p style={{ zIndex: "55", position: "relative" }}>
+      <p style={{ zIndex: "30", position: "relative" }}>
         Data Lake Management:
       </p>
     ),
@@ -116,7 +116,7 @@ const page4Content = {
     ),
     // p6: <p>API Integrations:</p>,
     p66: (
-      <p style={{ zIndex: "55", position: "relative" }}>
+      <p style={{ zIndex: "30", position: "relative" }}>
         We offer ongoing data lake management services, including data quality
         monitoring, data governance implementation, and cost optimization
         strategies. This ensures your data lake remains a reliable and valuable

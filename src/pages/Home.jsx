@@ -46,9 +46,9 @@ const Home = () => {
           </div>
 
           {/* Container for the image */}
-          <div className="absolute inset-x-0 top-[350px] lg:top-40 z-20">
-            <img src={lines} alt="Lines" className="w-full h-auto" />
-          </div>
+        </div>
+        <div className="absolute inset-x-0 top-[350px] lg:top-40 z-0">
+          <img src={lines} alt="Lines" className="w-full h-auto" />
         </div>
 
         <div className="container banner-top-content">
@@ -122,7 +122,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className=" row ">
+            <div className=" row mt-3">
               {/* Column 1 with image */}
               <div className="col-md-4 col-4">
                 <img alt="" className="col-smallimg" src={t3} />
@@ -135,7 +135,7 @@ const Home = () => {
 
               {/* Column 3 with "Read More" text and image */}
               <div
-                className="col-md-4 col-4 cursor-pointer flex items-start "
+                className="col-md-4 col-4 cursor-pointer flex items-start"
                 onClick={toggleCollapse1}
               >
                 <span className="cursor flex">READ MORE</span>
@@ -146,7 +146,7 @@ const Home = () => {
               {isCollapsed1 && (
                 <div
                   className={`col-12 mt-3 style-read ${
-                    isCollapsed1 ? "slide-in" : ""
+                    isCollapsed1 ? "slide-down" : ""
                   }`}
                 >
                   <div className="readmore-boxx">
@@ -188,7 +188,7 @@ const Home = () => {
               technical recruiters who can help you build your extraordinary
               technology teams from scratch.
             </p>
-            <div className="row">
+            <div className="row mt-3">
               <div className="col-md-6 col-6 px-3">
                 <img alt="" className="col-smallimg" src={t8} />
               </div>
@@ -202,7 +202,7 @@ const Home = () => {
               {isCollapsed2 && (
                 <div
                   className={`col-12 mt-3 style-read ${
-                    isCollapsed2 ? "slide-in" : ""
+                    isCollapsed2 ? "slide-down" : ""
                   }`}
                 >
                   <div className="readmore-boxx">
