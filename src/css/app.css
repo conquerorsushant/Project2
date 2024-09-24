@@ -11101,21 +11101,21 @@ header .navbar-nav li a {
 }
 
 .front-heading2 {
-  margin-left: 5rem;
+  margin-left: 3.3rem;
 }
 @media (max-width: 1000px) {
   .front-heading3 {
     margin-left: 3.2rem;
   }
   .front-heading2 {
-    margin-left: 2.2rem;
+    margin-left: 5.2rem;
     font-size: large;
     font-weight: bold;
   }
 }
 @media (max-width: 770px) {
   .front-heading2 {
-    margin-left: 0.2rem;
+    margin-left: 0.8rem;
     font-size: large;
     font-weight: bold;
   }
@@ -11134,11 +11134,11 @@ header .navbar-nav li a {
     font-size: 10px;
   }
   .contact__content-title{
-    margin-left: 5rem;
+    margin-left: 4.4rem;
     font-size: 20px;
   }
   .para{
-    margin-left: 5rem;
+    margin-left: 4.4rem;
     font-size: 15px;
   }
   .form{
@@ -11162,7 +11162,7 @@ header .navbar-nav li a {
     max-width: 80%;
   }
   .why_choose_us {
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
   }
   .expertise {
     margin-top: -7rem;
@@ -11187,6 +11187,21 @@ header .navbar-nav li a {
 @media (min-width: 1300px) and (max-width: 1400px) {
   .front-heading {
     margin-left: 4.5rem;
+  }
+  .front-heading2{
+    margin-left: 5.5rem;
+  }
+
+  .contact__content-title{
+    margin-left: 1rem;
+  }
+  .para{
+    margin-left: 1rem;
+  }
+}
+@media(min-width:1022px) and (max-width:1200px){
+  .front-heading2{
+    margin-left: 1rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
