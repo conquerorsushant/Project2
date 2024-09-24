@@ -37,13 +37,13 @@ const Sec33 = ({ content }) => {
               <h3 className="text-base lg:text-3xl font-semibold">
                 {content.d1}
               </h3>
-              <p className="pt-2 lg:pt-6 text-base lg:text-xl">{content.d11}</p>
+              <p className="pt-2 lg:pt-6 text-sm sm:text-base">{content.d11}</p>
             </div>
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4 z-10">
               <h3 className="text-base lg:text-3xl font-semibold">
                 {content.d2}
               </h3>
-              <p className="pt-4 lg:pt-6 text-base lg:text-xl">{content.d22}</p>
+              <p className="pt-2 lg:pt-6 text-sm sm:text-base">{content.d22}</p>
             </div>
           </div>
         </div>
@@ -65,13 +65,13 @@ const Sec33 = ({ content }) => {
               <h3 className="text-base lg:text-3xl font-semibold">
                 {content.d3}
               </h3>
-              <p className="pt-4 lg:pt-6 text-base lg:text-xl">{content.d33}</p>
+              <p className="pt-4 lg:pt-6 text-sm sm:text-base">{content.d33}</p>
             </div>
             <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start lg:px-16 lg:ml-20">
               <h3 className="text-base lg:text-3xl font-semibold">
                 {content.d4}
               </h3>
-              <p className="pt-4 lg:pt-6 text-base lg:text-xl">{content.d44}</p>
+              <p className="pt-4 lg:pt-6 text-sm sm:text-base">{content.d44}</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Sec33 = ({ content }) => {
               <h3 className="text-base lg:text-3xl font-semibold">
                 {content.d5}
               </h3>
-              <p className="pt-4 lg:pt-6 text-base lg:text-xl">{content.d55}</p>
+              <p className="pt-4 lg:pt-6 text-sm sm:text-base">{content.d55}</p>
             </div>
           </div>
         )}
@@ -105,7 +105,7 @@ const Sec33 = ({ content }) => {
             <h3 className="text-base lg:text-3xl font-semibold">
               {content.d6}
             </h3>
-            <p className="pt-4 lg:pt-6 text-base lg:text-xl">{content.d66}</p>
+            <p className="pt-4 lg:pt-6 text-sm sm:text-base">{content.d66}</p>
           </div>
         </div>
       )}
