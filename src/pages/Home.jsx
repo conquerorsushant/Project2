@@ -36,7 +36,6 @@ const Home = () => {
 
   return (
     <div className="">
-      
       <div className="banner relative">
         <div className="banner__content container">
           <div class="col-md-8 ">
@@ -212,7 +211,11 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <img alt="" className="image-length float-image" src={t7} />
+            <img
+              alt=""
+              className="image-length float-image pl-[1rem] xs:p-0"
+              src={t7}
+            />
           </div>
         </div>
         <p className="text-left  para-font"></p>

@@ -250,19 +250,19 @@ const Faq3 = ({ content }) => {
             {content.ready}
           </h2>
           <p className="text-sm sm:text-lg lg:mx-52 mb-2">{content.ready1}</p>
-          <button
-            // onClick={handleClick}
-            className={`bg-blue-500 font-semibold flex items-center justify-center gap-2 py-2 px-4 rounded-md text-sm sm:text-base transform transition-transform duration-200 ease-in-out ${
+          <a
+            href="/contact-us"
+            className={`px-2 py-1 bg-blue-500 font-semibold flex items-center justify-center lg:gap-2 lg:py-2 lg:px-4 rounded-md text-xs sm:text-lg transform transition-transform duration-200 ease-in-out ${
               isClicked ? "scale-110" : ""
-            } hover:scale-125`}
+            } hover:scale-125 text-white hover:text-white`}
           >
             <img
               src={contact}
               alt="Contact Us"
-              className="w-auto h-auto sm:w-auto sm:h-auto"
+              className="w-5 h-5 sm:w-auto sm:h-auto"
             />
-            <span>Contact Us</span>
-          </button>
+            Contact Us
+          </a>
         </div>
       </div>
     </div>

@@ -177,11 +177,11 @@ const Sec32 = ({ content }) => {
             {content.q1}
           </h2>
           <div className="lg:mt-4 mb-1 mt-2 sm:mt-8">
-            <button
-              // onClick={handleClick}
+            <a
+              href="/contact-us"
               className={`px-2 py-1 bg-blue-500 font-semibold flex items-center justify-center lg:gap-2 lg:py-2 lg:px-4 rounded-md text-xs sm:text-lg transform transition-transform duration-200 ease-in-out ${
                 isClicked ? "scale-110" : ""
-              } hover:scale-125`}
+              } hover:scale-125 text-white hover:text-white`}
             >
               <img
                 src={contact}
@@ -189,7 +189,7 @@ const Sec32 = ({ content }) => {
                 className="w-5 h-5 sm:w-auto sm:h-auto"
               />
               Contact Us
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -288,21 +288,23 @@ const Sec32 = ({ content }) => {
                 </p>
               </div>
             </div>
-          { content.s6 && <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
-              <img
-                src={content.a6.props.src}
-                alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
-              />
-              <div>
-                <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
-                  {content.s6}
-                </h2>
-                <p className="text-sm sm:text-base font-semibold">
-                  {content.s66}
-                </p>
+            {content.s6 && (
+              <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
+                <img
+                  src={content.a6.props.src}
+                  alt="Data Lakes Icon"
+                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                />
+                <div>
+                  <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
+                    {content.s6}
+                  </h2>
+                  <p className="text-sm sm:text-base font-semibold">
+                    {content.s66}
+                  </p>
+                </div>
               </div>
-            </div>}
+            )}
           </div>
           {content.s7 && (
             <div className="flex lg:flex-row flex-col lg:px-36 ">
