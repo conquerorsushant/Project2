@@ -145,8 +145,8 @@ const Home = () => {
               {/* Collapsible section */}
               {isCollapsed1 && (
                 <div
-                  className={`transition-all duration-500 ease-in-out overflow-hidden ${
-                    isCollapsed1 ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+                  className={`col-12 mt-3 style-read ${
+                    isCollapsed1 ? "slide-in" : ""
                   }`}
                 >
                   <div className="readmore-boxx">
@@ -200,7 +200,11 @@ const Home = () => {
                 <img alt="" className="pl-1" src={t6} />
               </div>
               {isCollapsed2 && (
-                <div className="col-12 mt-3 style-read">
+                <div
+                  className={`col-12 mt-3 style-read ${
+                    isCollapsed2 ? "slide-in" : ""
+                  }`}
+                >
                   <div className="readmore-boxx">
                     We have successfully helped 150+ top product-based start-up
                     tech companies build their high-end engineering/technology
