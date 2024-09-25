@@ -142,9 +142,9 @@ const Sec33 = ({ content }) => {
             <div className="text-lg">
               <h2 className="text-base lg:text-3xl font-semibold">MSMEs:</h2>
               <h2 className="text-sm lg:text-xl font-semibold">{content.f1}</h2>
-              <p className="mt-2 text-base lg:text-sm">{content.f11}</p>
+              <p className="mt-2 text-sm sm:text-base">{content.f11}</p>
               <h2 className="text-sm lg:text-xl font-semibold">{content.f2}</h2>
-              <p className="mt-2 text-base lg:text-sm">{content.f22}</p>
+              <p className="mt-2 text-sm sm:text-base">{content.f22}</p>
             </div>
           </div>
           <div className="flex items-start justify-center gap-2 lg:gap-4 lg:p-4 lg:mx-8 mt-4">
@@ -159,11 +159,11 @@ const Sec33 = ({ content }) => {
               </h2>
 
               <h2 className="text-sm lg:text-xl font-semibold">{content.f5}</h2>
-              <p className="mt-2 text-base lg:text-sm">{content.f55}</p>
+              <p className="mt-2 text-sm sm:text-base">{content.f55}</p>
               <h2 className="text-sm lg:text-xl font-semibold">{content.f6}</h2>
-              <p className="mt-2 text-base lg:text-sm">{content.f66}</p>
+              <p className="mt-2 text-sm sm:text-base">{content.f66}</p>
               <h2 className="text-sm lg:text-xl font-semibold">{content.f7}</h2>
-              <p className="mt-2 text-base lg:text-sm">{content.f77}</p>
+              <p className="mt-2 text-sm sm:text-base">{content.f77}</p>
             </div>
           </div>
         </div>
@@ -178,9 +178,9 @@ const Sec33 = ({ content }) => {
             <div className="text-lg">
               <h2 className="text-base lg:text-3xl font-semibold">Startups:</h2>
               <h2 className="text-sm lg:text-xl font-semibold">{content.f3}</h2>
-              <p className="mt-2 text-base lg:text-sm">{content.f33}</p>
+              <p className="mt-2 text-sm sm:text-base">{content.f33}</p>
               <h2 className="text-sm lg:text-xl font-semibold">{content.f4}</h2>
-              <p className="mt-2 text-base lg:text-sm">{content.f44}</p>
+              <p className="mt-2 text-sm sm:text-base">{content.f44}</p>
             </div>
           </div>
           <div className="flex items-center justify-start pt-6 lg:pl-12 lg:pt-4 gap-4">

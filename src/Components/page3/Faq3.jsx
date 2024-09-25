@@ -49,7 +49,7 @@ const Faq3 = ({ content }) => {
             : ""
         }`}
       >
-        <h2 className="lg:text-4xl text-xl font-bold">
+        <h2 className="lg:text-4xl text-xl font-bold " style={{marginBottom:"-1rem"}}>
           Frequently Asked Questions (FAQs)
         </h2>
       </div>

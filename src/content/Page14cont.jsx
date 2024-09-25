@@ -156,7 +156,7 @@ const page14Content = {
     ),
     s6: <p>Proven Track Record: </p>,
     s66: (
-      <p   >
+      <p  className="z-20" >
         We have a successful portfolio of forex trading bot development
         projects, helping traders streamline their activities and potentially
         achieve their financial goals.

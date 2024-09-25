@@ -42,7 +42,7 @@ const Sec32 = ({ content }) => {
             </div>
             <div className="flex lg:w-1/2   items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a2.props.src}
+                src={content.a4.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -55,9 +55,9 @@ const Sec32 = ({ content }) => {
             </div>
           </div>
           <div className="flex lg:flex-row flex-col lg:px-36">
-            <div className="flex  lg:w-1/2  items-center sm:items-start justify-center gap-4 lg:p-4 mx-2">
+            <div className="flex  lg:w-1/2  items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 z-20">
               <img
-                src={content.a3.props.src}
+                src={content.a2.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -68,9 +68,9 @@ const Sec32 = ({ content }) => {
                 <p className="text-sm sm:text-base">{content.p33}</p>
               </div>
             </div>
-            <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 pl-2 mx-2 ">
+            <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 pl-2 mx-2 z-20 ">
               <img
-                src={content.a4.props.src}
+                src={content.a5.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -83,9 +83,9 @@ const Sec32 = ({ content }) => {
             </div>
           </div>
           <div className="flex lg:flex-row flex-col lg:px-36 ">
-            <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 ">
+            <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 z-20">
               <img
-                src={content.a5.props.src}
+                src={content.a3.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -97,7 +97,7 @@ const Sec32 = ({ content }) => {
               </div>
             </div>
             {content.p6 && (
-              <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 ">
+              <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 z-20 ">
                 <img
                   src={content.a1.props.src}
                   alt="Data Lakes Icon"
@@ -114,7 +114,7 @@ const Sec32 = ({ content }) => {
           </div>
           {content.p7 && (
             <div className="flex lg:px-36 ">
-              <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 ">
+              <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 z-20 ">
                 <img
                   src={content.a6.props.src}
                   alt="Data Lakes Icon"
@@ -211,7 +211,7 @@ const Sec32 = ({ content }) => {
           <div className="flex lg:flex-row flex-col lg:px-36 ">
             <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a1.props.src}
+                src={content.a6.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -226,7 +226,7 @@ const Sec32 = ({ content }) => {
             </div>
             <div className="flex lg:w-1/2   items-start justify-center gap-4 lg:p-4 mx-2 ">
               <img
-                src={content.a2.props.src}
+                src={content.a9.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -243,7 +243,7 @@ const Sec32 = ({ content }) => {
           <div className="flex lg:flex-row flex-col lg:px-36">
             <div className="flex  lg:w-1/2  items-start justify-center gap-4 lg:p-4 mx-2">
               <img
-                src={content.a3.props.src}
+                src={content.a7.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -256,9 +256,9 @@ const Sec32 = ({ content }) => {
                 </p>
               </div>
             </div>
-            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 pl-2 mx-2 ">
+            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 pl-2 mx-2 z-20 ">
               <img
-                src={content.a4.props.src}
+                src={content.a9.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -273,9 +273,9 @@ const Sec32 = ({ content }) => {
             </div>
           </div>
           <div className="flex lg:flex-row flex-col lg:px-36 ">
-            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
+            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 z-20">
               <img
-                src={content.a5.props.src}
+                src={content.a10.props.src}
                 alt="Data Lakes Icon"
                 className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
@@ -289,11 +289,11 @@ const Sec32 = ({ content }) => {
               </div>
             </div>
             {content.s6 && (
-              <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 ">
+              <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 z-20">
                 <img
-                  src={content.a6.props.src}
+                  src={content.a8.props.src}
                   alt="Data Lakes Icon"
-                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                  className="w-10 h-10 sm:w-auto sm:h-auto  mt-2"
                 />
                 <div>
                   <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -308,7 +308,7 @@ const Sec32 = ({ content }) => {
           </div>
           {content.s7 && (
             <div className="flex lg:flex-row flex-col lg:px-36 ">
-              <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
+              <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 z-20 ">
                 <img
                   src={content.a2.props.src}
                   alt="Data Lakes Icon"
@@ -318,7 +318,7 @@ const Sec32 = ({ content }) => {
                   <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
                     {content.s7}
                   </h2>
-                  <p className="text-sm sm:text-base font-semibold">
+                  <p className="text-sm sm:text-base font-semibold ">
                     {content.s77}
                   </p>
                 </div>
@@ -330,7 +330,7 @@ const Sec32 = ({ content }) => {
         {/* Left2 Image Positioned on Right Side */}
         <div
           className="absolute right-0 top-72
-   bottom-0 hidden lg:flex items-center justify-end z-10"
+   bottom-0 hidden lg:flex items-center justify-end "
         >
           <img
             src={left2}
