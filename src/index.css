@@ -142,9 +142,9 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #566775;
+  background: white;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #12283bcc;
+  background: rgb(203, 202, 202);
 }
