@@ -31,7 +31,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a1.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 "
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
