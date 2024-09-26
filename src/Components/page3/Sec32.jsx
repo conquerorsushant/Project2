@@ -25,7 +25,7 @@ const Sec32 = ({ content }) => {
     <div className="bg-primary relative text-white">
       {/* First Section */}
       <div className="relative">
-        <div className="flex lg:flex-col flex-col lg:gap-10 gap-8 flex-wrap mt-20   p-2">
+        <div className="flex lg:flex-col flex-col lg:gap-10 gap-8 flex-wrap mt-20  p-2">
           <div className="flex lg:flex-row flex-col lg:px-36 lg:gap-0 gap-8">
             <div className="flex lg:w-1/2  items-center sm:items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
