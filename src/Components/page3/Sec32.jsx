@@ -31,7 +31,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a1.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2  min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -44,7 +44,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a4.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -59,7 +59,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a2.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -68,11 +68,11 @@ const Sec32 = ({ content }) => {
                 <p className="text-sm sm:text-base">{content.p33}</p>
               </div>
             </div>
-            <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 pl-2 mx-2 z-20 ">
+            <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 z-20 ">
               <img
                 src={content.a5.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -87,7 +87,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a3.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -101,7 +101,7 @@ const Sec32 = ({ content }) => {
                 <img
                   src={content.a1.props.src}
                   alt="Data Lakes Icon"
-                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
                 />
                 <div>
                   <h2 className="text-base sm:text-xl lg:text-3xl font-semibold ">
@@ -118,7 +118,7 @@ const Sec32 = ({ content }) => {
                 <img
                   src={content.a6.props.src}
                   alt="Data Lakes Icon"
-                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
                 />
                 <div>
                   <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -213,7 +213,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a6.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -228,7 +228,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a9.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -245,7 +245,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a7.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -256,11 +256,11 @@ const Sec32 = ({ content }) => {
                 </p>
               </div>
             </div>
-            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 pl-2 mx-2 z-20 ">
+            <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 z-20 ">
               <img
                 src={content.a9.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -277,7 +277,7 @@ const Sec32 = ({ content }) => {
               <img
                 src={content.a10.props.src}
                 alt="Data Lakes Icon"
-                className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
               />
               <div>
                 <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -293,7 +293,7 @@ const Sec32 = ({ content }) => {
                 <img
                   src={content.a8.props.src}
                   alt="Data Lakes Icon"
-                  className="w-10 h-10 sm:w-auto sm:h-auto  mt-2"
+                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
                 />
                 <div>
                   <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
@@ -312,7 +312,7 @@ const Sec32 = ({ content }) => {
                 <img
                   src={content.a2.props.src}
                   alt="Data Lakes Icon"
-                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2"
+                  className="w-10 h-10 sm:w-auto sm:h-auto mt-2 min-w-[3rem]"
                 />
                 <div>
                   <h2 className="text-base sm:text-xl lg:text-3xl font-semibold">
