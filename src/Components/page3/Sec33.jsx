@@ -3,6 +3,7 @@ import img1 from "../../assets/images/Asset19.png";
 import img2 from "../../assets/images/Asset23.png";
 import img3 from "../../assets/images/Asset31.png";
 import img4 from "../../assets/images/Artboard3.png";
+import img12 from "../../assets/images/logo6.png";
 
 import img6 from "../../assets/images/Asset21.png";
 import img7 from "../../assets/images/Asset25.png";
@@ -97,9 +98,9 @@ const Sec33 = ({ content }) => {
       {content.d6 && (
         <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center pt-8 px-4 sm:px-8">
           <img
-            src={img3}
+            src={img12}
             alt="Ongoing Support"
-            className="w-[80px] lg:w-[150px]"
+            className="w-[80px] lg:w-[190px]"
           />
           <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start p-4">
             <h3 className="text-base lg:text-3xl font-semibold">
