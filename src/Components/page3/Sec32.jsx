@@ -208,7 +208,7 @@ const Sec32 = ({ content }) => {
           </div>
         </div>
         <div className="flex lg:flex-col flex-col lg:gap-10 gap-8 flex-wrap  p-2">
-          <div className="flex lg:flex-row flex-col lg:px-36 lg:gap-0 gap-8">
+          <div className="flex lg:flex-row flex-col lg:px-36  lg:gap-0 gap-8">
             <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
                 src={content.a6.props.src}
