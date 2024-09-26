@@ -20,7 +20,7 @@ const page4Content = {
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Data</h1>,
     t4: <h1 className="text-3xl lg:text-6xl font-bold">Engineering</h1>,
     t5: (
-      <p>
+      <p className="mt-4">
         At BrainsTerra Intelligence,
         <br /> we empower businesses of all sizes:
         <br />{" "}
