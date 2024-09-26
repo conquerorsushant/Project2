@@ -25,8 +25,8 @@ const Sec32 = ({ content }) => {
     <div className="bg-primary relative text-white">
       {/* First Section */}
       <div className="relative">
-        <div className="flex lg:flex-col flex-col lg:gap-10 gap-6 flex-wrap mt-20   p-2">
-          <div className="flex lg:flex-row flex-col lg:px-36 ">
+        <div className="flex lg:flex-col flex-col lg:gap-10 gap-8 flex-wrap mt-20   p-2">
+          <div className="flex lg:flex-row flex-col lg:px-36 lg:gap-0 gap-8">
             <div className="flex lg:w-1/2  items-center sm:items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
                 src={content.a1.props.src}
@@ -54,7 +54,7 @@ const Sec32 = ({ content }) => {
               </div>
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col lg:px-36">
+          <div className="flex lg:flex-row flex-col lg:px-36 lg:gap-0 gap-8">
             <div className="flex  lg:w-1/2  items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 z-20">
               <img
                 src={content.a2.props.src}
@@ -82,7 +82,7 @@ const Sec32 = ({ content }) => {
               </div>
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col lg:px-36 ">
+          <div className="flex lg:flex-row flex-col lg:px-36 lg:gap-0 gap-8">
             <div className="flex  lg:w-1/2 items-center sm:items-start justify-center gap-4 lg:p-4 mx-2 z-20">
               <img
                 src={content.a3.props.src}
@@ -207,8 +207,8 @@ const Sec32 = ({ content }) => {
             <img src={arrow} className="" />
           </div>
         </div>
-        <div className="flex lg:flex-col flex-col lg:gap-10 gap-6 flex-wrap  p-2">
-          <div className="flex lg:flex-row flex-col lg:px-36 ">
+        <div className="flex lg:flex-col flex-col lg:gap-10 gap-8 flex-wrap  p-2">
+          <div className="flex lg:flex-row flex-col lg:px-36  lg:gap-0 gap-8">
             <div className="flex lg:w-1/2  items-start justify-center  gap-4 lg:p-4 mx-2 ">
               <img
                 src={content.a6.props.src}
@@ -240,7 +240,7 @@ const Sec32 = ({ content }) => {
               </div>
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col lg:px-36">
+          <div className="flex lg:flex-row flex-col lg:px-36 lg:gap-0 gap-8">
             <div className="flex  lg:w-1/2  items-start justify-center gap-4 lg:p-4 mx-2">
               <img
                 src={content.a7.props.src}
@@ -272,7 +272,7 @@ const Sec32 = ({ content }) => {
               </div>
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col lg:px-36 ">
+          <div className="flex lg:flex-row flex-col lg:px-36 lg:gap-0 gap-8">
             <div className="flex  lg:w-1/2 items-start justify-center gap-4 lg:p-4 mx-2 z-20">
               <img
                 src={content.a10.props.src}
