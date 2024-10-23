@@ -102,7 +102,7 @@ const InfoTech = () => {
                   <h3>Database Recovery and Disaster Mgmt.</h3>
                 </div>
                 {/* </Link> */}
-                <Link to="/forex-trading">
+                <Link to="/forex-trading-automation-bot">
                   <div className="service-box hoverplus">
                     <img src={icon4} className="service-icon" />
                     <h3>Forex Trading Automation Bot</h3>
@@ -120,19 +120,19 @@ const InfoTech = () => {
                     <h3>Web Development</h3>
                   </div>
                 </Link>
-                <Link to="/custom-software">
+                <Link to="/custom-software-development">
                   <div className="service-box hoverplus">
                     <img src={icon7} className="service-icon" />
                     <h3>Custom Software Development</h3>
                   </div>
                 </Link>
-                <Link to="/ui-ux">
+                <Link to="/ui/ux">
                   <div className="service-box hoverplus">
                     <img src={icon8} className="service-icon" />
                     <h3>UI/UX Design Services</h3>
                   </div>
                 </Link>
-                <Link to="/IOT">
+                <Link to="/iot-development">
                   <div className="service-box hoverplus">
                     <img src={icon9} className="service-icon" />
                     <h3>Iot Development </h3>
@@ -144,7 +144,7 @@ const InfoTech = () => {
                     <h3>Game Development</h3>
                   </div>
                 </Link>
-                <Link to="/desktop-development">
+                <Link to="/desktop-application">
                   <div className="service-box hoverplus">
                     <img src={icon11} className="service-icon" />
                     <h3>Desktop Application</h3>
@@ -156,7 +156,7 @@ const InfoTech = () => {
                     <h3>MVP Development</h3>
                   </div>
                 </Link>
-                <Link to="/EPR">
+                <Link to="/erp-software-solutions">
                   <div className="service-box hoverplus">
                     <img src={icon13} className="service-icon" />
                     <h3>ERP Software Solutions</h3>
@@ -174,7 +174,7 @@ const InfoTech = () => {
                     <h3>Content Management System</h3>
                   </div>
                 </Link>
-                <Link to="/e-commerce">
+                <Link to="/e-commerce-solutions">
                   <div className="service-box hoverplus">
                     <img src={icon14} className="service-icon" />
                     <h3>E-Commerce Solution</h3>

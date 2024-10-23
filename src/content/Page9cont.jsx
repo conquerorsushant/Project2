@@ -61,7 +61,7 @@ const page9Content = {
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
     p1: <p>Microcontrollers &amp; Single-Board Computers (SBCs):</p>,
-    p2: <p>Connectivity Protocols::</p>,
+    p2: <p>Connectivity Protocols:</p>,
     p3: <p>Cloud Platforms &amp; APIs:</p>,
     p4: <p>Data Analytics &amp; Visualization:</p>,
     p5: <p>Security &amp; Device Management:</p>,

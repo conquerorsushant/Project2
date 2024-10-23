@@ -61,9 +61,9 @@ const page14Content = {
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
     p1: <p>Quantitative Trading Strategies:</p>,
-    p2: <p>Algorithmic Development::</p>,
+    p2: <p>Algorithmic Development:</p>,
     p3: <p>API Integrations:</p>,
-    p4: <p>Risk Management &amp; Backtesting::</p>,
+    p4: <p>Risk Management &amp; Backtesting:</p>,
     p5: <p>Cloud-Based Deployment &amp; Monitoring:</p>,
     p6: <p>Customization &amp; User Interface:</p>,
 
@@ -122,7 +122,7 @@ const page14Content = {
         built to execute your unique trading strategies.
       </p>
     ),
-    s2: <p>Focus on Transparency &amp; Control::</p>,
+    s2: <p>Focus on Transparency &amp; Control:</p>,
     s22: (
       <p   >
         We provide clear communication throughout the development process and
@@ -229,7 +229,7 @@ const page14Content = {
       </p>
     ),
 
-    f1: <p>Cost-Effective Automation Solutions::</p>,
+    f1: <p>Cost-Effective Automation Solutions:</p>,
     f11: (
       <p   >
         We leverage our in-house training programs, and efficient development
@@ -271,7 +271,7 @@ const page14Content = {
         platforms.
       </p>
     ),
-    f6: <p>Customizable &amp; Scalable Solutions::</p>,
+    f6: <p>Customizable &amp; Scalable Solutions:</p>,
     f66: (
       <p   >
         We prioritize building highly customizable and scalable forex trading

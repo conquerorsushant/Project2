@@ -219,7 +219,7 @@ const page5Content = {
         the ideal user and their interaction with the app.
       </p>
     ),
-    d3: <p>App Wireframing &amp; Prototyping::</p>,
+    d3: <p>App Wireframing &amp; Prototyping:</p>,
     d33: (
       <p>
         Our designers create low-fidelity wireframes and interactive prototypes

@@ -59,7 +59,7 @@ const page3Content = {
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
     p1: <p>Discovery Workshop:</p>,
-    p2: <p>User Research &amp; Competitive Analysis::</p>,
+    p2: <p>User Research &amp; Competitive Analysis:</p>,
     p3: <p>Information Architecture &amp; User Flows:</p>,
     p4: <p>Wireframing &amp; Prototyping:</p>,
     p5: <p>UI Design &amp; Visual Identity:</p>,
@@ -144,7 +144,7 @@ const page3Content = {
       </p>
     ),
     s3: <p>Agile &amp; Iterative Process:</p>,
-    s4: <p>Experienced Design Team::</p>,
+    s4: <p>Experienced Design Team:</p>,
     s44: (
       <p>
         Our team comprises skilled UI/UX designers with a proven track record of

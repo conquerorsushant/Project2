@@ -55,7 +55,7 @@ const page13Content = {
     a8: <img src={imga8} alt="Mobile CRM Solutions" />,
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
-    p1: <p>Game Engines::</p>,
+    p1: <p>Game Engines:</p>,
     p2: <p>Programming Languages:</p>,
     p3: <p>3D Modeling&amp; Animation:</p>,
     p4: <p>2D Animation &amp; UI/UX Design:</p>,

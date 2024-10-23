@@ -14,7 +14,7 @@ const Navbar = () => {
   const navItems = [
     { path: "/", title: "ABOUT US" },
     { path: "/talent-acquisition", title: "TALENT ACQUISITION WING" },
-    { path: "/info-tech", title: "INFORMATION TECHNOLOGY WING" },
+    { path: "/information-technology", title: "INFORMATION TECHNOLOGY WING" },
     { path: "/contact-us", title: "CONTACT US" },
   ];
 

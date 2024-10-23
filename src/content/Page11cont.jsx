@@ -60,11 +60,11 @@ const page11Content = {
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
     p1: <p>E-Commerce Platforms:</p>,
     p2: <p>Front-End Development:</p>,
-    p3: <p>Back-End Development::</p>,
+    p3: <p>Back-End Development:</p>,
     p4: <p>Payment Gateways:</p>,
     p5: <p>Content Management Systems (CMS):</p>,
     p6: <p>Cloud Infrastructure:</p>,
-    p7: <p>API Integrations::</p>,
+    p7: <p>API Integrations:</p>,
 
     p11: (
       <p>
@@ -297,7 +297,7 @@ const page11Content = {
         and promotions across all sales channels.
       </p>
     ),
-    f6: <p>Advanced Features &amp; Customization::</p>,
+    f6: <p>Advanced Features &amp; Customization:</p>,
     f66: (
       <p>
         We can develop custom functionalities or integrate third- party APIs to
@@ -305,7 +305,7 @@ const page11Content = {
         filtering, personalized recommendations, or loyalty program management.
       </p>
     ),
-    f1: <p>Cost-Effective Solutions::</p>,
+    f1: <p>Cost-Effective Solutions:</p>,
     f11: (
       <p>
         We leverage our in-house training programs and efficient processes to

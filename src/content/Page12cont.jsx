@@ -270,7 +270,7 @@ const page12Content = {
         developers for basic content updates.
       </p>
     ),
-    f3: <p>Scalable &amp; Flexible CMS::</p>,
+    f3: <p>Scalable &amp; Flexible CMS:</p>,
     f33: (
       <p>
         We design and develop CMS solutions that can adapt and grow with your

@@ -67,7 +67,7 @@ const page6Content = {
     p2: <p>User Interface (UI) Frameworks:</p>,
     p3: <p>Database Integration:</p>,
     p4: <p>Security &amp; Performance Optimization:</p>,
-    p5: <p>API Integration::</p>,
+    p5: <p>API Integration:</p>,
 
     p11: (
       <p>
@@ -211,7 +211,7 @@ const page6Content = {
         that allows you to visualize the application&#39;s look and feel.
       </p>
     ),
-    d3: <p>Development &amp; Testing::</p>,
+    d3: <p>Development &amp; Testing:</p>,
     d33: (
       <p>
         Our skilled developers translate the design into a functional desktop

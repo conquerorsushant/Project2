@@ -61,11 +61,11 @@ const page10Content = {
     a8: <img src={imga8} alt="Mobile CRM Solutions" />,
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
-    p1: <p>Tech Stack Versatility::</p>,
+    p1: <p>Tech Stack Versatility:</p>,
     p2: <p>Agile Development:</p>,
     p3: <p>User-Centered Design:</p>,
     //   p4: <p>Security &amp; Performance Optimization:</p>,
-    //   p5: <p>API Integration::</p>,
+    //   p5: <p>API Integration:</p>,
 
     p11: (
       <p>

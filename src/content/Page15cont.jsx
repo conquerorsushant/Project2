@@ -117,7 +117,7 @@ const page15Content = {
         translated into a successful software solution.
       </p>
     ),
-    s2: <p>Technology Agnostic::</p>,
+    s2: <p>Technology Agnostic:</p>,
     s22: (
       <p>
         Our expertise extends across various technologies and frameworks. We
@@ -217,7 +217,7 @@ const page15Content = {
         that allows you to visualize the application&#39;s look and feel.
       </p>
     ),
-    d3: <p>Development &amp; Testing::</p>,
+    d3: <p>Development &amp; Testing:</p>,
     d33: (
       <p>
         Our skilled developers translate the design into a functional desktop

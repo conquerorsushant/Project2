@@ -128,7 +128,7 @@ const page8Content = {
       </p>
     ),
     s3: <p>Explainable AI (XAI):</p>,
-    s4: <p>Security &amp; Scalability::</p>,
+    s4: <p>Security &amp; Scalability:</p>,
     s44: (
       <p>
         Security is paramount. We adhere to best practices to ensure the
@@ -210,7 +210,7 @@ const page8Content = {
         machine learning algorithms and train the model on your data.
       </p>
     ),
-    d4: <p>Model Evaluation &amp; Refinement::</p>,
+    d4: <p>Model Evaluation &amp; Refinement:</p>,
     d44: (
       <p>
         We rigorously evaluate the model&#39;s performance and refine it through
@@ -224,7 +224,7 @@ const page8Content = {
         it with your existing systems or applications.
       </p>
     ),
-    d6: <p>Ongoing Monitoring &amp; Support::</p>,
+    d6: <p>Ongoing Monitoring &amp; Support:</p>,
     d66: (
       <p>
         We provide ongoing monitoring and support to ensure your AI/ML model

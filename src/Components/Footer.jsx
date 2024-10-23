@@ -72,7 +72,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/info-tech">
+                    <a href="/information-technology">
                       <span>
                         <img alt="Information Technology Wing" src={ic4} />
                       </span>{" "}
