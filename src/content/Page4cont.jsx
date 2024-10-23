@@ -18,7 +18,7 @@ const page4Content = {
     ),
     t2: <h1 className="text-3xl lg:text-6xl font-bold">Expert</h1>,
     t3: <h1 className="text-3xl lg:text-6xl font-bold">Data</h1>,
-    t4: <h1 className="text-3xl lg:text-6xl font-bold">Engineering</h1>,
+    t4: <h1 className="text-3xl lg:text-6xl font-bold">Engineering </h1>,
     t5: (
       <p className="mt-4">
         At BrainsTerra Intelligence,
