@@ -672,7 +672,7 @@ pre code {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px;
+  margin-left: -35px;
   /* padding-left: 15px;
   padding-right: 15px; */
 }
@@ -9959,12 +9959,20 @@ header .navbar-nav li a {
 }
 
 .whatwedo_single {
-  padding: 15px 0;
+  padding: 10px 0;
   transition: 0.3s;
   min-height: 200px;
   cursor: pointer;
   border-radius: 15px;
   position: relative;
+}
+.whatwedo_single h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 16px; /* Adjust this as needed */
+  padding: 0 10px; /* Add some padding to ensure spacing within the container */
 }
 
 .whatwedo_single:after {
@@ -9972,7 +9980,7 @@ header .navbar-nav li a {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 50px;
+  width: 100px;
   height: 5px;
   background: #fff;
   transform: translate(-50%, -50%);
@@ -12079,11 +12087,12 @@ label {
 .service-container {
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+ 
   padding-bottom: 30px;
 }
 
 .grid-container {
+  
   display: grid;
   grid-template-columns: repeat(
     4,
@@ -12092,6 +12101,7 @@ label {
   gap: 1.5rem;
   width: 90%;
   padding: 0 1rem;
+  padding-top: 0px;
   padding-bottom: 10px;
 }
 
@@ -12104,13 +12114,26 @@ label {
 }
 
 .service-box img {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 4.7rem;
+  height: 4.7rem;
 }
 
 .service-box h3 {
   font-size: 15px;
   margin-top: 0.5rem;
+}
+
+.service-box .hover-text {
+  position: absolute;
+  top: 20px; /* Adjust to place it above the icon */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 15px;
+  color: white; /* Text color */
+}
+
+.service-box:hover .hover-text {
+  opacity: 1;
 }
 
 /* For medium screens, show 2 items per row */

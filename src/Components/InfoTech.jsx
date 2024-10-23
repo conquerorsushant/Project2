@@ -54,12 +54,15 @@ const InfoTech = () => {
           <br />
           <br />
           <div className="whatwedo  relative">
-            <div className="absolute inset-x-0 top-[-5px] lg:top-[-150px] z-0">
+            <div className="absolute inset-x-0 top-[-5px] lg:top-[-230px] z-0">
+          <h1 className="heading text-center top-[-5px] lg:top-[80px]  relative z-10 expertise">
+              Our Expertise
+            </h1>{" "}
+            <div className="">
               <img src={linesImage} alt="Lines" className="w-full h-auto" />
             </div>
-            <h1 className="heading text-center  relative z-10 expertise">
-              Level 1.0 Expertise
-            </h1>{" "}
+           </div>
+           
             {/* Added relative and z-10 */}
             {/* <div className="row1 text-center mt-5">
     <div className="col-md-4 mt-4 mt-md-0">
@@ -82,100 +85,119 @@ const InfoTech = () => {
     </div>
   </div> */}
             {/**icons */}
-            <div className="service-container">
-              <div className="grid-container">
+            <div className="service-container ">
+              <div className="grid-container mt-[-20px]">
                 <Link to="/AI-ML">
                   <div className="service-box hoverplus">
-                    <img src={icon1} className="service-icon" />
+                  <span className="hover-text">Click to Know More </span>
+                  <img src={icon1} className="service-icon" />
                     <h3>AI/ML Models Development</h3>
+                   
                   </div>
                 </Link>
                 <Link to="/data-engineering">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon2} className="service-icon" />
                     <h3>Data Engineering</h3>
                   </div>
                 </Link>
                 {/* <Link to='/page2'> */}
+                <Link>
                 <div className="service-box hoverplus">
+                <span className="hover-text">Click to Know More </span>
                   <img src={icon3} className="service-icon" />
                   <h3>Database Recovery and Disaster Mgmt.</h3>
                 </div>
+                </Link >
                 {/* </Link> */}
                 <Link to="/forex-trading-automation-bot">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon4} className="service-icon" />
                     <h3>Forex Trading Automation Bot</h3>
                   </div>
                 </Link>
                 <Link to="/app-development">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon5} className="service-icon" />
                     <h3>App Development</h3>
                   </div>
                 </Link>
                 <Link to="/web-development">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon6} className="service-icon" />
                     <h3>Web Development</h3>
                   </div>
                 </Link>
                 <Link to="/custom-software-development">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon7} className="service-icon" />
                     <h3>Custom Software Development</h3>
                   </div>
                 </Link>
                 <Link to="/ui/ux">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon8} className="service-icon" />
                     <h3>UI/UX Design Services</h3>
                   </div>
                 </Link>
                 <Link to="/iot-development">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon9} className="service-icon" />
                     <h3>Iot Development </h3>
                   </div>
                 </Link>
                 <Link to="/game-development">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon10} className="service-icon" />
                     <h3>Game Development</h3>
                   </div>
                 </Link>
                 <Link to="/desktop-application">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon11} className="service-icon" />
                     <h3>Desktop Application</h3>
                   </div>
                 </Link>
                 <Link to="/MVP">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon12} className="service-icon" />
                     <h3>MVP Development</h3>
                   </div>
                 </Link>
                 <Link to="/erp-software-solutions">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon13} className="service-icon" />
                     <h3>ERP Software Solutions</h3>
                   </div>
                 </Link>
                 <Link to="/CRM">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon15} className="service-icon" />
                     <h3>Customer Relationship Management</h3>
                   </div>
                 </Link>
                 <Link to="/CMS">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon16} className="service-icon" />
                     <h3>Content Management System</h3>
                   </div>
                 </Link>
                 <Link to="/e-commerce-solutions">
                   <div className="service-box hoverplus">
+                  <span className="hover-text">Click to Know More </span>
                     <img src={icon14} className="service-icon" />
                     <h3>E-Commerce Solution</h3>
                   </div>
@@ -183,6 +205,7 @@ const InfoTech = () => {
               </div>
             </div>
           </div>
+        
         </div>
       </div>
 
@@ -383,7 +406,7 @@ const InfoTech = () => {
       </div>
 
       {/* Intelligence Section */}
-      <div className="intelligence  lg:mr-0  info_tech">
+      {/* <div className="intelligence  lg:mr-0  info_tech">
         <div className="container">
           <br />
           <h1 className="heading text-center mb-5 pb-sm-5 flex items-center justify-center">
@@ -453,7 +476,7 @@ const InfoTech = () => {
           </div>
         </div>
         <img src={linesImage} className="w-100 mt-5 lg:mt-0" alt="Lines" />
-      </div>
+      </div> */}
 
       {/* Subfooter Section */}
       <div className="subfooter">

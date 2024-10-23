@@ -133,7 +133,7 @@ const TalentAcquisition = () => {
             </h1>
           </div>
 
-          <div className="absolute inset-x-0 top-[330px] lg:top-48 z-0">
+          <div className="absolute inset-x-0 top-[330px] lg:top-40 z-0">
             <img src={linesImage} alt="Lines" className="w-full h-auto" />
           </div>
           {/* "Why Choose Us" Section */}
@@ -141,7 +141,7 @@ const TalentAcquisition = () => {
             <h1
               className="heading text-center recruit-head-change relative z-10 why_choose_us"
               style={{
-                marginTop: "100px",
+                marginTop: "150px",
                 fontSize: "25px",
                 fontWeight: "500",
                 letterSpacing: "-0.16px",
@@ -151,12 +151,12 @@ const TalentAcquisition = () => {
               Why Choose Us
             </h1>
 
-            {/* Background lines image */}
+        
 
-            <div className="row px-5 text-center mt-2 relative z-10">
+            <div className="row text-center mt-2 relative z-10">
               <div className="col-md-4 mt-4 mt-md-0">
                 <div
-                  className="whatwedo_single cursor-pointer flex flex-col items-center justify-center"
+                  className="whatwedo_single cursor-pointer  flex flex-col items-center justify-center"
                   onClick={toggleModal1}
                 >
                   <img
@@ -206,9 +206,9 @@ const TalentAcquisition = () => {
           <div className="synergy__content">
             <div
               style={{ maxWidth: "fit-content" }}
-              className="px-6 text-start"
+              className="px-6 text-start "
             >
-              <p>
+              <p className="lg:py-2">
                 We are a team of proficient and well-qualified professionals who
                 have in-depth knowledge of technology. Our focus is on
                 conserving the clients' pace and effort by performing the hiring
@@ -218,7 +218,7 @@ const TalentAcquisition = () => {
                 to build their engineering/technology teams.
               </p>
 
-              <p>
+              <p className="lg:py-2">
                 We have expertise in junior level to leadership/executive level
                 hiring. We have been working seamlessly as a whole team behind
                 the scenes for many start-ups and middle-level tech
@@ -227,7 +227,7 @@ const TalentAcquisition = () => {
                 thoroughly vetted and curated talent in India and the USA.
               </p>
 
-              <p>
+              <p className="lg:py-2">
                 Our team has a proven track record of meeting our clients’
                 expectations who are very selective in picking up the talent for
                 hire; they consider the resources from premium engineering

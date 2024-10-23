@@ -8,6 +8,8 @@ import imga7 from "../assets/images/Asset13.png";
 import imga8 from "../assets/images/Asset15.png";
 import imga9 from "../assets/images/Asset12.png";
 import imga10 from "../assets/images/Asset14.png";
+import imga11 from "../assets/images/Asset15.png";
+
 const page12Content = {
   sec1: {
     title: <p>BrainsTerra Intelligence:</p>,
@@ -61,6 +63,7 @@ const page12Content = {
     a8: <img src={imga8} alt="Mobile CRM Solutions" />,
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
+    a11: <img src={imga11} alt="Mobile CRM Solutions" />,
     p1: <p>Popular CMS Platforms:</p>,
     p2: <p>Front-End Development: </p>,
     p3: <p>Back-End Development:</p>,

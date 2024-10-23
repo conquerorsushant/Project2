@@ -31,7 +31,7 @@ const Section1 = () => {
         </div>
 
         <div className="absolute left-8 lg:left-72 pt-2  z-40 text-white text-start !lg:text-left lg:w-1/2">
-          <h1 className="text-xl lg:text-4xl font-bold">
+          <h1 className="text-xl lg:text-[38px] font-bold">
             BrainsTerra Intelligence:
           </h1>
           <h2 className="text-xl lg:text-4xl font-semibold">

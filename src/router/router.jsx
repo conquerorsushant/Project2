@@ -111,6 +111,7 @@ const router = createBrowserRouter([
         path: "/erp-software-solutions",
         element: <Page2 content={page16Content} />,
       },
+      
       // Define other routes similarly
     ],
   },
