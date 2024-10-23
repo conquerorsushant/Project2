@@ -8,6 +8,8 @@ import imga7 from "../assets/images/Asset13.png";
 import imga8 from "../assets/images/Asset15.png";
 import imga9 from "../assets/images/Asset12.png";
 import imga10 from "../assets/images/Asset14.png";
+import imga11 from "../assets/images/Asset15.png";
+
 const page10Content = {
   sec1: {
     title: <p>BrainsTerra Intelligence:</p>,
@@ -61,6 +63,7 @@ const page10Content = {
     a8: <img src={imga8} alt="Mobile CRM Solutions" />,
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
+    a11: <img src={imga11} alt="Mobile CRM Solutions" />,
     p1: <p>Tech Stack Versatility::</p>,
     p2: <p>Agile Development:</p>,
     p3: <p>User-Centered Design:</p>,
@@ -68,13 +71,41 @@ const page10Content = {
     //   p5: <p>API Integration::</p>,
 
     p11: (
-      <p>
-        We are proficient in a wide range of technologies and frameworks,
-        allowing us to select the most suitable tools based on your
-        project&#39;s specific needs. This may include: 1. Front-end
-        development, Back-end development, Cloud platforms, Api Integration and
-        High Speed Development
-      </p>
+      <div>
+        <p className="py-2">  We are proficient in a wide range of technologies and frameworks,
+allowing us to select the most suitable tools based on your project&#39;s specific needs. This may
+include:</p>
+<div className="py-2">
+<span className="font-semibold pr-2">Front-End Development :</span><span>We leverage popular frameworks like React, Angular, or
+Vue.js to create user-friendly and responsive interfaces that ensure a seamless user
+experience across devices.</span>
+</div>
+  <div className="py-2">
+<span className="font-semibold pr-2">Back-End Development : </span><span>We utilize robust back-end technologies like Python (Django,
+Flask), Java (Spring), or Node.js (Express) to build secure and scalable functionalities
+that power your MVP&#39;s core operations.</span>
+</div>
+<div className="py-2">
+<span className="font-semibold pr-2">Cloud Platforms :</span><span>Cloud platforms like AWS, Azure, or Google Cloud Platform (GCP)
+provide a reliable and cost-effective infrastructure for hosting and scaling your MVP as
+your user base grows.</span>
+</div>
+<div className="py-2">
+<span className="font-semibold pr-2">API Integration :</span><span>We excel at integrating third-party APIs and services to extend
+functionalities and leverage existing solutions within your MVP.</span>
+</div>
+<div className="py-2">
+<span className="font-semibold pr-2">High Speed Development :</span><span>For appropriate projects, we utilize our in-house training
+programs, and efficient development practices to expedite the development process
+while maintaining code quality and customization capabilities. This allows us to focus on
+core functionalities and deliver your MVP faster.</span>
+</div>
+
+
+
+     
+      </div>
+
     ),
     p22: (
       <p>

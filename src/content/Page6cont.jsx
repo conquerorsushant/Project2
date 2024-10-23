@@ -8,6 +8,8 @@ import imga7 from "../assets/images/Asset13.png";
 import imga8 from "../assets/images/Asset15.png";
 import imga9 from "../assets/images/Asset12.png";
 import imga10 from "../assets/images/Asset14.png";
+import imga11 from "../assets/images/Asset15.png";
+
 const page6Content = {
   sec1: {
     title: <p>BrainsTerra Intelligence:</p>,
@@ -62,12 +64,12 @@ const page6Content = {
     a8: <img src={imga8} alt="Mobile CRM Solutions" />,
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
-
+    a11: <img src={imga11} alt="Mobile CRM Solutions" />,
     p1: <p>Programming Languages:</p>,
     p2: <p>User Interface (UI) Frameworks:</p>,
     p3: <p>Database Integration:</p>,
     p4: <p>Security &amp; Performance Optimization:</p>,
-    p5: <p>API Integration::</p>,
+    p5: <p>API Integration:</p>,
 
     p11: (
       <p>
@@ -110,7 +112,7 @@ const page6Content = {
 
     q2: <p>Why Choose</p>,
     q3: <p> BrainsTerra Intelligence</p>,
-    q1: <p>for Your Desktop Application Development Needs??</p>,
+    q1: <p>for Your Desktop Application Development Needs?</p>,
     s1: <p>Understanding Your Needs:</p>,
     s11: (
       <p>
@@ -211,7 +213,7 @@ const page6Content = {
         that allows you to visualize the application&#39;s look and feel.
       </p>
     ),
-    d3: <p>Development &amp; Testing::</p>,
+    d3: <p>Development &amp; Testing:</p>,
     d33: (
       <p>
         Our skilled developers translate the design into a functional desktop

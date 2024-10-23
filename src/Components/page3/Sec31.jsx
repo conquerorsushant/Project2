@@ -35,11 +35,11 @@ const Sec31 = ({ content }) => {
             className="absolute  left-8 lg:left-72 pt-2  z-40 text-white text-start !lg:text-left lg:w-1/2"
             style={{ textShadow: "5px 5px 10px rgba(0, 0, 0)" }}
           >
-            <h1>{content.title}</h1>
-            <h2 className="text-xl lg:text-4xl font-semibold">{content.t1}</h2>
-            <h3>{content.t2}</h3>
-            <h3>{content.t3}</h3>
-            <h3>{content.t4}</h3>
+            <h1 className="lg:text-[38px]">{content.title}</h1>
+            <h2 className="text-xl lg:text-[38px] font-semibold">{content.t1}</h2>
+            <h3 className="lg:text-[36px] ">{content.t2}</h3>
+            <h3 className="lg:text-[36px] ">{content.t3}</h3>
+            <h3 className="lg:text-[36px] ">{content.t4}</h3>
           </div>
         </div>
 

@@ -8,6 +8,8 @@ import imga7 from "../assets/images/Asset13.png";
 import imga8 from "../assets/images/Asset15.png";
 import imga9 from "../assets/images/Asset12.png";
 import imga10 from "../assets/images/Asset14.png";
+import imga11 from "../assets/images/Asset15.png";
+
 const page4Content = {
   sec1: {
     title: <p>BrainsTerra Intelligence:</p>,
@@ -62,6 +64,7 @@ const page4Content = {
     a8: <img src={imga8} alt="Mobile CRM Solutions" />,
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
+    a11: <img src={imga11} alt="Mobile CRM Solutions" />,
     p1: <p>Data Lakes:</p>,
     p2: <p>Data Pipelines:</p>,
     p3: <p>Enterprise Data Warehouses (EDW):</p>,
@@ -228,15 +231,15 @@ const page4Content = {
         outlining the technologies, tools, and processes tailored to your needs.
       </p>
     ),
-    d4: <p>Proof of Concept (POC): </p>,
-    d44: (
+    d3: <p>Proof of Concept (POC): </p>,
+    d33: (
       <p>
         To mitigate risk and ensure alignment, we can develop a focused POC to
         demonstrate the effectiveness of our proposed solution.
       </p>
     ),
-    d3: <p>Implementation & Deployment:</p>,
-    d33: (
+    d4: <p>Implementation & Deployment:</p>,
+    d44: (
       <p>
         Our team implements the agreed-upon solution, ensuring seamless
         integration with your existing infrastructure.

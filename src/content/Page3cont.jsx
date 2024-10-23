@@ -8,6 +8,7 @@ import imga7 from "../assets/images/Asset13.png";
 import imga8 from "../assets/images/Asset15.png";
 import imga9 from "../assets/images/Asset12.png";
 import imga10 from "../assets/images/Asset14.png";
+import imga11 from "../assets/images/Asset15.png";
 const page3Content = {
   sec1: {
     title: <p>Craft Exceptional User Experiences</p>,
@@ -58,8 +59,10 @@ const page3Content = {
     a8: <img src={imga8} alt="Mobile CRM Solutions" />,
     a9: <img src={imga9} alt="Mobile CRM Solutions" />,
     a10: <img src={imga10} alt="Mobile CRM Solutions" />,
+    a11: <img src={imga11} alt="Mobile CRM Solutions" />,
+
     p1: <p>Discovery Workshop:</p>,
-    p2: <p>User Research &amp; Competitive Analysis::</p>,
+    p2: <p>User Research &amp; Competitive Analysis:</p>,
     p3: <p>Information Architecture &amp; User Flows:</p>,
     p4: <p>Wireframing &amp; Prototyping:</p>,
     p5: <p>UI Design &amp; Visual Identity:</p>,
