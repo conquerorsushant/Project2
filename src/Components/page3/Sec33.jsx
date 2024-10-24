@@ -3,7 +3,7 @@ import img1 from "../../assets/images/Asset19.png";
 import img2 from "../../assets/images/Asset23.png";
 import img3 from "../../assets/images/Asset31.png";
 import img4 from "../../assets/images/Artboard3.png";
-import img12 from "../../assets/images/56arrow.jpg";
+import img12 from "../../assets/images/56arrow.png";
 
 import img6 from "../../assets/images/Asset21.png";
 import img7 from "../../assets/images/Asset25.png";
@@ -76,18 +76,53 @@ const Sec33 = ({ content }) => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center pt-8 px-4   lg:ml-16">
-          <img
-            src={img12}
-            alt="Implementation & Deployment"
-            className="w-full sm:w-2/3 lg:w-1/2"
-          />
-          <div className="flex flex-col lg:flex-row items-start px-4 lg:mx-40 z-10">
-           <div>
-           {content.d5 && (
-          <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center  px-4 sm:px-8 z-10">
-            
-            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4">
+        {content.d6 ? (
+          <div className="flex flex-col items-center justify-center pt-8 px-4   lg:ml-16">
+            <img
+              src={img12}
+              alt="Implementation & Deployment"
+              className="w-full sm:w-2/3 lg:w-1/2"
+            />
+            <div className="flex flex-col lg:flex-row items-start px-4 lg:mx-40 z-10">
+              <div>
+                {content.d5 && (
+                  <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center  px-4 sm:px-8 z-10">
+                    <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4">
+                      <h3 className="text-base lg:text-3xl font-semibold">
+                        {content.d5}
+                      </h3>
+                      <p className="pt-4 lg:pt-6 text-sm sm:text-base">
+                        {content.d55}
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              <div>
+                {content.d6 && (
+                  <div className="flex flex-col lg:flex-col lg:items-center items-start justify-center  px-4 sm:px-8">
+                    <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4">
+                      <h3 className="text-base lg:text-3xl font-semibold">
+                        {content.d6}
+                      </h3>
+                      <p className="pt-4 lg:pt-6 text-sm sm:text-base">
+                        {content.d66}
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center pt-8 px-4 sm:px-8 z-10">
+            <img
+              src={img3}
+              alt="Ongoing Support"
+              className="w-[80px] lg:w-[150px]"
+            />
+            <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start p-4">
               <h3 className="text-base lg:text-3xl font-semibold">
                 {content.d5}
               </h3>
@@ -95,29 +130,9 @@ const Sec33 = ({ content }) => {
             </div>
           </div>
         )}
-           </div>
-
-            <div>
-            {content.d6 && (
-        <div className="flex flex-col lg:flex-col lg:items-center items-start justify-center  px-4 sm:px-8">
-        
-          <div className="text-lg mt-4 max-w-full lg:max-w-2xl text-start px-4">
-            <h3 className="text-base lg:text-3xl font-semibold">
-              {content.d6}
-            </h3>
-            <p className="pt-4 lg:pt-6 text-sm sm:text-base">{content.d66}</p>
-          </div>
-        </div>
-      )}
-            </div>
-          </div>
-        </div>
 
         {/* Image 3 and its text */}
-      
       </div>
-
-     
 
       {/* Section 2 with overlapping image */}
       <div className="relative mt-12 sm:mt-24 lg:mt-28">
