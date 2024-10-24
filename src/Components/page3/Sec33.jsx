@@ -55,6 +55,7 @@ const Sec33 = ({ content }) => {
         </div>
 
         {/* Image Container 2 */}
+        
         <div className="flex flex-col items-center justify-center pt-8 px-4   lg:ml-16">
           <img
             src={img2}

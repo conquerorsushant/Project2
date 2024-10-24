@@ -166,20 +166,7 @@ purchase flow, personalized product recommendations, and a secure payment gatewa
 integration.
       </p>
     ),
-    s6: <p>Developed a healthcare app</p>,
-    s66: (
-      <p>
-        facilitating secure communication between patients and
-        doctors, leading to improved appointment scheduling and medication management.
-      </p>
-    ),
-    s7: <p>Developed a healthcare app</p>,
-    s77: (
-      <p>
-        facilitating secure communication between patients and
-        doctors, leading to improved appointment scheduling and medication management.
-      </p>
-    ),
+   
     smooth: (
       <p>
         A Smooth Onboarding Experience: Your Mobile App Development Journey Starts Here

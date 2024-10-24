@@ -11,7 +11,7 @@ import arrow from "../../assets/images/Arrow111.png";
 import favicon from "../../assets/images/favicon.png";
 
 const Sec32 = ({ content }) => {
-  console.log(content.a1.props);
+
 
   const [isClicked, setIsClicked] = useState(false);
 

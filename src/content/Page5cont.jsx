@@ -176,23 +176,19 @@ const page5Content = {
             user-friendly purchase flow, personalized product recommendations,
             and a secure payment gateway integration.
           </li>
+          <li>
+          Developed a healthcare app facilitating secure communication between patients and
+          doctors, leading to improved appointment scheduling and medication management.
+          </li>
+          <li>
+          Built a location-based AR app for a travel and tourism company, enhancing user
+experiences by providing interactive information about historical landmarks and points of
+interest.
+          </li>
         </ul>
       </div>
     ),
-    s6: <p>Developed a healthcare app</p>,
-    s66: (
-      <p>
-        facilitating secure communication between patients and doctors, leading
-        to improved appointment scheduling and medication management.
-      </p>
-    ),
-    s7: <p>Developed a healthcare app</p>,
-    s77: (
-      <p>
-        facilitating secure communication between patients and doctors, leading
-        to improved appointment scheduling and medication management.
-      </p>
-    ),
+   
     smooth: (
       <p>
         A Smooth Onboarding Experience: Your Mobile App Development Journey

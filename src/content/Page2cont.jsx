@@ -69,6 +69,7 @@ const page2Content = {
     p4: <p>E-commerce Platforms:</p>,
     p5: <p>Responsive Design &amp; Mobile-First Approach:</p>,
 
+
     p11: (
       <p>
         We utilize modern frameworks like React, Angular, or Vue.js to create
@@ -246,6 +247,14 @@ const page2Content = {
         for search engines to improve online visibility.
       </p>
     ),
+    d6: <p>Website Launch &amp; Ongoing Support:</p>,
+    d66: (
+      <p>
+       We launch your website with proper testing and provide
+       ongoing support for maintenance, updates, and future enhancements.
+      </p>
+    ),
+
     e1: (
       <p>
         How We Can Help You: Web Development Solutions for Every Company Size

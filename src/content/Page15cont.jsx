@@ -66,7 +66,9 @@ const page15Content = {
     p1: <p> Discovery &amp; Requirements Gathering:</p>,
     p2: <p>Solution Architecture &amp; Technology Stack Selection:</p>,
     p3: <p>Agile Development &amp; Iteration:</p>,
-    p4: <p>Deployment &amp; Maintenance:</p>,
+    p4:<p>Quality Assurance &amp; Testing:</p>,
+    p5: <p>Deployment &amp; Maintenance:</p>,
+    
 
     p11: (
       <p>

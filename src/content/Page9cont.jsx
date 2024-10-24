@@ -173,27 +173,22 @@ const page9Content = {
             monitor inventory throughout the supply chain in real-time. This
             improved delivery accuracy by 15% and reduced shipment delays.
           </li>
-        </ul>
-      </div>
-    ),
-    s6: <p>Smart Agriculture &amp; Precision Farming: </p>,
-    s66: (
-      <p>
-        Farming: Implemented an IoT system for a large agricultural enterprise
+          <li>
+          Smart Agriculture &amp; Precision Farming: Farming: Implemented an IoT system for a large agricultural enterprise
         to optimize irrigation, fertilization, and overall farm management. The
         solution led to a 12% increase in crop yield and a 7% reduction in water
         usage.
-      </p>
-    ),
-    s7: <p>Retail & Asset Tracking:</p>,
-    s77: (
-      <p>
-        Created an IoT-based asset tracking solution for a retail chain to track
+          </li>
+          <li>
+          Retail & Asset Tracking: Created an IoT-based asset tracking solution for a retail chain to track
         inventory location and manage stock levels in real-time. This resulted
         in a 5% decrease in inventory shrinkage and improved product
         availability for customers.
-      </p>
+          </li>
+        </ul>
+      </div>
     ),
+   
 
     smooth: (
       <p>

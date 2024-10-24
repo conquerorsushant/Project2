@@ -121,9 +121,9 @@ const page12Content = {
       </p>
     ),
 
-    q2: <p>Why Choose</p>,
-    q3: <p> BrainsTerra Intelligence</p>,
-    q1: <p>for Your CMS Needs?</p>,
+    q2: <p>Why Choose BrainsTerra Intelligence </p>,
+    q3: <p> for Your CMS Needs?</p>,
+    q1: <p></p>,
     s1: <p>Strategic Content Planning:</p>,
     s11: (
       <p>

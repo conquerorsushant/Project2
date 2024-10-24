@@ -121,8 +121,8 @@ const page11Content = {
       </p>
     ),
 
-    q2: <p>Why Choose</p>,
-    q3: <p> BrainsTerra Intelligence for Your E-Commerce Needs?</p>,
+    q2: <p>Why Choose BrainsTerra Intelligence</p>,
+    q3: <p>  for Your E-Commerce Needs?</p>,
     q1: <p></p>,
     s1: <p>Strategic Planning &amp; Roadmap Development:</p>,
     s11: (
